@@ -1,0 +1,27 @@
+---
+title: "Presentations"
+---
+
+This page preserves selected presentations and lectures as an archive from my career in state government. For current job applications, the more relevant pages are [Resume](resume.html), and [Case Studies](cases.html).
+
+```{r setup, echo=FALSE, message=FALSE, warning=FALSE}
+has_packages <- requireNamespace("readr", quietly = TRUE) && requireNamespace("DT", quietly = TRUE) && requireNamespace("dplyr", quietly = TRUE)
+```
+
+```{r presentations, echo=FALSE, results='asis', message=FALSE, warning=FALSE}
+if (has_packages && file.exists("data/presentations.csv")) {
+  library(readr)
+  library(dplyr)
+  library(DT)
+  df <- read_csv("data/presentations.csv", show_col_types = FALSE)
+  if ("Presentation Link" %in% names(df) && "Presentation Title" %in% names(df)) {
+    df$url <- paste0("<a href='", df$`Presentation Link`, "'>", df$`Presentation Title`, "</a>")
+    keep <- intersect(c("Conference", "url", "Month", "Year", "Location", "Reason"), names(df))
+    DT::datatable(df[, keep], escape = FALSE, rownames = FALSE, options = list(pageLength = 10))
+  } else {
+    cat("The presentations data file was found, but expected columns were not present.")
+  }
+} else {
+  cat("Presentation archive data is not available in this build.")
+}
+```

@@ -1,0 +1,49 @@
+---
+title: "Publications and Public Reports"
+---
+
+This page is a selected list rather than a full academic CV. It emphasizes public work that demonstrates applied analytics, modeling, reporting, and decision-support products.
+
+## Peer-reviewed publications
+
+<div class="card">
+
+### Current and Projected Future Supply and Demand for Physical Therapists From 2022 to 2037
+
+Patrick Zarek, Clark Ruttinger, David Armstrong, Ritashree Chakrabarti, Douglas R. Hess, Tara Jo Manal, Timothy M. Dall. *Physical Therapy*, Volume 105, Issue 3, March 2025.  
+**Link:** [https://doi.org/10.1093/ptj/pzaf014](https://doi.org/10.1093/ptj/pzaf014)
+
+</div>
+
+<div class="card">
+
+### Using machine learning to identify factors associated with practice location of the healthcare workforce
+
+Bounsanga et al. *Rural and Remote Health*, 2022.  
+**Role:** Co-author.  
+**Focus:** Applied machine learning and workforce location analysis.
+
+</div>
+
+<div class="card">
+
+### The 2020 National Nursing Workforce Survey
+
+Smiley et al. *Journal of Nursing Regulation*, 2020.  
+**Related product:** [National Nursing by the Numbers Dashboard](https://clarkruttinger.shinyapps.io/draftboard/)
+
+</div>
+
+## Selected public reports and deliverables
+
+- [Florida Center for Nursing — State of Nursing Education in Florida, 2026](https://flcenterfornursing.org/research-data/nursing-education-reports/the-state-of-nursing-education-in-florida-2026-report/)
+- [Florida Healthcare Workforce Projections, 2022--2037](https://flcenterfornursing.org/research-data/nursing-workforce-reports/florida-health-care-workforce-projections-2022-2037/)
+- [Hawaii Nursing Projections Report](https://www.hawaiicenterfornursing.org/wp-content/uploads/2025/04/Hawaii-Nursing-Projections-Report-v.Final-1.pdf)
+- [Hawaii Projections Launch Deck](https://www.hawaiicenterfornursing.org/wp-content/uploads/2025/04/Projections-Launch-Final-Deck.pdf)
+- [Arkansas Workforce Report](https://issuu.com/arkhospitals/docs/arkansasworkforcereport-january2023)
+- [Tennessee Health Workforce Projections](https://tha.com/wp-content/uploads/2022/10/Tennessee-Health-Workforce-Projections-report-FINAL.pdf)
+- [Maryland Nurse Workforce Projections](https://mhaonline.org/wp-content/uploads/2024/01/Maryland-Nurse-Workforce-Projections-GlobalData.pdf)
+
+## Earlier Utah workforce reports
+
+Selected earlier reports include Utah mental health workforce, physician workforce, registered nurse and licensed practical nurse supply, nursing demand, and advanced practice registered nurse workforce reports. Additional reports and presentations are available upon request.

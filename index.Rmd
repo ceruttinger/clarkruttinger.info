@@ -1,0 +1,53 @@
+---
+title: "Clark Ruttinger"
+---
+
+<div class="hero">
+
+```{r, echo=FALSE, results='asis'}
+if (file.exists('images/Ruttingerheadshot.JPG')) {
+  cat('<img src="images/Ruttingerheadshot.JPG" class="headshot" alt="Clark Ruttinger headshot">')
+}
+```
+
+# Data products, analytics platforms, and client-facing technical leadership
+
+<p class="hero-summary">
+I build data products, analytic workflows, dashboards, and decision-support tools that help organizations turn complex data into usable strategy.
+</p>
+
+</div>
+
+My work sits at the intersection of applied analytics, public-sector data, health workforce modeling, reproducible reporting, and client-facing technical delivery. I have led projects involving R, Shiny, SQL, Python, data integration, projection modeling, dashboard development, and stakeholder-facing analytics for state agencies, healthcare associations, and national organizations.
+
+Most recently, I served as Director of Health Workforce Consulting at GlobalData, where I managed a team of healthcare economists and led workforce modeling and analytics projects, supported public reports and data products, developed reusable dashboard frameworks, and helped modernize analytic workflows for recurring client deliverables.
+
+<div class="callout">
+This site includes selected public work, older R/Shiny examples, publications, presentations, and anonymized descriptions of confidential client projects. Proprietary client code, private data, and internal employer-owned assets are intentionally not included. I spent 20 years in state government where all of my work was publicly accessible. Since 2022, I have worked in private consulting where some work was publicly released for advocacy pursposes but much of the work product was intended for private consumption by decision makers who wished to maintain a competitive edge. For this reason much of the dashboarding and analytic work done in recent years is not available to include in a portfolio. 
+</div>
+
+## Focus areas
+
+<span class="tag">R / Shiny / Posit ecosystem</span>
+<span class="tag">Reproducible analytics</span>
+<span class="tag">Data products</span>
+<span class="tag">Dashboards</span>
+<span class="tag">Client-facing technical delivery</span>
+<span class="tag">Workforce modeling</span>
+<span class="tag">Data integration</span>
+<span class="tag">Public-sector analytics</span>
+
+## Selected strengths
+
+- Translating ambiguous client and stakeholder needs into concrete analytic deliverables.
+- Building reproducible data workflows and dashboards for public-facing and executive audiences.
+- Working across analysts, executives, IT stakeholders, policy leaders, and operational teams.
+- Modernizing one-off analyses into reusable, validated, repeatable data products.
+- Communicating technical tradeoffs clearly to non-technical decision-makers.
+
+## Current portfolio sections
+<!-- - [Selected Work](work.html): public reports, dashboards, and analytics products. -->
+- [Resume](resume.html): current resume downloads and career summary.
+- [Case Studies](cases.html): concise descriptions of public and confidential project types.
+- [Presentations](presentations.html): A list of conference presentations and legislative briefings given over 15 years in Utah state government before going into private consulting.
+

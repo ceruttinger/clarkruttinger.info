@@ -1,0 +1,32 @@
+---
+title: "Resume"
+---
+
+## Current positioning
+
+Data and analytics leader with 15+ years building reproducible data products, workforce models, dashboards, and decision-support tools for government, healthcare, and association clients. Experienced in R, Shiny, SQL, Python, reproducible reporting, client-facing analytics delivery, and translating complex data workflows for technical and executive audiences.
+
+## Resume downloads
+
+- [Data / Analytics Platform Resume](downloads/Clark_Ruttinger_Data_Analytics_Platform_Resume.docx)
+- [Posit Senior Customer Success Resume](downloads/Clark_Ruttinger_Posit_Senior_Customer_Success_Resume.docx)
+
+## Selected capabilities
+
+<span class="tag">R</span>
+<span class="tag">Shiny</span>
+<span class="tag">Posit Connect</span>
+<span class="tag">SQL</span>
+<span class="tag">Python</span>
+<span class="tag">DuckDB</span>
+<span class="tag">Reproducible reporting</span>
+<span class="tag">Dashboard frameworks</span>
+<span class="tag">Client-facing analytics</span>
+<span class="tag">Workforce modeling</span>
+<span class="tag">Data validation</span>
+<span class="tag">Public-sector analytics</span>
+
+## Contact
+
+- Email: [ceruttinger@gmail.com](mailto:ceruttinger@gmail.com)
+- LinkedIn: [linkedin.com/in/clark-ruttinger](https://www.linkedin.com/in/clark-ruttinger/)

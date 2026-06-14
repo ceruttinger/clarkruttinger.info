@@ -1,0 +1,110 @@
+---
+title: "Case Studies"
+---
+
+These case studies describe project patterns and my role without exposing confidential client assets, employer-owned code, private data, or internal project materials.
+
+<div class="card">
+
+## Reusable client dashboard framework
+
+**Problem**  
+Traditional client deliverables were produced using static methods in the form of written reports and slide decks that have limited capability to deeply explore the data behind the top level findings. In order to improve recurring client deliverables greater organization and standardization of information was required. One-off development of static reporting made it difficult to maintain consistency, reduce revision cycles, and reuse components across projects. 
+
+**Role**  
+Led development of reusable dashboard components and analytic workflows for health workforce projection and reporting projects.
+
+**Approach**  
+Transitioning to standardized code to reproduce regularly used analysis, interactive dashboards and public-facing analytic outputs allowed for increased information to be provided to client users. This increased their knowledge of the influences on the system and allowed for greater wisdom in decision making. My team  built modular R/Shiny components, standardized data preparation steps, improved validation workflows, and supported deployment through Posit Connect. The framework organized recurring deliverables around common patterns while still allowing customization for individual clients.
+
+**Tools and methods**  
+R, Shiny, Posit Connect, SQL, Excel, reproducible reporting workflows, data validation routines.
+
+**What it demonstrates**  
+Client-facing analytics delivery, reusable data product design, R/Shiny application development, workflow modernization, and communication across technical and non-technical stakeholders.
+
+</div>
+
+<div class="card">
+
+## Workforce projection modeling for state and association clients
+
+**Problem**  
+State and national agencies, hospital, healthcare and health profession associations needed evidence-based estimates of future workforce supply and demand to support policy, education, advocacy, and strategic planning.
+
+**Role**  
+Managed a team of economists and assisted in producing  projection modeling, analytic design, data processing, report development, stakeholder communication, and final public deliverables. 
+
+**Approach**  
+Integrated licensing, education, demographic, survey, and utilization data into reproducible workflows. Built projections, validated outputs, translated results for non-technical audiences, and authored publication-ready reports and presentations.
+
+**Tools and methods**  
+R, SQL, Excel, survey data, administrative data, geospatial analysis, projection modeling, reproducible reporting.
+
+**What it demonstrates**  
+End-to-end analytic delivery, data integration, public-sector stakeholder communication, model interpretation, and production of decision-support outputs.
+
+</div>
+
+<div class="card">
+
+## Data workflow modernization and architecture evaluation
+
+**Problem**  
+Organizations struggle with retaining institutional memory when skilled technically capable staff move on to other opportunities.Analytic teams often inherit fragmented files, repeated manual processes, and expensive or overly complex data infrastructure proposals. 
+
+**Role**  
+Evaluated more practical approaches to storing, querying, validating, and reusing recurring analytic datasets.
+
+**Approach**  
+Developed proof-of-concept workflows using lightweight, reproducible, analyst-friendly tools. Recommended approaches that balanced performance, cost, maintainability, and team skill level.
+
+**Tools and methods**  
+DuckDB, object-storage-oriented workflows, R, SQL, dataset profiling, validation checks, documentation, reproducible pipelines.
+
+**What it demonstrates**  
+Pragmatic data engineering judgment, architecture communication, cost-aware technical decision-making, and ability to bridge analyst workflows with more robust data platform practices.
+
+</div>
+
+<div class="card">
+
+## Public survey modernization and data collection strategy
+
+**Problem**  
+Workforce data collection programs needed more complete, timely, and policy-relevant data to support recurring reporting and strategic planning.
+
+**Role**  
+Led survey design, data collection strategy, data linkage, analysis, and reporting for health workforce supply and demand studies.
+
+**Approach**  
+Improved survey instruments, aligned data collection with licensing and renewal processes, linked survey and administrative datasets where appropriate, and converted recurring analyses into more repeatable workflows.
+
+**Tools and methods**  
+Survey design, R, SQL, administrative data, workforce licensing data, data linkage, reporting automation.
+
+**What it demonstrates**  
+Operational analytics, data governance awareness, public-sector modernization, and ability to design data systems around real-world institutional constraints.
+
+</div>
+
+<div class="card">
+
+## Public R/Shiny dashboards for workforce communication
+
+**Problem**  
+Public reports and static tables with topm level findings were not always sufficient for stakeholders who needed to explore workforce patterns by geography, occupation, specialty, or demographic group.
+
+**Role**  
+Designed and built public-facing R/Shiny and R Markdown products that made workforce data easier to explore and communicate.
+
+**Approach**  
+Created dashboards and reproducible reports using public or publishable data, with emphasis on clear communication, accessible charting, and stakeholder interpretation.
+
+**Tools and methods**  
+R, Shiny, flexdashboard, R Markdown, ggplot2, survey data, public reporting.
+
+**What it demonstrates**  
+R-based data product development, public communication, and practical experience with the kinds of analytic workflows supported by the Posit ecosystem.
+
+</div>

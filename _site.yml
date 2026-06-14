@@ -1,0 +1,30 @@
+name: "Clark Ruttinger Portfolio"
+output_dir: "."
+navbar:
+  title: "Clark Ruttinger"
+  left:
+    - text: "Home"
+      href: index.html
+    # - text: "Selected Work"
+    #   href: work.html
+    - text: "Resume"
+      href: resume.html
+    - text: "Case Studies"
+      href: cases.html
+    # - text: "Publications"
+    #   href: publications.html
+    - text: "Presentations"
+      href: presentations.html
+  right:
+    - icon: fa-envelope
+      href: mailto:ceruttinger@gmail.com
+    - icon: fa-linkedin
+      href: https://www.linkedin.com/in/clark-ruttinger/
+output:
+  html_document:
+    theme: flatly
+    css: style.css
+    toc: false
+    self_contained: false
+    include:
+      after_body: footer.html

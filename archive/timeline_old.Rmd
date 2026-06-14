@@ -1,0 +1,20 @@
+---
+title: "Timeline"
+output: html_document
+---
+
+```{r, echo=FALSE, results = FALSE, message=FALSE, fig.width=10}
+#fig.height= 3, 
+source("scripts/timeline.R")
+
+plot_timeline2(
+  event = cv$Role,
+  start = cv$Start,
+  end = cv$End,
+  label = cv$Place,
+  group = cv$Type,
+  save = FALSE,
+  subtitle = "Clark Ruttinger"
+)
+```
+

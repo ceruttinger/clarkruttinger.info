@@ -1,0 +1,9 @@
+.Rhistory
+.RData
+.Rproj.user/
+.DS_Store
+__MACOSX/
+*.html
+site_libs/
+*_cache/
+*_files/
