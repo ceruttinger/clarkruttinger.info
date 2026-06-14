@@ -45,5 +45,24 @@ docs/
 # translation temp files
 po/*~
 
+
+# macOS
+.DS_Store
+__MACOSX/
+
+# R / RStudio
+.Rhistory
+.RData
+.Ruserdata
+.Rproj.user/
+
+# local/private files
+.env
+.Renviron
+*.log
+
+# temporary files
+*_cache/
+*_files/
 # RStudio Connect folder
 rsconnect/
