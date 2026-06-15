@@ -26,5 +26,6 @@ output:
     css: style.css
     toc: false
     self_contained: false
-    include:
+    includes:
+      in_header: person-schema.html
       after_body: footer.html
