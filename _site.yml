@@ -11,6 +11,8 @@ navbar:
       href: resume.html
     - text: "Case Studies"
       href: cases.html
+    - text: "Projects"
+      href: projects.html
     # - text: "Publications"
     #   href: publications.html
     - text: "Presentations"
