@@ -1,0 +1,126 @@
+---
+title: "Resume"
+---
+
+# Clark Ruttinger
+
+**Data & Analytics Platform Leader**  
+Workforce Analytics | R/Python/SQL | Shiny/Posit Deployment | Client-Facing Data Products
+
+Park City, Utah  
+[ceruttinger@gmail.com](mailto:ceruttinger@gmail.com)  
+[LinkedIn](https://www.linkedin.com/in/clark-ruttinger/)  
+[Portfolio](https://clarkruttinger.info)
+
+# Professional Summary
+
+Data and analytics leader with 15+ years building reproducible data products, workforce models, dashboards, and decision-support tools for government, healthcare, association, and consulting clients. Experienced translating complex business and policy questions into data pipelines, statistical models, interactive applications, and executive-facing recommendations. Strong R/Python/SQL background with hands-on experience in Shiny, Posit Connect, cloud-hosted analytics environments, data validation, documentation, and modern data architecture patterns including DuckDB and object-storage based workflows.
+
+# Skills
+
+- **Analytics & Modeling:** workforce supply/demand modeling, projection methods, microsimulation, survey research, program evaluation, geospatial analysis, data quality validation
+- **Data Products:** R Shiny applications, dashboards, stakeholder-facing reporting tools, reusable dashboard frameworks, public analytics products
+- **Programming & Data Tools:** R, Python, SQL, DuckDB, Excel, VBA, Git, Quarto/R Markdown, Shiny, Posit Connect
+- **Data Engineering & Workflow:** ETL/data cleaning, reproducible workflows, dataset profiling, documentation, cloud-hosted analytics environments, direct-query architecture concepts
+- **Leadership & Delivery:** client-facing consulting, executive communication, project scoping, technical translation, staff mentorship, cross-functional collaboration
+- **Domains:** public-sector analytics, healthcare workforce, labor market analysis, health policy, regulated data environments
+
+# Work Experience
+
+## GlobalData
+
+### Director, Health Workforce Consulting
+[Team Portfolio](https://www.globaldata.com/health-economics/health-workforce/) <br>
+**October 2022 -- May 2026**
+
+- Led complex workforce analytics engagements for state agencies, hospital associations, professional societies, and federal clients, translating analytic outputs into practical planning, policy, and investment recommendations.
+- Directed annual health workforce projection updates, expanded projections to new occupations, revised behavioral health projection methods, and implemented additional validation steps that reduced client revision cycles.
+- Built and maintained reusable R Shiny and dashboard components, including a standalone BLS component and unified client dashboard framework deployed through Posit Connect.
+- Designed a DuckDB + S3 direct-query proof of concept to replace heavier data warehouse assumptions with a simpler, lower-friction architecture for analytic workloads.
+- Developed documentation for dataset profiles, data paths, staffing generation, and annual update workflows to improve repeatability, onboarding, and handoff.
+- Supported technical and analytic delivery across major client projects, including Florida nursing education and workforce reports, Hawaii nursing projections, Arkansas and Tennessee workforce reports, and professional association supply/demand studies.
+- Collaborated with internal consulting, HEOR, modeling, and technical teams to scope deliverables, resolve data-quality issues, and align analyses with customer decision needs.
+
+
+## Utah Health Workforce Information Center
+
+### Founding Director
+
+**July 2022 -- October 2022**
+
+- Helped establish Utah's legislatively created Health Workforce Information Center, translating stakeholder priorities into a statewide health workforce data and policy infrastructure.
+- Engaged healthcare, education, government, and employer stakeholders to improve workforce data collection, analytics, and policy guidance under the [Utah Health Workforce Act](https://le.utah.gov/~2022/bills/static/HB0176.html).
+- Served on national and state advisory groups focused on workforce data, nursing workforce strategy, hospital workforce planning, and technical assistance.
+[the Health Workforce Interest Group Advisory Committee for Academy Health](https://academyhealth.org/professional-resources/interest-groups/health-workforce-interest-group/advisory-committee/page/health-workforce-interest-group-advisory-committee) 2021--2026.
+[Expert work-group for the HRSA funded Health Workforce Technical Assistance Center at the University of Albany](https://www.healthworkforceta.org/about/expert-workgroup/).
+
+
+## Utah Medical Education Council
+
+### Interim Executive Director; Director, Workforce Research; Senior Analyst; Research Analyst
+
+**January 2010 -- June 2022**
+
+- Led research staff and managed statewide workforce research programs covering physicians, nurses, APRNs, dentists, pharmacists, PAs, and behavioral health professions.
+- Designed and managed data cleaning, warehousing, modeling, survey, and visualization processes for statewide workforce supply, demand, distribution, and training pipeline analyses.
+- Built cloud-hosted research infrastructure, R Shiny publication capacity, and a Neo4j graph database with a web interface for querying and analyzing state APCD data.
+- Created methodology and data-linkage strategy for legislatively required nursing employment demand analysis; mentored analysts and improved reporting frequency and consistency.
+- Authored and edited research reports, policy briefs, technical reports, and executive presentations used by legislators, educators, healthcare administrators, and national partners.
+- Recipient of  [IBM Healthcorps grant to model Primary Care workforce based on population health needs](https://ibmhealthcorpsblog.wordpress.com)
+[News article about the project](https://www.deseret.com/2018/11/4/20657880/utah-has-a-shortage-of-primary-care-physicians-this-task-force-is-teaming-up-with-ibm-to-fix-it/)
+[Project presentation to Utah Legislature](https://le.utah.gov/interim/2019/pdf/00001372.pdf). 
+
+## Earlier Public Sector and Nonprofit Roles
+
+### State of Utah; The Road Home; Wasatch Homeless Health Care; Valley Mental Health
+
+**2002 -- 2015**
+
+- Built foundation in public programs, administrative hearings, grant writing, case coordination, eligibility policy, mediation, and direct service delivery.
+- Used SQL interfaces, macros, and database systems to improve accuracy and efficiency in administrative and reporting workflows.
+
+# Publications & Public Work
+
+- **Journal of The American Physical Therapy Association:** [Current and Projected Future Supply and Demand for Physical Therapists From 2022 to 2037](https://doi.org/10.1093/ptj/pzaf014), *Physical Therapy*, 2025.
+- **Florida Center for Nursing:** [Florida Healthcare Workforce Projections, 2022--2037](https://flcenterfornursing.org/research-data/nursing-workforce-reports/florida-health-care-workforce-projections-2022-2037/), Shiny dashboard for exploration of projection results. [State of Nursing Education in Florida, 2026](https://flcenterfornursing.org/research-data/nursing-education-reports/the-state-of-nursing-education-in-florida-2026-report/).
+- **Hawaii Center for Nursing:** [Hawaii Nursing Projections Report](https://www.hawaiicenterfornursing.org/wp-content/uploads/2025/04/Hawaii-Nursing-Projections-Report-v.Final-1.pdf) and [Projections Launch Deck](https://www.hawaiicenterfornursing.org/wp-content/uploads/2025/04/Projections-Launch-Final-Deck.pdf).
+- **Maryland Hospital Association**
+[Maryland Nurse Workforce Projections](https://mhaonline.org/wp-content/uploads/2024/01/Maryland-Nurse-Workforce-Projections-GlobalData.pdf).
+- **Arkansas Hospital Association**
+[Arkansas Workforce Report](https://issuu.com/arkhospitals/docs/arkansasworkforcereport-january2023).
+- **Tennessee Hospital Association**
+[Tennessee Health Workforce Projections](https://tha.com/wp-content/uploads/2022/10/Tennessee-Health-Workforce-Projections-report-FINAL.pdf).
+- **Journal of Rural and Remote Health:** [Bounsanga et al. Using machine learning to identify factors associated with practice location of the healthcare workforce](https://www.rrh.org.au/journal/article/7050), 2022.
+- **Journal of Nursing Regulation:** [Smiley et al, The 2020 National Nursing Workforce Survey, Journal of Nursing Regulation](https://www.journalofnursingregulation.com/article/S2155-8256(21)00027-2/fulltext), 2020; [post publication dashboard of the survey data that I designed/built in R shiny](https://clarkruttinger.shinyapps.io/draftboard/) 
+- **Health Workforce Research- State of Utah** <br>
+[Utah Medical Education Council (2021). Utah’s Mental Health  Workforce, 2021. Salt Lake City, UT.](https://umec.utah.gov/publications/mental-health/)
+[Utah Medical Education Council (2020). Utah’s Physician  Workforce, 2020. Salt Lake City, UT.](https://umec.utah.gov/wp-content/uploads/2020-Physician-Workforce-Report-final.pdf)
+[Utah Medical Education Council (2020). Utah Supply of Registered Nurses and Licensed Practical Nurses, 2020. Salt Lake City, UT.](https://umec-nursing.utah.gov/wp-content/uploads/UtahRN-LPNSupply2020-Final.pdf)
+[Utah Medical Education Council (2020). Utah Nursing Demand 2020. Salt Lake City, UT.](https://umec-nursing.utah.gov/wp-content/uploads/UtahRNEmploymentDemand2020.pdf)
+[Utah Medical Education Council (2017). Utah’s Advanced Practice Registered Nurse Workforce,2017: A Study of the Supply and Distribution of APRNs in Utah. Salt Lake City, UT.](https://umec-nursing.utah.gov/wp-content/uploads/APRN_2017_FINAL.pdf)
+[Utah Medical Education Council (2016). Utah’s Physician Workforce, 2016: A Study of the Supply and Distribution of Physicians in Utah. Salt Lake City, UT.](https://umec.utah.gov/wp-content/uploads/2016-Physicians-Report-Final.pdf)
+[Utah Medical Education Council (2016). Supply of Nurses in Utah: The 2016 Survey Utah’s Registered Nurses. Salt Lake City, UT.](https://umec-nursing.utah.gov/wp-content/uploads/RN-report-final-updated5-9-2016.pdf)
+[Utah Medical Education Council (2013). Utah’s Advanced Practice Registered Nurse Workforce, 2013: A Study of the Supply and Distribution of APRNs in Utah. Salt Lake City, UT.](https://umec-nursing.utah.gov/wp-content/uploads/2013APRNReport.pdf)
+
+
+# Education
+
+## University of Utah
+
+- **Master of Business Administration**; Certificate in Information Systems, 2017
+- **Master of Public Administration**, emphasis in Program Evaluation and Policy Analysis, 2007
+- **B.A., Political Science**; Certificate in International Relations, 2002
+- **B.A., Spanish**, 2002
+
+# Selected Service
+
+- **Peer Reviewer**, Journal of Rural and Remote Health, 2021--present
+- **Peer Reviewer**, Human Resources for Health, 2022--present
+- **Board Member and Board President**, [National Forum of State Nursing Workforce Centers](http://nursingworkforcecenters.org/), 2018--2020
+- **Grant Reviewer**, U.S. Department of Health and Human Services / HRSA, 2011--2024
+- **Planning Commissioner and Commission Chair**, Salt Lake City Planning Commission, 2011--2019
+
+<!-- # Resume Downloads -->
+
+<!-- - [Data / Analytics Platform Resume](downloads/Clark_Ruttinger_Data_Analytics_Platform_Resume.docx) -->
+<!-- - [Posit Senior Customer Success Resume](downloads/Clark_Ruttinger_Posit_Senior_Customer_Success_Resume.docx) -->
