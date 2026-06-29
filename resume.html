@@ -8,16 +8,32 @@
 <meta name="generator" content="pandoc" />
 <meta http-equiv="X-UA-Compatible" content="IE=EDGE" />
 
-<meta name="viewport" content="width=device-width, initial-scale=1" />
 
-<meta name="author" content="Clark Ruttinger" />
 
 
 <title>Resume</title>
 
 <script src="site_libs/header-attrs-2.31/header-attrs.js"></script>
+<script src="site_libs/jquery-3.6.0/jquery-3.6.0.min.js"></script>
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<link href="site_libs/bootstrap-3.3.5/css/flatly.min.css" rel="stylesheet" />
+<script src="site_libs/bootstrap-3.3.5/js/bootstrap.min.js"></script>
+<script src="site_libs/bootstrap-3.3.5/shim/html5shiv.min.js"></script>
+<script src="site_libs/bootstrap-3.3.5/shim/respond.min.js"></script>
+<style>h1 {font-size: 34px;}
+       h1.title {font-size: 38px;}
+       h2 {font-size: 30px;}
+       h3 {font-size: 24px;}
+       h4 {font-size: 18px;}
+       h5 {font-size: 16px;}
+       h6 {font-size: 12px;}
+       code {color: inherit; background-color: rgba(0, 0, 0, 0.04);}
+       pre:not([class]) { background-color: white }</style>
+<script src="site_libs/navigation-1.1/tabsets.js"></script>
 <link href="site_libs/highlightjs-9.12.0/default.css" rel="stylesheet" />
 <script src="site_libs/highlightjs-9.12.0/highlight.js"></script>
+<link href="site_libs/font-awesome-6.4.2/css/all.min.css" rel="stylesheet" />
+<link href="site_libs/font-awesome-6.4.2/css/v4-shims.min.css" rel="stylesheet" />
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -154,278 +170,494 @@ if (window.hljs) {
 
 
 
+<style type = "text/css">
+.main-container {
+  max-width: 940px;
+  margin-left: auto;
+  margin-right: auto;
+}
+img {
+  max-width:100%;
+}
+.tabbed-pane {
+  padding-top: 12px;
+}
+.html-widget {
+  margin-bottom: 20px;
+}
+button.code-folding-btn:focus {
+  outline: none;
+}
+summary {
+  display: list-item;
+}
+details > summary > p:only-child {
+  display: inline;
+}
+pre code {
+  padding: 0;
+}
+</style>
+
+
+<style type="text/css">
+.dropdown-submenu {
+  position: relative;
+}
+.dropdown-submenu>.dropdown-menu {
+  top: 0;
+  left: 100%;
+  margin-top: -6px;
+  margin-left: -1px;
+  border-radius: 0 6px 6px 6px;
+}
+.dropdown-submenu:hover>.dropdown-menu {
+  display: block;
+}
+.dropdown-submenu>a:after {
+  display: block;
+  content: " ";
+  float: right;
+  width: 0;
+  height: 0;
+  border-color: transparent;
+  border-style: solid;
+  border-width: 5px 0 5px 5px;
+  border-left-color: #cccccc;
+  margin-top: 5px;
+  margin-right: -10px;
+}
+.dropdown-submenu:hover>a:after {
+  border-left-color: #adb5bd;
+}
+.dropdown-submenu.pull-left {
+  float: none;
+}
+.dropdown-submenu.pull-left>.dropdown-menu {
+  left: -100%;
+  margin-left: 10px;
+  border-radius: 6px 0 6px 6px;
+}
+</style>
+
+<script type="text/javascript">
+// manage active state of menu based on current page
+$(document).ready(function () {
+  // active menu anchor
+  href = window.location.pathname
+  href = href.substr(href.lastIndexOf('/') + 1)
+  if (href === "")
+    href = "index.html";
+  var menuAnchor = $('a[href="' + href + '"]');
+
+  // mark the anchor link active (and if it's in a dropdown, also mark that active)
+  var dropdown = menuAnchor.closest('li.dropdown');
+  if (window.bootstrap) { // Bootstrap 4+
+    menuAnchor.addClass('active');
+    dropdown.find('> .dropdown-toggle').addClass('active');
+  } else { // Bootstrap 3
+    menuAnchor.parent().addClass('active');
+    dropdown.addClass('active');
+  }
+
+  // Navbar adjustments
+  var navHeight = $(".navbar").first().height() + 15;
+  var style = document.createElement('style');
+  var pt = "padding-top: " + navHeight + "px; ";
+  var mt = "margin-top: -" + navHeight + "px; ";
+  var css = "";
+  // offset scroll position for anchor links (for fixed navbar)
+  for (var i = 1; i <= 6; i++) {
+    css += ".section h" + i + "{ " + pt + mt + "}\n";
+  }
+  style.innerHTML = "body {" + pt + "padding-bottom: 40px; }\n" + css;
+  document.head.appendChild(style);
+});
+</script>
+
+<!-- tabsets -->
+
+<style type="text/css">
+.tabset-dropdown > .nav-tabs {
+  display: inline-table;
+  max-height: 500px;
+  min-height: 44px;
+  overflow-y: auto;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+.tabset-dropdown > .nav-tabs > li.active:before, .tabset-dropdown > .nav-tabs.nav-tabs-open:before {
+  content: "\e259";
+  font-family: 'Glyphicons Halflings';
+  display: inline-block;
+  padding: 10px;
+  border-right: 1px solid #ddd;
+}
+
+.tabset-dropdown > .nav-tabs.nav-tabs-open > li.active:before {
+  content: "\e258";
+  font-family: 'Glyphicons Halflings';
+  border: none;
+}
+
+.tabset-dropdown > .nav-tabs > li.active {
+  display: block;
+}
+
+.tabset-dropdown > .nav-tabs > li > a,
+.tabset-dropdown > .nav-tabs > li > a:focus,
+.tabset-dropdown > .nav-tabs > li > a:hover {
+  border: none;
+  display: inline-block;
+  border-radius: 4px;
+  background-color: transparent;
+}
+
+.tabset-dropdown > .nav-tabs.nav-tabs-open > li {
+  display: block;
+  float: none;
+}
+
+.tabset-dropdown > .nav-tabs > li {
+  display: none;
+}
+</style>
+
+<!-- code folding -->
+
+
+
 
 </head>
 
 <body>
 
 
+<div class="container-fluid main-container">
+
+
+
+
+<div class="navbar navbar-default  navbar-fixed-top" role="navigation">
+  <div class="container">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-bs-toggle="collapse" data-target="#navbar" data-bs-target="#navbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="index.html">Clark Ruttinger</a>
+    </div>
+    <div id="navbar" class="navbar-collapse collapse">
+      <ul class="nav navbar-nav">
+        <li>
+  <a href="index.html">Home</a>
+</li>
+<li>
+  <a href="resume.html">Resume</a>
+</li>
+<li>
+  <a href="cases.html">Case Studies</a>
+</li>
+<li>
+  <a href="projects.html">Projects</a>
+</li>
+<li>
+  <a href="presentations.html">Presentations</a>
+</li>
+      </ul>
+      <ul class="nav navbar-nav navbar-right">
+        <li>
+  <a href="mailto:ceruttinger@gmail.com">
+    <span class="fa fa-envelope"></span>
+     
+  </a>
+</li>
+<li>
+  <a href="https://www.linkedin.com/in/clark-ruttinger/">
+    <span class="fa fa-linkedin"></span>
+     
+  </a>
+</li>
+      </ul>
+    </div><!--/.nav-collapse -->
+  </div><!--/.container -->
+</div><!--/.navbar -->
+
+<div id="header">
+
 
 
 <h1 class="title toc-ignore">Resume</h1>
-<h4 class="author">Clark Ruttinger</h4>
 
-
-
-<style>
-.resume-header {
-  text-align: center;
-  margin-bottom: 1.2rem;
-}
-.resume-header h1 {
-  margin-bottom: 0.2rem;
-  letter-spacing: 0.02em;
-}
-.resume-contact, .resume-subtitle {
-  margin: 0.15rem 0;
-}
-.resume-role {
-  margin-top: 0.9rem;
-  margin-bottom: 0.15rem;
-  font-size: 1.25rem;
-  font-weight: 700;
-  letter-spacing: 0.03em;
-}
-.resume-section {
-  margin-top: 1.3rem;
-  padding-bottom: 0.15rem;
-  border-bottom: 1px solid #d9e2f3;
-  color: #1f4e79;
-  text-transform: uppercase;
-  font-weight: 700;
-  letter-spacing: 0.04em;
-}
-.role-header {
-  margin-top: 1rem;
-  margin-bottom: 0.1rem;
-  font-weight: 700;
-}
-.role-title {
-  margin-top: 0;
-  margin-bottom: 0.35rem;
-  font-style: italic;
-}
-.skills {
-  line-height: 1.5;
-}
-</style>
-<div class="resume-header">
-<h1>
-CLARK RUTTINGER
-</h1>
-<p class="resume-contact">
-Salt Lake City, UT |
-<a href="mailto:ceruttinger@gmail.com">ceruttinger@gmail.com</a> |
-<a href="https://www.linkedin.com/in/clark-ruttinger/">linkedin.com/in/clark-ruttinger</a>
-| <a href="https://clarkruttinger.info">clarkruttinger.info</a>
-</p>
-<p class="resume-role">
-DIRECTOR, ANALYTICS &amp; STRATEGY
-</p>
-<p class="resume-subtitle">
-<em>Forecasting | Public Sector &amp; Policy Analytics | Capacity
-Planning | Data Products</em>
-</p>
 </div>
-<p>Analytics and strategy leader with 15+ years of experience building
-forecasting models, executive reporting tools, data products, and
-decision-support frameworks for government, public-sector, nonprofit,
-association, and consulting clients. Managed teams, led close to $1M in
-client revenue, and supported analytics engagements for state agencies,
-hospital associations, national professional associations, and the
-federal government. Known for translating complex demographic,
-labor-market, licensing, survey, utilization, operational, and policy
-data into practical planning tools for senior leaders.</p>
+
+
+<div id="clark-ruttinger" class="section level1">
+<h1>Clark Ruttinger</h1>
+<p><strong>Data &amp; Analytics Platform Leader</strong><br />
+Workforce Analytics | R/Python/SQL | Shiny/Posit Deployment |
+Client-Facing Data Products</p>
+<p>Park City, Utah<br />
+<a href="mailto:ceruttinger@gmail.com">ceruttinger@gmail.com</a><br />
+<a
+href="https://www.linkedin.com/in/clark-ruttinger/">LinkedIn</a><br />
+<a href="https://clarkruttinger.info">Portfolio</a></p>
+</div>
+<div id="professional-summary" class="section level1">
+<h1>Professional Summary</h1>
+<p>Data and analytics leader with 15+ years building reproducible data
+products, workforce models, dashboards, and decision-support tools for
+government, healthcare, association, and consulting clients. Experienced
+translating complex business and policy questions into data pipelines,
+statistical models, interactive applications, and executive-facing
+recommendations. Strong R/Python/SQL background with hands-on experience
+in Shiny, Posit Connect, cloud-hosted analytics environments, data
+validation, documentation, and modern data architecture patterns
+including DuckDB and object-storage based workflows.</p>
+</div>
+<div id="skills" class="section level1">
+<h1>Skills</h1>
 <ul>
-<li>Lead analytics and strategy engagements involving forecasting,
-scenario planning, capacity planning, workforce supply/demand,
-public-sector decision support, and executive recommendations.</li>
-<li>Build reproducible analytics products using R, Python, SQL, DuckDB,
-Excel, VBA, Quarto/R Markdown, R Shiny, Posit Connect, cloud-hosted
-research environments, and version-control workflows.</li>
-<li>Manage analysts, economists, and cross-functional contributors
-across modeling, dashboard development, data validation, documentation,
-and client delivery.</li>
-<li>Partner with executives, state agencies, workforce boards,
-associations, policy leaders, technical teams, and client stakeholders
-to turn ambiguous planning questions into defensible data products and
-recommendations.</li>
+<li><strong>Analytics &amp; Modeling:</strong> workforce supply/demand
+modeling, projection methods, microsimulation, survey research, program
+evaluation, geospatial analysis, data quality validation</li>
+<li><strong>Data Products:</strong> R Shiny applications, dashboards,
+stakeholder-facing reporting tools, reusable dashboard frameworks,
+public analytics products</li>
+<li><strong>Programming &amp; Data Tools:</strong> R, Python, SQL,
+DuckDB, Excel, VBA, Git, Quarto/R Markdown, Shiny, Posit Connect</li>
+<li><strong>Data Engineering &amp; Workflow:</strong> ETL/data cleaning,
+reproducible workflows, dataset profiling, documentation, cloud-hosted
+analytics environments, direct-query architecture concepts</li>
+<li><strong>Leadership &amp; Delivery:</strong> client-facing
+consulting, executive communication, project scoping, technical
+translation, staff mentorship, cross-functional collaboration</li>
+<li><strong>Domains:</strong> public-sector analytics, healthcare
+workforce, labor market analysis, health policy, regulated data
+environments</li>
 </ul>
-<div class="resume-section">
-Core Skills
 </div>
-<p class="skills">
-Analytics Strategy · Public Sector Analytics · Policy Analysis ·
-Forecasting · Capacity Planning · Scenario Planning · Labor Market
-Analytics · Workforce Supply/Demand Modeling · Executive Reporting ·
-Data Products · Data Validation · Dashboard Development · R Shiny ·
-Posit Connect · Survey Research · Stakeholder Engagement · Team
-Leadership · Client-Facing Consulting · Revenue Ownership · R · Python ·
-SQL · DuckDB · Excel · VBA · Quarto/R Markdown
-</p>
-<div class="resume-section">
-Professional Experience
-</div>
-<p class="role-header">
-GlobalData — Remote
-</p>
-<p class="role-title">
-Director, Health Workforce Consulting | October 2022 – May 2026
-</p>
+<div id="work-experience" class="section level1">
+<h1>Work Experience</h1>
+<div id="globaldata" class="section level2">
+<h2>GlobalData</h2>
+<div id="director-health-workforce-consulting" class="section level3">
+<h3>Director, Health Workforce Consulting</h3>
+<p><a
+href="https://www.globaldata.com/health-economics/health-workforce/">Team
+Portfolio</a> <br> <strong>October 2022 – May 2026</strong></p>
 <ul>
-<li><strong>Managed a team of 6 healthcare economists and
-analysts</strong> while leading client-facing analytics, forecasting,
-dashboard, reporting, and consulting deliverables across recurring and
-custom engagements.</li>
-<li><strong>Led or supported engagements with 8 state clients</strong>
-through health departments and hospital associations, <strong>4 national
-professional associations</strong>, and the federal government through
-HRSA.</li>
-<li><strong>Held responsibility for close to $1M in client
-revenue</strong>, balancing delivery quality, renewal value, client
-relationships, scope management, and technical execution.</li>
-<li>Translated complex planning questions into forecasts, dashboards,
-reports, presentations, and strategic recommendations for executives,
-policy leaders, associations, technical audiences, and public-sector
-stakeholders.</li>
-<li>Partnered across consulting, HEOR, modeling, technical, and
-client-facing teams to scope deliverables, resolve data-quality issues,
-validate methods, and align analyses with customer decisions.</li>
-<li>Directed annual workforce projection updates, expanded analyses to
-additional occupations and service areas, revised behavioral health
-projection methods, and strengthened validation routines to reduce
-client revision cycles.</li>
-<li>Built reusable R Shiny and dashboard components, including a BLS
-data component and a unified client dashboard framework deployed through
-Posit Connect.</li>
-<li>Designed a DuckDB and S3 direct-query proof of concept to simplify
-analytic architecture for repeatable data products and model-ready
-datasets.</li>
+<li>Led complex workforce analytics engagements for state agencies,
+hospital associations, professional societies, and federal clients,
+translating analytic outputs into practical planning, policy, and
+investment recommendations.</li>
+<li>Directed annual health workforce projection updates, expanded
+projections to new occupations, revised behavioral health projection
+methods, and implemented additional validation steps that reduced client
+revision cycles.</li>
+<li>Built and maintained reusable R Shiny and dashboard components,
+including a standalone BLS component and unified client dashboard
+framework deployed through Posit Connect.</li>
+<li>Designed a DuckDB + S3 direct-query proof of concept to replace
+heavier data warehouse assumptions with a simpler, lower-friction
+architecture for analytic workloads.</li>
+<li>Developed documentation for dataset profiles, data paths, staffing
+generation, and annual update workflows to improve repeatability,
+onboarding, and handoff.</li>
+<li>Supported technical and analytic delivery across major client
+projects, including Florida nursing education and workforce reports,
+Hawaii nursing projections, Arkansas and Tennessee workforce reports,
+and professional association supply/demand studies.</li>
+<li>Collaborated with internal consulting, HEOR, modeling, and technical
+teams to scope deliverables, resolve data-quality issues, and align
+analyses with customer decision needs.</li>
 </ul>
-<p class="role-header">
-Utah Health Workforce Information Center — Salt Lake City, UT
-</p>
-<p class="role-title">
-Founding Director | July 2022 – October 2022
-</p>
+</div>
+</div>
+<div id="utah-health-workforce-information-center"
+class="section level2">
+<h2>Utah Health Workforce Information Center</h2>
+<div id="founding-director" class="section level3">
+<h3>Founding Director</h3>
+<p><strong>July 2022 – October 2022</strong></p>
 <ul>
-<li>Helped launch Utah’s legislatively created statewide workforce data
-center, aligning stakeholder priorities, governance needs, data
-collection strategy, reporting infrastructure, and policy-facing
-analytics.</li>
-<li>Translated priorities from employers, educators, government leaders,
-workforce stakeholders, and policy audiences into concrete data
-collection, analytics, forecasting, and reporting requirements.</li>
+<li>Helped establish Utah’s legislatively created Health Workforce
+Information Center, translating stakeholder priorities into a statewide
+health workforce data and policy infrastructure.</li>
+<li>Engaged healthcare, education, government, and employer stakeholders
+to improve workforce data collection, analytics, and policy guidance
+under the <a
+href="https://le.utah.gov/~2022/bills/static/HB0176.html">Utah Health
+Workforce Act</a>.</li>
 <li>Served on national and state advisory groups focused on workforce
 data, nursing workforce strategy, hospital workforce planning, and
-technical assistance.</li>
+technical assistance. <a
+href="https://academyhealth.org/professional-resources/interest-groups/health-workforce-interest-group/advisory-committee/page/health-workforce-interest-group-advisory-committee">the
+Health Workforce Interest Group Advisory Committee for Academy
+Health</a> 2021–2026. <a
+href="https://www.healthworkforceta.org/about/expert-workgroup/">Expert
+work-group for the HRSA funded Health Workforce Technical Assistance
+Center at the University of Albany</a>.</li>
 </ul>
-<p class="role-header">
-Utah Medical Education Council — Salt Lake City, UT
-</p>
-<p class="role-title">
-Interim Executive Director; Director, Workforce Research; Senior
-Institutional Research Analyst; Research Analyst | January 2010 – June
-2022
-</p>
+</div>
+</div>
+<div id="utah-medical-education-council" class="section level2">
+<h2>Utah Medical Education Council</h2>
+<div
+id="interim-executive-director-director-workforce-research-senior-analyst-research-analyst"
+class="section level3">
+<h3>Interim Executive Director; Director, Workforce Research; Senior
+Analyst; Research Analyst</h3>
+<p><strong>January 2010 – June 2022</strong></p>
 <ul>
 <li>Led research staff and managed statewide workforce research programs
-covering physicians, nurses, APRNs, PAs, dentists, pharmacists,
-behavioral health professions, and other licensed occupations.</li>
-<li>Produced workforce growth projections using survey, licensure,
-education pipeline, population, geographic, utilization, employer
-demand, and labor market data to estimate supply, demand, shortages, and
-workforce distribution over time.</li>
+covering physicians, nurses, APRNs, dentists, pharmacists, PAs, and
+behavioral health professions.</li>
 <li>Designed and managed data cleaning, warehousing, modeling, survey,
 and visualization processes for statewide workforce supply, demand,
-distribution, training pipeline, and service-access analyses.</li>
-<li>Created methodology and data-linkage strategy for a legislatively
-required nursing employment demand analysis that could be refreshed from
-existing state data sources.</li>
-<li>Directed Utah’s Nursing Workforce Information Center and led
-collection, analysis, presentation, and advising related to nurse
-education, workforce supply, demand, and long-term planning.</li>
-<li>Built R Shiny publication capacity and cloud-hosted research
-infrastructure, moving analyses from static reporting toward reusable
-and public-facing analytic tools.</li>
+distribution, and training pipeline analyses.</li>
+<li>Built cloud-hosted research infrastructure, R Shiny publication
+capacity, and a Neo4j graph database with a web interface for querying
+and analyzing state APCD data.</li>
+<li>Created methodology and data-linkage strategy for legislatively
+required nursing employment demand analysis; mentored analysts and
+improved reporting frequency and consistency.</li>
 <li>Authored and edited research reports, policy briefs, technical
-reports, articles, and executive presentations used by legislators,
-educators, administrators, researchers, and national partners.</li>
-<li>Increased frequency of cyclical workforce reporting by 20% and
-improved repeatability of recurring analytic workflows.</li>
+reports, and executive presentations used by legislators, educators,
+healthcare administrators, and national partners.</li>
+<li>Recipient of <a href="https://ibmhealthcorpsblog.wordpress.com">IBM
+Healthcorps grant to model Primary Care workforce based on population
+health needs</a> <a
+href="https://www.deseret.com/2018/11/4/20657880/utah-has-a-shortage-of-primary-care-physicians-this-task-force-is-teaming-up-with-ibm-to-fix-it/">News
+article about the project</a> <a
+href="https://le.utah.gov/interim/2019/pdf/00001372.pdf">Project
+presentation to Utah Legislature</a>.</li>
 </ul>
-<div class="resume-section">
-Earlier Public Sector and Nonprofit Experience
 </div>
-<p class="role-header">
-State of Utah, Department of Workforce Services — Salt Lake City, UT
-</p>
-<p class="role-title">
-Administrative Hearing Specialist; Eligibility Specialist | June 2005 –
-December 2009
-</p>
-<ul>
-<li>Interpreted federal and state benefit policies, analyzed eligibility
-and overpayment data, and presented evidence-based findings in
-administrative settings.</li>
-<li>Reviewed complex calculations and supporting evidence, pulled
-benefit data using a SQL graphical interface, and created macros to
-improve speed and accuracy of administrative action processing.</li>
-</ul>
-<p class="role-header">
-The Road Home; Wasatch Homeless Health Care / AmeriCorps; Valley Mental
-Health — Salt Lake City, UT
-</p>
-<p class="role-title">
-Grants Coordinator; Housing Case Manager; Care Coordinator; Respite Care
-Provider | 2002 – 2015
-</p>
-<ul>
-<li>Built a foundation in direct service, community programs, public
-systems, grant writing, care coordination, Medicaid/community health
-eligibility, housing stability, and behavioral support.</li>
-<li>Researched, wrote, submitted, and reported on more than 150 grants
-per year from foundations, corporations, and government funders.</li>
-</ul>
-<div class="resume-section">
-Selected Publications, Reports, and Public Work
 </div>
+<div id="earlier-public-sector-and-nonprofit-roles"
+class="section level2">
+<h2>Earlier Public Sector and Nonprofit Roles</h2>
+<div
+id="state-of-utah-the-road-home-wasatch-homeless-health-care-valley-mental-health"
+class="section level3">
+<h3>State of Utah; The Road Home; Wasatch Homeless Health Care; Valley
+Mental Health</h3>
+<p><strong>2002 – 2015</strong></p>
 <ul>
-<li><strong>Current and Projected Future Supply and Demand for Physical
-Therapists From 2022 to 2037</strong>, <em>Physical Therapy</em>,
-2025.</li>
-<li><strong>Using Machine Learning to Identify Factors Associated with
-Practice Location of the Healthcare Workforce</strong>, <em>Rural and
-Remote Health</em>, 2022.</li>
-<li><strong>The 2020 National Nursing Workforce Survey</strong>,
-<em>Journal of Nursing Regulation</em>, 2020; built post-publication R
-Shiny dashboard.</li>
-<li>Published projection and workforce reports for Florida, Hawaii,
-Maryland, Arkansas, Tennessee, and Utah clients, including statewide and
-association-facing workforce studies.</li>
+<li>Built foundation in public programs, administrative hearings, grant
+writing, case coordination, eligibility policy, mediation, and direct
+service delivery.</li>
+<li>Used SQL interfaces, macros, and database systems to improve
+accuracy and efficiency in administrative and reporting workflows.</li>
 </ul>
-<div class="resume-section">
-Education
 </div>
-<p><strong>University of Utah</strong> — Master of Business
-Administration; Certificate in Information Systems, 2017<br />
-<strong>University of Utah</strong> — Master of Public Administration,
-emphasis in Program Evaluation and Policy Analysis, 2007<br />
-<strong>University of Utah</strong> — B.A., Political Science; B.A.,
-Spanish; Certificate in International Relations, 2002</p>
-<div class="resume-section">
-Selected Service
 </div>
+</div>
+<div id="publications-public-work" class="section level1">
+<h1>Publications &amp; Public Work</h1>
 <ul>
-<li>Board Member and Board President, National Forum of State Nursing
-Workforce Centers, 2018–2020.</li>
-<li>Grant Reviewer, U.S. Department of Health and Human Services / HRSA,
-2011–2024.</li>
-<li>Planning Commissioner and Commission Chair, Salt Lake City Planning
-Commission, 2011–2019.</li>
-<li>Peer Reviewer, <em>Journal of Rural and Remote Health</em> and
-<em>Human Resources for Health</em>.</li>
+<li><strong>Journal of The American Physical Therapy
+Association:</strong> <a
+href="https://doi.org/10.1093/ptj/pzaf014">Current and Projected Future
+Supply and Demand for Physical Therapists From 2022 to 2037</a>,
+<em>Physical Therapy</em>, 2025.</li>
+<li><strong>Florida Center for Nursing:</strong> <a
+href="https://flcenterfornursing.org/research-data/nursing-workforce-reports/florida-health-care-workforce-projections-2022-2037/">Florida
+Healthcare Workforce Projections, 2022–2037</a>, Shiny dashboard for
+exploration of projection results. <a
+href="https://flcenterfornursing.org/research-data/nursing-education-reports/the-state-of-nursing-education-in-florida-2026-report/">State
+of Nursing Education in Florida, 2026</a>.</li>
+<li><strong>Hawaii Center for Nursing:</strong> <a
+href="https://www.hawaiicenterfornursing.org/wp-content/uploads/2025/04/Hawaii-Nursing-Projections-Report-v.Final-1.pdf">Hawaii
+Nursing Projections Report</a> and <a
+href="https://www.hawaiicenterfornursing.org/wp-content/uploads/2025/04/Projections-Launch-Final-Deck.pdf">Projections
+Launch Deck</a>.</li>
+<li><strong>Maryland Hospital Association</strong> <a
+href="https://mhaonline.org/wp-content/uploads/2024/01/Maryland-Nurse-Workforce-Projections-GlobalData.pdf">Maryland
+Nurse Workforce Projections</a>.</li>
+<li><strong>Arkansas Hospital Association</strong> <a
+href="https://issuu.com/arkhospitals/docs/arkansasworkforcereport-january2023">Arkansas
+Workforce Report</a>.</li>
+<li><strong>Tennessee Hospital Association</strong> <a
+href="https://tha.com/wp-content/uploads/2022/10/Tennessee-Health-Workforce-Projections-report-FINAL.pdf">Tennessee
+Health Workforce Projections</a>.</li>
+<li><strong>Journal of Rural and Remote Health:</strong> <a
+href="https://www.rrh.org.au/journal/article/7050">Bounsanga et
+al. Using machine learning to identify factors associated with practice
+location of the healthcare workforce</a>, 2022.</li>
+<li><strong>Journal of Nursing Regulation:</strong> <a
+href="https://www.journalofnursingregulation.com/article/S2155-8256(21)00027-2/fulltext">Smiley
+et al, The 2020 National Nursing Workforce Survey, Journal of Nursing
+Regulation</a>, 2020; <a
+href="https://clarkruttinger.shinyapps.io/draftboard/">post publication
+dashboard of the survey data that I designed/built in R shiny</a></li>
+<li><strong>Health Workforce Research- State of Utah</strong> <br> <a
+href="https://umec.utah.gov/publications/mental-health/">Utah Medical
+Education Council (2021). Utah’s Mental Health Workforce, 2021. Salt
+Lake City, UT.</a> <a
+href="https://umec.utah.gov/wp-content/uploads/2020-Physician-Workforce-Report-final.pdf">Utah
+Medical Education Council (2020). Utah’s Physician Workforce, 2020. Salt
+Lake City, UT.</a> <a
+href="https://umec-nursing.utah.gov/wp-content/uploads/UtahRN-LPNSupply2020-Final.pdf">Utah
+Medical Education Council (2020). Utah Supply of Registered Nurses and
+Licensed Practical Nurses, 2020. Salt Lake City, UT.</a> <a
+href="https://umec-nursing.utah.gov/wp-content/uploads/UtahRNEmploymentDemand2020.pdf">Utah
+Medical Education Council (2020). Utah Nursing Demand 2020. Salt Lake
+City, UT.</a> <a
+href="https://umec-nursing.utah.gov/wp-content/uploads/APRN_2017_FINAL.pdf">Utah
+Medical Education Council (2017). Utah’s Advanced Practice Registered
+Nurse Workforce,2017: A Study of the Supply and Distribution of APRNs in
+Utah. Salt Lake City, UT.</a> <a
+href="https://umec.utah.gov/wp-content/uploads/2016-Physicians-Report-Final.pdf">Utah
+Medical Education Council (2016). Utah’s Physician Workforce, 2016: A
+Study of the Supply and Distribution of Physicians in Utah. Salt Lake
+City, UT.</a> <a
+href="https://umec-nursing.utah.gov/wp-content/uploads/RN-report-final-updated5-9-2016.pdf">Utah
+Medical Education Council (2016). Supply of Nurses in Utah: The 2016
+Survey Utah’s Registered Nurses. Salt Lake City, UT.</a> <a
+href="https://umec-nursing.utah.gov/wp-content/uploads/2013APRNReport.pdf">Utah
+Medical Education Council (2013). Utah’s Advanced Practice Registered
+Nurse Workforce, 2013: A Study of the Supply and Distribution of APRNs
+in Utah. Salt Lake City, UT.</a></li>
 </ul>
+</div>
+<div id="education" class="section level1">
+<h1>Education</h1>
+<div id="university-of-utah" class="section level2">
+<h2>University of Utah</h2>
+<ul>
+<li><strong>Master of Business Administration</strong>; Certificate in
+Information Systems, 2017</li>
+<li><strong>Master of Public Administration</strong>, emphasis in
+Program Evaluation and Policy Analysis, 2007</li>
+<li><strong>B.A., Political Science</strong>; Certificate in
+International Relations, 2002</li>
+<li><strong>B.A., Spanish</strong>, 2002</li>
+</ul>
+</div>
+</div>
+<div id="selected-service" class="section level1">
+<h1>Selected Service</h1>
+<ul>
+<li><strong>Peer Reviewer</strong>, Journal of Rural and Remote Health,
+2021–present</li>
+<li><strong>Peer Reviewer</strong>, Human Resources for Health,
+2022–present</li>
+<li><strong>Board Member and Board President</strong>, <a
+href="http://nursingworkforcecenters.org/">National Forum of State
+Nursing Workforce Centers</a>, 2018–2020</li>
+<li><strong>Grant Reviewer</strong>, U.S. Department of Health and Human
+Services / HRSA, 2011–2024</li>
+<li><strong>Planning Commissioner and Commission Chair</strong>, Salt
+Lake City Planning Commission, 2011–2019</li>
+</ul>
+<!-- # Resume Downloads -->
+<!-- - [Data / Analytics Platform Resume](downloads/Clark_Ruttinger_Data_Analytics_Platform_Resume.docx) -->
+<!-- - [Posit Senior Customer Success Resume](downloads/Clark_Ruttinger_Posit_Senior_Customer_Success_Resume.docx) -->
+</div>
 
 <hr>
 
@@ -435,6 +667,36 @@ Commission, 2011–2019.</li>
   </p>
 </div>
 
+
+
+</div>
+
+<script>
+
+// add bootstrap table styles to pandoc tables
+function bootstrapStylePandocTables() {
+  $('tr.odd').parent('tbody').parent('table').addClass('table table-condensed');
+}
+$(document).ready(function () {
+  bootstrapStylePandocTables();
+});
+
+
+</script>
+
+<!-- tabsets -->
+
+<script>
+$(document).ready(function () {
+  window.buildTabsets("TOC");
+});
+
+$(document).ready(function () {
+  $('.tabset-dropdown > .nav-tabs > li').click(function () {
+    $(this).parent().toggleClass('nav-tabs-open');
+  });
+});
+</script>
 
 <!-- code folding -->
 

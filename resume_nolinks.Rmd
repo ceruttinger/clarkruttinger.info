@@ -1,0 +1,137 @@
+---
+title: "Resume"
+author: "Clark Ruttinger"
+output:
+  html_document:
+    toc: false
+    theme: null
+    self_contained: false
+---
+
+<style>
+.resume-header {
+  text-align: center;
+  margin-bottom: 1.2rem;
+}
+.resume-header h1 {
+  margin-bottom: 0.2rem;
+  letter-spacing: 0.02em;
+}
+.resume-contact, .resume-subtitle {
+  margin: 0.15rem 0;
+}
+.resume-role {
+  margin-top: 0.9rem;
+  margin-bottom: 0.15rem;
+  font-size: 1.25rem;
+  font-weight: 700;
+  letter-spacing: 0.03em;
+}
+.resume-section {
+  margin-top: 1.3rem;
+  padding-bottom: 0.15rem;
+  border-bottom: 1px solid #d9e2f3;
+  color: #1f4e79;
+  text-transform: uppercase;
+  font-weight: 700;
+  letter-spacing: 0.04em;
+}
+.role-header {
+  margin-top: 1rem;
+  margin-bottom: 0.1rem;
+  font-weight: 700;
+}
+.role-title {
+  margin-top: 0;
+  margin-bottom: 0.35rem;
+  font-style: italic;
+}
+.skills {
+  line-height: 1.5;
+}
+</style>
+
+<div class="resume-header">
+  <h1>CLARK RUTTINGER</h1>
+  <p class="resume-contact">Salt Lake City, UT | <a href="mailto:ceruttinger@gmail.com">ceruttinger@gmail.com</a> | <a href="https://www.linkedin.com/in/clark-ruttinger/">linkedin.com/in/clark-ruttinger</a> | <a href="https://clarkruttinger.info">clarkruttinger.info</a></p>
+  <p class="resume-role">DIRECTOR, ANALYTICS &amp; STRATEGY</p>
+  <p class="resume-subtitle"><em>Forecasting | Public Sector &amp; Policy Analytics | Capacity Planning | Data Products</em></p>
+</div>
+
+Analytics and strategy leader with 15+ years of experience building forecasting models, executive reporting tools, data products, and decision-support frameworks for government, public-sector, nonprofit, association, and consulting clients. Managed teams, led close to $1M in client revenue, and supported analytics engagements for state agencies, hospital associations, national professional associations, and the federal government. Known for translating complex demographic, labor-market, licensing, survey, utilization, operational, and policy data into practical planning tools for senior leaders.
+
+- Lead analytics and strategy engagements involving forecasting, scenario planning, capacity planning, workforce supply/demand, public-sector decision support, and executive recommendations.
+- Build reproducible analytics products using R, Python, SQL, DuckDB, Excel, VBA, Quarto/R Markdown, R Shiny, Posit Connect, cloud-hosted research environments, and version-control workflows.
+- Manage analysts, economists, and cross-functional contributors across modeling, dashboard development, data validation, documentation, and client delivery.
+- Partner with executives, state agencies, workforce boards, associations, policy leaders, technical teams, and client stakeholders to turn ambiguous planning questions into defensible data products and recommendations.
+
+<div class="resume-section">Core Skills</div>
+
+<p class="skills">Analytics Strategy · Public Sector Analytics · Policy Analysis · Forecasting · Capacity Planning · Scenario Planning · Labor Market Analytics · Workforce Supply/Demand Modeling · Executive Reporting · Data Products · Data Validation · Dashboard Development · R Shiny · Posit Connect · Survey Research · Stakeholder Engagement · Team Leadership · Client-Facing Consulting · Revenue Ownership · R · Python · SQL · DuckDB · Excel · VBA · Quarto/R Markdown</p>
+
+<div class="resume-section">Professional Experience</div>
+
+<p class="role-header">GlobalData — Remote</p>
+<p class="role-title">Director, Health Workforce Consulting | October 2022 – May 2026</p>
+
+- **Managed a team of 6 healthcare economists and analysts** while leading client-facing analytics, forecasting, dashboard, reporting, and consulting deliverables across recurring and custom engagements.
+- **Led or supported engagements with 8 state clients** through health departments and hospital associations, **4 national professional associations**, and the federal government through HRSA.
+- **Held responsibility for close to $1M in client revenue**, balancing delivery quality, renewal value, client relationships, scope management, and technical execution.
+- Translated complex planning questions into forecasts, dashboards, reports, presentations, and strategic recommendations for executives, policy leaders, associations, technical audiences, and public-sector stakeholders.
+- Partnered across consulting, HEOR, modeling, technical, and client-facing teams to scope deliverables, resolve data-quality issues, validate methods, and align analyses with customer decisions.
+- Directed annual workforce projection updates, expanded analyses to additional occupations and service areas, revised behavioral health projection methods, and strengthened validation routines to reduce client revision cycles.
+- Built reusable R Shiny and dashboard components, including a BLS data component and a unified client dashboard framework deployed through Posit Connect.
+- Designed a DuckDB and S3 direct-query proof of concept to simplify analytic architecture for repeatable data products and model-ready datasets.
+
+<p class="role-header">Utah Health Workforce Information Center — Salt Lake City, UT</p>
+<p class="role-title">Founding Director | July 2022 – October 2022</p>
+
+- Helped launch Utah’s legislatively created statewide workforce data center, aligning stakeholder priorities, governance needs, data collection strategy, reporting infrastructure, and policy-facing analytics.
+- Translated priorities from employers, educators, government leaders, workforce stakeholders, and policy audiences into concrete data collection, analytics, forecasting, and reporting requirements.
+- Served on national and state advisory groups focused on workforce data, nursing workforce strategy, hospital workforce planning, and technical assistance.
+
+<p class="role-header">Utah Medical Education Council — Salt Lake City, UT</p>
+<p class="role-title">Interim Executive Director; Director, Workforce Research; Senior Institutional Research Analyst; Research Analyst | January 2010 – June 2022</p>
+
+- Led research staff and managed statewide workforce research programs covering physicians, nurses, APRNs, PAs, dentists, pharmacists, behavioral health professions, and other licensed occupations.
+- Produced workforce growth projections using survey, licensure, education pipeline, population, geographic, utilization, employer demand, and labor market data to estimate supply, demand, shortages, and workforce distribution over time.
+- Designed and managed data cleaning, warehousing, modeling, survey, and visualization processes for statewide workforce supply, demand, distribution, training pipeline, and service-access analyses.
+- Created methodology and data-linkage strategy for a legislatively required nursing employment demand analysis that could be refreshed from existing state data sources.
+- Directed Utah’s Nursing Workforce Information Center and led collection, analysis, presentation, and advising related to nurse education, workforce supply, demand, and long-term planning.
+- Built R Shiny publication capacity and cloud-hosted research infrastructure, moving analyses from static reporting toward reusable and public-facing analytic tools.
+- Authored and edited research reports, policy briefs, technical reports, articles, and executive presentations used by legislators, educators, administrators, researchers, and national partners.
+- Increased frequency of cyclical workforce reporting by 20% and improved repeatability of recurring analytic workflows.
+
+<div class="resume-section">Earlier Public Sector and Nonprofit Experience</div>
+
+<p class="role-header">State of Utah, Department of Workforce Services — Salt Lake City, UT</p>
+<p class="role-title">Administrative Hearing Specialist; Eligibility Specialist | June 2005 – December 2009</p>
+
+- Interpreted federal and state benefit policies, analyzed eligibility and overpayment data, and presented evidence-based findings in administrative settings.
+- Reviewed complex calculations and supporting evidence, pulled benefit data using a SQL graphical interface, and created macros to improve speed and accuracy of administrative action processing.
+
+<p class="role-header">The Road Home; Wasatch Homeless Health Care / AmeriCorps; Valley Mental Health — Salt Lake City, UT</p>
+<p class="role-title">Grants Coordinator; Housing Case Manager; Care Coordinator; Respite Care Provider | 2002 – 2015</p>
+
+- Built a foundation in direct service, community programs, public systems, grant writing, care coordination, Medicaid/community health eligibility, housing stability, and behavioral support.
+- Researched, wrote, submitted, and reported on more than 150 grants per year from foundations, corporations, and government funders.
+
+<div class="resume-section">Selected Publications, Reports, and Public Work</div>
+
+- **Current and Projected Future Supply and Demand for Physical Therapists From 2022 to 2037**, *Physical Therapy*, 2025.
+- **Using Machine Learning to Identify Factors Associated with Practice Location of the Healthcare Workforce**, *Rural and Remote Health*, 2022.
+- **The 2020 National Nursing Workforce Survey**, *Journal of Nursing Regulation*, 2020; built post-publication R Shiny dashboard.
+- Published projection and workforce reports for Florida, Hawaii, Maryland, Arkansas, Tennessee, and Utah clients, including statewide and association-facing workforce studies.
+
+<div class="resume-section">Education</div>
+
+**University of Utah** — Master of Business Administration; Certificate in Information Systems, 2017  
+**University of Utah** — Master of Public Administration, emphasis in Program Evaluation and Policy Analysis, 2007  
+**University of Utah** — B.A., Political Science; B.A., Spanish; Certificate in International Relations, 2002
+
+<div class="resume-section">Selected Service</div>
+
+- Board Member and Board President, National Forum of State Nursing Workforce Centers, 2018–2020.
+- Grant Reviewer, U.S. Department of Health and Human Services / HRSA, 2011–2024.
+- Planning Commissioner and Commission Chair, Salt Lake City Planning Commission, 2011–2019.
+- Peer Reviewer, *Journal of Rural and Remote Health* and *Human Resources for Health*.
