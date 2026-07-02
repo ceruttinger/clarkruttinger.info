@@ -6,6 +6,22 @@ This page preserves earlier public R/Shiny and R Markdown projects. These exampl
 
 <p class="small-note">More recent proprietary client dashboards, code, and internal GlobalData deliverables are not posted here.</p>
 
+
+## Featured current prototype
+
+<div class="card">
+
+### Skilled Nursing Facility Strategic Benchmark Explorer
+
+**Project type:** Static strategic benchmarking dashboard and pre-rendered facility report product.  
+**Role:** Designed and built the data pipeline, benchmark metrics, peer-group logic, static Quarto Explorer, browser-side interactivity, and facility-specific report template.  
+**What it demonstrates:** R data engineering, CMS cost-report analytics, healthcare financial benchmarking, Quarto dashboard development, static deployment strategy, and client-facing analytic product design.  
+**Links:** [Project overview](snf-benchmark-demo.html) | [Open demo Explorer](projects/snf-strategic-benchmark-demo/dashboard_snf_utah_selector.html)
+
+<p class="small-note">Public demo version uses a curated sample of facilities. It is intended for portfolio demonstration and exploratory benchmarking, not audited financial review or operational advice.</p>
+
+</div>
+
 ## Public R/Shiny and R Markdown examples
 
 <div class="card">

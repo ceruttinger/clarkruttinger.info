@@ -75,3 +75,22 @@ img.headshot {
     margin: 0 auto 1rem auto;
   }
 }
+
+/* SNF benchmark demo additions */
+.project-actions a,
+a.demo-button {
+  display: inline-block;
+  padding: 0.45rem 0.7rem;
+  margin: 0.2rem 0.35rem 0.2rem 0;
+  border-radius: 5px;
+  background: #2c3e50;
+  color: #fff !important;
+  text-decoration: none;
+  font-weight: 600;
+}
+
+.project-actions a:hover,
+a.demo-button:hover {
+  background: #1b2836;
+  text-decoration: none;
+}

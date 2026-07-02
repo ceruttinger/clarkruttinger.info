@@ -1,0 +1,67 @@
+provider_ccn,severity,domain,title,detail,metric
+465191,Watch,Utilization,Occupancy has declined,Occupancy is down more than five percentage points from roughly three years earlier.,occupancy_rate
+465191,Strength,Utilization,Occupancy leads peers,Latest occupancy is more than five percentage points above the peer median.,occupancy_rate
+465191,Strength,Payer mix,Medicare skilled mix leads peers,Medicare day share is at least three percentage points above the peer median.,medicare_day_share
+465191,Watch,Payer mix,Medicaid dependence is higher than peers,Medicaid day share is more than five percentage points above the peer median.,medicaid_day_share
+465191,Strength,Revenue,Revenue per day is above peers,Net patient revenue per resident day is above the peer median.,net_patient_revenue_per_day
+465191,Watch,Cost,Operating expense is high,Operating expense per resident day is above the peer 75th percentile.,operating_expense_per_day
+465191,Strength,Margin,Margin leads peers,Patient service margin is at least three percentage points above the peer median.,patient_service_margin
+465191,Watch,Labor,Contract labor reliance is elevated,Contract labor ratio is above the peer 75th percentile or above 10%.,contract_labor_ratio
+465191,Risk,Liquidity,Liquidity appears thin,Days cash on hand is below the peer 25th percentile or below 30 days.,days_cash_on_hand
+465172,Strength,Utilization,Occupancy leads peers,Latest occupancy is more than five percentage points above the peer median.,occupancy_rate
+465172,Strength,Payer mix,Medicare skilled mix leads peers,Medicare day share is at least three percentage points above the peer median.,medicare_day_share
+465172,Watch,Payer mix,Medicaid dependence is higher than peers,Medicaid day share is more than five percentage points above the peer median.,medicaid_day_share
+465172,Strength,Revenue,Revenue per day is above peers,Net patient revenue per resident day is above the peer median.,net_patient_revenue_per_day
+465172,Watch,Cost,Operating expense is high,Operating expense per resident day is above the peer 75th percentile.,operating_expense_per_day
+465172,Strength,Margin,Margin leads peers,Patient service margin is at least three percentage points above the peer median.,patient_service_margin
+465172,Watch,Labor,Contract labor reliance is elevated,Contract labor ratio is above the peer 75th percentile or above 10%.,contract_labor_ratio
+465172,Risk,Liquidity,Liquidity appears thin,Days cash on hand is below the peer 25th percentile or below 30 days.,days_cash_on_hand
+465150,Strength,Utilization,Occupancy leads peers,Latest occupancy is more than five percentage points above the peer median.,occupancy_rate
+465150,Strength,Payer mix,Medicare skilled mix leads peers,Medicare day share is at least three percentage points above the peer median.,medicare_day_share
+465150,Watch,Payer mix,Medicaid dependence is higher than peers,Medicaid day share is more than five percentage points above the peer median.,medicaid_day_share
+465150,Strength,Revenue,Revenue per day is above peers,Net patient revenue per resident day is above the peer median.,net_patient_revenue_per_day
+465150,Watch,Cost,Operating expense is high,Operating expense per resident day is above the peer 75th percentile.,operating_expense_per_day
+465150,Strength,Margin,Margin leads peers,Patient service margin is at least three percentage points above the peer median.,patient_service_margin
+465150,Watch,Labor,Contract labor reliance is elevated,Contract labor ratio is above the peer 75th percentile or above 10%.,contract_labor_ratio
+465150,Risk,Liquidity,Liquidity appears thin,Days cash on hand is below the peer 25th percentile or below 30 days.,days_cash_on_hand
+465072,Watch,Labor,Contract labor reliance is elevated,Contract labor ratio is above the peer 75th percentile or above 10%.,contract_labor_ratio
+465072,Risk,Liquidity,Liquidity appears thin,Days cash on hand is below the peer 25th percentile or below 30 days.,days_cash_on_hand
+465078,Strength,Revenue,Revenue per day is above peers,Net patient revenue per resident day is above the peer median.,net_patient_revenue_per_day
+465078,Watch,Labor,Contract labor reliance is elevated,Contract labor ratio is above the peer 75th percentile or above 10%.,contract_labor_ratio
+465078,Risk,Liquidity,Liquidity appears thin,Days cash on hand is below the peer 25th percentile or below 30 days.,days_cash_on_hand
+465143,Risk,Utilization,Occupancy trails peers,Latest occupancy is more than five percentage points below the peer median.,occupancy_rate
+465143,Watch,Utilization,Occupancy has declined,Occupancy is down more than five percentage points from roughly three years earlier.,occupancy_rate
+465143,Watch,Payer mix,Medicare skilled mix is below peers,Medicare day share is at least three percentage points below the peer median; referral capture may deserve review.,medicare_day_share
+465143,Watch,Labor,Contract labor reliance is elevated,Contract labor ratio is above the peer 75th percentile or above 10%.,contract_labor_ratio
+465143,Risk,Liquidity,Liquidity appears thin,Days cash on hand is below the peer 25th percentile or below 30 days.,days_cash_on_hand
+465175,Strength,Utilization,Occupancy leads peers,Latest occupancy is more than five percentage points above the peer median.,occupancy_rate
+465175,Strength,Payer mix,Medicare skilled mix leads peers,Medicare day share is at least three percentage points above the peer median.,medicare_day_share
+465175,Watch,Payer mix,Medicaid dependence is higher than peers,Medicaid day share is more than five percentage points above the peer median.,medicaid_day_share
+465175,Strength,Revenue,Revenue per day is above peers,Net patient revenue per resident day is above the peer median.,net_patient_revenue_per_day
+465175,Strength,Margin,Margin leads peers,Patient service margin is at least three percentage points above the peer median.,patient_service_margin
+465175,Watch,Labor,Contract labor reliance is elevated,Contract labor ratio is above the peer 75th percentile or above 10%.,contract_labor_ratio
+465175,Risk,Liquidity,Liquidity appears thin,Days cash on hand is below the peer 25th percentile or below 30 days.,days_cash_on_hand
+465147,Strength,Utilization,Occupancy leads peers,Latest occupancy is more than five percentage points above the peer median.,occupancy_rate
+465147,Strength,Payer mix,Medicare skilled mix leads peers,Medicare day share is at least three percentage points above the peer median.,medicare_day_share
+465147,Watch,Payer mix,Medicaid dependence is higher than peers,Medicaid day share is more than five percentage points above the peer median.,medicaid_day_share
+465147,Strength,Revenue,Revenue per day is above peers,Net patient revenue per resident day is above the peer median.,net_patient_revenue_per_day
+465147,Watch,Cost,Operating expense is high,Operating expense per resident day is above the peer 75th percentile.,operating_expense_per_day
+465147,Strength,Margin,Margin leads peers,Patient service margin is at least three percentage points above the peer median.,patient_service_margin
+465147,Watch,Labor,Contract labor reliance is elevated,Contract labor ratio is above the peer 75th percentile or above 10%.,contract_labor_ratio
+465147,Risk,Liquidity,Liquidity appears thin,Days cash on hand is below the peer 25th percentile or below 30 days.,days_cash_on_hand
+465064,Strength,Utilization,Occupancy leads peers,Latest occupancy is more than five percentage points above the peer median.,occupancy_rate
+465064,Strength,Payer mix,Medicare skilled mix leads peers,Medicare day share is at least three percentage points above the peer median.,medicare_day_share
+465064,Watch,Payer mix,Medicaid dependence is higher than peers,Medicaid day share is more than five percentage points above the peer median.,medicaid_day_share
+465064,Strength,Revenue,Revenue per day is above peers,Net patient revenue per resident day is above the peer median.,net_patient_revenue_per_day
+465064,Watch,Cost,Operating expense is high,Operating expense per resident day is above the peer 75th percentile.,operating_expense_per_day
+465064,Strength,Margin,Margin leads peers,Patient service margin is at least three percentage points above the peer median.,patient_service_margin
+465064,Watch,Labor,Contract labor reliance is elevated,Contract labor ratio is above the peer 75th percentile or above 10%.,contract_labor_ratio
+465064,Risk,Liquidity,Liquidity appears thin,Days cash on hand is below the peer 25th percentile or below 30 days.,days_cash_on_hand
+465095,Strength,Utilization,Occupancy leads peers,Latest occupancy is more than five percentage points above the peer median.,occupancy_rate
+465095,Strength,Payer mix,Medicare skilled mix leads peers,Medicare day share is at least three percentage points above the peer median.,medicare_day_share
+465095,Watch,Payer mix,Medicaid dependence is higher than peers,Medicaid day share is more than five percentage points above the peer median.,medicaid_day_share
+465095,Strength,Revenue,Revenue per day is above peers,Net patient revenue per resident day is above the peer median.,net_patient_revenue_per_day
+465095,Watch,Cost,Operating expense is high,Operating expense per resident day is above the peer 75th percentile.,operating_expense_per_day
+465095,Strength,Margin,Margin leads peers,Patient service margin is at least three percentage points above the peer median.,patient_service_margin
+465095,Watch,Labor,Contract labor reliance is elevated,Contract labor ratio is above the peer 75th percentile or above 10%.,contract_labor_ratio
+465095,Risk,Liquidity,Liquidity appears thin,Days cash on hand is below the peer 25th percentile or below 30 days.,days_cash_on_hand

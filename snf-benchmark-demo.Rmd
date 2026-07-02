@@ -1,0 +1,89 @@
+---
+title: "Skilled Nursing Facility Strategic Benchmark Explorer"
+---
+
+<div class="callout">
+<strong>Portfolio demo note:</strong> This is a prototype built from public CMS Skilled Nursing Facility cost-report data. It is intended for exploratory benchmarking and portfolio demonstration. It is not an audited financial review, quality assessment, regulatory review, or operational recommendation.
+</div>
+
+<div class="card">
+
+### Open the static demo
+
+**Demo:** [Utah SNF Strategic Benchmark Explorer](projects/snf-strategic-benchmark-demo/dashboard_snf_utah_selector.html)  
+**Sample reports:** available from the Explorer sidebar for selected demo facilities.
+
+</div>
+
+## Project overview
+
+This project turns public CMS Skilled Nursing Facility cost-report data into a static strategic benchmarking product. The demo includes a facility selector, peer benchmarking, trend analysis, a searchable facility index, and pre-rendered facility-specific strategic benchmark reports.
+
+The goal was to show how a repeatable analytics pipeline can become a low-cost dashboard and reporting product without requiring a Shiny server or paid dashboard hosting.
+
+## What it demonstrates
+
+- Public healthcare data acquisition and cleaning.
+- Reproducible R data pipeline development.
+- Facility-year metric engineering from CMS cost-report fields.
+- Peer grouping by state, rural/urban status, and bed-size band.
+- Static Quarto dashboard deployment with browser-side JavaScript interactivity.
+- Pre-rendered client-style reports for selected facilities.
+- Translation of financial and utilization metrics into strategic follow-up questions.
+
+## Dashboard and report features
+
+<div class="card">
+
+### Explorer
+
+- Facility selector for a curated public demo sample.
+- Executive-style profile cards.
+- Benchmark table with peer median and percentile context.
+- Trend charts with target facility, peer median, and peer interquartile range.
+- Searchable and sortable facility index.
+
+</div>
+
+<div class="card">
+
+### Facility reports
+
+- Executive summary and overall read.
+- Rule-based strategic flags.
+- Facility profile table.
+- Latest-year benchmark table.
+- Multi-year trend analysis.
+- Consulting implications and follow-up questions.
+
+</div>
+
+## Peer-group logic
+
+The first-pass peer group uses:
+
+```text
+same state + same rural/urban status + same bed-size band
+```
+
+If that peer group is too small, the benchmark falls back to broader statewide rural/urban or statewide comparisons. This keeps the prototype transparent while avoiding peer groups that are too small to interpret.
+
+## Public demo scope
+
+For the public portfolio version, I limited the dashboard to a small sample of facilities selected to represent different peer groups and operating patterns, including urban/rural facilities, different bed-size bands, counties, occupancy patterns, payer-mix patterns, and financial risk profiles.
+
+The demo facilities are still benchmarked against the full Utah comparison set available in the underlying dataset.
+
+## Tools used
+
+<span class="tag">R</span>
+<span class="tag">Quarto</span>
+<span class="tag">JavaScript</span>
+<span class="tag">CMS HCRIS</span>
+<span class="tag">Static dashboard deployment</span>
+<span class="tag">Healthcare financial benchmarking</span>
+<span class="tag">Reproducible reporting</span>
+
+## Future extensions
+
+The strongest next additions would be PBJ staffing, Care Compare quality ratings, survey deficiencies, ownership data, and local market context. Those additions would connect financial performance to staffing, quality, and competitive position.

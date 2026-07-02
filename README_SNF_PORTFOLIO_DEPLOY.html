@@ -11,7 +11,7 @@
 
 
 
-<title>Projects</title>
+<title>README_SNF_PORTFOLIO_DEPLOY</title>
 
 <script src="site_libs/header-attrs-2.31/header-attrs.js"></script>
 <script src="site_libs/jquery-3.6.0/jquery-3.6.0.min.js"></script>
@@ -32,8 +32,6 @@
 <script src="site_libs/navigation-1.1/tabsets.js"></script>
 <link href="site_libs/highlightjs-9.12.0/default.css" rel="stylesheet" />
 <script src="site_libs/highlightjs-9.12.0/highlight.js"></script>
-<link href="site_libs/font-awesome-6.4.2/css/all.min.css" rel="stylesheet" />
-<link href="site_libs/font-awesome-6.4.2/css/v4-shims.min.css" rel="stylesheet" />
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -389,121 +387,67 @@ $(document).ready(function () {
 
 
 
-<h1 class="title toc-ignore">Projects</h1>
 
 </div>
 
 
-<p>This page preserves earlier public R/Shiny and R Markdown projects.
-These examples are older than my most recent client-facing analytics
-work, but they show long-running experience building public data
-products, reproducible analyses, and interactive tools in the R
-ecosystem.</p>
-<p class="small-note">
-More recent proprietary client dashboards, code, and internal GlobalData
-deliverables are not posted here.
-</p>
-<div id="featured-current-prototype" class="section level2">
-<h2>Featured current prototype</h2>
-<div id="skilled-nursing-facility-strategic-benchmark-explorer"
-class="section level3 card">
-<h3>Skilled Nursing Facility Strategic Benchmark Explorer</h3>
-<p><strong>Project type:</strong> Static strategic benchmarking
-dashboard and pre-rendered facility report product.<br />
-<strong>Role:</strong> Designed and built the data pipeline, benchmark
-metrics, peer-group logic, static Quarto Explorer, browser-side
-interactivity, and facility-specific report template.<br />
-<strong>What it demonstrates:</strong> R data engineering, CMS
-cost-report analytics, healthcare financial benchmarking, Quarto
-dashboard development, static deployment strategy, and client-facing
-analytic product design.<br />
-<strong>Links:</strong> <a href="snf-benchmark-demo.html">Project
-overview</a> | <a
-href="projects/snf-strategic-benchmark-demo/dashboard_snf_utah_selector.html">Open
-demo Explorer</a></p>
-<p class="small-note">
-Public demo version uses a curated sample of facilities. It is intended
-for portfolio demonstration and exploratory benchmarking, not audited
-financial review or operational advice.
-</p>
+<div id="snf-benchmark-demo-portfolio-deployment"
+class="section level1">
+<h1>SNF benchmark demo portfolio deployment</h1>
+<p>This portfolio update adds a landing page for the Skilled Nursing
+Facility Strategic Benchmark Explorer and a Projects-page card that
+links to the demo dashboard.</p>
+<div id="files-added-or-changed" class="section level2">
+<h2>Files added or changed</h2>
+<ul>
+<li><code>snf-benchmark-demo.Rmd</code></li>
+<li><code>snf-benchmark-demo.html</code></li>
+<li><code>projects.Rmd</code></li>
+<li><code>projects.html</code></li>
+<li><code>style.css</code></li>
+<li><code>projects/snf-strategic-benchmark-demo/</code> placeholder
+folder</li>
+</ul>
 </div>
+<div id="build-the-dashboard-demo-into-this-portfolio-repo"
+class="section level2">
+<h2>Build the dashboard demo into this portfolio repo</h2>
+<p>Unzip the dashboard package
+<code>snf_hcris_dashboard_v0_37.zip</code>. From the dashboard project
+folder, run:</p>
+<pre class="r"><code>Sys.setenv(PORTFOLIO_SITE_DIR = &quot;/path/to/cv_v2&quot;)
+Sys.setenv(SNF_DEMO_N = &quot;10&quot;)
+source(&quot;99_render_portfolio_demo_release.R&quot;)</code></pre>
+<p>This will:</p>
+<ol style="list-style-type: decimal">
+<li>Select about 10 diverse Utah SNF facilities.</li>
+<li>Render the Explorer with only those facilities in the public
+selector.</li>
+<li>Render client reports only for those facilities.</li>
+<li>Copy the rendered dashboard into:</li>
+</ol>
+<pre class="text"><code>cv_v2/projects/snf-strategic-benchmark-demo/</code></pre>
 </div>
-<div id="public-rshiny-and-r-markdown-examples" class="section level2">
-<h2>Public R/Shiny and R Markdown examples</h2>
-<div id="utah-mental-health-workforce-2021" class="section level3 card">
-<h3>Utah Mental Health Workforce, 2021</h3>
-<p><strong>Project type:</strong> Interactive workforce report and
-projection model components.<br />
-<strong>Role:</strong> Designed and administered a statewide survey of
-LCSWs, CMHCs, MFTs, and psychologists licensed in Utah. Developed
-initial chart and layout examples for the team and coded the projection
-model section of the report.<br />
-<strong>What it demonstrates:</strong> survey design, workforce
-analytics, projection modeling, public-sector reporting, and
-R/Shiny-based communication of technical findings.<br />
-<strong>Link:</strong> <a
-href="http://umec-shiny-prod-alb-79075571.us-west-2.elb.amazonaws.com/projects/Mental_Health/">Utah
-Mental Health Workforce 2021</a></p>
+<div id="rebuild-the-portfolio-site" class="section level2">
+<h2>Rebuild the portfolio site</h2>
+<p>From the portfolio repo root:</p>
+<pre class="r"><code>source(&quot;build_site.R&quot;)</code></pre>
+<p>Then open:</p>
+<pre class="r"><code>browseURL(&quot;snf-benchmark-demo.html&quot;)
+browseURL(&quot;projects.html&quot;)</code></pre>
 </div>
-<div id="national-nursing-by-the-numbers-dashboard"
-class="section level3 card">
-<h3>National Nursing by the Numbers Dashboard</h3>
-<p><strong>Project type:</strong> Public dashboard companion to national
-nursing workforce survey analysis.<br />
-<strong>Role:</strong> Coauthored analysis of the NCSBN 2020 National
-Nurse Sample Survey and designed/coded a public flexdashboard using
-respondent state-of-employment summaries after the report was
-released.<br />
-<strong>What it demonstrates:</strong> R/flexdashboard development,
-survey data summarization, public-facing dashboard design, reproducible
-reporting, and translation of national survey findings into an
-interactive data product.<br />
-<strong>Links:</strong> <a
-href="https://clarkruttinger.shinyapps.io/draftboard/">Dashboard</a> |
-<a
-href="https://www.journalofnursingregulation.com/article/S2155-8256(21)00027-2/fulltext">Related
-journal article</a></p>
+<div id="git-deployment" class="section level2">
+<h2>Git deployment</h2>
+<p>After verifying locally:</p>
+<pre class="bash"><code>git status
+git add .
+git commit -m &quot;Add SNF strategic benchmark demo to portfolio&quot;
+git push</code></pre>
 </div>
-<div id="physician-ratios-dashboard" class="section level3 card">
-<h3>Physician Ratios Dashboard</h3>
-<p><strong>Project type:</strong> Interactive benchmark dashboard.<br />
-<strong>Role:</strong> Built a dashboard comparing Utah physician
-specialty ratios to AAMC national physician specialty ratio benchmarks
-from 2010 to 2020.<br />
-<strong>What it demonstrates:</strong> workforce benchmarking,
-interactive reporting, R-based dashboard development, and clear
-communication of specialty distribution patterns.<br />
-<strong>Link:</strong> <a
-href="http://umec-shiny-prod-alb-79075571.us-west-2.elb.amazonaws.com/projects/FlexRatios/#section-about">Physician
-Ratios Dashboard</a></p>
-</div>
-<div id="rn-data-analysis-in-r" class="section level3 card">
-<h3>RN Data Analysis in R</h3>
-<p><strong>Project type:</strong> Reproducible R Markdown analysis for
-public communication.<br />
-<strong>Role:</strong> Analyzed Utah RN wage data from workforce surveys
-conducted between 2015 and 2020. The analysis supported an investigative
-report on nursing and COVID-19 in the Deseret News.<br />
-<strong>What it demonstrates:</strong> R Markdown, survey analytics,
-workforce wage analysis, reproducible documentation, and public-interest
-data communication.<br />
-<strong>Links:</strong> <a
-href="https://rpubs.com/crutting/DesNewsAnalysis">R Markdown
-analysis</a> | <a
-href="https://www.deseret.com/indepth/2021/2/28/22208271/covid-19-revealed-about-nursing-health-care-pandemic-wages-utah-intermountain-health-care">Related
-Deseret News article</a></p>
-</div>
-</div>
-<div id="notes-on-older-public-work" class="section level2">
-<h2>Notes on older public work</h2>
-<p>Some project links are hosted on older public infrastructure and may
-not reflect my current technical ceiling. I retain them here because
-they show a progression from early R/Shiny public analytics work into
-more advanced client-facing data products, reproducible workflows, and
-dashboard frameworks.</p>
-<div class="callout">
-<p>This website and project archive were built and maintained using R
-Markdown, RStudio/Posit tools, GitHub, and open-source R workflows.</p>
+<div id="public-caveat" class="section level2">
+<h2>Public caveat</h2>
+<p>The demo page includes a disclaimer because the facility reports use
+real public CMS cost-report data. Keep that caveat visible.</p>
 </div>
 </div>
 
