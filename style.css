@@ -94,3 +94,42 @@ a.demo-button:hover {
   background: #1b2836;
   text-decoration: none;
 }
+
+/* Homepage featured SNF prototype callout */
+.featured-project {
+  border: 1px solid #d9e2ec;
+  border-left: 6px solid #2c3e50;
+  border-radius: 10px;
+  padding: 1.1rem 1.35rem;
+  margin: 1.4rem 0 1.7rem 0;
+  background: linear-gradient(180deg, #f8fbfd 0%, #ffffff 100%);
+  box-shadow: 0 2px 8px rgba(44, 62, 80, 0.08);
+}
+
+.featured-project h2 {
+  margin-top: 0.15rem;
+  margin-bottom: 0.45rem;
+}
+
+.featured-eyebrow {
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  font-size: 0.78rem;
+  font-weight: 700;
+  color: #5d6d7e;
+}
+
+.featured-actions {
+  margin-top: 0.75rem;
+}
+
+a.demo-button.secondary {
+  background: #eef3f7;
+  color: #2c3e50 !important;
+  border: 1px solid #cbd6e2;
+}
+
+a.demo-button.secondary:hover {
+  background: #dfe8f1;
+}
+
