@@ -8344,6 +8344,17 @@ color: var(--snf-muted);
 font-size: 0.78rem;
 line-height: 1.28;
 }
+.sidebar-source-note {
+margin-top: 1rem;
+padding-top: 1rem;
+border-top: 1px solid #d9dee6;
+color: var(--snf-muted);
+font-size: 0.77rem;
+line-height: 1.32;
+}
+.sidebar-source-note strong {
+color: #4f5968;
+}
 </style>
 <script>/**
 * plotly.js v2.35.2
@@ -8366,6 +8377,7 @@ line-height: 1.28;
     <button id="openClientReportSidebar" class="snf-button">Open pre-rendered report</button>
     <p class="sidebar-report-note">Opens the consulting-style report for the selected facility.</p>
   </div>
+  <p class="sidebar-source-note"><strong>Source:</strong> CMS Healthcare Cost Report Information System (HCRIS), Skilled Nursing Facility Cost Report public-use data (CMS-2540-10). This demo uses cleaned Utah facility cost-report years 2011–2023 from source files spanning 2010–2024.</p>
 </div>
 <div class="bslib-grid-item html-fill-item tab-content bslib-grid" data-layout="flow" style="display: grid; grid-template-rows: minmax(3em, 1fr); grid-auto-columns: minmax(0, 1fr);">
 <div id="profile" class="dashboard-page tab-pane show active html-fill-item html-fill-container" data-orientation="rows" aria-labelledby="tab-profile">
