@@ -98,6 +98,21 @@ Move from brittle spreadsheets, disconnected scripts, and manual reporting towar
 :::
 :::
 
+
+::: {.section-shell .section-spacious}
+<div class="section-kicker">FOR SMALL NONPROFITS & COMMUNITY ORGANIZATIONS</div>
+
+## Get more value from the data you already collect.
+
+Small organizations often have meaningful program data but limited time, staff, or budget to turn it into useful reporting and insight. I offer a **Nonprofit Analytics Quick Start** designed to identify practical improvements without requiring a large consulting engagement.
+
+We can review the spreadsheets, forms, reports, grant requirements, and recurring processes you already use; identify a small set of useful measures; find gaps or unnecessary manual work; and choose one or two improvements that can create immediate value.
+
+**Good fits include:** grant and board reporting, program metrics, outcome tracking, recurring spreadsheet workflows, surveys, data visualization, and simple reporting automation.
+
+[Learn about the Nonprofit Analytics Quick Start →](services.qmd#nonprofit-analytics-quick-start){.btn .btn-primary}
+:::
+
 ::: {.band}
 ::: {.section-shell}
 <div class="section-kicker">SELECTED WORK</div>

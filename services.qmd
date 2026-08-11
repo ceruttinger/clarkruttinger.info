@@ -161,10 +161,59 @@ AI can be part of that work when it has a specific job to do—research assistan
 :::
 :::
 
+
+::: {.band}
+::: {.section-shell .section-spacious}
+<div class="section-kicker">FOR SMALL NONPROFITS & COMMUNITY ORGANIZATIONS</div>
+
+# Nonprofit Analytics Quick Start {#nonprofit-analytics-quick-start}
+
+A small, fixed-scope engagement for community organizations that want to get more value from the data they already collect—without beginning with a large technology project or a long consulting commitment.
+
+::: {.service-detail-grid}
+::: {.service-detail-copy}
+Many small nonprofits are already collecting useful information through intake forms, spreadsheets, surveys, grant reports, donor or volunteer systems, and program records. The challenge is often deciding what matters, making the process repeatable, and turning those data into something useful for staff, boards, funders, and the communities they serve.
+
+The Quick Start is designed to identify a practical first step and leave the organization with something useful even if we do nothing else together.
+
+**A typical Quick Start can include**
+
+- A 60–90 minute stakeholder conversation
+- Review of current spreadsheets, forms, reports, and recurring workflows
+- Review of grant, board, or program reporting needs
+- Identification of 5–10 useful measures or KPIs
+- Assessment of data quality, gaps, and unnecessary manual work
+- One small immediate improvement where practical
+- A concise roadmap for the next 2–3 analytics priorities
+:::
+::: {.capability-panel}
+**Common problems this can address**
+
+- Grant and annual impact reporting
+- Program participation and outcome tracking
+- Board and leadership reporting
+- Survey design and analysis
+- Volunteer or service-utilization reporting
+- Repetitive spreadsheet-based processes
+- Simple dashboards and visualizations
+- Reporting automation
+
+**Designed for:** small nonprofits, community organizations, associations, and mission-driven teams that need experienced analytics help but do not need a full-time analyst.
+:::
+:::
+
+[Talk about a nonprofit project](contact.qmd){.btn .btn-primary .btn-lg}
+:::
+:::
+
 ::: {.section-shell .section-spacious}
 ## Ways to engage
 
 ::: {.engagement-grid}
+::: {.engagement-card}
+### Nonprofit Analytics Quick Start
+A small, accessible first engagement to review current reporting and data workflows, identify useful measures, and define one or two practical improvements.
+:::
 ::: {.engagement-card}
 ### Diagnostic / strategy sprint
 A focused assessment to define the problem, stakeholders, data landscape, risks, and recommended next steps before a larger investment.
