@@ -1,46 +1,70 @@
-# Clark Ruttinger Portfolio v2
+# Clark Ruttinger — Quarto consulting website
 
-This is a cleaned-up R Markdown website intended for current job applications and portfolio use.
+This is the Quarto rebuild of `clarkruttinger.info`, repositioned from a professional portfolio toward an independent analytics consulting practice.
 
-## Pages
+## Site structure
 
-- `index.Rmd` — updated homepage and positioning
-- `work.Rmd` — selected public work and older R/Shiny examples
-- `cases.Rmd` — anonymized case studies, including confidential-client-safe descriptions
-- `publications.Rmd` — selected peer-reviewed work and public reports
-- `resume.Rmd` — current resume summary and downloadable resume files
-- `presentations.Rmd` — presentation archive
+- `index.qmd` — consulting homepage
+- `services.qmd` — five service practices + full 12-capability list
+- `work.qmd` — representative case studies and public examples
+- `about.qmd` — consulting biography and working approach
+- `insights.qmd` — publications, reports, and public research
+- `contact.qmd` — contact / project inquiry page
+- `resume.qmd` — existing professional resume, available from About but not the main navigation
+- `cases.qmd`, `projects.qmd`, `publications.qmd`, `presentations.qmd` — compatibility pages so old URLs do not become immediate 404s
+- `_quarto.yml` — site navigation, output directory, footer, metadata
+- `styles.css` — custom consulting-site design
+- `person-schema.html` — updated JSON-LD structured data
+- `CNAME` — custom domain for GitHub Pages
+- `.nojekyll` — prevents GitHub Pages from applying Jekyll processing
 
-## Build locally
+## Render locally
 
-From the project root:
+From the project directory:
 
-```r
-source("build_site.R")
+```bash
+quarto preview
 ```
 
-or:
+For a production build:
 
-```r
-rmarkdown::render_site()
+```bash
+quarto render
 ```
 
-The generated `.html` files are ignored by `.gitignore` in this v2 package. If you publish through GitHub Pages from static HTML, remove `*.html` and `site_libs/` from `.gitignore` or build into a deploy branch.
+The rendered site is written to `docs/`.
 
-## What not to add
+## GitHub Pages deployment
 
-Do not add:
+This project is configured for the simple GitHub Pages workflow where rendered files are committed in `docs/`.
 
-- GlobalData-owned source code
-- proprietary client dashboards or screenshots
-- private data
-- credentials or API keys
-- `.Rhistory`, `.Renviron`, `.RData`, or local machine paths
+1. Render with `quarto render`.
+2. Commit the source files **and** the rendered `docs/` directory.
+3. In GitHub repository **Settings → Pages**, set the source to the `main` branch and `/docs` folder.
+4. Keep the existing custom-domain DNS settings. Quarto copies the root `CNAME` and `.nojekyll` files into the rendered site.
 
-## Updating confidential work descriptions
+## Important migration note for existing static assets
 
-Use the pattern:
+Your old R Markdown site rendered directly into the repository root. If the current repository also contains static demo files that are not part of this package—especially the SNF benchmark demo, `projects/`, `downloads/`, or other generated HTML—copy the items you still want served into the Quarto project and make sure they are copied to `docs/` during rendering.
 
-> Problem type + your role + technical approach + outcome type
+The cleanest options are:
 
-Avoid client names, private metrics, screenshots, code, internal architecture diagrams, or details that would identify confidential work.
+- link to an independently hosted project site; or
+- add the existing file/directory under `project: resources:` in `_quarto.yml` so Quarto copies it into `docs/`.
+
+Do this **before** switching GitHub Pages from repository root to `/docs`, otherwise old root-only static files will no longer be part of the published site.
+
+## Source images
+
+The current headshot is included as `images/Ruttingerheadshot.jpg`. The prior RStudio/GitHub graphics were intentionally not used as primary branding because the new site presents a broader consulting practice rather than an R-specific portfolio.
+
+## Sacred-geometry visual identity update
+
+This version adds a restrained visual identity derived from the companion lecture *From Point to Flower*:
+
+- `images/brand-emblem.png` — transparent geometry mark for the navbar and subtle page accents
+- `images/favicon.png` — tighter crop for browser tabs
+- `images/geometry-hero.webp` / `.jpg` — wide homepage hero background
+- `styles.css` — navy/cyan/gold/violet palette, serif display headings, circumpunct micro-motifs, geometric watermarks, and the POINT → RELATION → SYSTEM → DECISION brand line
+
+The intent is to use sacred geometry as a visual metaphor for structure, relationships, systems, and emergence—not to position the consulting practice as mystical or esoteric.

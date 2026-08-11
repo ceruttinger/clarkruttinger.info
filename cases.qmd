@@ -1,0 +1,9 @@
+---
+title: "Case Studies"
+---
+
+::: {.redirect-notice}
+## Case studies have moved.
+
+The consulting case studies are now part of [Selected Work](work.qmd#case-studies), where they are organized around the problems solved, approach, and capabilities demonstrated.
+:::

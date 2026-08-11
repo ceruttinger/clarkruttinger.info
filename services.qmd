@@ -1,0 +1,191 @@
+---
+title: "Services"
+description: "Analytics strategy, statistical modeling, applied research, dashboards, R/Shiny development, data visualization, automation, architecture, modernization, and AI-assisted analytics."
+page-layout: full
+title-block-style: none
+---
+
+::: {.page-hero}
+::: {.section-shell}
+<div class="eyebrow dark">SERVICES</div>
+
+# Senior analytics expertise without building an entire internal team.
+
+Engagements can begin with a narrow analytic question, a dashboard or application build, a research project, or a broader need to rethink how data and analytics work inside the organization. The five practices below are deliberately designed to overlap.
+:::
+:::
+
+::: {.section-shell .section-spacious}
+# Analytics Strategy & Solution Design {#analytics-strategy-solution-design}
+
+::: {.service-detail-grid}
+::: {.service-detail-copy}
+Organizations often know something is not working before they know what the right analytics solution should be. I help define the decision, understand stakeholder needs, assess current data and workflows, and design a realistic path forward.
+
+**Typical questions**
+
+- What should we measure, and why?
+- Which data do we actually need?
+- Should this become an analysis, dashboard, application, pipeline, or broader system?
+- How do we design something stakeholders will trust and use?
+- What should be automated, standardized, or left intentionally manual?
+:::
+::: {.capability-panel}
+**Capabilities**
+
+- Data & Analytics Strategy
+- Stakeholder Needs Assessment & Solution Design
+- Data Architecture / Analytics System Design
+- Process Improvement & Analytics Modernization
+:::
+:::
+
+# Analysis, Research & Modeling {#analysis-research-modeling}
+
+::: {.service-detail-grid}
+::: {.service-detail-copy}
+I design and execute applied analyses intended to support real decisions—not merely produce an interesting result. That can include descriptive and inferential statistics, forecasting and projection work, survey research, program or policy analysis, and structured evaluation.
+
+**Typical questions**
+
+- What is happening, for whom, and where?
+- Which factors are associated with the outcome we care about?
+- What should we expect under different assumptions?
+- How can we evaluate a program, policy, workforce, or market question with the data available?
+- What additional data collection would materially improve the answer?
+:::
+::: {.capability-panel}
+**Capabilities**
+
+- Data Analysis & Statistical Modeling
+- Research Design & Applied Research
+- Workforce, Policy & Program Analytics
+- AI-Assisted Research & Analytics
+:::
+:::
+
+# Dashboards & Decision Support {#dashboards-decision-support}
+
+::: {.service-detail-grid}
+::: {.service-detail-copy}
+Static reports are sometimes the right answer. Other decisions require an interactive product that lets users explore assumptions, geography, populations, benchmarks, or scenarios. I design the information architecture and build the analytic layer and interface around the decision being supported.
+
+**Typical deliverables**
+
+- Executive and operational dashboards
+- Interactive exploratory tools
+- R/Shiny applications
+- Benchmarking tools
+- Scenario and projection explorers
+- Reproducible reports and recurring reporting systems
+:::
+::: {.capability-panel}
+**Capabilities**
+
+- Dashboard & Decision-Support Development
+- R / Shiny Application Development
+- Data Visualization & Reporting
+:::
+:::
+
+# Data Systems & Automation {#data-systems-automation}
+
+::: {.service-detail-grid}
+::: {.service-detail-copy}
+Many analytics problems are really workflow problems. Repeated manual cleaning, spreadsheet handoffs, inconsistent definitions, and undocumented scripts make otherwise good analysis slow and fragile. I help convert those processes into clearer, reproducible systems.
+
+**Typical questions**
+
+- Which steps can be automated safely?
+- How should recurring datasets be stored, validated, and queried?
+- How can we reduce dependence on one person's institutional memory?
+- What architecture is sufficient without becoming unnecessarily expensive or complex?
+:::
+::: {.capability-panel}
+**Capabilities**
+
+- Data Pipeline & Workflow Automation
+- Data Architecture / Analytics System Design
+- Reproducible analytics and validation workflows
+- Reporting automation and documentation
+:::
+:::
+
+# Analytics Modernization {#analytics-modernization}
+
+::: {.service-detail-grid}
+::: {.service-detail-copy}
+Modernization is not simply replacing an old tool with a newer one. It means understanding the current process, identifying friction and risk, choosing the right level of technology, and designing an approach the organization can sustain.
+
+AI can be part of that work when it has a specific job to do—research assistance, classification, summarization, extraction, coding support, or workflow orchestration—rather than being added for its own sake.
+
+**Typical engagements**
+
+- Current-state workflow assessment
+- Reporting and analysis process redesign
+- Migration from one-off scripts to reusable analytic frameworks
+- Practical AI integration into research and analytics workflows
+- Documentation, validation, and handoff design
+:::
+::: {.capability-panel}
+**Capabilities**
+
+- Process Improvement & Analytics Modernization
+- AI-Assisted Research & Analytics
+- Data & Analytics Strategy
+- Stakeholder Needs Assessment & Solution Design
+:::
+:::
+:::
+
+::: {.band}
+::: {.section-shell .section-spacious}
+<div class="section-kicker">FULL CAPABILITY LIST</div>
+
+## The twelve services I offer
+
+::: {.capability-grid}
+1. **Data & Analytics Strategy**
+2. **Data Analysis & Statistical Modeling**
+3. **Dashboard & Decision-Support Development**
+4. **R / Shiny Application Development**
+5. **Data Visualization & Reporting**
+6. **Research Design & Applied Research**
+7. **Workforce, Policy & Program Analytics**
+8. **Data Pipeline & Workflow Automation**
+9. **AI-Assisted Research & Analytics**
+10. **Data Architecture / Analytics System Design**
+11. **Process Improvement & Analytics Modernization**
+12. **Stakeholder Needs Assessment & Solution Design**
+:::
+:::
+:::
+
+::: {.section-shell .section-spacious}
+## Ways to engage
+
+::: {.engagement-grid}
+::: {.engagement-card}
+### Diagnostic / strategy sprint
+A focused assessment to define the problem, stakeholders, data landscape, risks, and recommended next steps before a larger investment.
+:::
+::: {.engagement-card}
+### Analysis or research project
+A defined question carried from research design and data preparation through analysis, interpretation, and decision-ready communication.
+:::
+::: {.engagement-card}
+### Dashboard or application build
+Design and development of an interactive analytic product, including underlying data workflow and deployment planning.
+:::
+::: {.engagement-card}
+### Modernization engagement
+Assessment and redesign of recurring analytics, reporting, data pipelines, architecture, or AI-assisted workflows.
+:::
+::: {.engagement-card}
+### Fractional analytics leadership
+Senior-level help scoping priorities, reviewing methods, mentoring analysts, evaluating tools, and connecting technical work to organizational decisions.
+:::
+:::
+
+[Discuss an engagement](contact.qmd){.btn .btn-primary .btn-lg}
+:::

@@ -1,0 +1,9 @@
+---
+title: "Presentations"
+---
+
+::: {.redirect-notice}
+## Presentation material has moved.
+
+Selected public briefings and research outputs are now collected under [Insights & Research](insights.qmd).
+:::

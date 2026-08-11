@@ -1,0 +1,64 @@
+---
+title: "Contact"
+description: "Contact Clark Ruttinger about analytics strategy, research, dashboards, R/Shiny development, data systems, automation, and analytics modernization."
+page-layout: full
+title-block-style: none
+---
+
+::: {.contact-hero}
+::: {.section-shell}
+<div class="eyebrow">START A CONVERSATION</div>
+
+# Tell me the decision you wish to make
+# Describe for me the problem you are trying to solve.
+
+You do not need to know whether the answer is a model, dashboard, application, pipeline, research project, or analytics strategy before reaching out. That is part of the problem-framing work.
+
+::: {.contact-panel}
+## Clark Ruttinger
+**Independent Data & Analytics Consultant**
+
+[ceruttinger@gmail.com](mailto:ceruttinger@gmail.com){.contact-link}
+
+[LinkedIn](https://www.linkedin.com/in/clark-ruttinger/) · [GitHub](https://github.com/ceruttinger)
+
+[Email me about a project](mailto:ceruttinger@gmail.com?subject=Analytics%20consulting%20inquiry){.btn .btn-accent .btn-lg}
+:::
+:::
+:::
+
+::: {.section-shell .section-spacious}
+## Useful things to include
+
+A short note is enough. If helpful, tell me:
+
+- the decision, problem, or opportunity you are working on;
+- who needs to use the result;
+- what data or systems already exist;
+- whether there is a deadline or external requirement;
+- what you have tried already; and
+- what a successful outcome would look like.
+
+I can help determine the appropriate scope from there.
+
+## Common starting points
+
+::: {.engagement-grid}
+::: {.engagement-card}
+### “We have data, but we are not getting useful answers from it.”
+Start with analysis, measurement, research design, or analytics strategy.
+:::
+::: {.engagement-card}
+### “Our reporting process is too manual.”
+Start with workflow assessment, automation, reproducible reporting, or data-pipeline design.
+:::
+::: {.engagement-card}
+### “People need to explore the data themselves.”
+Start with dashboard, decision-support, or R/Shiny application design.
+:::
+::: {.engagement-card}
+### “We know our analytics systems need to change.”
+Start with stakeholder needs assessment, architecture evaluation, and modernization planning.
+:::
+:::
+:::

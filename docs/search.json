@@ -1,0 +1,296 @@
+[
+  {
+    "objectID": "work.html",
+    "href": "work.html",
+    "title": "Selected Work",
+    "section": "",
+    "text": "SELECTED WORK\n\n\n\nMuch of my recent consulting work involved proprietary client data, internal code, or private decision-support products, so it cannot be posted publicly. The examples below focus on the problem solved, my role, and the capabilities demonstrated without exposing confidential assets."
+  },
+  {
+    "objectID": "work.html#reusable-client-dashboard-framework",
+    "href": "work.html#reusable-client-dashboard-framework",
+    "title": "Selected Work",
+    "section": "Reusable client dashboard framework",
+    "text": "Reusable client dashboard framework\nProblem. Recurring client deliverables depended heavily on static reports and slide decks. One-off production made it difficult to maintain consistency, reduce revision cycles, reuse components, and give decision-makers access to the deeper data behind top-level findings.\nMy role. Led development of reusable dashboard components and analytic workflows for health workforce projection and reporting projects.\nApproach. Standardized recurring analyses and data preparation, developed modular R/Shiny components, strengthened validation workflows, and supported deployment through Posit Connect. The framework preserved client-specific flexibility while making the underlying process more repeatable.\nTools and methods. R · Shiny · Posit Connect · SQL · Excel · reproducible reporting · data validation\nDemonstrates. Dashboard and application development, client-facing analytics, reusable data-product design, workflow modernization, and communication across technical and non-technical stakeholders."
+  },
+  {
+    "objectID": "work.html#workforce-projection-modeling",
+    "href": "work.html#workforce-projection-modeling",
+    "title": "Selected Work",
+    "section": "Workforce projection modeling",
+    "text": "Workforce projection modeling\nProblem. State agencies, hospital associations, professional societies, and other organizations needed defensible estimates of future workforce supply and demand for planning, education, policy, advocacy, and investment decisions.\nMy role. Managed economists and contributed directly to analytic design, projection methods, data processing, validation, reporting, stakeholder communication, and final deliverables.\nApproach. Integrated licensing, education, demographic, survey, utilization, and labor-market data into reproducible workflows. Built and reviewed projections, tested outputs, translated assumptions and uncertainty for non-technical audiences, and produced public-facing reports and presentations.\nTools and methods. R · SQL · Excel · survey and administrative data · geospatial analysis · projection modeling · reproducible reporting\nDemonstrates. Statistical modeling, data integration, applied research, executive communication, and end-to-end analytic delivery."
+  },
+  {
+    "objectID": "work.html#data-workflow-modernization",
+    "href": "work.html#data-workflow-modernization",
+    "title": "Selected Work",
+    "section": "Data workflow modernization and architecture evaluation",
+    "text": "Data workflow modernization and architecture evaluation\nProblem. Analytic teams can inherit fragmented files, repeated manual processes, undocumented dependencies, and infrastructure proposals that are more complex or expensive than their actual needs.\nMy role. Evaluated practical approaches to storing, querying, validating, documenting, and reusing recurring analytic datasets.\nApproach. Developed proof-of-concept workflows using lightweight, analyst-friendly tools and compared alternatives based on performance, cost, maintainability, team skill, and handoff risk. One example used DuckDB with object-storage-oriented workflows as a simpler direct-query architecture for analytic workloads.\nTools and methods. DuckDB · object storage · R · SQL · dataset profiling · validation checks · documentation · reproducible pipelines\nDemonstrates. Data architecture, pragmatic engineering judgment, cost-aware technical decision-making, and process modernization."
+  },
+  {
+    "objectID": "work.html#public-survey-modernization-and-data-collection-strategy",
+    "href": "work.html#public-survey-modernization-and-data-collection-strategy",
+    "title": "Selected Work",
+    "section": "Public survey modernization and data collection strategy",
+    "text": "Public survey modernization and data collection strategy\nProblem. Workforce data programs needed more complete, timely, and policy-relevant information without creating a data collection process disconnected from existing institutional workflows.\nMy role. Led survey design, data collection strategy, data linkage, analysis, and recurring reporting for health workforce supply and demand studies.\nApproach. Improved survey instruments, aligned collection with licensing and renewal processes, linked survey and administrative data where appropriate, and converted recurring analysis into more repeatable workflows.\nTools and methods. Survey design · R · SQL · administrative data · licensing data · data linkage · reporting automation\nDemonstrates. Research design, stakeholder needs assessment, data governance awareness, operational analytics, and system design under real-world constraints."
+  },
+  {
+    "objectID": "work.html#more-public-evidence",
+    "href": "work.html#more-public-evidence",
+    "title": "Selected Work",
+    "section": "More public evidence",
+    "text": "More public evidence\nMy research and publications include peer-reviewed work in physical therapy workforce projection, machine learning and practice location, and national nursing workforce analysis, along with public reports and legislative briefings.\nFor additional technical background and career history, see my resume."
+  },
+  {
+    "objectID": "resume.html",
+    "href": "resume.html",
+    "title": "Resume",
+    "section": "",
+    "text": "This resume is retained for professional background and job-application use. For consulting services, see Services."
+  },
+  {
+    "objectID": "resume.html#globaldata",
+    "href": "resume.html#globaldata",
+    "title": "Resume",
+    "section": "GlobalData",
+    "text": "GlobalData\n\nDirector, Health Workforce Consulting\nTeam Portfolio  October 2022 – May 2026\n\nLed complex workforce analytics engagements for state agencies, hospital associations, professional societies, and federal clients, translating analytic outputs into practical planning, policy, and investment recommendations.\nDirected annual health workforce projection updates, expanded projections to new occupations, revised behavioral health projection methods, and implemented additional validation steps that reduced client revision cycles.\nBuilt and maintained reusable R Shiny and dashboard components, including a standalone BLS component and unified client dashboard framework deployed through Posit Connect.\nDesigned a DuckDB + S3 direct-query proof of concept to replace heavier data warehouse assumptions with a simpler, lower-friction architecture for analytic workloads.\nDeveloped documentation for dataset profiles, data paths, staffing generation, and annual update workflows to improve repeatability, onboarding, and handoff.\nSupported technical and analytic delivery across major client projects, including Florida nursing education and workforce reports, Hawaii nursing projections, Arkansas and Tennessee workforce reports, and professional association supply/demand studies.\nCollaborated with internal consulting, HEOR, modeling, and technical teams to scope deliverables, resolve data-quality issues, and align analyses with customer decision needs."
+  },
+  {
+    "objectID": "resume.html#utah-health-workforce-information-center",
+    "href": "resume.html#utah-health-workforce-information-center",
+    "title": "Resume",
+    "section": "Utah Health Workforce Information Center",
+    "text": "Utah Health Workforce Information Center\n\nFounding Director\nJuly 2022 – October 2022\n\nHelped establish Utah’s legislatively created Health Workforce Information Center, translating stakeholder priorities into a statewide health workforce data and policy infrastructure.\nEngaged healthcare, education, government, and employer stakeholders to improve workforce data collection, analytics, and policy guidance under the Utah Health Workforce Act.\nServed on national and state advisory groups focused on workforce data, nursing workforce strategy, hospital workforce planning, and technical assistance. the Health Workforce Interest Group Advisory Committee for Academy Health 2021–2026. Expert work-group for the HRSA funded Health Workforce Technical Assistance Center at the University of Albany."
+  },
+  {
+    "objectID": "resume.html#utah-medical-education-council",
+    "href": "resume.html#utah-medical-education-council",
+    "title": "Resume",
+    "section": "Utah Medical Education Council",
+    "text": "Utah Medical Education Council\n\nInterim Executive Director; Director, Workforce Research; Senior Analyst; Research Analyst\nJanuary 2010 – June 2022\n\nLed research staff and managed statewide workforce research programs covering physicians, nurses, APRNs, dentists, pharmacists, PAs, and behavioral health professions.\nDesigned and managed data cleaning, warehousing, modeling, survey, and visualization processes for statewide workforce supply, demand, distribution, and training pipeline analyses.\nBuilt cloud-hosted research infrastructure, R Shiny publication capacity, and a Neo4j graph database with a web interface for querying and analyzing state APCD data.\nCreated methodology and data-linkage strategy for legislatively required nursing employment demand analysis; mentored analysts and improved reporting frequency and consistency.\nAuthored and edited research reports, policy briefs, technical reports, and executive presentations used by legislators, educators, healthcare administrators, and national partners.\nRecipient of IBM Healthcorps grant to model Primary Care workforce based on population health needs News article about the project Project presentation to Utah Legislature."
+  },
+  {
+    "objectID": "resume.html#earlier-public-sector-and-nonprofit-roles",
+    "href": "resume.html#earlier-public-sector-and-nonprofit-roles",
+    "title": "Resume",
+    "section": "Earlier Public Sector and Nonprofit Roles",
+    "text": "Earlier Public Sector and Nonprofit Roles\n\nState of Utah; The Road Home; Wasatch Homeless Health Care; Valley Mental Health\n2002 – 2015\n\nBuilt foundation in public programs, administrative hearings, grant writing, case coordination, eligibility policy, mediation, and direct service delivery.\nUsed SQL interfaces, macros, and database systems to improve accuracy and efficiency in administrative and reporting workflows."
+  },
+  {
+    "objectID": "resume.html#university-of-utah",
+    "href": "resume.html#university-of-utah",
+    "title": "Resume",
+    "section": "University of Utah",
+    "text": "University of Utah\n\nMaster of Business Administration; Certificate in Information Systems, 2017\nMaster of Public Administration, emphasis in Program Evaluation and Policy Analysis, 2007\nB.A., Political Science; Certificate in International Relations, 2002\nB.A., Spanish, 2002"
+  },
+  {
+    "objectID": "projects.html",
+    "href": "projects.html",
+    "title": "Projects",
+    "section": "",
+    "text": "Public dashboards, R/Shiny examples, and representative analytic products are now organized under Selected Work."
+  },
+  {
+    "objectID": "projects.html#project-examples-have-moved.",
+    "href": "projects.html#project-examples-have-moved.",
+    "title": "Projects",
+    "section": "",
+    "text": "Public dashboards, R/Shiny examples, and representative analytic products are now organized under Selected Work."
+  },
+  {
+    "objectID": "insights.html",
+    "href": "insights.html",
+    "title": "Insights & Research",
+    "section": "",
+    "text": "INSIGHTS & RESEARCH\n\n\n\nMy background includes peer-reviewed research, public workforce reports, conference presentations, legislative briefings, and applied analytic products. This is a selected archive rather than a full academic CV."
+  },
+  {
+    "objectID": "insights.html#peer-reviewed-publications",
+    "href": "insights.html#peer-reviewed-publications",
+    "title": "Insights & Research",
+    "section": "Peer-reviewed publications",
+    "text": "Peer-reviewed publications\n\nCurrent and Projected Future Supply and Demand for Physical Therapists From 2022 to 2037\nPatrick Zarek, Clark Ruttinger, David Armstrong, Ritashree Chakrabarti, Douglas R. Hess, Tara Jo Manal, Timothy M. Dall. Physical Therapy, 2025.\nFocus: Workforce supply-and-demand projection modeling.\nView publication →\n\n\nUsing machine learning to identify factors associated with practice location of the healthcare workforce\nBounsanga et al. Rural and Remote Health, 2022.\nRole: Co-author\nFocus: Applied machine learning and workforce practice-location analysis.\nView publication →\n\n\nThe 2020 National Nursing Workforce Survey\nSmiley et al. Journal of Nursing Regulation, 2020.\nRelated product: I designed and built a public dashboard using respondent state-of-employment summaries after the report was released.\nView article → · Open dashboard →"
+  },
+  {
+    "objectID": "insights.html#selected-public-reports-and-decision-support-work",
+    "href": "insights.html#selected-public-reports-and-decision-support-work",
+    "title": "Insights & Research",
+    "section": "Selected public reports and decision-support work",
+    "text": "Selected public reports and decision-support work\n\nFlorida Center for Nursing — State of Nursing Education in Florida, 2026\nFlorida Healthcare Workforce Projections, 2022–2037\nHawaii Nursing Projections Report\nMaryland Nurse Workforce Projections\nArkansas Workforce Report\nTennessee Health Workforce Projections"
+  },
+  {
+    "objectID": "insights.html#earlier-utah-research",
+    "href": "insights.html#earlier-utah-research",
+    "title": "Insights & Research",
+    "section": "Earlier Utah research",
+    "text": "Earlier Utah research\nSelected earlier work includes Utah mental-health workforce, physician workforce, registered-nurse and licensed-practical-nurse supply, nursing demand, and advanced-practice registered-nurse workforce studies. These projects combined survey design, administrative data, workforce modeling, geographic analysis, public reporting, and policy communication."
+  },
+  {
+    "objectID": "insights.html#public-speaking-and-briefings",
+    "href": "insights.html#public-speaking-and-briefings",
+    "title": "Insights & Research",
+    "section": "Public speaking and briefings",
+    "text": "Public speaking and briefings\nOver my state-government career I regularly presented research findings to policy leaders, professional audiences, workforce organizations, and legislative committees. One example is the primary-care workforce modeling presentation to the Utah Legislature associated with the IBM Health Corps project.\nFor consulting-oriented examples, see Selected Work."
+  },
+  {
+    "objectID": "contact.html",
+    "href": "contact.html",
+    "title": "Contact",
+    "section": "",
+    "text": "START A CONVERSATION\n\n\n\n\n\n\nYou do not need to know whether the answer is a model, dashboard, application, pipeline, research project, or analytics strategy before reaching out. That is part of the problem-framing work.\n\n\nIndependent Data & Analytics Consultant\nceruttinger@gmail.com\nLinkedIn · GitHub\nEmail me about a project"
+  },
+  {
+    "objectID": "contact.html#clark-ruttinger",
+    "href": "contact.html#clark-ruttinger",
+    "title": "Contact",
+    "section": "",
+    "text": "Independent Data & Analytics Consultant\nceruttinger@gmail.com\nLinkedIn · GitHub\nEmail me about a project"
+  },
+  {
+    "objectID": "contact.html#useful-things-to-include",
+    "href": "contact.html#useful-things-to-include",
+    "title": "Contact",
+    "section": "Useful things to include",
+    "text": "Useful things to include\nA short note is enough. If helpful, tell me:\n\nthe decision, problem, or opportunity you are working on;\nwho needs to use the result;\nwhat data or systems already exist;\nwhether there is a deadline or external requirement;\nwhat you have tried already; and\nwhat a successful outcome would look like.\n\nI can help determine the appropriate scope from there."
+  },
+  {
+    "objectID": "contact.html#common-starting-points",
+    "href": "contact.html#common-starting-points",
+    "title": "Contact",
+    "section": "Common starting points",
+    "text": "Common starting points\n\n\n“We have data, but we are not getting useful answers from it.”\nStart with analysis, measurement, research design, or analytics strategy.\n\n\n“Our reporting process is too manual.”\nStart with workflow assessment, automation, reproducible reporting, or data-pipeline design.\n\n\n“People need to explore the data themselves.”\nStart with dashboard, decision-support, or R/Shiny application design.\n\n\n“We know our analytics systems need to change.”\nStart with stakeholder needs assessment, architecture evaluation, and modernization planning."
+  },
+  {
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "About",
+    "section": "",
+    "text": "ABOUT\n\n\n\nI am a data and analytics consultant with more than 15 years of experience building analytic products, workforce models, research programs, dashboards, and decision-support systems for government, healthcare, associations, nonprofits, and consulting clients.\nThe recurring theme in my work is translating an ambiguous organizational problem into something concrete: a research question, a data strategy, a model, a dashboard, a workflow, or a system that people can actually use.\nView my resume Contact me"
+  },
+  {
+    "objectID": "about.html#background",
+    "href": "about.html#background",
+    "title": "About",
+    "section": "Background",
+    "text": "Background\nMost recently I served as Director of Health Workforce Consulting at GlobalData, leading complex analytics engagements for state agencies, hospital associations, professional societies, and federal clients. My work included workforce projection methods, reusable R/Shiny dashboard frameworks, validation and documentation systems, and a DuckDB + object-storage proof of concept for lower-friction analytic architecture.\nBefore that, I helped establish Utah’s legislatively created Health Workforce Information Center and spent more than a decade at the Utah Medical Education Council, where I led statewide research programs covering multiple health professions and built survey, modeling, reporting, data-integration, cloud-hosted analytics, and public R/Shiny capabilities.\nEarlier public-sector and nonprofit work gave me practical experience with programs, policy, operations, grants, administrative systems, and direct service. That experience still shapes how I approach analytics: the data system is never separate from the people, workflows, institutions, and decisions around it."
+  },
+  {
+    "objectID": "about.html#how-i-think-about-consulting",
+    "href": "about.html#how-i-think-about-consulting",
+    "title": "About",
+    "section": "How I think about consulting",
+    "text": "How I think about consulting\n\n\nUnderstand the decision before designing the analysis\nA technically elegant answer to the wrong question is still the wrong answer.\n\n\nStakeholder input is part of system design\nUsability, trust, incentives, workflow, and implementation constraints should shape the solution from the beginning.\n\n\nPrefer maintainable over impressive\nThe right architecture is the one the organization can understand, afford, validate, and sustain.\n\n\nAnalysis is not finished when the model runs\nInterpretation, communication, implementation, documentation, and handoff are part of the analytic product."
+  },
+  {
+    "objectID": "about.html#education-and-perspective",
+    "href": "about.html#education-and-perspective",
+    "title": "About",
+    "section": "Education and perspective",
+    "text": "Education and perspective\nI hold four degrees from the University of Utah: an MBA with a Certificate in Information Systems, an MPA focused on Program Evaluation and Policy Analysis, a B.A. in Political Science with a Certificate in International Relations, and a B.A. in Spanish.\nMy professional work has crossed public policy, healthcare, labor and workforce analysis, program evaluation, data science, analytics engineering, and technical product delivery. I have also served as a peer reviewer, federal grant reviewer, nursing workforce center board president, and Salt Lake City planning commissioner and commission chair.\nOne project that strongly influenced how I think about analytics implementation was an IBM Health Corps collaboration focused on modeling primary-care workforce needs. The technical analysis mattered, but so did stakeholder participation, system design, usability, and the practical question of how a new analytic approach would be deployed and used.\nSee selected work"
+  },
+  {
+    "objectID": "cases.html",
+    "href": "cases.html",
+    "title": "Case Studies",
+    "section": "",
+    "text": "The consulting case studies are now part of Selected Work, where they are organized around the problems solved, approach, and capabilities demonstrated."
+  },
+  {
+    "objectID": "cases.html#case-studies-have-moved.",
+    "href": "cases.html#case-studies-have-moved.",
+    "title": "Case Studies",
+    "section": "",
+    "text": "The consulting case studies are now part of Selected Work, where they are organized around the problems solved, approach, and capabilities demonstrated."
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Analytics consulting for complex decisions",
+    "section": "",
+    "text": "INDEPENDENT DATA & ANALYTICS CONSULTING\n\n\n\nI help organizations frame difficult questions, build trustworthy analysis, create decision-support tools, and modernize the data systems and workflows behind them.\nMy work spans analytics strategy, statistical modeling, applied research, dashboards and R/Shiny applications, data architecture, workflow automation, and practical AI-assisted analytics.\nExplore services Talk about a project\n\nSenior-level support from problem definition through implementation.\n\n\n\n\n\n\nClark RuttingerData & Analytics Consultant · Utah"
+  },
+  {
+    "objectID": "index.html#analytics-should-help-someone-decide-what-to-do-next.",
+    "href": "index.html#analytics-should-help-someone-decide-what-to-do-next.",
+    "title": "Analytics consulting for complex decisions",
+    "section": "Analytics should help someone decide what to do next.",
+    "text": "Analytics should help someone decide what to do next.\nThe useful part of analytics is not the model, dashboard, database, or AI workflow by itself. It is the clearer decision, more reliable process, or better-designed system that those tools make possible.\nI work with organizations that have important questions, fragmented data, recurring manual work, or analytic products that need to become more useful, repeatable, and maintainable.\n\n\n\n15+\n\n\nyears building analytics, models, research, and decision-support products\n\n\n\n\n3\n\n\nsettings: public sector, nonprofit, and private consulting\n\n\n\n\nEnd-to-end\n\n\nproblem framing, analysis, system design, delivery, documentation, and handoff"
+  },
+  {
+    "objectID": "index.html#five-consulting-practices-combined-as-the-problem-requires",
+    "href": "index.html#five-consulting-practices-combined-as-the-problem-requires",
+    "title": "Analytics consulting for complex decisions",
+    "section": "Five consulting practices, combined as the problem requires",
+    "text": "Five consulting practices, combined as the problem requires\n\n\nAnalytics Strategy & Solution Design\nClarify the decision, stakeholders, data requirements, analytic approach, and implementation path before investing in the wrong solution.\nExplore this service →\n\n\nAnalysis, Research & Modeling\nAnswer consequential questions with statistical analysis, research design, evaluation, workforce and policy analytics, and transparent modeling.\nExplore this service →\n\n\nDashboards & Decision Support\nBuild tools people can actually use—from executive reporting and interactive visualization to custom R/Shiny applications.\nExplore this service →\n\n\nData Systems & Automation\nCreate cleaner pipelines, reproducible workflows, practical data architecture, and automated recurring analytics.\nExplore this service →\n\n\nAnalytics Modernization\nMove from brittle spreadsheets, disconnected scripts, and manual reporting toward maintainable systems and AI-assisted workflows.\nExplore this service →"
+  },
+  {
+    "objectID": "index.html#experience-across-public-analytics-consulting-and-data-products",
+    "href": "index.html#experience-across-public-analytics-consulting-and-data-products",
+    "title": "Analytics consulting for complex decisions",
+    "section": "Experience across public analytics, consulting, and data products",
+    "text": "Experience across public analytics, consulting, and data products\n\n\n\nDATA PRODUCT DESIGN\n\n\nReusable client dashboard framework\nLed development of reusable R/Shiny components, standardized data preparation, validation workflows, and deployment patterns for recurring client analytics.\nView the case study →\n\n\n\n\nMODELING & RESEARCH\n\n\nWorkforce projection systems\nLed and supported multi-source supply-and-demand modeling used by state agencies, associations, and healthcare organizations for planning and policy.\nView the case study →\n\n\n\n\nARCHITECTURE & MODERNIZATION\n\n\nPractical analytics architecture\nEvaluated lightweight approaches using R, SQL, DuckDB, object storage, documentation, and validation to make recurring analytics easier to maintain.\nView the case study →"
+  },
+  {
+    "objectID": "index.html#the-tool-comes-after-the-problem.",
+    "href": "index.html#the-tool-comes-after-the-problem.",
+    "title": "Analytics consulting for complex decisions",
+    "section": "The tool comes after the problem.",
+    "text": "The tool comes after the problem.\n\n\n01 · Start with the decision\nDefine what someone needs to know, decide, or change before deciding what to build.\n\n\n02 · Design with stakeholders\nUnderstand how people work, what they trust, and what will make a solution usable in practice.\n\n\n03 · Build for repeatability\nPrefer transparent, documented workflows that can be validated, updated, and handed off.\n\n\n04 · Make implementation part of the work\nA technically correct solution that never gets adopted is not a successful analytics project."
+  },
+  {
+    "objectID": "index.html#have-a-data-problem-that-does-not-fit-neatly-into-a-job-description",
+    "href": "index.html#have-a-data-problem-that-does-not-fit-neatly-into-a-job-description",
+    "title": "Analytics consulting for complex decisions",
+    "section": "Have a data problem that does not fit neatly into a job description?",
+    "text": "Have a data problem that does not fit neatly into a job description?\nThat is often the right kind of consulting problem. We can start with the decision you are trying to make and work backward to the analysis, product, or system you actually need.\nStart a conversation"
+  },
+  {
+    "objectID": "presentations.html",
+    "href": "presentations.html",
+    "title": "Presentations",
+    "section": "",
+    "text": "Selected public briefings and research outputs are now collected under Insights & Research."
+  },
+  {
+    "objectID": "presentations.html#presentation-material-has-moved.",
+    "href": "presentations.html#presentation-material-has-moved.",
+    "title": "Presentations",
+    "section": "",
+    "text": "Selected public briefings and research outputs are now collected under Insights & Research."
+  },
+  {
+    "objectID": "publications.html",
+    "href": "publications.html",
+    "title": "Publications",
+    "section": "",
+    "text": "Peer-reviewed publications, public reports, and research are now collected under Insights & Research."
+  },
+  {
+    "objectID": "publications.html#publications-have-moved.",
+    "href": "publications.html#publications-have-moved.",
+    "title": "Publications",
+    "section": "",
+    "text": "Peer-reviewed publications, public reports, and research are now collected under Insights & Research."
+  },
+  {
+    "objectID": "services.html",
+    "href": "services.html",
+    "title": "Services",
+    "section": "",
+    "text": "SERVICES\n\n\n\nEngagements can begin with a narrow analytic question, a dashboard or application build, a research project, or a broader need to rethink how data and analytics work inside the organization. The five practices below are deliberately designed to overlap."
+  },
+  {
+    "objectID": "services.html#the-twelve-services-i-offer",
+    "href": "services.html#the-twelve-services-i-offer",
+    "title": "Services",
+    "section": "The twelve services I offer",
+    "text": "The twelve services I offer\n\n\nData & Analytics Strategy\nData Analysis & Statistical Modeling\nDashboard & Decision-Support Development\nR / Shiny Application Development\nData Visualization & Reporting\nResearch Design & Applied Research\nWorkforce, Policy & Program Analytics\nData Pipeline & Workflow Automation\nAI-Assisted Research & Analytics\nData Architecture / Analytics System Design\nProcess Improvement & Analytics Modernization\nStakeholder Needs Assessment & Solution Design"
+  },
+  {
+    "objectID": "services.html#ways-to-engage",
+    "href": "services.html#ways-to-engage",
+    "title": "Services",
+    "section": "Ways to engage",
+    "text": "Ways to engage\n\n\nDiagnostic / strategy sprint\nA focused assessment to define the problem, stakeholders, data landscape, risks, and recommended next steps before a larger investment.\n\n\nAnalysis or research project\nA defined question carried from research design and data preparation through analysis, interpretation, and decision-ready communication.\n\n\nDashboard or application build\nDesign and development of an interactive analytic product, including underlying data workflow and deployment planning.\n\n\nModernization engagement\nAssessment and redesign of recurring analytics, reporting, data pipelines, architecture, or AI-assisted workflows.\n\n\nFractional analytics leadership\nSenior-level help scoping priorities, reviewing methods, mentoring analysts, evaluating tools, and connecting technical work to organizational decisions.\n\n\nDiscuss an engagement"
+  }
+]

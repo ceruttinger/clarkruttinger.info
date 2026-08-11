@@ -1,0 +1,67 @@
+---
+title: "Insights & Research"
+description: "Selected publications, public reports, research, and presentations by Clark Ruttinger."
+page-layout: full
+title-block-style: none
+---
+
+::: {.page-hero .compact}
+::: {.section-shell}
+<div class="eyebrow dark">INSIGHTS & RESEARCH</div>
+
+# Research, public reports, and evidence behind the consulting work.
+
+My background includes peer-reviewed research, public workforce reports, conference presentations, legislative briefings, and applied analytic products. This is a selected archive rather than a full academic CV.
+:::
+:::
+
+::: {.section-shell .section-spacious}
+## Peer-reviewed publications
+
+::: {.publication-card}
+### Current and Projected Future Supply and Demand for Physical Therapists From 2022 to 2037
+Patrick Zarek, Clark Ruttinger, David Armstrong, Ritashree Chakrabarti, Douglas R. Hess, Tara Jo Manal, Timothy M. Dall. *Physical Therapy*, 2025.
+
+**Focus:** Workforce supply-and-demand projection modeling.
+
+[View publication →](https://doi.org/10.1093/ptj/pzaf014)
+:::
+
+::: {.publication-card}
+### Using machine learning to identify factors associated with practice location of the healthcare workforce
+Bounsanga et al. *Rural and Remote Health*, 2022.
+
+**Role:** Co-author  
+**Focus:** Applied machine learning and workforce practice-location analysis.
+
+[View publication →](https://www.rrh.org.au/journal/article/7050)
+:::
+
+::: {.publication-card}
+### The 2020 National Nursing Workforce Survey
+Smiley et al. *Journal of Nursing Regulation*, 2020.
+
+**Related product:** I designed and built a public dashboard using respondent state-of-employment summaries after the report was released.
+
+[View article →](https://www.journalofnursingregulation.com/article/S2155-8256(21)00027-2/fulltext) · [Open dashboard →](https://clarkruttinger.shinyapps.io/draftboard/)
+:::
+
+## Selected public reports and decision-support work
+
+- [Florida Center for Nursing — State of Nursing Education in Florida, 2026](https://flcenterfornursing.org/research-data/nursing-education-reports/the-state-of-nursing-education-in-florida-2026-report/)
+- [Florida Healthcare Workforce Projections, 2022–2037](https://flcenterfornursing.org/research-data/nursing-workforce-reports/florida-health-care-workforce-projections-2022-2037/)
+- [Hawaii Nursing Projections Report](https://www.hawaiicenterfornursing.org/wp-content/uploads/2025/04/Hawaii-Nursing-Projections-Report-v.Final-1.pdf)
+- [Maryland Nurse Workforce Projections](https://mhaonline.org/wp-content/uploads/2024/01/Maryland-Nurse-Workforce-Projections-GlobalData.pdf)
+- [Arkansas Workforce Report](https://issuu.com/arkhospitals/docs/arkansasworkforcereport-january2023)
+- [Tennessee Health Workforce Projections](https://tha.com/wp-content/uploads/2022/10/Tennessee-Health-Workforce-Projections-report-FINAL.pdf)
+
+## Earlier Utah research
+
+Selected earlier work includes Utah mental-health workforce, physician workforce, registered-nurse and licensed-practical-nurse supply, nursing demand, and advanced-practice registered-nurse workforce studies. These projects combined survey design, administrative data, workforce modeling, geographic analysis, public reporting, and policy communication.
+
+## Public speaking and briefings
+
+Over my state-government career I regularly presented research findings to policy leaders, professional audiences, workforce organizations, and legislative committees. One example is the [primary-care workforce modeling presentation to the Utah Legislature](https://le.utah.gov/interim/2019/pdf/00001372.pdf) associated with the IBM Health Corps project.
+
+For consulting-oriented examples, see [Selected Work](work.qmd).
+:::

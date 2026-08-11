@@ -1,0 +1,59 @@
+project:
+  type: website
+  output-dir: docs
+  render:
+    - "*.qmd"
+    - "!archive/"
+    - "!legacy-rmarkdown/"
+
+website:
+  title: "Clark Ruttinger"
+  site-url: "https://clarkruttinger.info"
+  description: "Independent analytics consulting for organizations that need clearer evidence, better decision-support tools, and more effective data systems."
+  favicon: images/favicon.png
+  open-graph: true
+  navbar:
+    title: "Clark Ruttinger"
+    logo: images/brand-emblem.png
+    logo-alt: "Clark Ruttinger analytics consulting"
+    background: "#0d1328"
+    foreground: "#ffffff"
+    left:
+      - href: index.qmd
+        text: Home
+      - href: services.qmd
+        text: Services
+      - href: work.qmd
+        text: Work
+      - href: about.qmd
+        text: About
+      - href: insights.qmd
+        text: Insights
+      - href: contact.qmd
+        text: Contact
+    right:
+      - icon: envelope
+        href: mailto:ceruttinger@gmail.com
+        aria-label: Email Clark Ruttinger
+      - icon: linkedin
+        href: https://www.linkedin.com/in/clark-ruttinger/
+        aria-label: LinkedIn
+      - icon: github
+        href: https://github.com/ceruttinger
+        aria-label: GitHub
+  page-footer:
+    left: "© 2026 Clark Ruttinger · Independent analytics consulting"
+    right: "Built with Quarto, R, and open-source tools."
+  search: false
+
+format:
+  html:
+    theme: cosmo
+    css: styles.css
+    toc: false
+    smooth-scroll: true
+    link-external-newwindow: true
+    include-in-header: person-schema.html
+
+execute:
+  freeze: auto

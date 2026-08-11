@@ -1,0 +1,9 @@
+---
+title: "Publications"
+---
+
+::: {.redirect-notice}
+## Publications have moved.
+
+Peer-reviewed publications, public reports, and research are now collected under [Insights & Research](insights.qmd).
+:::

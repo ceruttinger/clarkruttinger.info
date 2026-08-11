@@ -1,0 +1,68 @@
+---
+title: "About"
+description: "About Clark Ruttinger, an independent data and analytics consultant with experience in applied research, workforce modeling, data products, R/Shiny, and analytics modernization."
+page-layout: full
+title-block-style: none
+---
+
+::: {.page-hero}
+::: {.section-shell}
+::: {.about-hero-grid}
+::: {.about-copy}
+<div class="eyebrow dark">ABOUT</div>
+
+# I work at the intersection of analytics, research, systems, and implementation.
+
+I am a data and analytics consultant with more than 15 years of experience building analytic products, workforce models, research programs, dashboards, and decision-support systems for government, healthcare, associations, nonprofits, and consulting clients.
+
+The recurring theme in my work is translating an ambiguous organizational problem into something concrete: a research question, a data strategy, a model, a dashboard, a workflow, or a system that people can actually use.
+
+[View my resume](resume.qmd){.btn .btn-primary} [Contact me](contact.qmd){.btn .btn-outline-primary}
+:::
+::: {.about-photo}
+![](images/Ruttingerheadshot.jpg){.about-headshot alt="Clark Ruttinger"}
+:::
+:::
+:::
+:::
+
+::: {.section-shell .section-spacious}
+## Background
+
+Most recently I served as **Director of Health Workforce Consulting at GlobalData**, leading complex analytics engagements for state agencies, hospital associations, professional societies, and federal clients. My work included workforce projection methods, reusable R/Shiny dashboard frameworks, validation and documentation systems, and a DuckDB + object-storage proof of concept for lower-friction analytic architecture.
+
+Before that, I helped establish Utah's legislatively created **Health Workforce Information Center** and spent more than a decade at the **Utah Medical Education Council**, where I led statewide research programs covering multiple health professions and built survey, modeling, reporting, data-integration, cloud-hosted analytics, and public R/Shiny capabilities.
+
+Earlier public-sector and nonprofit work gave me practical experience with programs, policy, operations, grants, administrative systems, and direct service. That experience still shapes how I approach analytics: the data system is never separate from the people, workflows, institutions, and decisions around it.
+
+## How I think about consulting
+
+::: {.principle-grid}
+::: {.principle}
+### Understand the decision before designing the analysis
+A technically elegant answer to the wrong question is still the wrong answer.
+:::
+::: {.principle}
+### Stakeholder input is part of system design
+Usability, trust, incentives, workflow, and implementation constraints should shape the solution from the beginning.
+:::
+::: {.principle}
+### Prefer maintainable over impressive
+The right architecture is the one the organization can understand, afford, validate, and sustain.
+:::
+::: {.principle}
+### Analysis is not finished when the model runs
+Interpretation, communication, implementation, documentation, and handoff are part of the analytic product.
+:::
+:::
+
+## Education and perspective
+
+I hold four degrees from the **University of Utah**: an MBA with a Certificate in Information Systems, an MPA focused on Program Evaluation and Policy Analysis, a B.A. in Political Science with a Certificate in International Relations, and a B.A. in Spanish.
+
+My professional work has crossed public policy, healthcare, labor and workforce analysis, program evaluation, data science, analytics engineering, and technical product delivery. I have also served as a peer reviewer, federal grant reviewer, nursing workforce center board president, and Salt Lake City planning commissioner and commission chair.
+
+One project that strongly influenced how I think about analytics implementation was an **IBM Health Corps** collaboration focused on modeling primary-care workforce needs. The technical analysis mattered, but so did stakeholder participation, system design, usability, and the practical question of how a new analytic approach would be deployed and used.
+
+[See selected work](work.qmd){.btn .btn-primary}
+:::

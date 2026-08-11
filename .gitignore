@@ -1,8 +1,6 @@
+/.quarto/
+/.Rproj.user/
 .Rhistory
 .RData
-.Rproj.user/
+.Ruserdata
 .DS_Store
-__MACOSX/
-site_libs/
-*_cache/
-*_files/

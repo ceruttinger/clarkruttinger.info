@@ -1,0 +1,171 @@
+---
+title: "Analytics consulting for complex decisions"
+description: "Senior-level analytics consulting spanning strategy, research, statistical modeling, dashboards, R/Shiny development, data systems, automation, and AI-assisted analytics."
+page-layout: full
+title-block-style: none
+---
+
+::: {.hero-shell}
+::: {.hero-grid}
+::: {.hero-copy}
+<div class="eyebrow">INDEPENDENT DATA & ANALYTICS CONSULTING</div>
+
+# Turn complex data into better decisions.
+
+I help organizations frame difficult questions, build trustworthy analysis, create decision-support tools, and modernize the data systems and workflows behind them.
+
+My work spans analytics strategy, statistical modeling, applied research, dashboards and R/Shiny applications, data architecture, workflow automation, and practical AI-assisted analytics.
+
+[Explore services](services.qmd){.btn .btn-primary .btn-lg} [Talk about a project](contact.qmd){.btn .btn-outline-light .btn-lg}
+
+<div class="hero-note">Senior-level support from problem definition through implementation.</div>
+:::
+
+::: {.hero-portrait}
+![](images/Ruttingerheadshot.jpg){.hero-headshot alt="Clark Ruttinger"}
+<div class="portrait-caption"><strong>Clark Ruttinger</strong><br>Data & Analytics Consultant · Utah</div>
+:::
+:::
+:::
+
+<div class="brand-path" aria-label="Point to relation to system to decision">
+  <span>POINT</span><i></i><span>RELATION</span><i></i><span>SYSTEM</span><i></i><span>DECISION</span>
+</div>
+
+::: {.section-shell}
+## Analytics should help someone decide what to do next.
+
+The useful part of analytics is not the model, dashboard, database, or AI workflow by itself. It is the clearer decision, more reliable process, or better-designed system that those tools make possible.
+
+I work with organizations that have important questions, fragmented data, recurring manual work, or analytic products that need to become more useful, repeatable, and maintainable.
+
+::: {.proof-strip}
+::: {.proof-item}
+<div class="proof-number">15+</div>
+<div class="proof-label">years building analytics, models, research, and decision-support products</div>
+:::
+::: {.proof-item}
+<div class="proof-number">3</div>
+<div class="proof-label">settings: public sector, nonprofit, and private consulting</div>
+:::
+::: {.proof-item}
+<div class="proof-number">End-to-end</div>
+<div class="proof-label">problem framing, analysis, system design, delivery, documentation, and handoff</div>
+:::
+:::
+:::
+
+::: {.section-shell .section-spacious}
+<div class="section-kicker">HOW I CAN HELP</div>
+
+## Five consulting practices, combined as the problem requires
+
+::: {.service-grid}
+::: {.service-card}
+### Analytics Strategy & Solution Design
+Clarify the decision, stakeholders, data requirements, analytic approach, and implementation path before investing in the wrong solution.
+
+[Explore this service →](services.qmd#analytics-strategy-solution-design)
+:::
+
+::: {.service-card}
+### Analysis, Research & Modeling
+Answer consequential questions with statistical analysis, research design, evaluation, workforce and policy analytics, and transparent modeling.
+
+[Explore this service →](services.qmd#analysis-research-modeling)
+:::
+
+::: {.service-card}
+### Dashboards & Decision Support
+Build tools people can actually use—from executive reporting and interactive visualization to custom R/Shiny applications.
+
+[Explore this service →](services.qmd#dashboards-decision-support)
+:::
+
+::: {.service-card}
+### Data Systems & Automation
+Create cleaner pipelines, reproducible workflows, practical data architecture, and automated recurring analytics.
+
+[Explore this service →](services.qmd#data-systems-automation)
+:::
+
+::: {.service-card}
+### Analytics Modernization
+Move from brittle spreadsheets, disconnected scripts, and manual reporting toward maintainable systems and AI-assisted workflows.
+
+[Explore this service →](services.qmd#analytics-modernization)
+:::
+:::
+:::
+
+::: {.band}
+::: {.section-shell}
+<div class="section-kicker">SELECTED WORK</div>
+
+## Experience across public analytics, consulting, and data products
+
+::: {.work-preview-grid}
+::: {.work-preview-card}
+<div class="card-label">DATA PRODUCT DESIGN</div>
+
+### Reusable client dashboard framework
+Led development of reusable R/Shiny components, standardized data preparation, validation workflows, and deployment patterns for recurring client analytics.
+
+[View the case study →](work.qmd#reusable-client-dashboard-framework)
+:::
+
+::: {.work-preview-card}
+<div class="card-label">MODELING & RESEARCH</div>
+
+### Workforce projection systems
+Led and supported multi-source supply-and-demand modeling used by state agencies, associations, and healthcare organizations for planning and policy.
+
+[View the case study →](work.qmd#workforce-projection-modeling)
+:::
+
+::: {.work-preview-card}
+<div class="card-label">ARCHITECTURE & MODERNIZATION</div>
+
+### Practical analytics architecture
+Evaluated lightweight approaches using R, SQL, DuckDB, object storage, documentation, and validation to make recurring analytics easier to maintain.
+
+[View the case study →](work.qmd#data-workflow-modernization)
+:::
+:::
+:::
+:::
+
+::: {.section-shell .section-spacious}
+<div class="section-kicker">WORKING STYLE</div>
+
+## The tool comes after the problem.
+
+::: {.principle-grid}
+::: {.principle}
+### 01 · Start with the decision
+Define what someone needs to know, decide, or change before deciding what to build.
+:::
+::: {.principle}
+### 02 · Design with stakeholders
+Understand how people work, what they trust, and what will make a solution usable in practice.
+:::
+::: {.principle}
+### 03 · Build for repeatability
+Prefer transparent, documented workflows that can be validated, updated, and handed off.
+:::
+::: {.principle}
+### 04 · Make implementation part of the work
+A technically correct solution that never gets adopted is not a successful analytics project.
+:::
+:::
+:::
+
+::: {.cta-band}
+::: {.section-shell .cta-inner}
+## Have a data problem that does not fit neatly into a job description?
+
+That is often the right kind of consulting problem. We can start with the decision you are trying to make and work backward to the analysis, product, or system you actually need.
+
+[Start a conversation](contact.qmd){.btn .btn-accent .btn-lg}
+:::
+:::

@@ -1,0 +1,158 @@
+---
+title: "Selected Work"
+description: "Representative analytics consulting, research, dashboard, modeling, and data modernization work by Clark Ruttinger."
+page-layout: full
+title-block-style: none
+---
+
+::: {.page-hero .compact}
+::: {.section-shell}
+<div class="eyebrow dark">SELECTED WORK</div>
+
+# Representative problems, approaches, and public examples.
+
+Much of my recent consulting work involved proprietary client data, internal code, or private decision-support products, so it cannot be posted publicly. The examples below focus on the problem solved, my role, and the capabilities demonstrated without exposing confidential assets.
+:::
+:::
+
+::: {.section-shell .section-spacious}
+<div class="section-kicker">ENGAGEMENT CASE STUDIES</div>
+
+# Case studies {#case-studies}
+
+::: {.case-card}
+<div class="case-number">01</div>
+
+## Reusable client dashboard framework {#reusable-client-dashboard-framework}
+
+**Problem.** Recurring client deliverables depended heavily on static reports and slide decks. One-off production made it difficult to maintain consistency, reduce revision cycles, reuse components, and give decision-makers access to the deeper data behind top-level findings.
+
+**My role.** Led development of reusable dashboard components and analytic workflows for health workforce projection and reporting projects.
+
+**Approach.** Standardized recurring analyses and data preparation, developed modular R/Shiny components, strengthened validation workflows, and supported deployment through Posit Connect. The framework preserved client-specific flexibility while making the underlying process more repeatable.
+
+**Tools and methods.** R · Shiny · Posit Connect · SQL · Excel · reproducible reporting · data validation
+
+**Demonstrates.** Dashboard and application development, client-facing analytics, reusable data-product design, workflow modernization, and communication across technical and non-technical stakeholders.
+:::
+
+::: {.case-card}
+<div class="case-number">02</div>
+
+## Workforce projection modeling {#workforce-projection-modeling}
+
+**Problem.** State agencies, hospital associations, professional societies, and other organizations needed defensible estimates of future workforce supply and demand for planning, education, policy, advocacy, and investment decisions.
+
+**My role.** Managed economists and contributed directly to analytic design, projection methods, data processing, validation, reporting, stakeholder communication, and final deliverables.
+
+**Approach.** Integrated licensing, education, demographic, survey, utilization, and labor-market data into reproducible workflows. Built and reviewed projections, tested outputs, translated assumptions and uncertainty for non-technical audiences, and produced public-facing reports and presentations.
+
+**Tools and methods.** R · SQL · Excel · survey and administrative data · geospatial analysis · projection modeling · reproducible reporting
+
+**Demonstrates.** Statistical modeling, data integration, applied research, executive communication, and end-to-end analytic delivery.
+:::
+
+::: {.case-card}
+<div class="case-number">03</div>
+
+## Data workflow modernization and architecture evaluation {#data-workflow-modernization}
+
+**Problem.** Analytic teams can inherit fragmented files, repeated manual processes, undocumented dependencies, and infrastructure proposals that are more complex or expensive than their actual needs.
+
+**My role.** Evaluated practical approaches to storing, querying, validating, documenting, and reusing recurring analytic datasets.
+
+**Approach.** Developed proof-of-concept workflows using lightweight, analyst-friendly tools and compared alternatives based on performance, cost, maintainability, team skill, and handoff risk. One example used DuckDB with object-storage-oriented workflows as a simpler direct-query architecture for analytic workloads.
+
+**Tools and methods.** DuckDB · object storage · R · SQL · dataset profiling · validation checks · documentation · reproducible pipelines
+
+**Demonstrates.** Data architecture, pragmatic engineering judgment, cost-aware technical decision-making, and process modernization.
+:::
+
+::: {.case-card}
+<div class="case-number">04</div>
+
+## Public survey modernization and data collection strategy
+
+**Problem.** Workforce data programs needed more complete, timely, and policy-relevant information without creating a data collection process disconnected from existing institutional workflows.
+
+**My role.** Led survey design, data collection strategy, data linkage, analysis, and recurring reporting for health workforce supply and demand studies.
+
+**Approach.** Improved survey instruments, aligned collection with licensing and renewal processes, linked survey and administrative data where appropriate, and converted recurring analysis into more repeatable workflows.
+
+**Tools and methods.** Survey design · R · SQL · administrative data · licensing data · data linkage · reporting automation
+
+**Demonstrates.** Research design, stakeholder needs assessment, data governance awareness, operational analytics, and system design under real-world constraints.
+:::
+:::
+
+::: {.band}
+::: {.section-shell .section-spacious}
+<div class="section-kicker">PUBLIC EXAMPLES</div>
+
+# Selected public work
+
+::: {.public-work-grid}
+::: {.public-work-card}
+<div class="card-label">2026 · WORKFORCE ANALYTICS</div>
+
+### State of Nursing Education in Florida
+Data integration, analysis, reporting, and public-facing workforce education outputs.
+
+[View public report →](https://flcenterfornursing.org/research-data/nursing-education-reports/the-state-of-nursing-education-in-florida-2026-report/)
+:::
+
+::: {.public-work-card}
+<div class="card-label">PROJECTION MODELING</div>
+
+### Florida Healthcare Workforce Projections, 2022–2037
+Supply-and-demand modeling and public decision-support outputs for statewide healthcare planning.
+
+[View project →](https://flcenterfornursing.org/research-data/nursing-workforce-reports/florida-health-care-workforce-projections-2022-2037/)
+:::
+
+::: {.public-work-card}
+<div class="card-label">PROJECTION MODELING</div>
+
+### Hawaii Nursing Workforce Projections
+Statewide nursing workforce projection analysis and stakeholder-facing reporting.
+
+[Report →](https://www.hawaiicenterfornursing.org/wp-content/uploads/2025/04/Hawaii-Nursing-Projections-Report-v.Final-1.pdf) · [Launch deck →](https://www.hawaiicenterfornursing.org/wp-content/uploads/2025/04/Projections-Launch-Final-Deck.pdf)
+:::
+
+::: {.public-work-card}
+<div class="card-label">R / SHINY</div>
+
+### National Nursing by the Numbers
+Designed and built a public R/flexdashboard companion to the 2020 National Nursing Workforce Survey analysis.
+
+[Open dashboard →](https://clarkruttinger.shinyapps.io/draftboard/)
+:::
+
+::: {.public-work-card}
+<div class="card-label">SURVEY + MODELING</div>
+
+### Utah Mental Health Workforce, 2021
+Designed and administered statewide licensed behavioral-health workforce surveys and contributed analysis, charting, and projection model components.
+
+[Open public project →](http://umec-shiny-prod-alb-79075571.us-west-2.elb.amazonaws.com/projects/Mental_Health/)
+:::
+
+::: {.public-work-card}
+<div class="card-label">REPRODUCIBLE ANALYSIS</div>
+
+### RN Wage Analysis in R
+R Markdown analysis of Utah RN wage data used to support public-interest reporting about nursing and COVID-19.
+
+[Analysis →](https://rpubs.com/crutting/DesNewsAnalysis) · [Related article →](https://www.deseret.com/indepth/2021/2/28/22208271/covid-19-revealed-about-nursing-health-care-pandemic-wages-utah-intermountain-health-care)
+:::
+:::
+:::
+:::
+
+::: {.section-shell .section-spacious}
+## More public evidence
+
+My [research and publications](insights.qmd) include peer-reviewed work in physical therapy workforce projection, machine learning and practice location, and national nursing workforce analysis, along with public reports and legislative briefings.
+
+For additional technical background and career history, see my [resume](resume.qmd).
+:::

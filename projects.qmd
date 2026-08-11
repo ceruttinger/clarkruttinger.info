@@ -1,0 +1,9 @@
+---
+title: "Projects"
+---
+
+::: {.redirect-notice}
+## Project examples have moved.
+
+Public dashboards, R/Shiny examples, and representative analytic products are now organized under [Selected Work](work.qmd).
+:::
