@@ -202,7 +202,9 @@ The Quick Start is designed to identify a practical first step and leave the org
 :::
 :::
 
-[Talk about a nonprofit project](contact.qmd){.btn .btn-primary .btn-lg}
+Not sure where to start? Take the free, five-minute analytics maturity assessment first — it maps your organization's current data, measurement, and decision-making practices and points to the right next step.
+
+[Talk about a nonprofit project](contact.qmd){.btn .btn-primary .btn-lg} [Take the free analytics maturity assessment](/assessment/){.btn .btn-outline-primary .btn-lg}
 :::
 :::
 

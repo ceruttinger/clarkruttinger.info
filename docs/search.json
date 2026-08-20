@@ -1,12 +1,5 @@
 [
   {
-    "objectID": "work.html",
-    "href": "work.html",
-    "title": "Selected Work",
-    "section": "",
-    "text": "SELECTED WORK\n\n\n\nMuch of my recent consulting work involved proprietary client data, internal code, or private decision-support products, so it cannot be posted publicly. The examples below focus on the problem solved, my role, and the capabilities demonstrated without exposing confidential assets."
-  },
-  {
     "objectID": "work.html#reusable-client-dashboard-framework",
     "href": "work.html#reusable-client-dashboard-framework",
     "title": "Selected Work",
@@ -98,13 +91,6 @@
     "text": "Public dashboards, R/Shiny examples, and representative analytic products are now organized under Selected Work."
   },
   {
-    "objectID": "insights.html",
-    "href": "insights.html",
-    "title": "Insights & Research",
-    "section": "",
-    "text": "INSIGHTS & RESEARCH\n\n\n\nMy background includes peer-reviewed research, public workforce reports, conference presentations, legislative briefings, and applied analytic products. This is a selected archive rather than a full academic CV."
-  },
-  {
     "objectID": "insights.html#peer-reviewed-publications",
     "href": "insights.html#peer-reviewed-publications",
     "title": "Insights & Research",
@@ -133,18 +119,11 @@
     "text": "Public speaking and briefings\nOver my state-government career I regularly presented research findings to policy leaders, professional audiences, workforce organizations, and legislative committees. One example is the primary-care workforce modeling presentation to the Utah Legislature associated with the IBM Health Corps project.\nFor consulting-oriented examples, see Selected Work."
   },
   {
-    "objectID": "contact.html",
-    "href": "contact.html",
-    "title": "Contact",
-    "section": "",
-    "text": "START A CONVERSATION\n\n\n\n\n\n\nYou do not need to know whether the answer is a model, dashboard, application, pipeline, research project, or analytics strategy before reaching out. That is part of the problem-framing work.\n\n\nIndependent Data & Analytics Consultant\nceruttinger@gmail.com\nLinkedIn · GitHub\nEmail me about a project"
-  },
-  {
     "objectID": "contact.html#clark-ruttinger",
     "href": "contact.html#clark-ruttinger",
     "title": "Contact",
-    "section": "",
-    "text": "Independent Data & Analytics Consultant\nceruttinger@gmail.com\nLinkedIn · GitHub\nEmail me about a project"
+    "section": "Clark Ruttinger",
+    "text": "Clark Ruttinger\nIndependent Data & Analytics Consultant\nceruttinger@gmail.com\nLinkedIn · GitHub\nEmail me about a project"
   },
   {
     "objectID": "contact.html#useful-things-to-include",
@@ -159,13 +138,6 @@
     "title": "Contact",
     "section": "Common starting points",
     "text": "Common starting points\n\n\n“We have data, but we are not getting useful answers from it.”\nStart with analysis, measurement, research design, or analytics strategy.\n\n\n“Our reporting process is too manual.”\nStart with workflow assessment, automation, reproducible reporting, or data-pipeline design.\n\n\n“People need to explore the data themselves.”\nStart with dashboard, decision-support, or R/Shiny application design.\n\n\n“We know our analytics systems need to change.”\nStart with stakeholder needs assessment, architecture evaluation, and modernization planning."
-  },
-  {
-    "objectID": "about.html",
-    "href": "about.html",
-    "title": "About",
-    "section": "",
-    "text": "ABOUT\n\n\n\nI am a data and analytics consultant with more than 15 years of experience building analytic products, workforce models, research programs, dashboards, and decision-support systems for government, healthcare, associations, nonprofits, and consulting clients.\nThe recurring theme in my work is translating an ambiguous organizational problem into something concrete: a research question, a data strategy, a model, a dashboard, a workflow, or a system that people can actually use.\nView my resume Contact me"
   },
   {
     "objectID": "about.html#background",
@@ -203,13 +175,6 @@
     "text": "The consulting case studies are now part of Selected Work, where they are organized around the problems solved, approach, and capabilities demonstrated."
   },
   {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "Analytics consulting for complex decisions",
-    "section": "",
-    "text": "INDEPENDENT DATA & ANALYTICS CONSULTING\n\n\n\nI help organizations frame difficult questions, build trustworthy analysis, create decision-support tools, and modernize the data systems and workflows behind them.\nMy work spans analytics strategy, statistical modeling, applied research, dashboards and R/Shiny applications, data architecture, workflow automation, and practical AI-assisted analytics.\nExplore services Talk about a project\n\nSenior-level support from problem definition through implementation.\n\n\n\n\n\n\nClark RuttingerData & Analytics Consultant · Utah"
-  },
-  {
     "objectID": "index.html#analytics-should-help-someone-decide-what-to-do-next.",
     "href": "index.html#analytics-should-help-someone-decide-what-to-do-next.",
     "title": "Analytics consulting for complex decisions",
@@ -222,6 +187,13 @@
     "title": "Analytics consulting for complex decisions",
     "section": "Five consulting practices, combined as the problem requires",
     "text": "Five consulting practices, combined as the problem requires\n\n\nAnalytics Strategy & Solution Design\nClarify the decision, stakeholders, data requirements, analytic approach, and implementation path before investing in the wrong solution.\nExplore this service →\n\n\nAnalysis, Research & Modeling\nAnswer consequential questions with statistical analysis, research design, evaluation, workforce and policy analytics, and transparent modeling.\nExplore this service →\n\n\nDashboards & Decision Support\nBuild tools people can actually use—from executive reporting and interactive visualization to custom R/Shiny applications.\nExplore this service →\n\n\nData Systems & Automation\nCreate cleaner pipelines, reproducible workflows, practical data architecture, and automated recurring analytics.\nExplore this service →\n\n\nAnalytics Modernization\nMove from brittle spreadsheets, disconnected scripts, and manual reporting toward maintainable systems and AI-assisted workflows.\nExplore this service →"
+  },
+  {
+    "objectID": "index.html#get-more-value-from-the-data-you-already-collect.",
+    "href": "index.html#get-more-value-from-the-data-you-already-collect.",
+    "title": "Analytics consulting for complex decisions",
+    "section": "Get more value from the data you already collect.",
+    "text": "Get more value from the data you already collect.\nSmall organizations often have meaningful program data but limited time, staff, or budget to turn it into useful reporting and insight. I offer a Nonprofit Analytics Quick Start designed to identify practical improvements without requiring a large consulting engagement.\nWe can review the spreadsheets, forms, reports, grant requirements, and recurring processes you already use; identify a small set of useful measures; find gaps or unnecessary manual work; and choose one or two improvements that can create immediate value.\nGood fits include: grant and board reporting, program metrics, outcome tracking, recurring spreadsheet workflows, surveys, data visualization, and simple reporting automation.\nLearn about the Nonprofit Analytics Quick Start →"
   },
   {
     "objectID": "index.html#experience-across-public-analytics-consulting-and-data-products",
@@ -273,13 +245,6 @@
     "text": "Peer-reviewed publications, public reports, and research are now collected under Insights & Research."
   },
   {
-    "objectID": "services.html",
-    "href": "services.html",
-    "title": "Services",
-    "section": "",
-    "text": "SERVICES\n\n\n\nEngagements can begin with a narrow analytic question, a dashboard or application build, a research project, or a broader need to rethink how data and analytics work inside the organization. The five practices below are deliberately designed to overlap."
-  },
-  {
     "objectID": "services.html#the-twelve-services-i-offer",
     "href": "services.html#the-twelve-services-i-offer",
     "title": "Services",
@@ -291,6 +256,6 @@
     "href": "services.html#ways-to-engage",
     "title": "Services",
     "section": "Ways to engage",
-    "text": "Ways to engage\n\n\nDiagnostic / strategy sprint\nA focused assessment to define the problem, stakeholders, data landscape, risks, and recommended next steps before a larger investment.\n\n\nAnalysis or research project\nA defined question carried from research design and data preparation through analysis, interpretation, and decision-ready communication.\n\n\nDashboard or application build\nDesign and development of an interactive analytic product, including underlying data workflow and deployment planning.\n\n\nModernization engagement\nAssessment and redesign of recurring analytics, reporting, data pipelines, architecture, or AI-assisted workflows.\n\n\nFractional analytics leadership\nSenior-level help scoping priorities, reviewing methods, mentoring analysts, evaluating tools, and connecting technical work to organizational decisions.\n\n\nDiscuss an engagement"
+    "text": "Ways to engage\n\n\nNonprofit Analytics Quick Start\nA small, accessible first engagement to review current reporting and data workflows, identify useful measures, and define one or two practical improvements.\n\n\nDiagnostic / strategy sprint\nA focused assessment to define the problem, stakeholders, data landscape, risks, and recommended next steps before a larger investment.\n\n\nAnalysis or research project\nA defined question carried from research design and data preparation through analysis, interpretation, and decision-ready communication.\n\n\nDashboard or application build\nDesign and development of an interactive analytic product, including underlying data workflow and deployment planning.\n\n\nModernization engagement\nAssessment and redesign of recurring analytics, reporting, data pipelines, architecture, or AI-assisted workflows.\n\n\nFractional analytics leadership\nSenior-level help scoping priorities, reviewing methods, mentoring analysts, evaluating tools, and connecting technical work to organizational decisions.\n\n\nDiscuss an engagement"
   }
 ]
