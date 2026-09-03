@@ -1,0 +1,52 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Birthday Coincidence Probability Explorer | Clark Ruttinger</title>
+<meta name="description" content="Interactive probability explorer for layered birthday coincidences across two families.">
+<style>
+body{font-family:system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;margin:0;background:#fff;color:#1f2937}
+.sitebar{background:#0d1328;color:#fff;padding:.85rem 1rem}
+.sitebar a{color:#fff;text-decoration:none;font-weight:700}
+main{max-width:980px;margin:0 auto;padding:1.25rem}
+h1{font-size:clamp(1.8rem,5vw,3rem);line-height:1.05;margin:.5rem 0}
+.lead{font-size:1.05rem;line-height:1.55;color:#4b5563;max-width:760px}
+.note{background:#f6f7f9;border-left:4px solid #0d1328;padding:.9rem 1rem;border-radius:8px;margin:1rem 0}
+footer{margin-top:2rem;padding:1.5rem 1rem;border-top:1px solid #e5e7eb;color:#6b7280;font-size:.9rem}
+:root{--card-border:#d9d9d9;--card-bg:#fafafa;--muted:#5f6368}
+html{scroll-behavior:smooth}body{overflow-x:hidden}.controls{display:grid;grid-template-columns:1fr;gap:.9rem;margin:1rem 0 1.2rem}.control{border:1px solid var(--card-border);border-radius:14px;padding:1rem;background:var(--card-bg)}.control label{font-weight:700;display:flex;justify-content:space-between;gap:.75rem;margin-bottom:.55rem;line-height:1.25}.control input[type=range]{width:100%;min-height:34px;touch-action:pan-y}.metric-grid{display:grid;grid-template-columns:1fr 1fr;gap:.7rem;margin:1rem 0 1.2rem}.metric{border:1px solid var(--card-border);border-radius:14px;padding:.85rem;background:var(--card-bg);min-width:0}.metric .value{font-size:1.35rem;font-weight:800;overflow-wrap:anywhere}.smallnote{font-size:.92rem;color:var(--muted);line-height:1.4}.chart-wrap{position:relative;width:100%;min-height:300px;margin:.5rem 0 1.5rem}canvas{width:100%!important;height:300px!important;max-width:100%}#runBtn{width:100%;min-height:48px;border:0;border-radius:12px;font-size:1rem;font-weight:800;cursor:pointer;margin:.2rem 0 1rem}@media (min-width:700px){.controls{grid-template-columns:repeat(2,minmax(0,1fr))}.metric-grid{grid-template-columns:repeat(4,minmax(0,1fr))}canvas{height:340px!important}}@media (min-width:1050px){.controls{grid-template-columns:repeat(3,minmax(0,1fr))}}
+</style>
+</head>
+<body>
+<div class="sitebar"><a href="/">← Clark Ruttinger</a></div>
+<main>
+<h1>Birthday Coincidence Probability Explorer</h1>
+<p class="lead">Explore how the probability of a layered family birthday pattern changes as you vary family size, parent-month matches, child birthday matches, and age spacing.</p>
+<div class="note"><strong>Current child rule:</strong> a cross-family child pair qualifies when the children share the same day-of-month. The month may be the same or different, and birth year does not affect whether the pair qualifies.</div>
+<div class="controls">
+<div class="control"><label>Adult month matches required: <span id="adultMatchesVal">3</span></label><input id="adultMatches" type="range" min="0" max="3" value="3" step="1"><div class="smallnote">Adult + mother + father. Set lower to study weaker patterns.</div></div>
+<div class="control"><label>Children in family A: <span id="kidsAVal">2</span></label><input id="kidsA" type="range" min="1" max="8" value="2" step="1"></div>
+<div class="control"><label>Children in family B: <span id="kidsBVal">2</span></label><input id="kidsB" type="range" min="1" max="8" value="2" step="1"></div>
+<div class="control"><label>Required cross-family child pairs: <span id="pairReqVal">1</span></label><input id="pairReq" type="range" min="1" max="5" value="1" step="1"><div class="smallnote">Each qualifying pair must share day-of-month. Month and birth year do not affect qualification.</div></div>
+<div class="control"><label>Maximum child age span: <span id="ageSpanVal">3</span> years</label><input id="ageSpan" type="range" min="0" max="10" value="3" step="1"></div>
+<div class="control"><label>Birth-year window used in simulation: <span id="yearWindowVal">8</span> years</label><input id="yearWindow" type="range" min="2" max="20" value="8" step="1"><div class="smallnote">Children are simulated across this many possible birth years.</div></div>
+<div class="control"><label>Monte Carlo trials: <span id="trialsVal">50000</span></label><input id="trials" type="range" min="5000" max="200000" value="50000" step="5000"></div>
+</div>
+<button id="runBtn" type="button">Recalculate scenario</button>
+<div class="metric-grid">
+<div class="metric"><div>Adult-month component</div><div class="value" id="pAdult">—</div></div>
+<div class="metric"><div>Child-pattern simulation</div><div class="value" id="pChild">—</div></div>
+<div class="metric"><div>Combined estimate</div><div class="value" id="pTotal">—</div></div>
+<div class="metric"><div>About 1 in …</div><div class="value" id="oneIn">—</div></div>
+</div>
+<div class="smallnote" id="interpretation"></div>
+<h3>Probability versus family size</h3><div class="chart-wrap"><canvas id="familyChart"></canvas></div>
+<h3>Probability versus allowed child age span</h3><div class="chart-wrap"><canvas id="ageChart"></canvas></div>
+<script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+<script>
+const ids=["adultMatches","kidsA","kidsB","pairReq","ageSpan","yearWindow","trials"],vals={};ids.forEach(id=>{vals[id]=document.getElementById(id);const out=document.getElementById(id+"Val");vals[id].addEventListener("input",()=>{if(out)out.textContent=vals[id].value})});function monthMatchProbability(k){return Math.pow(1/12,k)}function randInt(n){return Math.floor(Math.random()*n)}function simulateChildPattern(kA,kB,pairReq,ageSpan,yearWindow,trials){let hits=0;for(let t=0;t<trials;t++){let A=[],B=[];for(let i=0;i<kA;i++)A.push({m:randInt(12),d:1+randInt(28),y:randInt(yearWindow)});for(let j=0;j<kB;j++)B.push({m:randInt(12),d:1+randInt(28),y:randInt(yearWindow)});const all=A.concat(B);let ymin=Infinity,ymax=-Infinity;for(const x of all){ymin=Math.min(ymin,x.y);ymax=Math.max(ymax,x.y)}if(ymax-ymin>ageSpan)continue;let qualifying=0;for(const a of A)for(const b of B)if(a.d===b.d)qualifying++;if(qualifying>=pairReq)hits++}return hits/trials}function fmtP(p){if(p===0)return"≈ 0";if(p<.000001)return p.toExponential(2);if(p<.01)return(100*p).toFixed(4)+"%";return(100*p).toFixed(2)+"%"}function oneIn(p){if(p<=0)return"very large";return Math.round(1/p).toLocaleString()}let famChart=null,ageChart=null;function runScenario(kA,kB,pairReq,ageSpan,yearWindow,trials,adultMatches){const pa=monthMatchProbability(adultMatches),pc=simulateChildPattern(kA,kB,pairReq,ageSpan,yearWindow,trials);return{pa,pc,pt:pa*pc}}function update(){const adultMatches=+vals.adultMatches.value,kA=+vals.kidsA.value,kB=+vals.kidsB.value,pairReq=+vals.pairReq.value,ageSpan=+vals.ageSpan.value,yearWindow=+vals.yearWindow.value,trials=+vals.trials.value,r=runScenario(kA,kB,pairReq,ageSpan,yearWindow,trials,adultMatches);document.getElementById("pAdult").textContent=fmtP(r.pa);document.getElementById("pChild").textContent=fmtP(r.pc);document.getElementById("pTotal").textContent=fmtP(r.pt);document.getElementById("oneIn").textContent=oneIn(r.pt);document.getElementById("interpretation").textContent=`Under the simplified model, the adult-month matches contribute a factor of (1/12)^${adultMatches}. The child component is estimated by simulation because family size, pair counts, and the age-span constraint interact.`;const labels=[],probs=[];for(let n=1;n<=8;n++){labels.push(`${n} + ${n}`);probs.push(runScenario(n,n,pairReq,ageSpan,yearWindow,Math.max(4000,Math.floor(trials/10)),adultMatches).pt)}if(famChart)famChart.destroy();famChart=new Chart(document.getElementById("familyChart"),{type:"line",data:{labels,datasets:[{label:"Combined probability",data:probs,tension:.2}]},options:{responsive:true,maintainAspectRatio:false,scales:{y:{type:"logarithmic",title:{display:true,text:"Probability (log scale)"}}},plugins:{legend:{display:false},tooltip:{callbacks:{label:ctx=>fmtP(ctx.raw)}}}}});const ageLabels=[],ageProbs=[];for(let a=0;a<=10;a++){ageLabels.push(a);ageProbs.push(runScenario(kA,kB,pairReq,a,yearWindow,Math.max(4000,Math.floor(trials/10)),adultMatches).pt)}if(ageChart)ageChart.destroy();ageChart=new Chart(document.getElementById("ageChart"),{type:"line",data:{labels:ageLabels,datasets:[{label:"Combined probability",data:ageProbs,tension:.2}]},options:{responsive:true,maintainAspectRatio:false,scales:{y:{type:"logarithmic",title:{display:true,text:"Probability (log scale)"}},x:{title:{display:true,text:"Maximum age span (years)"}}},plugins:{legend:{display:false},tooltip:{callbacks:{label:ctx=>fmtP(ctx.raw)}}}}})}ids.forEach(id=>vals[id].addEventListener("change",update));document.getElementById("runBtn").addEventListener("click",update);update();
+</script>
+<section><h2>How to interpret this</h2><p>The adult-month portion uses a simple independent approximation: each required same-month match contributes a factor of 1/12. The child portion is estimated with Monte Carlo simulation because family size and the age-span constraint create many possible pairings.</p><p>This estimates how often the specifically defined pattern would occur under the model. It is not the same as the probability that a relationship is meaningful, and patterns noticed after looking at many possible coincidences are subject to a look-elsewhere effect.</p></section>
+</main><footer>© 2026 Clark Ruttinger · Interactive analytics demonstration</footer>
+</body></html>
