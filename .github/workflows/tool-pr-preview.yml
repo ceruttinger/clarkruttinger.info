@@ -1,0 +1,144 @@
+name: Tool PR Preview
+
+on:
+  pull_request_target:
+    types: [opened, synchronize, reopened, closed]
+
+permissions:
+  contents: write
+  pull-requests: write
+
+concurrency:
+  group: tool-preview-publisher
+  cancel-in-progress: false
+
+jobs:
+  publish-preview:
+    if: >-
+      github.event.action != 'closed' &&
+      github.event.pull_request.head.repo.full_name == github.repository
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Check out production branch
+        uses: actions/checkout@v4
+        with:
+          ref: main
+          path: site
+
+      - name: Check out pull request snapshot
+        uses: actions/checkout@v4
+        with:
+          ref: ${{ github.event.pull_request.head.sha }}
+          path: pr
+          persist-credentials: false
+
+      - name: Build static tool preview
+        env:
+          PR_NUMBER: ${{ github.event.number }}
+        run: |
+          set -euo pipefail
+          PREVIEW="site/docs/previews/pr-${PR_NUMBER}"
+          rm -rf "$PREVIEW"
+          mkdir -p "$PREVIEW"
+
+          if [ ! -d "pr/docs/tools" ]; then
+            echo "No docs/tools directory exists in this pull request."
+            exit 1
+          fi
+
+          cp -R pr/docs/tools "$PREVIEW/tools"
+
+          python3 - <<'PY'
+          import os
+          from pathlib import Path
+
+          pr = os.environ["PR_NUMBER"]
+          root = Path(f"site/docs/previews/pr-{pr}")
+          links = []
+          for index in sorted((root / "tools").glob("*/index.html")):
+              tool = index.parent.name
+              title = tool.replace("-", " ").title()
+              links.append(f'<li><a href="tools/{tool}/">{title}</a></li>')
+
+          body = "\n".join(links) or "<li>No tool pages found.</li>"
+          html = f'''<!doctype html>
+          <html lang="en"><head>
+          <meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+          <title>PR {pr} Preview</title>
+          <style>
+          body{{font-family:system-ui,-apple-system,sans-serif;max-width:760px;margin:0 auto;padding:2rem 1.2rem;color:#1f2937}}
+          a{{color:#174ea6}} li{{margin:.8rem 0}} .tag{{font-size:.85rem;color:#666}}
+          </style></head><body>
+          <div class="tag">Clark Ruttinger portfolio preview</div>
+          <h1>Pull Request {pr}</h1>
+          <p>This is a temporary preview. Production has not been changed by the pull request itself.</p>
+          <ul>{body}</ul>
+          </body></html>'''
+          (root / "index.html").write_text(html)
+          PY
+
+      - name: Publish preview folder to main/docs
+        env:
+          PR_NUMBER: ${{ github.event.number }}
+        run: |
+          set -euo pipefail
+          cd site
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add "docs/previews/pr-${PR_NUMBER}"
+          if git diff --cached --quiet; then
+            echo "Preview is already current."
+            exit 0
+          fi
+          git commit -m "Preview PR #${PR_NUMBER}"
+          git pull --rebase origin main
+          git push origin HEAD:main
+
+      - name: Post or update preview link
+        uses: actions/github-script@v7
+        env:
+          PREVIEW_URL: https://clarkruttinger.info/previews/pr-${{ github.event.number }}/
+        with:
+          script: |
+            const marker = '<!-- tool-preview-link -->';
+            const body = `${marker}\n### Live preview\n${process.env.PREVIEW_URL}\n\nThis preview updates automatically when the PR changes.`;
+            const { owner, repo } = context.repo;
+            const issue_number = context.issue.number;
+            const comments = await github.paginate(github.rest.issues.listComments, { owner, repo, issue_number, per_page: 100 });
+            const existing = comments.find(c => c.user?.type === 'Bot' && c.body?.includes(marker));
+            if (existing) {
+              await github.rest.issues.updateComment({ owner, repo, comment_id: existing.id, body });
+            } else {
+              await github.rest.issues.createComment({ owner, repo, issue_number, body });
+            }
+
+  remove-preview:
+    if: >-
+      github.event.action == 'closed' &&
+      github.event.pull_request.head.repo.full_name == github.repository
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Check out production branch
+        uses: actions/checkout@v4
+        with:
+          ref: main
+
+      - name: Remove preview folder
+        env:
+          PR_NUMBER: ${{ github.event.number }}
+        run: |
+          set -euo pipefail
+          PREVIEW="docs/previews/pr-${PR_NUMBER}"
+          if [ ! -e "$PREVIEW" ]; then
+            echo "Preview already removed."
+            exit 0
+          fi
+          rm -rf "$PREVIEW"
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add -A "$PREVIEW"
+          git commit -m "Remove preview for PR #${PR_NUMBER}"
+          git pull --rebase origin main
+          git push origin HEAD:main
