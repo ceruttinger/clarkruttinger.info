@@ -1,1 +1,1 @@
-Preview pipeline test marker. Safe to delete after validation.
+Preview pipeline test marker. Synchronize event validation.
