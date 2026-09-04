@@ -1,0 +1,181 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Couple Contribution Model</title>
+<meta name="description" content="Interactive model for comparing cash, capital, and household labor contributions between two partners." />
+<style>
+:root{--bg:#f5f7fb;--card:#fff;--ink:#182033;--muted:#667085;--line:#dfe5ef;--navy:#0d1328;--blue:#2563eb;--green:#138a63;--soft:#eef4ff;--shadow:0 8px 28px rgba(16,24,40,.07)}
+*{box-sizing:border-box}body{margin:0;background:var(--bg);color:var(--ink);font-family:Inter,ui-sans-serif,system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;line-height:1.45}
+.top{background:var(--navy);color:#fff;padding:17px 22px;display:flex;align-items:center;justify-content:space-between;gap:16px}.brand{font-weight:750;letter-spacing:.1px}.top a{color:#fff;text-decoration:none;opacity:.9;font-size:.92rem}
+.wrap{max-width:1180px;margin:0 auto;padding:30px 18px 60px}.hero{display:grid;grid-template-columns:1.5fr 1fr;gap:22px;align-items:end;margin-bottom:24px}.hero h1{font-size:clamp(2rem,5vw,3.6rem);line-height:1.02;margin:0 0 12px;letter-spacing:-.045em}.hero p{margin:0;color:var(--muted);max-width:760px;font-size:1.05rem}.note{background:#fff7e6;border:1px solid #f2d18b;border-radius:14px;padding:13px 15px;font-size:.9rem;color:#6a4a00}
+.grid{display:grid;grid-template-columns:repeat(12,1fr);gap:18px}.card{background:var(--card);border:1px solid var(--line);border-radius:18px;padding:20px;box-shadow:var(--shadow)}.span4{grid-column:span 4}.span5{grid-column:span 5}.span7{grid-column:span 7}.span8{grid-column:span 8}.span12{grid-column:span 12}
+h2{font-size:1.08rem;margin:0 0 14px}h3{font-size:.96rem;margin:18px 0 10px}.sub{color:var(--muted);font-size:.88rem;margin-top:-8px;margin-bottom:14px}
+.field{display:grid;grid-template-columns:1fr 135px;gap:10px;align-items:center;margin:9px 0}.field label{font-size:.91rem}.field input,.field select,.resp input{width:100%;border:1px solid #ccd5e3;border-radius:9px;padding:9px 10px;font:inherit;background:#fff;color:var(--ink)}.field input:focus,.resp input:focus{outline:2px solid rgba(37,99,235,.15);border-color:var(--blue)}
+.names{display:grid;grid-template-columns:1fr 1fr;gap:12px}.names .field{display:block}.names label{display:block;margin-bottom:5px;font-weight:650}.money:before{content:'$'}
+.kpis{display:grid;grid-template-columns:repeat(4,1fr);gap:12px}.kpi{border:1px solid var(--line);border-radius:14px;padding:15px;background:#fbfcfe}.kpi .label{font-size:.78rem;color:var(--muted);text-transform:uppercase;letter-spacing:.055em}.kpi .value{font-size:1.45rem;font-weight:780;margin-top:4px;letter-spacing:-.03em}.kpi .small{font-size:.78rem;color:var(--muted);margin-top:3px}
+.bar{height:18px;border-radius:999px;overflow:hidden;background:#e7ebf2;display:flex;margin:10px 0 5px}.barA{background:var(--blue);height:100%}.barB{background:var(--green);height:100%}.legend{display:flex;gap:18px;font-size:.83rem;color:var(--muted)}.dot{display:inline-block;width:9px;height:9px;border-radius:50%;margin-right:6px}.dot.a{background:var(--blue)}.dot.b{background:var(--green)}
+.resp{display:grid;grid-template-columns:1.55fr .7fr .7fr .7fr .55fr;gap:8px;align-items:center;padding:8px 0;border-bottom:1px solid #edf0f5}.resp.head{font-size:.76rem;color:var(--muted);text-transform:uppercase;letter-spacing:.04em;font-weight:700}.resp:last-child{border-bottom:0}.resp .calc{font-size:.86rem;text-align:right}.pill{display:inline-block;padding:4px 8px;border-radius:999px;background:var(--soft);font-size:.77rem;color:#244e9b}
+.table{width:100%;border-collapse:collapse}.table th,.table td{padding:9px 6px;border-bottom:1px solid #edf0f5;text-align:right;font-size:.9rem}.table th:first-child,.table td:first-child{text-align:left}.table th{font-size:.76rem;text-transform:uppercase;letter-spacing:.04em;color:var(--muted)}.table tr:last-child td{border-bottom:0}.strong{font-weight:750}
+.callout{border-left:4px solid var(--blue);padding:11px 14px;background:#f7f9ff;border-radius:0 10px 10px 0;color:#394258;font-size:.9rem}.footer{text-align:center;color:var(--muted);font-size:.78rem;margin-top:30px}.btn{border:1px solid #ccd5e3;background:white;border-radius:9px;padding:8px 11px;font-weight:650;cursor:pointer}.btn:hover{background:#f4f6f9}
+@media(max-width:900px){.hero{grid-template-columns:1fr}.span4,.span5,.span7,.span8{grid-column:span 12}.kpis{grid-template-columns:1fr 1fr}.resp{grid-template-columns:1.2fr .7fr .7fr}.resp .aShare,.resp .bShare{display:none}.resp.head span:nth-child(4),.resp.head span:nth-child(5){display:none}}
+@media(max-width:540px){.kpis{grid-template-columns:1fr}.names{grid-template-columns:1fr}.field{grid-template-columns:1fr 120px}.wrap{padding-left:12px;padding-right:12px}.card{padding:16px}}
+</style>
+</head>
+<body>
+<header class="top"><div class="brand">Clark Ruttinger · Interactive Tools</div><a href="/">← Back to clarkruttinger.info</a></header>
+<main class="wrap">
+  <section class="hero">
+    <div><span class="pill">Shared-life scenario model</span><h1>Couple Contribution Model</h1><p>Compare recurring cash, one-time capital, and the economic value of household work without pretending that every contribution has to arrive as a paycheck.</p></div>
+    <div class="note"><strong>Planning tool only.</strong> The values below are a way to make assumptions explicit and discuss fairness. They are not legal ownership, tax, or compensation determinations.</div>
+  </section>
+
+  <div class="grid">
+    <section class="card span5">
+      <h2>1 · People & shared living cost</h2>
+      <div class="names">
+        <div class="field"><label for="nameA">Partner A</label><input id="nameA" value="Non-nurse partner"></div>
+        <div class="field"><label for="nameB">Partner B</label><input id="nameB" value="Travel nurse"></div>
+      </div>
+      <div class="field"><label>Shared annual household spending</label><input id="sharedSpend" type="number" value="48000" step="1000"></div>
+      <div class="field"><label>Annual nurse gross income</label><input id="nurseIncome" type="number" value="90000" step="1000"></div>
+      <div class="field"><label>Nurse work fraction of year</label><input id="nurseFraction" type="number" value="0.67" min="0" max="1" step="0.01"></div>
+      <div class="field"><label>Annual consulting gross income</label><input id="consultIncome" type="number" value="25000" step="1000"></div>
+      <div class="field"><label>Effective tax rate on earned income</label><input id="taxRate" type="number" value="20" min="0" max="60" step="1"></div>
+      <p class="sub">Income is used only to estimate how much cash each person can contribute to shared costs.</p>
+    </section>
+
+    <section class="card span7">
+      <h2>2 · Capital contributions</h2>
+      <p class="sub">One-time assets or cash put into the shared lifestyle. Ownership can stay legally separate even when the asset benefits both people.</p>
+      <table class="table"><thead><tr><th>Capital item</th><th id="capHeadA">Partner A</th><th id="capHeadB">Partner B</th></tr></thead><tbody>
+        <tr><td>Camper van purchase</td><td><input id="vanA" type="number" value="90000" step="5000"></td><td><input id="vanB" type="number" value="10000" step="5000"></td></tr>
+        <tr><td>Tools / equipment / outfitting</td><td><input id="toolsA" type="number" value="10000" step="1000"></td><td><input id="toolsB" type="number" value="0" step="1000"></td></tr>
+        <tr><td>Initial shared cash reserve</td><td><input id="reserveA" type="number" value="10000" step="1000"></td><td><input id="reserveB" type="number" value="10000" step="1000"></td></tr>
+        <tr class="strong"><td>Total capital contributed</td><td id="capitalA">$0</td><td id="capitalB">$0</td></tr>
+      </tbody></table>
+      <div style="margin-top:14px"><div class="bar"><div class="barA" id="capitalBarA"></div><div class="barB" id="capitalBarB"></div></div><div class="legend"><span><i class="dot a"></i><span id="capitalLegendA"></span></span><span><i class="dot b"></i><span id="capitalLegendB"></span></span></div></div>
+    </section>
+
+    <section class="card span12">
+      <h2>3 · Assign household responsibilities a value</h2>
+      <p class="sub">Set the total hours per week, a replacement-market hourly rate, and what percentage of that task is performed by Partner A. Partner B receives the remainder.</p>
+      <div class="resp head"><span>Responsibility</span><span>Hours / wk</span><span>$/hour</span><span>Partner A %</span><span>Annual value</span></div>
+      <div id="responsibilities"></div>
+      <div style="display:flex;justify-content:flex-end;margin-top:12px"><button class="btn" id="resetResp">Reset example responsibilities</button></div>
+    </section>
+
+    <section class="card span4">
+      <h2>4 · Recurring cash contribution</h2>
+      <div class="field"><label id="cashLabelA">Partner A share of take-home income used for shared costs</label><input id="cashPctA" type="number" value="65" min="0" max="100" step="1"></div>
+      <div class="field"><label id="cashLabelB">Partner B share of take-home income used for shared costs</label><input id="cashPctB" type="number" value="65" min="0" max="100" step="1"></div>
+      <div class="field"><label>Annual maintenance / repair savings created by Partner A</label><input id="repairSavingsA" type="number" value="5000" step="500"></div>
+      <div class="field"><label>Annual maintenance / repair savings created by Partner B</label><input id="repairSavingsB" type="number" value="0" step="500"></div>
+      <p class="sub">Repair savings are kept separate from labor hours so you can model both time and avoided shop bills if appropriate.</p>
+    </section>
+
+    <section class="card span8">
+      <h2>5 · Annual contribution picture</h2>
+      <div class="kpis">
+        <div class="kpi"><div class="label">Annual value · <span id="kNameA">A</span></div><div class="value" id="annualA">$0</div><div class="small">cash + labor + savings</div></div>
+        <div class="kpi"><div class="label">Annual value · <span id="kNameB">B</span></div><div class="value" id="annualB">$0</div><div class="small">cash + labor + savings</div></div>
+        <div class="kpi"><div class="label">Shared cash funded</div><div class="value" id="fundedPct">0%</div><div class="small" id="fundedText"></div></div>
+        <div class="kpi"><div class="label">Cash surplus / gap</div><div class="value" id="cashGap">$0</div><div class="small">relative to shared spending</div></div>
+      </div>
+      <div style="margin-top:18px"><strong>Recurring economic contribution share</strong><div class="bar"><div class="barA" id="annualBarA"></div><div class="barB" id="annualBarB"></div></div><div class="legend"><span><i class="dot a"></i><span id="annualLegendA"></span></span><span><i class="dot b"></i><span id="annualLegendB"></span></span></div></div>
+      <div class="callout" id="interpretation" style="margin-top:18px"></div>
+    </section>
+
+    <section class="card span12">
+      <h2>6 · Contribution ledger</h2>
+      <table class="table"><thead><tr><th>Contribution type</th><th id="ledgerA">Partner A</th><th id="ledgerB">Partner B</th></tr></thead><tbody>
+        <tr><td>One-time capital</td><td id="lCapitalA"></td><td id="lCapitalB"></td></tr>
+        <tr><td>Annual shared cash</td><td id="lCashA"></td><td id="lCashB"></td></tr>
+        <tr><td>Annual household / logistics labor</td><td id="lLaborA"></td><td id="lLaborB"></td></tr>
+        <tr><td>Annual avoided repair / maintenance cost</td><td id="lRepairA"></td><td id="lRepairB"></td></tr>
+        <tr class="strong"><td>Year-one economic contribution (capital + annual)</td><td id="year1A"></td><td id="year1B"></td></tr>
+        <tr class="strong"><td>Steady-state annual economic contribution</td><td id="steadyA"></td><td id="steadyB"></td></tr>
+      </tbody></table>
+    </section>
+  </div>
+  <div class="footer">Values are stored only in your browser session and are not submitted anywhere. · clarkruttinger.info</div>
+</main>
+<script>
+const fmt = new Intl.NumberFormat('en-US',{style:'currency',currency:'USD',maximumFractionDigits:0});
+const pct = x => `${(x*100).toFixed(1)}%`;
+const num = id => Number(document.getElementById(id).value)||0;
+const text = id => document.getElementById(id).value.trim() || id;
+
+const defaults = [
+  {name:'Driving / relocation',hours:6,rate:28,a:85},
+  {name:'Route + campsite planning',hours:3,rate:28,a:85},
+  {name:'Grocery shopping + errands',hours:4,rate:24,a:80},
+  {name:'Cooking / meal prep',hours:7,rate:25,a:70},
+  {name:'Cleaning + laundry',hours:5,rate:24,a:70},
+  {name:'Water / dump / propane logistics',hours:2,rate:28,a:90},
+  {name:'Vehicle / RV maintenance labor',hours:3,rate:45,a:95},
+  {name:'Administrative / scheduling',hours:2,rate:30,a:70}
+];
+let tasks = JSON.parse(JSON.stringify(defaults));
+
+function taskRows(){
+  const box=document.getElementById('responsibilities'); box.innerHTML='';
+  tasks.forEach((t,i)=>{
+    const row=document.createElement('div'); row.className='resp';
+    row.innerHTML=`<input aria-label="Responsibility" value="${t.name}"><input aria-label="Hours per week" type="number" min="0" step="0.5" value="${t.hours}"><input aria-label="Hourly rate" type="number" min="0" step="1" value="${t.rate}"><input class="aShare" aria-label="Partner A share percent" type="number" min="0" max="100" step="5" value="${t.a}"><div class="calc">$0/yr</div>`;
+    const ins=row.querySelectorAll('input');
+    ins[0].addEventListener('input',e=>{tasks[i].name=e.target.value;calc()});
+    ins[1].addEventListener('input',e=>{tasks[i].hours=Number(e.target.value)||0;calc()});
+    ins[2].addEventListener('input',e=>{tasks[i].rate=Number(e.target.value)||0;calc()});
+    ins[3].addEventListener('input',e=>{tasks[i].a=Math.min(100,Math.max(0,Number(e.target.value)||0));calc()});
+    box.appendChild(row);
+  });
+}
+
+function calc(){
+  const A=text('nameA'), B=text('nameB');
+  ['capHeadA','cashLabelA','kNameA','ledgerA'].forEach(id=>{const e=document.getElementById(id); if(id==='cashLabelA') e.textContent=`${A} share of take-home income used for shared costs`; else e.textContent=A;});
+  ['capHeadB','cashLabelB','kNameB','ledgerB'].forEach(id=>{const e=document.getElementById(id); if(id==='cashLabelB') e.textContent=`${B} share of take-home income used for shared costs`; else e.textContent=B;});
+
+  const capA=num('vanA')+num('toolsA')+num('reserveA');
+  const capB=num('vanB')+num('toolsB')+num('reserveB');
+  const capT=capA+capB || 1; const capSA=capA/capT, capSB=capB/capT;
+  document.getElementById('capitalA').textContent=fmt.format(capA); document.getElementById('capitalB').textContent=fmt.format(capB);
+  document.getElementById('capitalBarA').style.width=pct(capSA);document.getElementById('capitalBarB').style.width=pct(capSB);
+  document.getElementById('capitalLegendA').textContent=`${A}: ${pct(capSA)}`;document.getElementById('capitalLegendB').textContent=`${B}: ${pct(capSB)}`;
+
+  let laborA=0,laborB=0;
+  document.querySelectorAll('#responsibilities .resp').forEach((row,i)=>{
+    const annual=tasks[i].hours*tasks[i].rate*52; const a=annual*(tasks[i].a/100); const b=annual-a; laborA+=a; laborB+=b;
+    row.querySelector('.calc').textContent=fmt.format(annual)+'/yr';
+  });
+
+  const tax=1-num('taxRate')/100;
+  const takeA=num('consultIncome')*tax; const takeB=num('nurseIncome')*num('nurseFraction')*tax;
+  const cashA=takeA*num('cashPctA')/100; const cashB=takeB*num('cashPctB')/100;
+  const repairA=num('repairSavingsA'),repairB=num('repairSavingsB');
+  const annualA=cashA+laborA+repairA, annualB=cashB+laborB+repairB, annualT=annualA+annualB || 1;
+  const aShare=annualA/annualT,bShare=annualB/annualT;
+  const spend=num('sharedSpend'),cashT=cashA+cashB,gap=cashT-spend;
+
+  document.getElementById('annualA').textContent=fmt.format(annualA);document.getElementById('annualB').textContent=fmt.format(annualB);
+  document.getElementById('fundedPct').textContent=pct(spend?cashT/spend:0);document.getElementById('fundedText').textContent=`${fmt.format(cashT)} of ${fmt.format(spend)}`;
+  document.getElementById('cashGap').textContent=fmt.format(gap); document.getElementById('cashGap').style.color=gap>=0?'var(--green)':'#b42318';
+  document.getElementById('annualBarA').style.width=pct(aShare);document.getElementById('annualBarB').style.width=pct(bShare);
+  document.getElementById('annualLegendA').textContent=`${A}: ${pct(aShare)}`;document.getElementById('annualLegendB').textContent=`${B}: ${pct(bShare)}`;
+
+  const ledger={lCapitalA:capA,lCapitalB:capB,lCashA:cashA,lCashB:cashB,lLaborA:laborA,lLaborB:laborB,lRepairA:repairA,lRepairB:repairB,year1A:capA+annualA,year1B:capB+annualB,steadyA:annualA,steadyB:annualB};
+  Object.entries(ledger).forEach(([id,v])=>document.getElementById(id).textContent=fmt.format(v));
+  const capitalSentence = `${A} supplies ${pct(capSA)} of modeled startup capital; ${B} supplies ${pct(capSB)}.`;
+  const annualSentence = `On recurring contributions, the model values ${A}'s share at ${pct(aShare)} and ${B}'s at ${pct(bShare)}.`;
+  const cashSentence = gap>=0 ? `The planned cash contributions cover shared spending with about ${fmt.format(gap)} left over.` : `The planned cash contributions leave about ${fmt.format(Math.abs(gap))} per year to cover from savings, additional work, or lower spending.`;
+  document.getElementById('interpretation').textContent=`${capitalSentence} ${annualSentence} ${cashSentence}`;
+}
+
+document.querySelectorAll('input').forEach(el=>el.addEventListener('input',calc));
+document.getElementById('resetResp').addEventListener('click',()=>{tasks=JSON.parse(JSON.stringify(defaults));taskRows();calc();});
+taskRows();calc();
+</script>
+</body>
+</html>
