@@ -1,0 +1,404 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Highmark Provider Analytics — Interview Demo</title>
+<meta name="description" content="Synthetic provider network, regional utilization, and D-SNP analytics dashboard created as an interview portfolio prototype.">
+<script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.4/dist/chart.umd.min.js"></script>
+<style>
+:root{
+  --navy:#0b1f3a;--navy2:#132f52;--blue:#1769aa;--cyan:#3d9fc6;--teal:#138a8a;
+  --bg:#f4f7fb;--card:#ffffff;--ink:#172033;--muted:#65758b;--line:#dfe7f1;
+  --green:#168a5b;--amber:#c98216;--red:#bd3a3a;--purple:#6a55a3;
+  --shadow:0 10px 26px rgba(18,48,82,.08);
+}
+*{box-sizing:border-box}
+body{margin:0;font-family:Inter,ui-sans-serif,system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;background:var(--bg);color:var(--ink)}
+header{background:linear-gradient(120deg,var(--navy),var(--navy2));color:#fff;padding:22px 28px 24px}
+.topline{max-width:1500px;margin:0 auto;display:flex;gap:18px;align-items:center;justify-content:space-between}
+.brand h1{margin:0;font-size:25px;letter-spacing:.2px}
+.brand p{margin:5px 0 0;color:#cfdded;font-size:14px}
+.badge{background:#fff0b8;color:#694d00;border:1px solid #ffe07a;padding:8px 11px;border-radius:999px;font-weight:800;font-size:12px;white-space:nowrap}
+.filters{max-width:1500px;margin:18px auto 0;display:grid;grid-template-columns:1.15fr 1fr 1fr auto;gap:10px}
+select,input,button{font:inherit}
+select,.searchbox{width:100%;background:#fff;border:1px solid rgba(255,255,255,.2);border-radius:9px;padding:10px 12px;color:#26364d}
+button{border:0;border-radius:9px;padding:10px 14px;font-weight:700;cursor:pointer}
+.reset{background:#e7eef7;color:#17395c}
+main{max-width:1500px;margin:0 auto;padding:20px 24px 38px}
+.notice{background:#edf5ff;border:1px solid #cfe2fb;border-left:5px solid var(--blue);padding:12px 14px;border-radius:10px;margin-bottom:16px;font-size:13px;color:#39536f}
+.tabs{display:flex;gap:8px;flex-wrap:wrap;margin-bottom:16px}
+.tab{background:#e7edf5;color:#36516d}
+.tab.active{background:var(--navy);color:#fff}
+.panel{display:none}.panel.active{display:block}
+.kpis{display:grid;grid-template-columns:repeat(6,minmax(145px,1fr));gap:12px;margin-bottom:14px}
+.kpi{background:var(--card);border:1px solid var(--line);border-radius:12px;padding:14px;box-shadow:var(--shadow)}
+.kpi .label{font-size:11px;line-height:1.2;text-transform:uppercase;letter-spacing:.7px;color:var(--muted);font-weight:800}
+.kpi .value{font-size:26px;font-weight:800;margin-top:6px;color:var(--navy)}
+.kpi .delta{margin-top:4px;font-size:12px;color:var(--muted)}
+.good{color:var(--green)!important}.warn{color:var(--amber)!important}.bad{color:var(--red)!important}
+.grid2{display:grid;grid-template-columns:1.2fr .8fr;gap:14px;margin-bottom:14px}
+.grid2.equal{grid-template-columns:1fr 1fr}
+.card{background:var(--card);border:1px solid var(--line);border-radius:12px;padding:16px;box-shadow:var(--shadow);min-width:0}
+.card h2{font-size:16px;margin:0 0 3px;color:var(--navy)}
+.card .sub{font-size:12px;color:var(--muted);margin-bottom:12px}
+.chartwrap{height:290px}.chartwrap.short{height:240px}
+table{width:100%;border-collapse:collapse;font-size:12px}
+th{background:#f2f6fa;color:#53657a;font-size:10px;text-transform:uppercase;letter-spacing:.5px;text-align:left;padding:9px 8px;border-bottom:1px solid var(--line);position:sticky;top:0}
+td{padding:9px 8px;border-bottom:1px solid #edf1f6;vertical-align:middle}
+tbody tr:hover{background:#f8fbff}
+.tablewrap{overflow:auto;max-height:360px;border:1px solid #edf1f6;border-radius:9px}
+.pill{display:inline-block;border-radius:999px;padding:4px 7px;font-size:10px;font-weight:800}
+.pill.green{background:#e1f4ec;color:#0e7149}.pill.amber{background:#fff1d7;color:#98620e}.pill.red{background:#fde4e4;color:#9d2c2c}.pill.blue{background:#e4f0fc;color:#135d99}
+.provider-tools{display:grid;grid-template-columns:1fr 180px;gap:10px;margin-bottom:10px}
+.provider-tools input,.provider-tools select{border:1px solid var(--line)}
+.section-title{display:flex;align-items:flex-end;justify-content:space-between;gap:12px;margin:2px 0 10px}
+.section-title h2{margin:0;font-size:19px;color:var(--navy)}
+.section-title p{margin:0;color:var(--muted);font-size:12px;text-align:right}
+.metric-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:10px}
+.metric-mini{border:1px solid var(--line);border-radius:10px;padding:11px;background:#fbfdff}
+.metric-mini strong{display:block;font-size:19px;color:var(--navy)}
+.metric-mini span{font-size:11px;color:var(--muted)}
+.callout{border:1px solid #d9e7f4;background:#f7fbff;border-radius:10px;padding:12px 13px;font-size:12px;line-height:1.45}
+.callout strong{color:var(--navy)}
+.legend{display:flex;gap:12px;flex-wrap:wrap;font-size:11px;color:var(--muted);margin-top:8px}
+.dot{width:8px;height:8px;border-radius:50%;display:inline-block;margin-right:4px}
+footer{max-width:1500px;margin:0 auto;padding:0 24px 35px;color:#718097;font-size:11px}
+@media(max-width:1100px){.kpis{grid-template-columns:repeat(3,1fr)}.grid2,.grid2.equal{grid-template-columns:1fr}.filters{grid-template-columns:1fr 1fr}.metric-grid{grid-template-columns:repeat(2,1fr)}}
+@media(max-width:650px){header{padding:18px}.topline{align-items:flex-start;flex-direction:column}.filters{grid-template-columns:1fr}.kpis{grid-template-columns:repeat(2,1fr)}main{padding:16px 12px}.metric-grid{grid-template-columns:1fr}.provider-tools{grid-template-columns:1fr}}
+</style>
+</head>
+<body>
+<header>
+  <div class="topline">
+    <div class="brand">
+      <h1>Provider Analytics Command Center</h1>
+      <p>Network credentialing · regional service utilization · D-SNP hospital performance</p>
+    </div>
+    <div class="badge">INTERVIEW DEMO · SYNTHETIC DATA</div>
+  </div>
+  <div class="filters">
+    <select id="regionFilter" aria-label="Market region">
+      <option value="All">All Highmark markets</option>
+      <option value="WPA">Western Pennsylvania</option>
+      <option value="CPA">Central / Southeastern Pennsylvania</option>
+      <option value="WNY">Western New York</option>
+      <option value="NENY">Northeastern New York</option>
+      <option value="DE">Delaware</option>
+      <option value="WV">West Virginia</option>
+    </select>
+    <select id="productFilter" aria-label="Product">
+      <option value="All">All products</option>
+      <option value="Commercial">Commercial</option>
+      <option value="MA">Medicare Advantage</option>
+      <option value="DSNP">D-SNP (PA demo)</option>
+    </select>
+    <select id="periodFilter" aria-label="Period">
+      <option value="2026Q2">2026 Q2</option>
+      <option value="2026Q1">2026 Q1</option>
+      <option value="2025Q4">2025 Q4</option>
+    </select>
+    <button class="reset" id="resetBtn">Reset filters</button>
+  </div>
+</header>
+
+<main>
+  <div class="notice">
+    <strong>Prototype purpose:</strong> a portfolio-style example of the questions a provider analytics team might answer:
+    “Is this provider credentialed?”, “Where are members consuming services?”, and “Which D-SNP hospital/utilization signals need action?”
+    All figures, provider names, NPIs and hospital names below are fabricated.
+  </div>
+
+  <div class="tabs">
+    <button class="tab active" data-tab="network">Network & Credentialing</button>
+    <button class="tab" data-tab="utilization">Regional Utilization</button>
+    <button class="tab" data-tab="dsnp">D-SNP Performance</button>
+  </div>
+
+  <section id="network" class="panel active">
+    <div class="kpis" id="networkKpis"></div>
+    <div class="grid2">
+      <div class="card">
+        <h2>Credentialing & directory operations</h2>
+        <div class="sub">Synthetic monthly trend for selected market/product</div>
+        <div class="chartwrap"><canvas id="credentialTrend"></canvas></div>
+      </div>
+      <div class="card">
+        <h2>Network status</h2>
+        <div class="sub">Provider records by operational status</div>
+        <div class="chartwrap"><canvas id="networkStatus"></canvas></div>
+      </div>
+    </div>
+
+    <div class="card">
+      <div class="section-title">
+        <div><h2>Provider lookup</h2></div>
+        <p>Search by provider, specialty or synthetic NPI</p>
+      </div>
+      <div class="provider-tools">
+        <input id="providerSearch" class="searchbox" placeholder="Try: cardiology, 1000000004, Harper…" aria-label="Search providers">
+        <select id="credentialFilter" aria-label="Credential status">
+          <option value="All">All credential statuses</option>
+          <option value="Credentialed">Credentialed</option>
+          <option value="Recredentialing">Recredentialing</option>
+          <option value="Pending">Pending</option>
+          <option value="Action needed">Action needed</option>
+        </select>
+      </div>
+      <div class="tablewrap">
+        <table>
+          <thead><tr><th>Provider</th><th>Specialty</th><th>Region</th><th>NPI</th><th>Status</th><th>Network</th><th>Effective</th><th>Recredential due</th><th>Accepting</th></tr></thead>
+          <tbody id="providerRows"></tbody>
+        </table>
+      </div>
+    </div>
+  </section>
+
+  <section id="utilization" class="panel">
+    <div class="kpis" id="utilKpis"></div>
+    <div class="grid2">
+      <div class="card">
+        <h2>Service mix by market</h2>
+        <div class="sub">Allowed services per 1,000 members — synthetic</div>
+        <div class="chartwrap"><canvas id="serviceMix"></canvas></div>
+      </div>
+      <div class="card">
+        <h2>Utilization trend</h2>
+        <div class="sub">Selected market: acute, ED and post-acute encounters</div>
+        <div class="chartwrap"><canvas id="utilTrend"></canvas></div>
+      </div>
+    </div>
+    <div class="grid2 equal">
+      <div class="card">
+        <h2>Service consumption</h2>
+        <div class="sub">What kinds of services members are using</div>
+        <div class="metric-grid" id="serviceCards"></div>
+      </div>
+      <div class="card">
+        <h2>Analytic opportunities</h2>
+        <div class="sub">Example signals a provider consultant might investigate</div>
+        <div class="callout" id="opportunityText"></div>
+      </div>
+    </div>
+  </section>
+
+  <section id="dsnp" class="panel">
+    <div class="notice">
+      <strong>D-SNP scope in this prototype:</strong> Pennsylvania only. Highmark Wholecare’s 2026 Medicare Assured D-SNP is offered in 62 Pennsylvania counties.
+      The metrics below are synthetic and are designed to mirror real D-SNP care-coordination, Stars, utilization and hospital-performance questions.
+    </div>
+    <div class="kpis" id="dsnpKpis"></div>
+    <div class="grid2">
+      <div class="card">
+        <h2>Care coordination & outcomes trend</h2>
+        <div class="sub">HRA / ICP completion versus 30-day readmissions</div>
+        <div class="chartwrap"><canvas id="dsnpTrend"></canvas></div>
+      </div>
+      <div class="card">
+        <h2>D-SNP operating scorecard</h2>
+        <div class="sub">Illustrative operational and quality KPIs</div>
+        <div class="metric-grid" id="dsnpMini"></div>
+        <div class="legend">
+          <span><span class="dot" style="background:#168a5b"></span>On / above target</span>
+          <span><span class="dot" style="background:#c98216"></span>Watch</span>
+          <span><span class="dot" style="background:#bd3a3a"></span>Action needed</span>
+        </div>
+      </div>
+    </div>
+
+    <div class="card">
+      <div class="section-title">
+        <div><h2>Hospital D-SNP performance</h2></div>
+        <p>Use for comparative review, outlier detection and provider conversations</p>
+      </div>
+      <div class="tablewrap">
+        <table>
+          <thead>
+            <tr><th>Hospital</th><th>Market</th><th>D-SNP admits</th><th>Admits / 1k</th><th>30d readmit</th><th>Avg LOS</th><th>ED→Admit</th><th>7d follow-up</th><th>Med rec</th><th>Allowed / admit</th><th>Signal</th></tr>
+          </thead>
+          <tbody id="hospitalRows"></tbody>
+        </table>
+      </div>
+    </div>
+  </section>
+</main>
+
+<footer>
+  <strong>Interview portfolio prototype.</strong> No Highmark, Highmark Wholecare, CMS, provider or member data were used.
+  Geographic labels reflect public Highmark service-region descriptions; the underlying dashboard values are intentionally synthetic.
+</footer>
+
+<script>
+const regionMeta = {
+  All:{name:"All Highmark markets", mult:1.00, members:1264000, providers:41782},
+  WPA:{name:"Western Pennsylvania", mult:1.08, members:404000, providers:11860},
+  CPA:{name:"Central / Southeastern Pennsylvania", mult:.94, members:337000, providers:10420},
+  WNY:{name:"Western New York", mult:.81, members:168000, providers:5850},
+  NENY:{name:"Northeastern New York", mult:.76, members:131000, providers:4760},
+  DE:{name:"Delaware", mult:.69, members:98000, providers:4010},
+  WV:{name:"West Virginia", mult:.87, members:126000, providers:4882}
+};
+const providers = [
+  ["Dr. Maya Harper","Cardiology","WPA","1000000001","Credentialed","Preferred","2024-10-01","2027-10-01","Yes"],
+  ["Dr. Evan Brooks","Internal Medicine","WPA","1000000002","Recredentialing","Preferred","2023-11-12","2026-11-12","Yes"],
+  ["Dr. Lena Ortiz","Behavioral Health","CPA","1000000003","Credentialed","Standard","2025-02-01","2028-02-01","Yes"],
+  ["Dr. Noah Chen","Orthopedics","WNY","1000000004","Pending","Standard","—","—","Unknown"],
+  ["Dr. Priya Shah","Endocrinology","NENY","1000000005","Credentialed","Preferred","2024-06-15","2027-06-15","No"],
+  ["Dr. Alex Morgan","Family Medicine","DE","1000000006","Credentialed","Preferred","2025-01-03","2028-01-03","Yes"],
+  ["Dr. Tessa Green","Neurology","WV","1000000007","Action needed","Standard","2023-09-18","2026-09-18","Yes"],
+  ["Dr. Jonah Kim","Nephrology","WPA","1000000008","Credentialed","Preferred","2024-12-01","2027-12-01","Yes"],
+  ["Dr. Simone Reed","Oncology","CPA","1000000009","Recredentialing","Preferred","2023-10-22","2026-10-22","Yes"],
+  ["Dr. Marcus Bell","General Surgery","WNY","1000000010","Credentialed","Standard","2025-03-11","2028-03-11","Yes"],
+  ["Dr. Amara Foster","Geriatrics","CPA","1000000011","Credentialed","D-SNP Core","2024-08-27","2027-08-27","Yes"],
+  ["Dr. Caleb Turner","Pulmonology","WPA","1000000012","Credentialed","D-SNP Core","2024-04-18","2027-04-18","Yes"]
+];
+const hospitals = [
+  ["Pittsburgh Metro Hospital A","WPA",487,63.4,14.8,5.1,31.2,78.4,91.3,"$14,820","Watch"],
+  ["Erie Regional Hospital B","WPA",244,69.1,17.6,5.7,34.8,70.6,87.9,"$15,440","Action needed"],
+  ["Harrisburg Community Hospital C","CPA",392,58.2,12.9,4.8,28.4,82.1,93.7,"$13,960","Strong"],
+  ["State College Medical Center D","CPA",211,55.7,11.8,4.6,26.9,85.4,94.1,"$13,510","Strong"],
+  ["Philadelphia Area Hospital E","CPA",418,72.5,18.3,6.0,36.1,67.2,85.6,"$16,380","Action needed"],
+  ["Scranton Regional Hospital F","CPA",286,65.3,15.2,5.4,32.7,74.5,90.1,"$14,770","Watch"]
+];
+
+let charts = {};
+const fmtInt = n => Math.round(n).toLocaleString();
+const fmt1 = n => Number(n).toFixed(1);
+function selected(){ return {r:document.getElementById("regionFilter").value,p:document.getElementById("productFilter").value,q:document.getElementById("periodFilter").value};}
+function productMult(p){return p==="Commercial"?.93:p==="MA"?1.04:p==="DSNP"?1.12:1;}
+function periodMult(q){return q==="2026Q1"?.98:q==="2025Q4"?.95:1;}
+function scale(){const s=selected();return regionMeta[s.r].mult*productMult(s.p)*periodMult(s.q);}
+function card(label,value,delta,klass=""){return `<div class="kpi"><div class="label">${label}</div><div class="value ${klass}">${value}</div><div class="delta">${delta}</div></div>`;}
+function mini(label,value,klass=""){return `<div class="metric-mini"><strong class="${klass}">${value}</strong><span>${label}</span></div>`;}
+function statusPill(s){
+  let c=s==="Credentialed"||s==="Strong"?"green":s==="Recredentialing"||s==="Watch"?"amber":s==="Pending"?"blue":"red";
+  return `<span class="pill ${c}">${s}</span>`;
+}
+function mkChart(id, config){
+  if(charts[id]) charts[id].destroy();
+  charts[id]=new Chart(document.getElementById(id),config);
+}
+const baseOpts={responsive:true,maintainAspectRatio:false,plugins:{legend:{labels:{boxWidth:10,usePointStyle:true}}},scales:{y:{grid:{color:"#edf1f6"}},x:{grid:{display:false}}}};
+
+function renderNetwork(){
+  const s=selected(), sc=scale(), meta=regionMeta[s.r];
+  const providerCount=s.r==="All"?meta.providers:Math.round(meta.providers*productMult(s.p));
+  const cred=97.3 + (s.r==="WPA"?.5:s.r==="WV"?-1.0:s.r==="DE"?.2:0) + (s.p==="DSNP"?.4:0);
+  const exp=Math.max(28,Math.round(318*(s.r==="All"?1:meta.providers/41782)));
+  const cycle=31.4*(s.r==="WV"?1.15:s.r==="WNY"?1.07:1);
+  const directory=96.8+(s.r==="CPA"?.6:s.r==="WV"?-1.2:0);
+  const adequacy=98.9+(s.r==="DE"?.4:s.r==="WV"?-.8:0);
+  document.getElementById("networkKpis").innerHTML =
+    card("Active providers",fmtInt(providerCount),"In selected network scope")+
+    card("Credentialed",fmt1(cred)+"%","+0.6 pts vs prior quarter","good")+
+    card("Recredential due ≤90d",fmtInt(exp),"Work queue requiring review",exp>250?"warn":"")+
+    card("Median cycle time",fmt1(cycle)+" days","Application → decision")+
+    card("Directory accuracy",fmt1(directory)+"%","Validated provider fields",directory<96?"warn":"good")+
+    card("Network adequacy",fmt1(adequacy)+"%","Standards met",adequacy<98.5?"warn":"good");
+
+  const months=["Jan","Feb","Mar","Apr","May","Jun"];
+  mkChart("credentialTrend",{type:"line",data:{labels:months,datasets:[
+    {label:"Credentialed %",data:[96.4,96.6,96.8,97.0,97.1,cred],borderColor:"#1769aa",backgroundColor:"rgba(23,105,170,.10)",tension:.3,fill:true,yAxisID:"y"},
+    {label:"Median cycle days",data:[35.8,34.7,33.2,32.8,32.1,cycle],borderColor:"#c98216",tension:.3,yAxisID:"y1"}
+  ]},options:{...baseOpts,scales:{x:{grid:{display:false}},y:{min:92,max:100,grid:{color:"#edf1f6"},title:{display:true,text:"Credentialed %"}},y1:{position:"right",min:20,max:45,grid:{drawOnChartArea:false},title:{display:true,text:"Cycle days"}}}}});
+  mkChart("networkStatus",{type:"doughnut",data:{labels:["Credentialed","Recredentialing","Pending","Action needed"],datasets:[{data:[87,7,4,2],backgroundColor:["#168a5b","#c98216","#3d9fc6","#bd3a3a"],borderWidth:0}]},options:{responsive:true,maintainAspectRatio:false,cutout:"67%",plugins:{legend:{position:"bottom",labels:{boxWidth:10,usePointStyle:true}}}}});
+  renderProviders();
+}
+
+function renderProviders(){
+  const s=selected(), q=document.getElementById("providerSearch").value.toLowerCase().trim(), cf=document.getElementById("credentialFilter").value;
+  let rows=providers.filter(x=>(s.r==="All"||x[2]===s.r)&&(cf==="All"||x[4]===cf)&&(!q||x.join(" ").toLowerCase().includes(q)));
+  if(s.p==="DSNP") rows=rows.filter(x=>["WPA","CPA"].includes(x[2]));
+  document.getElementById("providerRows").innerHTML=rows.length?rows.map(x=>`<tr><td><strong>${x[0]}</strong></td><td>${x[1]}</td><td>${x[2]}</td><td>${x[3]}</td><td>${statusPill(x[4])}</td><td>${x[5]}</td><td>${x[6]}</td><td>${x[7]}</td><td>${x[8]}</td></tr>`).join(""):`<tr><td colspan="9">No synthetic provider records match the current filters.</td></tr>`;
+}
+
+function renderUtilization(){
+  const s=selected(), sc=scale(), r=s.r;
+  const members=(r==="All"?regionMeta.All.members:regionMeta[r].members)*productMult(s.p);
+  const ed=468*sc, admits=248*sc, op=2410/sc, pac=186*sc, allowed=6180*sc;
+  document.getElementById("utilKpis").innerHTML=
+    card("Members",fmtInt(members),"Synthetic attributed lives")+
+    card("ED visits / 1k",fmtInt(ed),"Annualized utilization",ed>500?"warn":"")+
+    card("IP admits / 1k",fmtInt(admits),"Annualized utilization",admits>270?"warn":"")+
+    card("Outpatient / 1k",fmtInt(op),"Professional + facility")+
+    card("Post-acute / 1k",fmtInt(pac),"SNF, HH and rehab")+
+    card("Allowed PMPM","$"+fmtInt(allowed/12),"Medical spend proxy");
+
+  const labels=["WPA","CPA/SEPA","WNY","NENY","DE","WV"];
+  const acute=[252,228,219,207,194,239], eds=[485,431,402,388,361,512], outpatient=[2440,2515,2330,2285,2610,2210], post=[195,181,173,166,159,202];
+  mkChart("serviceMix",{type:"bar",data:{labels,datasets:[
+    {label:"Inpatient",data:acute,backgroundColor:"#0b1f3a"},
+    {label:"ED",data:eds,backgroundColor:"#1769aa"},
+    {label:"Outpatient",data:outpatient,backgroundColor:"#3d9fc6"},
+    {label:"Post-acute",data:post,backgroundColor:"#138a8a"}
+  ]},options:{...baseOpts,scales:{x:{stacked:true,grid:{display:false}},y:{stacked:true,grid:{color:"#edf1f6"}}}}});
+  const months=["Jan","Feb","Mar","Apr","May","Jun"];
+  mkChart("utilTrend",{type:"line",data:{labels:months,datasets:[
+    {label:"ED / 1k",data:[449,458,472,466,481,ed],borderColor:"#1769aa",tension:.3},
+    {label:"IP admits / 1k",data:[233,238,244,241,246,admits],borderColor:"#bd3a3a",tension:.3},
+    {label:"Post-acute / 1k",data:[178,181,184,182,185,pac],borderColor:"#138a8a",tension:.3}
+  ]},options:baseOpts});
+  document.getElementById("serviceCards").innerHTML=
+    mini("Primary care visits / 1k",fmtInt(1840/sc))+
+    mini("Specialist visits / 1k",fmtInt(2290*sc))+
+    mini("Behavioral health visits / 1k",fmtInt(610*sc))+
+    mini("Imaging services / 1k",fmtInt(720*sc))+
+    mini("ED visits / 1k",fmtInt(ed),ed>500?"warn":"")+
+    mini("Acute admits / 1k",fmtInt(admits),admits>270?"warn":"")+
+    mini("SNF stays / 1k",fmtInt(71*sc))+
+    mini("Home health episodes / 1k",fmtInt(115*sc));
+  let msg = `<strong>${regionMeta[r].name}:</strong> `;
+  if(r==="WV") msg += `ED use is the clearest outlier in this synthetic scenario. I would segment by county, diagnosis, time of day, PCP attribution and avoidability, then compare access and post-discharge follow-up.`;
+  else if(r==="WPA") msg += `post-acute utilization and acute admissions are modestly above the enterprise synthetic benchmark. I would drill into hospital-to-SNF referral patterns, readmissions and facility-level variation.`;
+  else if(r==="CPA") msg += `overall utilization is near benchmark, but the hospital view shows a high-cost/high-readmission outlier in the Philadelphia-area synthetic market.`;
+  else msg += `the first analytic pass would compare utilization against expected risk, network access, provider capacity and neighboring market benchmarks before recommending intervention.`;
+  document.getElementById("opportunityText").innerHTML=msg+`<br><br><strong>Consulting question:</strong> Is the observed utilization driven by member acuity, network availability, provider practice patterns, benefit design, care transitions—or a data-quality issue?`;
+}
+
+function renderDsnp(){
+  const s=selected(), sc=(s.r==="WPA"?1.06:s.r==="CPA"?.97:1)*periodMult(s.q);
+  const enrollment=Math.round(73400*(s.r==="WPA"?.56:s.r==="CPA"?.44:1));
+  const hra=91.8-(s.r==="WPA"?.8:0), icp=88.6-(s.r==="CPA"?.5:0), readmit=14.7*sc, ed=712*sc, medrec=92.1-(s.r==="WPA"?.7:0);
+  document.getElementById("dsnpKpis").innerHTML=
+    card("D-SNP enrollment",fmtInt(enrollment),"Synthetic PA members")+
+    card("HRA completion",fmt1(hra)+"%","Health risk assessments","good")+
+    card("ICP completion",fmt1(icp)+"%","Individualized care plans",icp<89?"warn":"good")+
+    card("30d readmission",fmt1(readmit)+"%","All-cause hospital readmission",readmit>15?"bad":"warn")+
+    card("ED visits / 1k",fmtInt(ed),"Annualized",ed>730?"bad":"warn")+
+    card("Med rec post-discharge",fmt1(medrec)+"%","Medication reconciliation","good");
+  mkChart("dsnpTrend",{type:"line",data:{labels:["Jan","Feb","Mar","Apr","May","Jun"],datasets:[
+    {label:"HRA completion %",data:[88.2,89.0,89.9,90.5,91.1,hra],borderColor:"#1769aa",tension:.3,yAxisID:"y"},
+    {label:"ICP completion %",data:[84.7,85.6,86.4,87.2,88.0,icp],borderColor:"#138a8a",tension:.3,yAxisID:"y"},
+    {label:"30d readmission %",data:[16.1,15.8,15.5,15.2,14.9,readmit],borderColor:"#bd3a3a",tension:.3,yAxisID:"y1"}
+  ]},options:{...baseOpts,scales:{x:{grid:{display:false}},y:{min:75,max:100,grid:{color:"#edf1f6"},title:{display:true,text:"Completion %"}},y1:{position:"right",min:8,max:22,grid:{drawOnChartArea:false},title:{display:true,text:"Readmission %"}}}}});
+  document.getElementById("dsnpMini").innerHTML=
+    mini("Care manager engagement","84.2%","good")+
+    mini("7-day post-discharge follow-up","76.8%","warn")+
+    mini("PCP visit in last 12 months","93.5%","good")+
+    mini("Dual-status eligibility match","99.1%","good")+
+    mini("Grievances / 1,000","3.7","good")+
+    mini("Potentially avoidable ED","18.4%","warn")+
+    mini("BH follow-up after acute event","71.3%","warn")+
+    mini("Network adequacy standards met","98.6%","good");
+  renderHospitals();
+}
+
+function renderHospitals(){
+  const r=selected().r;
+  let rows=hospitals.filter(x=>r==="All"||r==="WPA"? (r==="All"||x[1]==="WPA") : r==="CPA"?x[1]==="CPA":false);
+  if(["WNY","NENY","DE","WV"].includes(r)) rows=[];
+  document.getElementById("hospitalRows").innerHTML=rows.length?rows.map(x=>`<tr><td><strong>${x[0]}</strong></td><td>${x[1]}</td><td>${x[2]}</td><td>${x[3]}</td><td class="${x[4]>=17?"bad":x[4]>=14.5?"warn":"good"}">${x[4]}%</td><td>${x[5]}</td><td>${x[6]}%</td><td class="${x[7]<72?"bad":x[7]<80?"warn":"good"}">${x[7]}%</td><td>${x[8]}%</td><td>${x[9]}</td><td>${statusPill(x[10])}</td></tr>`).join(""):`<tr><td colspan="11">This demo’s D-SNP hospital view is intentionally scoped to Pennsylvania. Choose All, Western PA, or Central / Southeastern PA.</td></tr>`;
+}
+function renderAll(){renderNetwork();renderUtilization();renderDsnp();}
+document.querySelectorAll(".tab").forEach(b=>b.addEventListener("click",()=>{
+  document.querySelectorAll(".tab").forEach(x=>x.classList.remove("active")); b.classList.add("active");
+  document.querySelectorAll(".panel").forEach(x=>x.classList.remove("active")); document.getElementById(b.dataset.tab).classList.add("active");
+}));
+["regionFilter","productFilter","periodFilter"].forEach(id=>document.getElementById(id).addEventListener("change",renderAll));
+["providerSearch"].forEach(id=>document.getElementById(id).addEventListener("input",renderProviders));
+document.getElementById("credentialFilter").addEventListener("change",renderProviders);
+document.getElementById("resetBtn").addEventListener("click",()=>{document.getElementById("regionFilter").value="All";document.getElementById("productFilter").value="All";document.getElementById("periodFilter").value="2026Q2";document.getElementById("providerSearch").value="";document.getElementById("credentialFilter").value="All";renderAll();});
+renderAll();
+</script>
+</body>
+</html>
