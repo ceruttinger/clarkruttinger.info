@@ -11,6 +11,7 @@ project:
 website:
   title: "Clark Ruttinger"
   site-url: "https://clarkruttinger.info"
+  google-analytics: "G-SZLX21J9P2"
   description: "Independent analytics consulting for organizations that need clearer evidence, better decision-support tools, and more effective data systems."
   favicon: images/favicon.png
   open-graph: true
