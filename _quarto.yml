@@ -5,6 +5,7 @@ project:
     - "assessment/"
   render:
     - "*.qmd"
+    - "posts/**/*.qmd"
     - "!archive/"
     - "!legacy-rmarkdown/"
 
@@ -32,6 +33,8 @@ website:
         text: About
       - href: insights.qmd
         text: Insights
+      - href: blog.qmd
+        text: Blog
       - href: contact.qmd
         text: Contact
     right:

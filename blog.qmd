@@ -1,0 +1,15 @@
+---
+title: "Utah Nonprofits, by the Numbers"
+description: "One finding a week from IRS Form 990 data on Utah nonprofits, and what each says about how organizations use data."
+listing:
+  contents: posts
+  sort: "date desc"
+  type: default
+  categories: true
+  feed: true
+page-layout: full
+---
+
+A weekly series built from public IRS data on Utah's 13,072 tax-exempt organizations. Each post takes one finding (about boards, funding, finances, or how organizations describe their impact) and asks what it says about analytics maturity.
+
+Want to know where your own organization stands? [Take the short analytics maturity assessment](https://clarkruttinger.info/assessment/?src=blog).
