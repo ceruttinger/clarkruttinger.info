@@ -4,7 +4,7 @@ subtitle: "Utah Nonprofits, by the Numbers #2"
 date: 2026-10-20
 author: Clark Ruttinger
 description: "In 3,096 Utah charities' Form 990 program descriptions, two-thirds describe activities with no numbers, 31% count outputs, and about 2% report an outcome. What that gap says about analytics maturity."
-draft: true
+# draft: true
 categories: [by-the-numbers, form-990, outcomes]
 image: f2_waffle.png
 ---
