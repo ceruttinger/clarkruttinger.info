@@ -91,6 +91,62 @@
     "text": "Public dashboards, R/Shiny examples, and representative analytic products are now organized under Selected Work."
   },
   {
+    "objectID": "posts/2026-10-20-outputs-vs-outcomes/index.html",
+    "href": "posts/2026-10-20-outputs-vs-outcomes/index.html",
+    "title": "Utah charities count what they do, not what changes",
+    "section": "",
+    "text": "Every Form 990 has a section where the organization describes its programs in its own words. Part III asks for each major program’s “accomplishments,” and the 990-EZ asks for a “statement of program service accomplishments.” The question invites an organization to say what changed because of its work.\nI read what Utah’s charities wrote there. In the filings I could see, most organizations describe what they do. About a third count what they did. About 2 in 100 say what changed."
+  },
+  {
+    "objectID": "posts/2026-10-20-outputs-vs-outcomes/index.html#the-number",
+    "href": "posts/2026-10-20-outputs-vs-outcomes/index.html#the-number",
+    "title": "Utah charities count what they do, not what changes",
+    "section": "The number",
+    "text": "The number\n\n\n\n\n\n\n\n\n\nWhat the program description reports\nOrganizations\nShare\n\n\n\n\nDescribes activities only (no numbers)\n2,086\n67%\n\n\nCounts outputs (people served, meals, events, dollars)\n961\n31%\n\n\nReports an outcome (a change in people’s lives or conditions)\n49\n1.6%\n\n\nTotal 501(c)(3)s with a usable description\n3,096\n\n\n\n\nHere’s what each category looks like. These are paraphrased composites, not quotes from any one filing:\n\nActivities: “Provides after-school tutoring to youth in the community.”\nOutputs: “Served 412 students through 3,100 tutoring sessions.”\nOutcome: “Of the 412 students, 78% raised their reading score by at least one grade level.”\n\nThe outcomes that did appear were concrete: students who graduated or tested at grade level, families who moved into stable housing and stayed housed, participants who found jobs or raised their income, child-welfare cases that closed with children still at home, criminal records cleared, animals adopted. A few organizations reported survey results, such as the share of participants who said a program changed their knowledge or behavior."
+  },
+  {
+    "objectID": "posts/2026-10-20-outputs-vs-outcomes/index.html#size-helps-with-counting-not-with-outcomes",
+    "href": "posts/2026-10-20-outputs-vs-outcomes/index.html#size-helps-with-counting-not-with-outcomes",
+    "title": "Utah charities count what they do, not what changes",
+    "section": "Size helps with counting, not with outcomes",
+    "text": "Size helps with counting, not with outcomes\n\nLarger organizations are more likely to put numbers in their description. Output counting rises from 24% of charities under $100,000 to about 40% of those over $1 million. Outcome reporting barely moves. It’s 2% among charities with $5 million or more in revenue, about the same as at $100,000.\nThat’s the interesting part. Big organizations have finance staff, grant writers, and often an evaluation contract. They clearly can count. When it comes to the one question Part III invites, what changed, most of them answer the same way a volunteer-run league does."
+  },
+  {
+    "objectID": "posts/2026-10-20-outputs-vs-outcomes/index.html#what-it-means",
+    "href": "posts/2026-10-20-outputs-vs-outcomes/index.html#what-it-means",
+    "title": "Utah charities count what they do, not what changes",
+    "section": "What it means",
+    "text": "What it means\nFor organizations, the gap usually isn’t effort or honesty. Counting outputs is the natural first step, because outputs live in records you already keep: attendance sheets, intake forms, the food bank’s pounds log. Outcomes require something more: deciding in advance what change you’re after, and then checking whether it happened, often after the person has left your program.\nFor funders and boards, the 990 isn’t where outcomes live, and that’s fine. But if the organization’s own reports look like its 990, with plenty of activity and lots of counts but no result, that’s worth a conversation."
+  },
+  {
+    "objectID": "posts/2026-10-20-outputs-vs-outcomes/index.html#what-this-says-about-analytics-maturity",
+    "href": "posts/2026-10-20-outputs-vs-outcomes/index.html#what-this-says-about-analytics-maturity",
+    "title": "Utah charities count what they do, not what changes",
+    "section": "What this says about analytics maturity",
+    "text": "What this says about analytics maturity\nThis is the gap between purpose and questions, the first two stages of the maturity framework I use. Nearly every mission statement names a change: healthier kids, stable families, a cleaner river. Few organizations turn that change into a question they can answer with data: Of the families we housed last year, how many are still housed?\nUntil the question exists, there’s nothing to measure, and no dashboard will fix that. A practical first step: for your largest program, write down one change you expect in the people you serve, how you’d know it happened, and when you’d check. One outcome, tracked consistently, beats ten outputs."
+  },
+  {
+    "objectID": "posts/2026-10-20-outputs-vs-outcomes/index.html#what-the-data-cant-see",
+    "href": "posts/2026-10-20-outputs-vs-outcomes/index.html#what-the-data-cant-see",
+    "title": "Utah charities count what they do, not what changes",
+    "section": "What the data can’t see",
+    "text": "What the data can’t see\n\nPart III is a narrative written for the IRS, not an evaluation report. Many organizations measure outcomes and publish them in annual reports or grant reports instead. This finding is about what organizations choose to put in the public record, not what they know.\nSome descriptions continue on Schedule O, which isn’t included here. I excluded descriptions that only said “See Schedule O.”\nThe 990-EZ leaves less room. Outcome reporting was 2.2% on the full 990 and 0.6% on the 990-EZ.\nThis covers only organizations that e-file a 990 or 990-EZ. As post #1 showed, most of Utah’s smallest organizations file the 990-N postcard, which has no program description at all.\nThe outcome count is close to a lower bound. See the method notes below."
+  },
+  {
+    "objectID": "posts/2026-10-20-outputs-vs-outcomes/index.html#method",
+    "href": "posts/2026-10-20-outputs-vs-outcomes/index.html#method",
+    "title": "Utah charities count what they do, not what changes",
+    "section": "Method",
+    "text": "Method\n\n\nData, classification and validation\n\n\nOrganizations: Utah 501(c)(3) public charities in the IRS Exempt Organizations Business Master File with a 990 or 990-EZ e-filed for tax years 2021–2024. I used each organization’s most recent return: 3,096 organizations, 1,900 full 990s and 1,196 990-EZs. 94% of the returns are for tax years 2023–2024.\nText: All program-service descriptions on the return (Part III lines 4a–4d on the 990; Part III on the 990-EZ), joined together. Placeholder text (“See Schedule O,” “N/A”) was excluded.\nClassification: Three levels, assigned to the highest that applies. Activities only means no quantities. Counts outputs means quantities of service delivered (people, sessions, meals, events, dollars granted); years, grade ranges, ages and section numbers don’t count. Reports an outcome means a specific, observed change for the people or conditions served: graduation, test results, housing or employment placement, measured improvement, a case resolved, an adoption. General claims (“youth gain confidence”) without evidence don’t count, and neither does completing a course.\nValidation: I hand-read a random sample of 200 descriptions. A rule-based classifier agreed with the hand labels on 192 (96%). Every description the rules flagged as an outcome (64) was then read and confirmed or rejected, and I read two further keyword sweeps (about 490 descriptions mentioning percentages, surveys, graduation, placement, housing and similar terms) to find outcomes the rules missed. That review found 49 outcome reporters.\nUncertainty: In the hand-read random sample, 6 of 150 charities (4%) reported an outcome. That sample is small (95% interval roughly 1.5%–8.5%), and the full review may have missed some outcomes phrased in unusual ways. The honest summary is between about 2% and 4%: fewer than 1 in 20.\nRevenue bands use total revenue on the same return.\n\n\n\n\nThe classification rules (Python)\n\n# Outcome patterns (excerpt) — every match was then read by hand\nR_PATS = [\n  r'\\d+%\\s*(OF\\s+)?(PARTICIPANTS|STUDENTS|CLIENTS|FAMILIES|GRADUATES|...)'\n  r'[^.]{0,120}(REPORT|INCREAS|IMPROV|REDUC|GRADUAT|EMPLOY|HOUS|MAINTAIN|...)',\n  r'(INCREAS|IMPROV|REDUC|DECREAS|GAIN)\\w*\\s+(OF|IN|BY)\\s+\\d',\n  r'(GRADUATION|PLACEMENT|RETENTION|PASS|SUCCESS|RECIDIVISM)\\s+RATES?',\n  r'(ASSESSMENT|EVALUATION|SURVEY|DATA)[^.]{0,80}(INDICAT|SHOW|FOUND)[^.]{0,80}(GAIN|IMPROV|...)',\n  r'(WERE ABLE TO|SUCCESSFULLY)\\s+(CLOSE|KEEP|OBTAIN|SECURE|FIND|GRADUATE|...)',\n]\n# Output = any quantity left after removing years, ages, grade ranges, IRC sections, addresses\ndef classify(text):\n    if any(p.search(text) for p in R_PATS): return 'outcome (review)'\n    return 'outputs' if NUM.search(NOISE.sub(' ', text)) else 'activities'"
+  },
+  {
+    "objectID": "posts/2026-10-20-outputs-vs-outcomes/index.html#where-does-your-organization-stand",
+    "href": "posts/2026-10-20-outputs-vs-outcomes/index.html#where-does-your-organization-stand",
+    "title": "Utah charities count what they do, not what changes",
+    "section": "Where does your organization stand?",
+    "text": "Where does your organization stand?\nMoving from counting to outcomes is the step most organizations find hardest, and it’s the one the assessment looks at most closely. Take the short analytics maturity assessment to see where your organization’s data practices are strong and where the next step is.\nNext week: Utah’s nonprofit boards are a small world. How many organizations share a board member with another, and what travels along those connections."
+  },
+  {
     "objectID": "insights.html#peer-reviewed-publications",
     "href": "insights.html#peer-reviewed-publications",
     "title": "Insights & Research",
@@ -327,61 +383,5 @@
     "title": "Services",
     "section": "Ways to engage",
     "text": "Ways to engage\n\n\nNonprofit Analytics Quick Start\nA small, accessible first engagement to review current reporting and data workflows, identify useful measures, and define one or two practical improvements.\n\n\nDiagnostic / strategy sprint\nA focused assessment to define the problem, stakeholders, data landscape, risks, and recommended next steps before a larger investment.\n\n\nAnalysis or research project\nA defined question carried from research design and data preparation through analysis, interpretation, and decision-ready communication.\n\n\nDashboard or application build\nDesign and development of an interactive analytic product, including underlying data workflow and deployment planning.\n\n\nModernization engagement\nAssessment and redesign of recurring analytics, reporting, data pipelines, architecture, or AI-assisted workflows.\n\n\nFractional analytics leadership\nSenior-level help scoping priorities, reviewing methods, mentoring analysts, evaluating tools, and connecting technical work to organizational decisions.\n\n\nDiscuss an engagement"
-  },
-  {
-    "objectID": "posts/2026-10-20-outputs-vs-outcomes/index.html",
-    "href": "posts/2026-10-20-outputs-vs-outcomes/index.html",
-    "title": "Utah charities count what they do, not what changes",
-    "section": "",
-    "text": "Every Form 990 has a section where the organization describes its programs in its own words. Part III asks for each major program’s “accomplishments,” and the 990-EZ asks for a “statement of program service accomplishments.” The question invites an organization to say what changed because of its work.\nI read what Utah’s charities wrote there. In the filings I could see, most organizations describe what they do. About a third count what they did. About 2 in 100 say what changed."
-  },
-  {
-    "objectID": "posts/2026-10-20-outputs-vs-outcomes/index.html#the-number",
-    "href": "posts/2026-10-20-outputs-vs-outcomes/index.html#the-number",
-    "title": "Utah charities count what they do, not what changes",
-    "section": "The number",
-    "text": "The number\n\n\n\n\n\n\n\n\n\nWhat the program description reports\nOrganizations\nShare\n\n\n\n\nDescribes activities only (no numbers)\n2,086\n67%\n\n\nCounts outputs (people served, meals, events, dollars)\n961\n31%\n\n\nReports an outcome (a change in people’s lives or conditions)\n49\n1.6%\n\n\nTotal 501(c)(3)s with a usable description\n3,096\n\n\n\n\nHere’s what each category looks like. These are paraphrased composites, not quotes from any one filing:\n\nActivities: “Provides after-school tutoring to youth in the community.”\nOutputs: “Served 412 students through 3,100 tutoring sessions.”\nOutcome: “Of the 412 students, 78% raised their reading score by at least one grade level.”\n\nThe outcomes that did appear were concrete: students who graduated or tested at grade level, families who moved into stable housing and stayed housed, participants who found jobs or raised their income, child-welfare cases that closed with children still at home, criminal records cleared, animals adopted. A few organizations reported survey results, such as the share of participants who said a program changed their knowledge or behavior."
-  },
-  {
-    "objectID": "posts/2026-10-20-outputs-vs-outcomes/index.html#size-helps-with-counting-not-with-outcomes",
-    "href": "posts/2026-10-20-outputs-vs-outcomes/index.html#size-helps-with-counting-not-with-outcomes",
-    "title": "Utah charities count what they do, not what changes",
-    "section": "Size helps with counting, not with outcomes",
-    "text": "Size helps with counting, not with outcomes\n\nLarger organizations are more likely to put numbers in their description. Output counting rises from 24% of charities under $100,000 to about 40% of those over $1 million. Outcome reporting barely moves. It’s 2% among charities with $5 million or more in revenue, about the same as at $100,000.\nThat’s the interesting part. Big organizations have finance staff, grant writers, and often an evaluation contract. They clearly can count. When it comes to the one question Part III invites, what changed, most of them answer the same way a volunteer-run league does."
-  },
-  {
-    "objectID": "posts/2026-10-20-outputs-vs-outcomes/index.html#what-it-means",
-    "href": "posts/2026-10-20-outputs-vs-outcomes/index.html#what-it-means",
-    "title": "Utah charities count what they do, not what changes",
-    "section": "What it means",
-    "text": "What it means\nFor organizations, the gap usually isn’t effort or honesty. Counting outputs is the natural first step, because outputs live in records you already keep: attendance sheets, intake forms, the food bank’s pounds log. Outcomes require something more: deciding in advance what change you’re after, and then checking whether it happened, often after the person has left your program.\nFor funders and boards, the 990 isn’t where outcomes live, and that’s fine. But if the organization’s own reports look like its 990, with plenty of activity and lots of counts but no result, that’s worth a conversation."
-  },
-  {
-    "objectID": "posts/2026-10-20-outputs-vs-outcomes/index.html#what-this-says-about-analytics-maturity",
-    "href": "posts/2026-10-20-outputs-vs-outcomes/index.html#what-this-says-about-analytics-maturity",
-    "title": "Utah charities count what they do, not what changes",
-    "section": "What this says about analytics maturity",
-    "text": "What this says about analytics maturity\nThis is the gap between purpose and questions, the first two stages of the maturity framework I use. Nearly every mission statement names a change: healthier kids, stable families, a cleaner river. Few organizations turn that change into a question they can answer with data: Of the families we housed last year, how many are still housed?\nUntil the question exists, there’s nothing to measure, and no dashboard will fix that. A practical first step: for your largest program, write down one change you expect in the people you serve, how you’d know it happened, and when you’d check. One outcome, tracked consistently, beats ten outputs."
-  },
-  {
-    "objectID": "posts/2026-10-20-outputs-vs-outcomes/index.html#what-the-data-cant-see",
-    "href": "posts/2026-10-20-outputs-vs-outcomes/index.html#what-the-data-cant-see",
-    "title": "Utah charities count what they do, not what changes",
-    "section": "What the data can’t see",
-    "text": "What the data can’t see\n\nPart III is a narrative written for the IRS, not an evaluation report. Many organizations measure outcomes and publish them in annual reports or grant reports instead. This finding is about what organizations choose to put in the public record, not what they know.\nSome descriptions continue on Schedule O, which isn’t included here. I excluded descriptions that only said “See Schedule O.”\nThe 990-EZ leaves less room. Outcome reporting was 2.2% on the full 990 and 0.6% on the 990-EZ.\nThis covers only organizations that e-file a 990 or 990-EZ. As post #1 showed, most of Utah’s smallest organizations file the 990-N postcard, which has no program description at all.\nThe outcome count is close to a lower bound. See the method notes below."
-  },
-  {
-    "objectID": "posts/2026-10-20-outputs-vs-outcomes/index.html#method",
-    "href": "posts/2026-10-20-outputs-vs-outcomes/index.html#method",
-    "title": "Utah charities count what they do, not what changes",
-    "section": "Method",
-    "text": "Method\n\n\nData, classification and validation\n\n\nOrganizations: Utah 501(c)(3) public charities in the IRS Exempt Organizations Business Master File with a 990 or 990-EZ e-filed for tax years 2021–2024. I used each organization’s most recent return: 3,096 organizations, 1,900 full 990s and 1,196 990-EZs. 94% of the returns are for tax years 2023–2024.\nText: All program-service descriptions on the return (Part III lines 4a–4d on the 990; Part III on the 990-EZ), joined together. Placeholder text (“See Schedule O,” “N/A”) was excluded.\nClassification: Three levels, assigned to the highest that applies. Activities only means no quantities. Counts outputs means quantities of service delivered (people, sessions, meals, events, dollars granted); years, grade ranges, ages and section numbers don’t count. Reports an outcome means a specific, observed change for the people or conditions served: graduation, test results, housing or employment placement, measured improvement, a case resolved, an adoption. General claims (“youth gain confidence”) without evidence don’t count, and neither does completing a course.\nValidation: I hand-read a random sample of 200 descriptions. A rule-based classifier agreed with the hand labels on 192 (96%). Every description the rules flagged as an outcome (64) was then read and confirmed or rejected, and I read two further keyword sweeps (about 490 descriptions mentioning percentages, surveys, graduation, placement, housing and similar terms) to find outcomes the rules missed. That review found 49 outcome reporters.\nUncertainty: In the hand-read random sample, 6 of 150 charities (4%) reported an outcome. That sample is small (95% interval roughly 1.5%–8.5%), and the full review may have missed some outcomes phrased in unusual ways. The honest summary is between about 2% and 4%: fewer than 1 in 20.\nRevenue bands use total revenue on the same return.\n\n\n\n\nThe classification rules (Python)\n\n# Outcome patterns (excerpt) — every match was then read by hand\nR_PATS = [\n  r'\\d+%\\s*(OF\\s+)?(PARTICIPANTS|STUDENTS|CLIENTS|FAMILIES|GRADUATES|...)'\n  r'[^.]{0,120}(REPORT|INCREAS|IMPROV|REDUC|GRADUAT|EMPLOY|HOUS|MAINTAIN|...)',\n  r'(INCREAS|IMPROV|REDUC|DECREAS|GAIN)\\w*\\s+(OF|IN|BY)\\s+\\d',\n  r'(GRADUATION|PLACEMENT|RETENTION|PASS|SUCCESS|RECIDIVISM)\\s+RATES?',\n  r'(ASSESSMENT|EVALUATION|SURVEY|DATA)[^.]{0,80}(INDICAT|SHOW|FOUND)[^.]{0,80}(GAIN|IMPROV|...)',\n  r'(WERE ABLE TO|SUCCESSFULLY)\\s+(CLOSE|KEEP|OBTAIN|SECURE|FIND|GRADUATE|...)',\n]\n# Output = any quantity left after removing years, ages, grade ranges, IRC sections, addresses\ndef classify(text):\n    if any(p.search(text) for p in R_PATS): return 'outcome (review)'\n    return 'outputs' if NUM.search(NOISE.sub(' ', text)) else 'activities'"
-  },
-  {
-    "objectID": "posts/2026-10-20-outputs-vs-outcomes/index.html#where-does-your-organization-stand",
-    "href": "posts/2026-10-20-outputs-vs-outcomes/index.html#where-does-your-organization-stand",
-    "title": "Utah charities count what they do, not what changes",
-    "section": "Where does your organization stand?",
-    "text": "Where does your organization stand?\nMoving from counting to outcomes is the step most organizations find hardest, and it’s the one the assessment looks at most closely. Take the short analytics maturity assessment to see where your organization’s data practices are strong and where the next step is.\nNext week: Utah’s nonprofit boards are a small world. How many organizations share a board member with another, and what travels along those connections."
   }
 ]
