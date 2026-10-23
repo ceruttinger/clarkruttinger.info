@@ -1,6 +1,6 @@
 ---
 title: "Services"
-description: "Analytics strategy, statistical modeling, applied research, dashboards, R/Shiny development, data visualization, automation, architecture, modernization, and AI-assisted analytics."
+description: "Analytics strategy, modeling, research, dashboards, automation, institutional knowledge, workflow documentation, SOP development, knowledge systems, modernization, and practical AI."
 page-layout: full
 title-block-style: none
 ---
@@ -9,9 +9,9 @@ title-block-style: none
 ::: {.section-shell}
 <div class="eyebrow dark">SERVICES</div>
 
-# Senior analytics expertise without building an entire internal team.
+# Senior expertise without building an entire internal team.
 
-Engagements can begin with a narrow analytic question, a dashboard or application build, a research project, or a broader need to rethink how data and analytics work inside the organization. The five practices below are deliberately designed to overlap.
+Engagements can begin with a narrow analytic question, a dashboard or application build, a research project, an institutional knowledge risk, or a broader need to rethink how data, knowledge, and analytics work inside the organization. The six practices below are deliberately designed to overlap.
 :::
 :::
 
@@ -111,20 +111,152 @@ Many analytics problems are really workflow problems. Repeated manual cleaning, 
 :::
 :::
 
+# Institutional Knowledge & AI Systems {#institutional-knowledge-ai-systems}
+
+## Keep critical organizational knowledge from walking out the door.
+
+Organizations accumulate enormous amounts of knowledge about how work actually gets done: procedures, exceptions, workarounds, relationships, decision rules, historical context, reporting requirements, data definitions, and lessons learned. Much of that knowledge is never formally documented.
+
+It lives in the heads of experienced employees, scattered files, email threads, spreadsheets, shared drives, old procedure manuals, and systems that only a few people fully understand. When experienced staff leave, retire, change roles, or become unavailable, organizations can lose years of institutional knowledge.
+
+I help organizations capture that knowledge, turn it into structured and maintainable documentation, and build AI-assisted knowledge systems that make it easier for staff to find and use what the organization already knows.
+
+::: {.service-detail-grid}
+::: {.service-detail-copy}
+### From undocumented work to institutional memory
+
+This work combines process analysis, knowledge management, documentation, data architecture, and practical AI. The goal is not simply to install an AI chatbot. The goal is to create an organizational memory system that people can trust.
+
+Depending on the organization, that can include:
+
+- Interviewing subject-matter experts and experienced staff
+- Documenting workflows and business processes
+- Creating and standardizing standard operating procedures (SOPs)
+- Identifying undocumented decision rules, exceptions, and workarounds
+- Inventorying manuals, policies, reports, spreadsheets, shared files, and reference materials
+- Defining terminology, data definitions, roles, responsibilities, and dependencies
+- Mapping relationships between processes, systems, people, policies, data, and information
+- Identifying knowledge concentrated in one person or team
+- Establishing processes for keeping documentation current
+- Building AI-assisted interfaces that let employees search and interact with organizational knowledge
+:::
+::: {.capability-panel}
+**Capabilities**
+
+- Institutional knowledge assessment
+- Workflow discovery and process mapping
+- SOP development and standardization
+- Knowledge-risk and continuity assessment
+- Knowledge architecture and metadata design
+- Searchable internal knowledge bases
+- AI knowledge assistants and semantic search
+- Source-linked retrieval systems
+- Documentation governance and handoff
+- Retirement, succession, and transition knowledge capture
+:::
+:::
+
+### A practical engagement model
+
+**1. Knowledge discovery**
+
+We begin by understanding where important organizational knowledge currently lives. This can involve staff interviews, review of existing documentation, observation of recurring processes, analysis of shared drives or knowledge repositories, and identification of systems and data sources involved in the work.
+
+The objective is to distinguish between what is already documented, what is outdated, what exists only informally, and what represents a significant continuity risk.
+
+**2. Workflow mapping**
+
+Important recurring processes are mapped from beginning to end. The objective is to document how the work actually happens—not merely the ideal workflow shown in a policy manual.
+
+**Trigger → Inputs → People → Decisions → Systems → Outputs → Exceptions → Handoff**
+
+This often exposes duplicated work, undocumented dependencies, manual steps, bottlenecks, and places where only one person knows what to do.
+
+**3. SOP and documentation development**
+
+Critical workflows are converted into clear, maintainable documentation. Depending on the process, this may include standard operating procedures, process maps, checklists, decision trees, roles and responsibilities, data definitions, system instructions, exception handling, reporting procedures, business rules, source documentation, and historical context explaining why important practices exist.
+
+Documentation is designed for actual use rather than simply satisfying a documentation requirement.
+
+**4. Knowledge architecture**
+
+The resulting information is organized so that people—and AI systems—can retrieve it reliably. Rather than accumulating another folder full of documents, we establish a structure connecting related information.
+
+**Process ↔ SOP ↔ Role ↔ System ↔ Data ↔ Policy ↔ Decision ↔ Source**
+
+For some organizations, a conventional document repository with strong metadata may be sufficient. More complex environments may benefit from structured databases, knowledge graphs, semantic search, or retrieval systems that preserve relationships between different kinds of organizational knowledge. The technology should fit the problem rather than the other way around.
+
+**5. AI-assisted organizational knowledge**
+
+Once the underlying knowledge is documented and structured, AI can provide a much more useful interface to it. Employees might ask:
+
+- How do I prepare the quarterly report?
+- Who is responsible for approving this?
+- What happens if the normal process fails?
+- Where does this number come from?
+- Why do we calculate this measure this way?
+- Which SOP applies to this situation?
+- What systems are affected if this process changes?
+
+The system can retrieve relevant organizational knowledge and point employees back to the underlying documentation and authoritative sources. This is fundamentally different from giving employees a general-purpose AI tool and hoping it understands the organization.
+
+### Institutional knowledge at risk
+
+One particularly valuable application is succession and continuity planning. An experienced employee who has performed a function for ten or twenty years may know hundreds of things that were never written down: which exceptions occur regularly, why a spreadsheet is structured a certain way, which data sources can be trusted, what needs to happen before an annual process begins, who needs to be consulted, which shortcuts create problems later, why a policy was interpreted a particular way, and what previous attempts did not work.
+
+A structured knowledge-transfer engagement can capture that information before a retirement, departure, reorganization, or leadership transition. Instead of asking an employee to “write down everything you know,” I use interviews, workflow analysis, document review, and structured knowledge capture to uncover what another person would actually need to perform the work.
+
+### Possible deliverables
+
+- **Knowledge inventory:** a map of where critical organizational knowledge currently resides
+- **Knowledge-risk assessment:** identification of functions that depend heavily on undocumented individual knowledge
+- **Workflow maps:** visual representations of how important organizational processes actually operate
+- **Standard operating procedures:** consistent, usable documentation for recurring work
+- **Knowledge architecture:** a structure connecting procedures, policies, systems, data, roles, decisions, and supporting documentation
+- **Searchable knowledge base:** a centralized repository designed around how employees actually look for information
+- **AI knowledge assistant:** a secure conversational interface for finding and understanding internal organizational knowledge
+- **Source-linked answers:** AI responses that point employees back to authoritative internal documentation
+- **Documentation governance:** ownership, review, change tracking, and maintenance processes
+- **Transition knowledge capture:** focused documentation and interviews for retiring, departing, or transitioning employees
+
+### Where this creates value
+
+This work is particularly useful when a long-tenured employee is preparing to retire, an organization has experienced turnover, important processes depend on one or two people, new employees take too long to learn how things work, staff repeatedly ask the same operational questions, SOPs are missing or outdated, documentation is scattered across systems, processes have evolved informally, leadership is preparing for succession or restructuring, or an organization wants to use AI internally but does not yet have its knowledge organized well enough to do so reliably.
+
+### AI comes last, not first.
+
+A chatbot sitting on top of poorly organized information does not solve an institutional knowledge problem. The underlying work is understanding the organization: its people, processes, information, decisions, systems, and history.
+
+Once that foundation exists, AI can make institutional knowledge dramatically easier to access.
+
+**Capture the knowledge. Structure it. Document it. Connect it. Then use AI to make it useful.**
+
+[Talk about an institutional knowledge project](contact.qmd){.btn .btn-primary .btn-lg}
+
+## Institutional Knowledge Risk Assessment {#institutional-knowledge-risk-assessment}
+
+For organizations that want a smaller starting point, I offer a focused assessment designed to identify where important knowledge is vulnerable before committing to a larger documentation or technology project.
+
+A typical assessment can include interviews with 4–8 key staff, an inventory of critical workflows and existing documentation, identification of single points of knowledge failure, a risk assessment of processes that depend on undocumented expertise, and a prioritized roadmap for documentation, knowledge transfer, and potential AI-enabled access.
+
+The assessment provides a practical path from **knowledge risk → workflow documentation → SOP development → knowledge architecture → AI knowledge system**.
+
+[Discuss a knowledge risk assessment](contact.qmd){.btn .btn-outline-primary .btn-lg}
+
 # Analytics Modernization {#analytics-modernization}
 
 ::: {.service-detail-grid}
 ::: {.service-detail-copy}
 Modernization is not simply replacing an old tool with a newer one. It means understanding the current process, identifying friction and risk, choosing the right level of technology, and designing an approach the organization can sustain.
 
-AI can be part of that work when it has a specific job to do—research assistance, classification, summarization, extraction, coding support, or workflow orchestration—rather than being added for its own sake.
+AI can be part of that work when it has a specific job to do—research assistance, classification, summarization, extraction, coding support, knowledge retrieval, or workflow orchestration—rather than being added for its own sake.
 
 **Typical engagements**
 
 - Current-state workflow assessment
 - Reporting and analysis process redesign
 - Migration from one-off scripts to reusable analytic frameworks
-- Practical AI integration into research and analytics workflows
+- Practical AI integration into research, analytics, and knowledge workflows
 - Documentation, validation, and handoff design
 :::
 ::: {.capability-panel}
@@ -142,7 +274,7 @@ AI can be part of that work when it has a specific job to do—research assistan
 ::: {.section-shell .section-spacious}
 <div class="section-kicker">FULL CAPABILITY LIST</div>
 
-## The twelve services I offer
+## The sixteen services I offer
 
 ::: {.capability-grid}
 1. **Data & Analytics Strategy**
@@ -157,10 +289,13 @@ AI can be part of that work when it has a specific job to do—research assistan
 10. **Data Architecture / Analytics System Design**
 11. **Process Improvement & Analytics Modernization**
 12. **Stakeholder Needs Assessment & Solution Design**
+13. **Institutional Knowledge & Continuity Assessment**
+14. **Workflow Documentation & SOP Development**
+15. **Knowledge Architecture & Internal Knowledge Bases**
+16. **AI Knowledge Assistants & Retrieval Systems**
 :::
 :::
 :::
-
 
 ::: {.band}
 ::: {.section-shell .section-spacious}
@@ -217,6 +352,10 @@ Not sure where to start? Take the free, five-minute analytics maturity assessmen
 A small, accessible first engagement to review current reporting and data workflows, identify useful measures, and define one or two practical improvements.
 :::
 ::: {.engagement-card}
+### Institutional Knowledge Risk Assessment
+A focused assessment of critical workflows, documentation, key-person dependencies, and knowledge-loss risk, followed by a prioritized roadmap.
+:::
+::: {.engagement-card}
 ### Diagnostic / strategy sprint
 A focused assessment to define the problem, stakeholders, data landscape, risks, and recommended next steps before a larger investment.
 :::
@@ -229,8 +368,8 @@ A defined question carried from research design and data preparation through ana
 Design and development of an interactive analytic product, including underlying data workflow and deployment planning.
 :::
 ::: {.engagement-card}
-### Modernization engagement
-Assessment and redesign of recurring analytics, reporting, data pipelines, architecture, or AI-assisted workflows.
+### Modernization or knowledge systems engagement
+Assessment and redesign of recurring analytics, reporting, workflows, documentation, knowledge architecture, data pipelines, or AI-assisted systems.
 :::
 ::: {.engagement-card}
 ### Fractional analytics leadership
