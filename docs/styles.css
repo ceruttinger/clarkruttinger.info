@@ -295,7 +295,7 @@ h3 { line-height: 1.25; }
   box-shadow: 0 0 0 28px rgba(220,180,71,.035), 0 0 0 55px rgba(105,84,199,.025);
   pointer-events: none;
 }
-.service-card:last-child { grid-column: 1 / -1; }
+.service-card:last-child:nth-child(odd) { grid-column: 1 / -1; }
 .service-card h3 { margin-top: 0; }
 .service-card a { font-weight: 700; text-decoration: none; }
 
@@ -501,7 +501,7 @@ h3 { line-height: 1.25; }
   .hero-copy p { font-size: 1.08rem; }
   .section-spacious { padding-top: 3.6rem; padding-bottom: 3.6rem; }
   .service-grid, .work-preview-grid, .public-work-grid, .principle-grid, .engagement-grid { grid-template-columns: 1fr; }
-  .service-card:last-child { grid-column: auto; }
+  .service-card:last-child:nth-child(odd) { grid-column: auto; }
   .capability-grid { columns: 1; }
   .case-card { padding-left: 3.6rem; }
   .case-number { font-size: 1.3rem; }
