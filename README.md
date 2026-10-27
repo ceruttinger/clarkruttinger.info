@@ -5,7 +5,7 @@ This is the Quarto rebuild of `clarkruttinger.info`, repositioned from a profess
 ## Site structure
 
 - `index.qmd` — consulting homepage
-- `services.qmd` — five service practices + full 12-capability list
+- `services.qmd` — six service practices + full 16-capability list
 - `work.qmd` — representative case studies and public examples
 - `about.qmd` — consulting biography and working approach
 - `insights.qmd` — publications, reports, and public research
@@ -36,12 +36,27 @@ The rendered site is written to `docs/`.
 
 ## GitHub Pages deployment
 
-This project is configured for the simple GitHub Pages workflow where rendered files are committed in `docs/`.
+Production is built and published by `.github/workflows/publish-site.yml` on every
+push to `main`, or manually using **Actions → Publish Quarto Site → Run workflow**.
+GitHub Pages uses **GitHub Actions** as its publishing source. The custom domain
+remains `clarkruttinger.info`; existing DNS settings do not change.
 
-1. Render with `quarto render`.
-2. Commit the source files **and** the rendered `docs/` directory.
-3. In GitHub repository **Settings → Pages**, set the source to the `main` branch and `/docs` folder.
-4. Keep the existing custom-domain DNS settings. Quarto copies the root `CNAME` and `.nojekyll` files into the rendered site.
+The workflow installs Quarto 1.10.18, runs `quarto render --no-clean`, checks
+rendered pages and local assets with `python3 scripts/check-site.py`, and deploys
+`docs/` using the official GitHub Pages artifact actions. No personal access token
+is needed. A failed build does not replace the deployed site.
+
+`--no-clean` preserves tracked static content and preview folders already in
+`docs/`. Keep standalone static tools/assets in version control. The existing
+Tool PR Preview workflow still manages preview folders; its successful completion
+also triggers production publishing because bot commits do not trigger push workflows.
+Only trusted `main` is checked out for production builds.
+
+For local verification, run `quarto render --no-clean` followed by
+`python3 scripts/check-site.py`. Source changes on `main` now deploy automatically;
+committing rendered files is optional, though the current rendered snapshot remains
+tracked for compatibility. Future executable R/Python chunks will require their
+runtime dependencies to be added to the build workflow.
 
 ## Important migration note for existing static assets
 

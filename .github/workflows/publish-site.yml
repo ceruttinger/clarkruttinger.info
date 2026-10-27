@@ -1,0 +1,54 @@
+name: Publish Quarto Site
+
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+  # Preview commits use GITHUB_TOKEN, so they do not emit push events.
+  workflow_run:
+    workflows: [Tool PR Preview]
+    types: [completed]
+
+permissions:
+  contents: read
+
+concurrency:
+  group: production-pages
+  cancel-in-progress: false
+
+jobs:
+  build:
+    if: github.event_name != 'workflow_run' || github.event.workflow_run.conclusion == 'success'
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: main
+          persist-credentials: false
+      - uses: quarto-dev/quarto-actions/setup@v2
+        with:
+          version: '1.10.18'
+      - name: Render site and preserve static assets and previews
+        run: quarto render --no-clean
+      - name: Preserve custom domain and disable Jekyll
+        run: |
+          cp CNAME docs/CNAME
+          cp .nojekyll docs/.nojekyll
+      - name: Check published files and local links
+        run: python3 scripts/check-site.py
+      - uses: actions/upload-pages-artifact@v4
+        with:
+          path: docs
+  deploy:
+    needs: build
+    runs-on: ubuntu-latest
+    permissions:
+      pages: write
+      id-token: write
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4
