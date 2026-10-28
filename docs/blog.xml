@@ -10,7 +10,140 @@
 <atom:link href="https://clarkruttinger.info/blog.xml" rel="self" type="application/rss+xml"/>
 <description>One finding a week from IRS Form 990 data on Utah nonprofits, and what each says about how organizations use data.</description>
 <generator>quarto-1.10.18</generator>
-<lastBuildDate>Tue, 20 Oct 2026 06:00:00 GMT</lastBuildDate>
+<lastBuildDate>Tue, 27 Oct 2026 06:00:00 GMT</lastBuildDate>
+<item>
+  <title>Utah’s nonprofit boards are a small world</title>
+  <dc:creator>Clark Ruttinger</dc:creator>
+  <link>https://clarkruttinger.info/posts/2026-10-27-small-world-boards/</link>
+  <description><![CDATA[ 
+
+
+
+
+<p>Every Form 990 lists the organization’s officers, directors and trustees by name. Put those lists side by side and you can see something no single filing shows: the people who sit on more than one board, and the organizations they connect.</p>
+<p>I did that for every Utah organization that filed a 990, 990-EZ or 990-PF for tax year 2023. In the filings I could see, <strong>between a fifth and two-fifths of Utah nonprofits share at least one board member or officer with another Utah nonprofit.</strong></p>
+<section id="the-number" class="level2">
+<h2 class="anchored" data-anchor-id="the-number">The number</h2>
+<p><img src="https://clarkruttinger.info/posts/2026-10-27-small-world-boards/f3_network.png" class="img-fluid" alt="Network diagram of the largest cluster of Utah nonprofits linked by shared board members, colored by mission area, with three statistics: 22% to 44% share a board member, 315 organizations in the cluster, 4.3 steps average distance."></p>
+<table class="caption-top table">
+<colgroup>
+<col style="width: 27%">
+<col style="width: 36%">
+<col style="width: 36%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>2023 filings</th>
+<th style="text-align: right;">Strict matching</th>
+<th style="text-align: right;">Loose matching</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Organizations with a published board list</td>
+<td style="text-align: right;">4,341</td>
+<td style="text-align: right;">4,341</td>
+</tr>
+<tr class="even">
+<td>After merging affiliated entities</td>
+<td style="text-align: right;">4,156</td>
+<td style="text-align: right;">4,126</td>
+</tr>
+<tr class="odd">
+<td>Share linked to another organization through a shared person</td>
+<td style="text-align: right;"><strong>22%</strong></td>
+<td style="text-align: right;"><strong>44%</strong></td>
+</tr>
+<tr class="even">
+<td>People who connect two or more unrelated organizations</td>
+<td style="text-align: right;">906</td>
+<td style="text-align: right;">1,934</td>
+</tr>
+<tr class="odd">
+<td>Largest connected cluster</td>
+<td style="text-align: right;">315 organizations</td>
+<td style="text-align: right;">1,505 organizations</td>
+</tr>
+<tr class="even">
+<td>Average distance within that cluster, board to board</td>
+<td style="text-align: right;">4.3 steps</td>
+<td style="text-align: right;">5.5 steps</td>
+</tr>
+</tbody>
+</table>
+<p>Why two columns? The IRS lists people by name only, and names are a messy way to match. <strong>Strict matching</strong> counts two seats as the same person only if the name matches <em>and</em> both organizations file from the same city. That misses real people who serve on boards in two cities, so it’s a floor. <strong>Loose matching</strong> uses the name alone. That joins different people who happen to share a common name, so it’s a ceiling. The truth is somewhere in between.</p>
+<p>I also merged <strong>affiliated entities</strong>: organizations whose boards are substantially the same people, like a charity and its supporting foundation, or a set of housing corporations run by one sponsor. Without that step, one family of organizations can look like a dense web of “connections” that are really one board wearing several hats. In 2023 that merged 294 organizations into 109 families.</p>
+</section>
+<section id="bigger-organizations-are-more-connected" class="level2">
+<h2 class="anchored" data-anchor-id="bigger-organizations-are-more-connected">Bigger organizations are more connected</h2>
+<p><img src="https://clarkruttinger.info/posts/2026-10-27-small-world-boards/f3_by_revenue.png" class="img-fluid" alt="Bar chart: share of organizations with a shared board member rises from 13% under $100k to 23%, 32%, 38% and 44% at $5M and up."></p>
+<p>Even with strict matching, 44% of organizations with $5 million or more in revenue share a board member with another Utah nonprofit, compared with 13% of those under $100,000. Full 990 filers are about twice as likely to be connected (32%) as 990-EZ filers or private foundations (15% each).</p>
+<p>By mission area, housing organizations are the most connected (43%, though it’s a small group of 63), followed by community improvement (31%), environment (30%), health (27%) and arts (27%) organizations. International (11%), animal-related (15%) and sports and recreation (15%) organizations are the least.</p>
+</section>
+<section id="what-it-means" class="level2">
+<h2 class="anchored" data-anchor-id="what-it-means">What it means</h2>
+<p><strong>For organizations,</strong> your board is a network, whether you use it that way or not. A director who also sits on another board brings that organization’s habits with them: how it budgets, what it reports, which funders it trusts.</p>
+<p><strong>For funders,</strong> the connected core is where ideas travel fastest. A practice adopted by a few well-connected boards has a short path to many others.</p>
+<p><strong>For anyone recruiting board members,</strong> the pool is smaller than it looks. Between about 120 and 370 people (strict and loose matching) connect three or more unrelated organizations. That’s a strength (experience) and a risk (fatigue, and the same voices everywhere).</p>
+</section>
+<section id="what-this-says-about-analytics-maturity" class="level2">
+<h2 class="anchored" data-anchor-id="what-this-says-about-analytics-maturity">What this says about analytics maturity</h2>
+<p>Practices spread through board seats. In my experience, the moment an organization starts to <em>want</em> better data is often when a board member says, “At my other board, we see this every month.” A finance committee chair who has seen a good dashboard asks for one. A director who has watched an evaluation change a program decision asks what yours would show.</p>
+<p>That makes connected board members the sector’s informal channel for analytics maturity. In stage terms, this is about <em>action and learning</em>: the habit of using what you find, which spreads person to person more than it’s taught. If you serve on more than one board, you’re already part of that channel. A practical step: bring one report, metric or meeting habit from your best-run board to your next meeting at another.</p>
+</section>
+<section id="what-the-data-cant-see" class="level2">
+<h2 class="anchored" data-anchor-id="what-the-data-cant-see">What the data can’t see</h2>
+<ul>
+<li><strong>Names are imperfect.</strong> Strict matching undercounts real connections, and loose matching overcounts them. I report both rather than guess.</li>
+<li><strong>Only organizations that list their board appear.</strong> That leaves out 990-N filers and churches, which is most of Utah’s smallest organizations (see post #1).</li>
+<li><strong>Some connections are by design.</strong> A school’s PTA and its foundation, or a hospital and its foundation, often share people on purpose. Merging affiliated entities removes the clearest cases but not all.</li>
+<li><strong>A connection isn’t influence.</strong> Two organizations sharing a treasurer doesn’t mean they share practices, only that the path exists.</li>
+<li><strong>No individuals are named,</strong> here or in the chart.</li>
+</ul>
+</section>
+<section id="method" class="level2">
+<h2 class="anchored" data-anchor-id="method">Method</h2>
+<details>
+<summary>
+Data and matching
+</summary>
+<ul>
+<li><strong>Seats:</strong> Officers, directors and trustees listed on 2023 Form 990 (Part VII; key employees and former officers excluded), 990-EZ (Part IV) and 990-PF (Part VIII) e-filed returns of Utah organizations in the IRS Exempt Organizations Business Master File: 28,952 seats at 4,341 organizations. Institutional trustees (banks, trust companies) and non-person entries were removed.</li>
+<li><strong>People:</strong> Names are normalized (uppercase, punctuation and suffixes such as JR, MD and CPA removed). Strict matching adds the filer’s city.</li>
+<li><strong>Affiliated entities:</strong> Two organizations are merged if they share at least two people and those people make up at least half of the smaller board.</li>
+<li><strong>Network:</strong> Organizations (or merged families) are linked when at least one person sits on both boards. Distances are shortest paths within the largest connected cluster.</li>
+<li><strong>Revenue bands</strong> use total revenue on the 2023 return.</li>
+</ul>
+</details>
+<details>
+<summary>
+The query (Cypher, against the Utah 990 graph)
+</summary>
+<pre class="cypher"><code>// Organizations that share at least one person in the same tax year
+MATCH (o1:Organization)&lt;-[r1:HAS_ROLE]-(p:Person)-[r2:HAS_ROLE]-&gt;(o2:Organization)
+WHERE o1 &lt;&gt; o2 AND r1.tax_year = 2023 AND r2.tax_year = 2023
+  AND o1.in_bmf AND o2.in_bmf
+  AND (r1.is_director OR r1.is_officer OR r1.is_director IS NULL)
+RETURN count(DISTINCT o1) AS interlocked_orgs, count(DISTINCT p) AS bridge_people;</code></pre>
+<p>The published figures add the same-city rule and the affiliate merge, which I ran in Python on the same tables.</p>
+</details>
+</section>
+<section id="where-does-your-organization-stand" class="level2">
+<h2 class="anchored" data-anchor-id="where-does-your-organization-stand">Where does your organization stand?</h2>
+<p>Your board’s experience elsewhere is a resource. <a href="https://clarkruttinger.info/assessment/?src=blog">Take the short analytics maturity assessment</a> and bring the results to your next board meeting. It’s a good way to start the “how do they do it at your other board?” conversation.</p>
+<p><em>Next week: how old is the public picture of a nonprofit? The lag between the end of a fiscal year and the day its 990 becomes public.</em></p>
+
+
+</section>
+
+ ]]></description>
+  <category>by-the-numbers</category>
+  <category>form-990</category>
+  <category>governance</category>
+  <guid>https://clarkruttinger.info/posts/2026-10-27-small-world-boards/</guid>
+  <pubDate>Tue, 27 Oct 2026 06:00:00 GMT</pubDate>
+  <media:content url="https://clarkruttinger.info/posts/2026-10-27-small-world-boards/f3_network.png" medium="image" type="image/png" height="81" width="144"/>
+</item>
 <item>
   <title>Utah charities count what they do, not what changes</title>
   <dc:creator>Clark Ruttinger</dc:creator>

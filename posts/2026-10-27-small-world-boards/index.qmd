@@ -4,7 +4,7 @@ subtitle: "Utah Nonprofits, by the Numbers #3"
 date: 2026-10-27
 author: Clark Ruttinger
 description: "Between 22% and 44% of Utah nonprofits share a board member or officer with another Utah nonprofit. The biggest organizations are the most connected. What travels along those connections, including how organizations use data."
-draft: true
+draft: false
 categories: [by-the-numbers, form-990, governance]
 image: f3_network.png
 ---

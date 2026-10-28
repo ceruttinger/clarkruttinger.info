@@ -200,7 +200,7 @@
     "href": "blog.html",
     "title": "Utah Nonprofits, by the Numbers",
     "section": "",
-    "text": "A weekly series built from public IRS data on Utah’s 13,072 tax-exempt organizations. Each post takes one finding (about boards, funding, finances, or how organizations describe their impact) and asks what it says about analytics maturity.\nWant to know where your own organization stands? Take the short analytics maturity assessment.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nUtah charities count what they do, not what changes\n\n\nUtah Nonprofits, by the Numbers #2\n\n\n\nby-the-numbers\n\nform-990\n\noutcomes\n\n\n\nIn 3,096 Utah charities’ Form 990 program descriptions, two-thirds describe activities with no numbers, 31% count outputs, and about 2% report an outcome. What that gap says about analytics maturity.\n\n\n\n\n\nOct 20, 2026\n\n\nClark Ruttinger\n\n\n\n\n\n\n\n\n\n\n\n\nMost of Utah’s nonprofit sector is invisible in public data\n\n\nUtah Nonprofits, by the Numbers #1\n\n\n\nby-the-numbers\n\nform-990\n\ndata-foundation\n\n\n\nOnly 20% of Utah’s 13,072 exempt organizations have e-filed a full Form 990. Who is missing, why, and what it means for how small nonprofits use data.\n\n\n\n\n\nOct 13, 2026\n\n\nClark Ruttinger\n\n\n\n\n\nNo matching items"
+    "text": "A weekly series built from public IRS data on Utah’s 13,072 tax-exempt organizations. Each post takes one finding (about boards, funding, finances, or how organizations describe their impact) and asks what it says about analytics maturity.\nWant to know where your own organization stands? Take the short analytics maturity assessment.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nUtah’s nonprofit boards are a small world\n\n\nUtah Nonprofits, by the Numbers #3\n\n\n\nby-the-numbers\n\nform-990\n\ngovernance\n\n\n\nBetween 22% and 44% of Utah nonprofits share a board member or officer with another Utah nonprofit. The biggest organizations are the most connected. What travels along those connections, including how organizations use data.\n\n\n\n\n\nOct 27, 2026\n\n\nClark Ruttinger\n\n\n\n\n\n\n\n\n\n\n\n\nUtah charities count what they do, not what changes\n\n\nUtah Nonprofits, by the Numbers #2\n\n\n\nby-the-numbers\n\nform-990\n\noutcomes\n\n\n\nIn 3,096 Utah charities’ Form 990 program descriptions, two-thirds describe activities with no numbers, 31% count outputs, and about 2% report an outcome. What that gap says about analytics maturity.\n\n\n\n\n\nOct 20, 2026\n\n\nClark Ruttinger\n\n\n\n\n\n\n\n\n\n\n\n\nMost of Utah’s nonprofit sector is invisible in public data\n\n\nUtah Nonprofits, by the Numbers #1\n\n\n\nby-the-numbers\n\nform-990\n\ndata-foundation\n\n\n\nOnly 20% of Utah’s 13,072 exempt organizations have e-filed a full Form 990. Who is missing, why, and what it means for how small nonprofits use data.\n\n\n\n\n\nOct 13, 2026\n\n\nClark Ruttinger\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "about.html#background",
@@ -341,6 +341,62 @@
     "title": "Most of Utah’s nonprofit sector is invisible in public data",
     "section": "Where does your organization stand?",
     "text": "Where does your organization stand?\nIf public data can’t tell your story, your own data has to. Take the short analytics maturity assessment to see where your organization’s data practices are strong and where the next step is.\nNext week: how Utah nonprofits describe their impact, and how many describe outcomes rather than just counting people served."
+  },
+  {
+    "objectID": "posts/2026-10-27-small-world-boards/index.html",
+    "href": "posts/2026-10-27-small-world-boards/index.html",
+    "title": "Utah’s nonprofit boards are a small world",
+    "section": "",
+    "text": "Every Form 990 lists the organization’s officers, directors and trustees by name. Put those lists side by side and you can see something no single filing shows: the people who sit on more than one board, and the organizations they connect.\nI did that for every Utah organization that filed a 990, 990-EZ or 990-PF for tax year 2023. In the filings I could see, between a fifth and two-fifths of Utah nonprofits share at least one board member or officer with another Utah nonprofit."
+  },
+  {
+    "objectID": "posts/2026-10-27-small-world-boards/index.html#the-number",
+    "href": "posts/2026-10-27-small-world-boards/index.html#the-number",
+    "title": "Utah’s nonprofit boards are a small world",
+    "section": "The number",
+    "text": "The number\n\n\n\n\n\n\n\n\n\n2023 filings\nStrict matching\nLoose matching\n\n\n\n\nOrganizations with a published board list\n4,341\n4,341\n\n\nAfter merging affiliated entities\n4,156\n4,126\n\n\nShare linked to another organization through a shared person\n22%\n44%\n\n\nPeople who connect two or more unrelated organizations\n906\n1,934\n\n\nLargest connected cluster\n315 organizations\n1,505 organizations\n\n\nAverage distance within that cluster, board to board\n4.3 steps\n5.5 steps\n\n\n\nWhy two columns? The IRS lists people by name only, and names are a messy way to match. Strict matching counts two seats as the same person only if the name matches and both organizations file from the same city. That misses real people who serve on boards in two cities, so it’s a floor. Loose matching uses the name alone. That joins different people who happen to share a common name, so it’s a ceiling. The truth is somewhere in between.\nI also merged affiliated entities: organizations whose boards are substantially the same people, like a charity and its supporting foundation, or a set of housing corporations run by one sponsor. Without that step, one family of organizations can look like a dense web of “connections” that are really one board wearing several hats. In 2023 that merged 294 organizations into 109 families."
+  },
+  {
+    "objectID": "posts/2026-10-27-small-world-boards/index.html#bigger-organizations-are-more-connected",
+    "href": "posts/2026-10-27-small-world-boards/index.html#bigger-organizations-are-more-connected",
+    "title": "Utah’s nonprofit boards are a small world",
+    "section": "Bigger organizations are more connected",
+    "text": "Bigger organizations are more connected\n\nEven with strict matching, 44% of organizations with $5 million or more in revenue share a board member with another Utah nonprofit, compared with 13% of those under $100,000. Full 990 filers are about twice as likely to be connected (32%) as 990-EZ filers or private foundations (15% each).\nBy mission area, housing organizations are the most connected (43%, though it’s a small group of 63), followed by community improvement (31%), environment (30%), health (27%) and arts (27%) organizations. International (11%), animal-related (15%) and sports and recreation (15%) organizations are the least."
+  },
+  {
+    "objectID": "posts/2026-10-27-small-world-boards/index.html#what-it-means",
+    "href": "posts/2026-10-27-small-world-boards/index.html#what-it-means",
+    "title": "Utah’s nonprofit boards are a small world",
+    "section": "What it means",
+    "text": "What it means\nFor organizations, your board is a network, whether you use it that way or not. A director who also sits on another board brings that organization’s habits with them: how it budgets, what it reports, which funders it trusts.\nFor funders, the connected core is where ideas travel fastest. A practice adopted by a few well-connected boards has a short path to many others.\nFor anyone recruiting board members, the pool is smaller than it looks. Between about 120 and 370 people (strict and loose matching) connect three or more unrelated organizations. That’s a strength (experience) and a risk (fatigue, and the same voices everywhere)."
+  },
+  {
+    "objectID": "posts/2026-10-27-small-world-boards/index.html#what-this-says-about-analytics-maturity",
+    "href": "posts/2026-10-27-small-world-boards/index.html#what-this-says-about-analytics-maturity",
+    "title": "Utah’s nonprofit boards are a small world",
+    "section": "What this says about analytics maturity",
+    "text": "What this says about analytics maturity\nPractices spread through board seats. In my experience, the moment an organization starts to want better data is often when a board member says, “At my other board, we see this every month.” A finance committee chair who has seen a good dashboard asks for one. A director who has watched an evaluation change a program decision asks what yours would show.\nThat makes connected board members the sector’s informal channel for analytics maturity. In stage terms, this is about action and learning: the habit of using what you find, which spreads person to person more than it’s taught. If you serve on more than one board, you’re already part of that channel. A practical step: bring one report, metric or meeting habit from your best-run board to your next meeting at another."
+  },
+  {
+    "objectID": "posts/2026-10-27-small-world-boards/index.html#what-the-data-cant-see",
+    "href": "posts/2026-10-27-small-world-boards/index.html#what-the-data-cant-see",
+    "title": "Utah’s nonprofit boards are a small world",
+    "section": "What the data can’t see",
+    "text": "What the data can’t see\n\nNames are imperfect. Strict matching undercounts real connections, and loose matching overcounts them. I report both rather than guess.\nOnly organizations that list their board appear. That leaves out 990-N filers and churches, which is most of Utah’s smallest organizations (see post #1).\nSome connections are by design. A school’s PTA and its foundation, or a hospital and its foundation, often share people on purpose. Merging affiliated entities removes the clearest cases but not all.\nA connection isn’t influence. Two organizations sharing a treasurer doesn’t mean they share practices, only that the path exists.\nNo individuals are named, here or in the chart."
+  },
+  {
+    "objectID": "posts/2026-10-27-small-world-boards/index.html#method",
+    "href": "posts/2026-10-27-small-world-boards/index.html#method",
+    "title": "Utah’s nonprofit boards are a small world",
+    "section": "Method",
+    "text": "Method\n\n\nData and matching\n\n\nSeats: Officers, directors and trustees listed on 2023 Form 990 (Part VII; key employees and former officers excluded), 990-EZ (Part IV) and 990-PF (Part VIII) e-filed returns of Utah organizations in the IRS Exempt Organizations Business Master File: 28,952 seats at 4,341 organizations. Institutional trustees (banks, trust companies) and non-person entries were removed.\nPeople: Names are normalized (uppercase, punctuation and suffixes such as JR, MD and CPA removed). Strict matching adds the filer’s city.\nAffiliated entities: Two organizations are merged if they share at least two people and those people make up at least half of the smaller board.\nNetwork: Organizations (or merged families) are linked when at least one person sits on both boards. Distances are shortest paths within the largest connected cluster.\nRevenue bands use total revenue on the 2023 return.\n\n\n\n\nThe query (Cypher, against the Utah 990 graph)\n\n// Organizations that share at least one person in the same tax year\nMATCH (o1:Organization)&lt;-[r1:HAS_ROLE]-(p:Person)-[r2:HAS_ROLE]-&gt;(o2:Organization)\nWHERE o1 &lt;&gt; o2 AND r1.tax_year = 2023 AND r2.tax_year = 2023\n  AND o1.in_bmf AND o2.in_bmf\n  AND (r1.is_director OR r1.is_officer OR r1.is_director IS NULL)\nRETURN count(DISTINCT o1) AS interlocked_orgs, count(DISTINCT p) AS bridge_people;\nThe published figures add the same-city rule and the affiliate merge, which I ran in Python on the same tables."
+  },
+  {
+    "objectID": "posts/2026-10-27-small-world-boards/index.html#where-does-your-organization-stand",
+    "href": "posts/2026-10-27-small-world-boards/index.html#where-does-your-organization-stand",
+    "title": "Utah’s nonprofit boards are a small world",
+    "section": "Where does your organization stand?",
+    "text": "Where does your organization stand?\nYour board’s experience elsewhere is a resource. Take the short analytics maturity assessment and bring the results to your next board meeting. It’s a good way to start the “how do they do it at your other board?” conversation.\nNext week: how old is the public picture of a nonprofit? The lag between the end of a fiscal year and the day its 990 becomes public."
   },
   {
     "objectID": "presentations.html",
