@@ -200,7 +200,7 @@
     "href": "blog.html",
     "title": "Utah Nonprofits, by the Numbers",
     "section": "",
-    "text": "A weekly series built from public IRS data on Utah’s 13,072 tax-exempt organizations. Each post takes one finding (about boards, funding, finances, or how organizations describe their impact) and asks what it says about analytics maturity.\nWant to know where your own organization stands? Take the short analytics maturity assessment.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nUtah’s nonprofit boards are a small world\n\n\nUtah Nonprofits, by the Numbers #3\n\n\n\nby-the-numbers\n\nform-990\n\ngovernance\n\n\n\nBetween 22% and 44% of Utah nonprofits share a board member or officer with another Utah nonprofit. The biggest organizations are the most connected. What travels along those connections, including how organizations use data.\n\n\n\n\n\nOct 27, 2026\n\n\nClark Ruttinger\n\n\n\n\n\n\n\n\n\n\n\n\nUtah charities count what they do, not what changes\n\n\nUtah Nonprofits, by the Numbers #2\n\n\n\nby-the-numbers\n\nform-990\n\noutcomes\n\n\n\nIn 3,096 Utah charities’ Form 990 program descriptions, two-thirds describe activities with no numbers, 31% count outputs, and about 2% report an outcome. What that gap says about analytics maturity.\n\n\n\n\n\nOct 20, 2026\n\n\nClark Ruttinger\n\n\n\n\n\n\n\n\n\n\n\n\nMost of Utah’s nonprofit sector is invisible in public data\n\n\nUtah Nonprofits, by the Numbers #1\n\n\n\nby-the-numbers\n\nform-990\n\ndata-foundation\n\n\n\nOnly 20% of Utah’s 13,072 exempt organizations have e-filed a full Form 990. Who is missing, why, and what it means for how small nonprofits use data.\n\n\n\n\n\nOct 13, 2026\n\n\nClark Ruttinger\n\n\n\n\n\nNo matching items"
+    "text": "A weekly series built from public IRS data on Utah’s 13,072 tax-exempt organizations. Each post takes one finding (about boards, funding, finances, or how organizations describe their impact) and asks what it says about analytics maturity.\nWant to know where your own organization stands? Take the short analytics maturity assessment.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nThe public picture of a nonprofit is a year and a half old\n\n\nUtah Nonprofits, by the Numbers #4\n\n\n\nby-the-numbers\n\nform-990\n\ndata-timeliness\n\n\n\nUtah nonprofits file their 990 a median of 7 months after the fiscal year ends, and most file on extension. For the typical organization, the newest public return describes a year that ended 13 months ago.\n\n\n\n\n\nNov 3, 2026\n\n\nClark Ruttinger\n\n\n\n\n\n\n\n\n\n\n\n\nUtah’s nonprofit boards are a small world\n\n\nUtah Nonprofits, by the Numbers #3\n\n\n\nby-the-numbers\n\nform-990\n\ngovernance\n\n\n\nBetween 22% and 44% of Utah nonprofits share a board member or officer with another Utah nonprofit. The biggest organizations are the most connected. What travels along those connections, including how organizations use data.\n\n\n\n\n\nOct 27, 2026\n\n\nClark Ruttinger\n\n\n\n\n\n\n\n\n\n\n\n\nUtah charities count what they do, not what changes\n\n\nUtah Nonprofits, by the Numbers #2\n\n\n\nby-the-numbers\n\nform-990\n\noutcomes\n\n\n\nIn 3,096 Utah charities’ Form 990 program descriptions, two-thirds describe activities with no numbers, 31% count outputs, and about 2% report an outcome. What that gap says about analytics maturity.\n\n\n\n\n\nOct 20, 2026\n\n\nClark Ruttinger\n\n\n\n\n\n\n\n\n\n\n\n\nMost of Utah’s nonprofit sector is invisible in public data\n\n\nUtah Nonprofits, by the Numbers #1\n\n\n\nby-the-numbers\n\nform-990\n\ndata-foundation\n\n\n\nOnly 20% of Utah’s 13,072 exempt organizations have e-filed a full Form 990. Who is missing, why, and what it means for how small nonprofits use data.\n\n\n\n\n\nOct 13, 2026\n\n\nClark Ruttinger\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "about.html#background",
@@ -453,5 +453,61 @@
     "title": "Services",
     "section": "Ways to engage",
     "text": "Ways to engage\n\n\nNonprofit Analytics Quick Start\nA small, accessible first engagement to review current reporting and data workflows, identify useful measures, and define one or two practical improvements.\n\n\nInstitutional Knowledge Risk Assessment\nA focused assessment of critical workflows, documentation, key-person dependencies, and knowledge-loss risk, followed by a prioritized roadmap.\n\n\nDiagnostic / strategy sprint\nA focused assessment to define the problem, stakeholders, data landscape, risks, and recommended next steps before a larger investment.\n\n\nAnalysis or research project\nA defined question carried from research design and data preparation through analysis, interpretation, and decision-ready communication.\n\n\nDashboard or application build\nDesign and development of an interactive analytic product, including underlying data workflow and deployment planning.\n\n\nModernization or knowledge systems engagement\nAssessment and redesign of recurring analytics, reporting, workflows, documentation, knowledge architecture, data pipelines, or AI-assisted systems.\n\n\nFractional analytics leadership\nSenior-level help scoping priorities, reviewing methods, mentoring analysts, evaluating tools, and connecting technical work to organizational decisions.\n\n\nDiscuss an engagement"
+  },
+  {
+    "objectID": "posts/2026-11-03-two-year-lag/index.html",
+    "href": "posts/2026-11-03-two-year-lag/index.html",
+    "title": "The public picture of a nonprofit is a year and a half old",
+    "section": "",
+    "text": "When a funder, a journalist or a prospective board member looks up a nonprofit, the 990 is usually the first thing they find. It’s worth asking how current that picture is.\nI measured the gap between the end of each Utah organization’s fiscal year and the day its return was e-filed, for every 990, 990-EZ and 990-PF in the IRS e-file data since 2017. In the filings I could see, the typical return is filed 7 months after the year ends. For the typical organization, the newest public return describes a fiscal year that ended 13 months ago, so the activity it covers happened about a year and a half ago on average."
+  },
+  {
+    "objectID": "posts/2026-11-03-two-year-lag/index.html#the-number",
+    "href": "posts/2026-11-03-two-year-lag/index.html#the-number",
+    "title": "The public picture of a nonprofit is a year and a half old",
+    "section": "The number",
+    "text": "The number\n\n\n\n\nFrom fiscal year-end to e-filing (29,241 returns)\n\n\n\n\n\nMedian\n7.2 months\n\n\nFiled by the original due date (4½ months)\n32%\n\n\nFiled by the extended due date (10½ months)\n91%\n\n\nMedian, full Form 990\n7.9 months\n\n\nMedian, 990-EZ\n4.9 months\n\n\nMedian, 990-PF\n6.8 months\n\n\n\nA 990 is due on the 15th day of the fifth month after the fiscal year ends, and one automatic six-month extension is available. Most organizations use it. Two out of three file after the original due date, and the curve jumps right before the extended deadline. The filing deadline, not the end of the year, decides when the numbers come out.\nFor an organization whose fiscal year matches the calendar year, that means:\n\n\n\n\n\n\n\nCalendar-year 2025\nDate\n\n\n\n\nFiscal year ends\nDecember 31, 2025\n\n\nOriginal due date\nMay 15, 2026\n\n\nExtended due date\nNovember 16, 2026 (the 15th falls on a Sunday)\n\n\nTypical filing (7 months)\nLate July 2026\n\n\nWhen the numbers describe\nJanuary–December 2025, on average mid-2025\n\n\n\nOnce a return is filed, the IRS isn’t the bottleneck anymore. In the IRS’s 2024–2026 data, e-filed returns are released in monthly batches, and the typical return appears in the batch for the same month it was filed. Almost all of the lag is the filing itself."
+  },
+  {
+    "objectID": "posts/2026-11-03-two-year-lag/index.html#how-old-is-the-newest-public-990",
+    "href": "posts/2026-11-03-two-year-lag/index.html#how-old-is-the-newest-public-990",
+    "title": "The public picture of a nonprofit is a year and a half old",
+    "section": "How old is the newest public 990?",
+    "text": "How old is the newest public 990?\n\nAs of the IRS’s July 2026 release, I looked at each of the 5,268 Utah organizations that have filed since 2022 and asked how old its newest return is:\n\n62% have a newest return for a year that ended 12 or more months ago.\n47% are 18 months or older. For most of these, the fiscal-2025 return isn’t filed yet, so the newest public numbers are from 2024.\nFiscal-2025 returns available so far: 2,810, or 59% of the number filed for fiscal 2024. The rest will arrive through November."
+  },
+  {
+    "objectID": "posts/2026-11-03-two-year-lag/index.html#what-it-means",
+    "href": "posts/2026-11-03-two-year-lag/index.html#what-it-means",
+    "title": "The public picture of a nonprofit is a year and a half old",
+    "section": "What it means",
+    "text": "What it means\nFor funders and researchers, 990 data describes the recent past, not the present. A benchmark built today from 990s mostly reflects 2024, and only partly 2025. That’s fine for structure (who funds whom, how boards are built) and weaker for anything that changes fast, like cash, staffing or demand.\nFor organizations, the public record of your work lags your actual work by a year or more. If your 2025 was a turnaround year, people researching you may not see it until late 2026.\nFor boards, the 990 isn’t the last word on a year. It’s the paperwork that closes it. Decisions about this year can’t wait for it."
+  },
+  {
+    "objectID": "posts/2026-11-03-two-year-lag/index.html#what-this-says-about-analytics-maturity",
+    "href": "posts/2026-11-03-two-year-lag/index.html#what-this-says-about-analytics-maturity",
+    "title": "The public picture of a nonprofit is a year and a half old",
+    "section": "What this says about analytics maturity",
+    "text": "What this says about analytics maturity\nThis one is about the data stage, and about whose data you decide with. The public sees you through a year-old filing. Your board shouldn’t. The organizations that move fastest run on internal numbers that are a month old, not a year old: a monthly close, a few program measures updated on a schedule, a dashboard the board sees before every meeting.\nA practical step: ask how long after a month ends your board sees that month’s numbers. If the answer is more than six weeks, shortening it is one of the highest-value data projects you can do. It doesn’t need new software, just a schedule and someone who owns it."
+  },
+  {
+    "objectID": "posts/2026-11-03-two-year-lag/index.html#what-the-data-cant-see",
+    "href": "posts/2026-11-03-two-year-lag/index.html#what-the-data-cant-see",
+    "title": "The public picture of a nonprofit is a year and a half old",
+    "section": "What the data can’t see",
+    "text": "What the data can’t see\n\nFiling isn’t the same as publication. I measure the e-file submission timestamp. In 2024–2026 the IRS’s monthly release batch usually matches the filing month, but each batch is posted after that month ends, so public availability is somewhat later than shown here. Treat these lags as “at least.”\nPaper returns and the 990-N aren’t included. Paper filing was common before e-filing became mandatory (tax years beginning after July 1, 2019 for the 990; 2021 for the 990-EZ), so the earliest years in the data lean toward organizations that already e-filed.\nAmended returns are counted once, at the original filing.\nThe fiscal-2025 comparison assumes a fiscal-2025 cohort about the size of fiscal 2024. Recent cohorts have grown about 5% a year, so 59% is, if anything, generous.\n“Utah” means a Utah mailing address on the IRS master file."
+  },
+  {
+    "objectID": "posts/2026-11-03-two-year-lag/index.html#method",
+    "href": "posts/2026-11-03-two-year-lag/index.html#method",
+    "title": "The public picture of a nonprofit is a year and a half old",
+    "section": "Method",
+    "text": "Method\n\n\nData and calculations\n\n\nReturns: IRS Form 990 e-file indexes 2017–2026 (download of September 7, 2026; latest release batch July 2026), filtered to Utah organizations in the EO Business Master File. Information returns only (990, 990-EZ, 990-PF, including the older 990O/990EO/990PR labels); one return per organization and fiscal period, keeping the first filed.\nFiscal year-end is the index TAX_PERIOD (year and month). Filing date is the ReturnTs timestamp in the return header. Lags are in months of 30.44 days. I kept returns filed 0–60 months after year-end (29,241).\nRelease batch is the IRS XML_BATCH_ID month, available for the 2024–2026 indexes.\nAge of newest return: for each organization with a fiscal year ending in 2022 or later, the time from its latest fiscal year-end to July 31, 2026.\n\n\n\n\nThe calculation (Python)\n\nx[\"fy_end\"] = pd.to_datetime(x.TAX_PERIOD + \"01\", format=\"%Y%m%d\") + pd.offsets.MonthEnd(0)\nx[\"filed\"]  = pd.to_datetime(x.return_ts.str[:10])\nx[\"lag_months\"] = (x.filed - x.fy_end).dt.days / 30.4375\nx = x.sort_values(\"filed\").drop_duplicates([\"EIN\", \"TAX_PERIOD\"])   # first filing only\nx.lag_months.median()                    # 7.2\n(x.lag_months &lt;= 4.5).mean()             # 0.32  original due date\n(x.lag_months &lt;= 10.5).mean()            # 0.91  extended due date"
+  },
+  {
+    "objectID": "posts/2026-11-03-two-year-lag/index.html#where-does-your-organization-stand",
+    "href": "posts/2026-11-03-two-year-lag/index.html#where-does-your-organization-stand",
+    "title": "The public picture of a nonprofit is a year and a half old",
+    "section": "Where does your organization stand?",
+    "text": "Where does your organization stand?\nHow current are the numbers your board decides with? Take the short analytics maturity assessment. It asks about reporting rhythm and data timeliness, and shows where your organization’s next step is.\nNext week: who funds Utah. How concentrated grant dollars are among the state’s largest grantmakers, and why that matters for what nonprofits measure."
   }
 ]
