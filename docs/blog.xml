@@ -10,7 +10,140 @@
 <atom:link href="https://clarkruttinger.info/blog.xml" rel="self" type="application/rss+xml"/>
 <description>One finding a week from IRS Form 990 data on Utah nonprofits, and what each says about how organizations use data.</description>
 <generator>quarto-1.10.18</generator>
-<lastBuildDate>Tue, 03 Nov 2026 07:00:00 GMT</lastBuildDate>
+<lastBuildDate>Tue, 10 Nov 2026 07:00:00 GMT</lastBuildDate>
+<item>
+  <title>Twenty funders give half of Utah’s grant dollars</title>
+  <dc:creator>Clark Ruttinger</dc:creator>
+  <link>https://clarkruttinger.info/posts/2026-11-10-who-funds-utah/</link>
+  <description><![CDATA[ 
+
+
+
+
+<p>Every private foundation lists its grants on Form 990-PF, and every public charity that makes grants over $5,000 lists them on Schedule I of its Form 990. Put four years of those lists together for Utah and you can see who funds the state’s nonprofits, at least among funders based here.</p>
+<p>In the filings I could see, <strong>about 1,000 Utah grantmakers gave $1.03 billion to Utah organizations from 2021 through 2024. Twenty of them gave half of it.</strong></p>
+<section id="the-number" class="level2">
+<h2 class="anchored" data-anchor-id="the-number">The number</h2>
+<p><img src="https://clarkruttinger.info/posts/2026-11-10-who-funds-utah/f5_curve.png" class="img-fluid" alt="Cumulative share curve of grant dollars by grantmaker rank on a log scale. The top 10 grantmakers give 36%, the top 20 give 50%, and the top 100 give 82% of $1.03 billion."></p>
+<table class="caption-top table">
+<thead>
+<tr class="header">
+<th>Utah grantmakers to Utah organizations, 2021–2024</th>
+<th style="text-align: right;"></th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Grantmakers</td>
+<td style="text-align: right;">1,009</td>
+</tr>
+<tr class="even">
+<td>Grant dollars</td>
+<td style="text-align: right;">$1.03 billion</td>
+</tr>
+<tr class="odd">
+<td>Organizations receiving grants</td>
+<td style="text-align: right;">about 8,300</td>
+</tr>
+<tr class="even">
+<td>Share from the top 10 grantmakers</td>
+<td style="text-align: right;">36%</td>
+</tr>
+<tr class="odd">
+<td>Grantmakers that account for half the dollars</td>
+<td style="text-align: right;"><strong>20</strong></td>
+</tr>
+<tr class="even">
+<td>Grantmakers that account for 80%</td>
+<td style="text-align: right;">88</td>
+</tr>
+</tbody>
+</table>
+<p>The other 921 grantmakers share the remaining 20%. Most of them are small family foundations: the median grantmaker gave about $44,000 to Utah organizations in 2023.</p>
+<p>The pattern holds year to year, even though the totals move around with big one-time gifts. The top 10 accounted for between 39% and 54% of the dollars in each single year from 2021 through 2024.</p>
+</section>
+<section id="who-they-are" class="level2">
+<h2 class="anchored" data-anchor-id="who-they-are">Who they are</h2>
+<p><img src="https://clarkruttinger.info/posts/2026-11-10-who-funds-utah/f5_top15.png" class="img-fluid" alt="Bar chart of the 15 largest Utah grantmakers to Utah organizations, 2021 to 2024, led by Sorenson Legacy Foundation ($68M), the Larry H. Miller and Gail Miller Family Foundation ($63M), and Palladium Foundation ($51M)."></p>
+<p>About three-quarters of the dollars come from private foundations, most of them family foundations. The rest come from public charities that make grants, such as community foundations, United Ways and health-system foundations. Naming these funders is fair game: they are public grantmakers, and their grants are public record.</p>
+</section>
+<section id="the-money-that-isnt-really-grantmaking" class="level2">
+<h2 class="anchored" data-anchor-id="the-money-that-isnt-really-grantmaking">The money that isn’t really grantmaking</h2>
+<p>The raw grant lists add up to much more than $1 billion. Over the four years, Utah filers reported <strong>$2.3 billion</strong> in grants to Utah organizations. More than half of that is money moving within one organizational family, not money a funder chose to give:</p>
+<ul>
+<li><strong>Support organizations funding the one organization they exist for:</strong> a school district’s foundation paying the district, a hospital’s foundation paying the hospital, a ski team’s foundation paying the team. I set aside 79 grantmakers that sent 80% or more of their Utah grants to a single recipient.</li>
+<li><strong>Transfers to an organization with the grantmaker’s own name,</strong> such as a charity paying its own building LLC or a parent paying its affiliate.</li>
+</ul>
+<p>Those flows are real money, but they say nothing about who decides what the sector works on. The figures above leave them out.</p>
+</section>
+<section id="what-it-means" class="level2">
+<h2 class="anchored" data-anchor-id="what-it-means">What it means</h2>
+<p><strong>For funders,</strong> concentration is influence. When 20 organizations account for half the grant dollars, their application forms, reporting templates and site visits set the routine for a large share of Utah’s nonprofits. Whatever those 20 ask grantees to measure becomes what gets measured.</p>
+<p><strong>For nonprofits,</strong> it’s a small pool. If a handful of funders account for most of the money in your field, losing one of them is a strategic event, not a fundraising setback. (That’s next week’s post.)</p>
+<p><strong>For everyone,</strong> this is only part of the picture. Individual donors, government contracts, fees and national foundations outweigh Utah grantmakers for most organizations. More on that below.</p>
+</section>
+<section id="what-this-says-about-analytics-maturity" class="level2">
+<h2 class="anchored" data-anchor-id="what-this-says-about-analytics-maturity">What this says about analytics maturity</h2>
+<p>This is the <em>questions</em> stage, seen from the funder’s side. Last month’s post found that only about 2 in 100 Utah charities report an outcome in their 990. One reason is that grant reports usually ask for activities and counts: people served, events held, dollars spent. Organizations measure what they are asked to report.</p>
+<p>That makes a concentrated funding base an opportunity. If the largest grantmakers asked one or two outcome questions in their reports and helped grantees build the data habits to answer them, practice could change across a big share of the sector without anyone launching a new program. A practical step for funders: look at your own reporting template and ask which questions you actually use to make decisions. Cut the rest, and add the one outcome question you wish you could answer.</p>
+</section>
+<section id="what-the-data-cant-see" class="level2">
+<h2 class="anchored" data-anchor-id="what-the-data-cant-see">What the data can’t see</h2>
+<ul>
+<li><strong>Only Utah-based grantmakers that e-file are included.</strong> National foundations that fund Utah organizations file their returns from other states, so they don’t appear here. Neither do government grants, corporate giving programs or donations from individuals.</li>
+<li><strong>Giving by the Church of Jesus Christ of Latter-day Saints doesn’t appear.</strong> Churches don’t file 990s. Grants <em>to</em> the Church from Utah foundations do appear.</li>
+<li><strong>Some money is counted twice.</strong> About 1 in 6 dollars went to a recipient that is itself a Utah grantmaker, which then regranted some of it.</li>
+<li><strong>Recipients are matched by the address on the grant line.</strong> About 8% of grant lines have no state and are left out. Grants to individuals (mostly scholarships) are excluded.</li>
+<li><strong>“Support organization” is a rule, not a legal status.</strong> Anyone sending 80% of $500,000 or more to one recipient is set aside, which catches a few family foundations devoted to one cause. The concentration result holds with or without them.</li>
+<li><strong>One foreign filer was removed.</strong> A German foundation that files a 990-PF from a Utah address reported large grants to a placeholder recipient; they aren’t Utah giving.</li>
+</ul>
+</section>
+<section id="method" class="level2">
+<h2 class="anchored" data-anchor-id="method">Method</h2>
+<details>
+<summary>
+Data and definitions
+</summary>
+<ul>
+<li><strong>Grants:</strong> Form 990-PF grants paid and Form 990 Schedule I grants to organizations, from e-filed returns of Utah organizations in the IRS Exempt Organizations Business Master File, tax years 2021–2024. One return per grantmaker per year (the most recently filed, so amended returns replace originals). Cash and non-cash amounts are combined.</li>
+<li><strong>Utah recipients:</strong> grant lines with a Utah recipient address. Grants to individuals are excluded.</li>
+<li><strong>Within-family transfers excluded:</strong> (1) grantmakers giving $500,000 or more to Utah recipients in the period with at least 80% going to one recipient (recipient spelling variants grouped), and (2) grants from a public charity to a recipient whose name contains the grantmaker’s own distinctive name or acronym.</li>
+<li><strong>Concentration:</strong> grantmakers ranked by total dollars to Utah recipients over 2021–2024; cumulative share of the total.</li>
+</ul>
+</details>
+<details>
+<summary>
+The query (Cypher, against the Utah 990 graph)
+</summary>
+<pre class="cypher"><code>// Top grantmakers to Utah recipients, 2021-2024 (before the within-family exclusions)
+MATCH (f:Organization)-[g:GRANTED]-&gt;(r:Organization)
+WHERE g.tax_year IN [2021, 2022, 2023, 2024] AND r.state = 'UT'
+WITH f, sum(coalesce(g.cash_amount, 0) + coalesce(g.noncash_amount, 0)) AS dollars
+ORDER BY dollars DESC
+WITH collect({funder: f.name, dollars: dollars}) AS ranked, sum(dollars) AS total
+UNWIND range(0, size(ranked) - 1) AS i
+WITH ranked[i] AS row, i + 1 AS rnk, total,
+     reduce(s = 0.0, x IN ranked[0..i + 1] | s + x.dollars) AS running
+RETURN rnk, row.funder, row.dollars, round(100.0 * running / total, 1) AS cumulative_pct
+LIMIT 50;</code></pre>
+</details>
+</section>
+<section id="where-does-your-organization-stand" class="level2">
+<h2 class="anchored" data-anchor-id="where-does-your-organization-stand">Where does your organization stand?</h2>
+<p>Whether you fund or are funded, the data habits start with the questions you ask. <a href="https://clarkruttinger.info/assessment/?src=blog">Take the short analytics maturity assessment</a> to see where your organization’s data practices are strong and where the next step is.</p>
+<p><em>Next week: one renewal from a crisis. How many Utah charities depend on a single grantmaker for half of what they raise.</em></p>
+
+
+</section>
+
+ ]]></description>
+  <category>by-the-numbers</category>
+  <category>form-990</category>
+  <category>philanthropy</category>
+  <guid>https://clarkruttinger.info/posts/2026-11-10-who-funds-utah/</guid>
+  <pubDate>Tue, 10 Nov 2026 07:00:00 GMT</pubDate>
+  <media:content url="https://clarkruttinger.info/posts/2026-11-10-who-funds-utah/f5_curve.png" medium="image" type="image/png" height="81" width="144"/>
+</item>
 <item>
   <title>The public picture of a nonprofit is a year and a half old</title>
   <dc:creator>Clark Ruttinger</dc:creator>

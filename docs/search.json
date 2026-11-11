@@ -91,193 +91,123 @@
     "text": "Public dashboards, R/Shiny examples, and representative analytic products are now organized under Selected Work."
   },
   {
-    "objectID": "posts/2026-10-20-outputs-vs-outcomes/index.html",
-    "href": "posts/2026-10-20-outputs-vs-outcomes/index.html",
-    "title": "Utah charities count what they do, not what changes",
+    "objectID": "posts/2026-11-10-who-funds-utah/index.html",
+    "href": "posts/2026-11-10-who-funds-utah/index.html",
+    "title": "Twenty funders give half of Utah’s grant dollars",
     "section": "",
-    "text": "Every Form 990 has a section where the organization describes its programs in its own words. Part III asks for each major program’s “accomplishments,” and the 990-EZ asks for a “statement of program service accomplishments.” The question invites an organization to say what changed because of its work.\nI read what Utah’s charities wrote there. In the filings I could see, most organizations describe what they do. About a third count what they did. About 2 in 100 say what changed."
+    "text": "Every private foundation lists its grants on Form 990-PF, and every public charity that makes grants over $5,000 lists them on Schedule I of its Form 990. Put four years of those lists together for Utah and you can see who funds the state’s nonprofits, at least among funders based here.\nIn the filings I could see, about 1,000 Utah grantmakers gave $1.03 billion to Utah organizations from 2021 through 2024. Twenty of them gave half of it."
   },
   {
-    "objectID": "posts/2026-10-20-outputs-vs-outcomes/index.html#the-number",
-    "href": "posts/2026-10-20-outputs-vs-outcomes/index.html#the-number",
-    "title": "Utah charities count what they do, not what changes",
+    "objectID": "posts/2026-11-10-who-funds-utah/index.html#the-number",
+    "href": "posts/2026-11-10-who-funds-utah/index.html#the-number",
+    "title": "Twenty funders give half of Utah’s grant dollars",
     "section": "The number",
-    "text": "The number\n\n\n\n\n\n\n\n\n\nWhat the program description reports\nOrganizations\nShare\n\n\n\n\nDescribes activities only (no numbers)\n2,086\n67%\n\n\nCounts outputs (people served, meals, events, dollars)\n961\n31%\n\n\nReports an outcome (a change in people’s lives or conditions)\n49\n1.6%\n\n\nTotal 501(c)(3)s with a usable description\n3,096\n\n\n\n\nHere’s what each category looks like. These are paraphrased composites, not quotes from any one filing:\n\nActivities: “Provides after-school tutoring to youth in the community.”\nOutputs: “Served 412 students through 3,100 tutoring sessions.”\nOutcome: “Of the 412 students, 78% raised their reading score by at least one grade level.”\n\nThe outcomes that did appear were concrete: students who graduated or tested at grade level, families who moved into stable housing and stayed housed, participants who found jobs or raised their income, child-welfare cases that closed with children still at home, criminal records cleared, animals adopted. A few organizations reported survey results, such as the share of participants who said a program changed their knowledge or behavior."
+    "text": "The number\n\n\n\n\nUtah grantmakers to Utah organizations, 2021–2024\n\n\n\n\n\nGrantmakers\n1,009\n\n\nGrant dollars\n$1.03 billion\n\n\nOrganizations receiving grants\nabout 8,300\n\n\nShare from the top 10 grantmakers\n36%\n\n\nGrantmakers that account for half the dollars\n20\n\n\nGrantmakers that account for 80%\n88\n\n\n\nThe other 921 grantmakers share the remaining 20%. Most of them are small family foundations: the median grantmaker gave about $44,000 to Utah organizations in 2023.\nThe pattern holds year to year, even though the totals move around with big one-time gifts. The top 10 accounted for between 39% and 54% of the dollars in each single year from 2021 through 2024."
   },
   {
-    "objectID": "posts/2026-10-20-outputs-vs-outcomes/index.html#size-helps-with-counting-not-with-outcomes",
-    "href": "posts/2026-10-20-outputs-vs-outcomes/index.html#size-helps-with-counting-not-with-outcomes",
-    "title": "Utah charities count what they do, not what changes",
-    "section": "Size helps with counting, not with outcomes",
-    "text": "Size helps with counting, not with outcomes\n\nLarger organizations are more likely to put numbers in their description. Output counting rises from 24% of charities under $100,000 to about 40% of those over $1 million. Outcome reporting barely moves. It’s 2% among charities with $5 million or more in revenue, about the same as at $100,000.\nThat’s the interesting part. Big organizations have finance staff, grant writers, and often an evaluation contract. They clearly can count. When it comes to the one question Part III invites, what changed, most of them answer the same way a volunteer-run league does."
+    "objectID": "posts/2026-11-10-who-funds-utah/index.html#who-they-are",
+    "href": "posts/2026-11-10-who-funds-utah/index.html#who-they-are",
+    "title": "Twenty funders give half of Utah’s grant dollars",
+    "section": "Who they are",
+    "text": "Who they are\n\nAbout three-quarters of the dollars come from private foundations, most of them family foundations. The rest come from public charities that make grants, such as community foundations, United Ways and health-system foundations. Naming these funders is fair game: they are public grantmakers, and their grants are public record."
   },
   {
-    "objectID": "posts/2026-10-20-outputs-vs-outcomes/index.html#what-it-means",
-    "href": "posts/2026-10-20-outputs-vs-outcomes/index.html#what-it-means",
-    "title": "Utah charities count what they do, not what changes",
+    "objectID": "posts/2026-11-10-who-funds-utah/index.html#the-money-that-isnt-really-grantmaking",
+    "href": "posts/2026-11-10-who-funds-utah/index.html#the-money-that-isnt-really-grantmaking",
+    "title": "Twenty funders give half of Utah’s grant dollars",
+    "section": "The money that isn’t really grantmaking",
+    "text": "The money that isn’t really grantmaking\nThe raw grant lists add up to much more than $1 billion. Over the four years, Utah filers reported $2.3 billion in grants to Utah organizations. More than half of that is money moving within one organizational family, not money a funder chose to give:\n\nSupport organizations funding the one organization they exist for: a school district’s foundation paying the district, a hospital’s foundation paying the hospital, a ski team’s foundation paying the team. I set aside 79 grantmakers that sent 80% or more of their Utah grants to a single recipient.\nTransfers to an organization with the grantmaker’s own name, such as a charity paying its own building LLC or a parent paying its affiliate.\n\nThose flows are real money, but they say nothing about who decides what the sector works on. The figures above leave them out."
+  },
+  {
+    "objectID": "posts/2026-11-10-who-funds-utah/index.html#what-it-means",
+    "href": "posts/2026-11-10-who-funds-utah/index.html#what-it-means",
+    "title": "Twenty funders give half of Utah’s grant dollars",
     "section": "What it means",
-    "text": "What it means\nFor organizations, the gap usually isn’t effort or honesty. Counting outputs is the natural first step, because outputs live in records you already keep: attendance sheets, intake forms, the food bank’s pounds log. Outcomes require something more: deciding in advance what change you’re after, and then checking whether it happened, often after the person has left your program.\nFor funders and boards, the 990 isn’t where outcomes live, and that’s fine. But if the organization’s own reports look like its 990, with plenty of activity and lots of counts but no result, that’s worth a conversation."
+    "text": "What it means\nFor funders, concentration is influence. When 20 organizations account for half the grant dollars, their application forms, reporting templates and site visits set the routine for a large share of Utah’s nonprofits. Whatever those 20 ask grantees to measure becomes what gets measured.\nFor nonprofits, it’s a small pool. If a handful of funders account for most of the money in your field, losing one of them is a strategic event, not a fundraising setback. (That’s next week’s post.)\nFor everyone, this is only part of the picture. Individual donors, government contracts, fees and national foundations outweigh Utah grantmakers for most organizations. More on that below."
   },
   {
-    "objectID": "posts/2026-10-20-outputs-vs-outcomes/index.html#what-this-says-about-analytics-maturity",
-    "href": "posts/2026-10-20-outputs-vs-outcomes/index.html#what-this-says-about-analytics-maturity",
-    "title": "Utah charities count what they do, not what changes",
+    "objectID": "posts/2026-11-10-who-funds-utah/index.html#what-this-says-about-analytics-maturity",
+    "href": "posts/2026-11-10-who-funds-utah/index.html#what-this-says-about-analytics-maturity",
+    "title": "Twenty funders give half of Utah’s grant dollars",
     "section": "What this says about analytics maturity",
-    "text": "What this says about analytics maturity\nThis is the gap between purpose and questions, the first two stages of the maturity framework I use. Nearly every mission statement names a change: healthier kids, stable families, a cleaner river. Few organizations turn that change into a question they can answer with data: Of the families we housed last year, how many are still housed?\nUntil the question exists, there’s nothing to measure, and no dashboard will fix that. A practical first step: for your largest program, write down one change you expect in the people you serve, how you’d know it happened, and when you’d check. One outcome, tracked consistently, beats ten outputs."
+    "text": "What this says about analytics maturity\nThis is the questions stage, seen from the funder’s side. Last month’s post found that only about 2 in 100 Utah charities report an outcome in their 990. One reason is that grant reports usually ask for activities and counts: people served, events held, dollars spent. Organizations measure what they are asked to report.\nThat makes a concentrated funding base an opportunity. If the largest grantmakers asked one or two outcome questions in their reports and helped grantees build the data habits to answer them, practice could change across a big share of the sector without anyone launching a new program. A practical step for funders: look at your own reporting template and ask which questions you actually use to make decisions. Cut the rest, and add the one outcome question you wish you could answer."
   },
   {
-    "objectID": "posts/2026-10-20-outputs-vs-outcomes/index.html#what-the-data-cant-see",
-    "href": "posts/2026-10-20-outputs-vs-outcomes/index.html#what-the-data-cant-see",
-    "title": "Utah charities count what they do, not what changes",
+    "objectID": "posts/2026-11-10-who-funds-utah/index.html#what-the-data-cant-see",
+    "href": "posts/2026-11-10-who-funds-utah/index.html#what-the-data-cant-see",
+    "title": "Twenty funders give half of Utah’s grant dollars",
     "section": "What the data can’t see",
-    "text": "What the data can’t see\n\nPart III is a narrative written for the IRS, not an evaluation report. Many organizations measure outcomes and publish them in annual reports or grant reports instead. This finding is about what organizations choose to put in the public record, not what they know.\nSome descriptions continue on Schedule O, which isn’t included here. I excluded descriptions that only said “See Schedule O.”\nThe 990-EZ leaves less room. Outcome reporting was 2.2% on the full 990 and 0.6% on the 990-EZ.\nThis covers only organizations that e-file a 990 or 990-EZ. As post #1 showed, most of Utah’s smallest organizations file the 990-N postcard, which has no program description at all.\nThe outcome count is close to a lower bound. See the method notes below."
+    "text": "What the data can’t see\n\nOnly Utah-based grantmakers that e-file are included. National foundations that fund Utah organizations file their returns from other states, so they don’t appear here. Neither do government grants, corporate giving programs or donations from individuals.\nGiving by the Church of Jesus Christ of Latter-day Saints doesn’t appear. Churches don’t file 990s. Grants to the Church from Utah foundations do appear.\nSome money is counted twice. About 1 in 6 dollars went to a recipient that is itself a Utah grantmaker, which then regranted some of it.\nRecipients are matched by the address on the grant line. About 8% of grant lines have no state and are left out. Grants to individuals (mostly scholarships) are excluded.\n“Support organization” is a rule, not a legal status. Anyone sending 80% of $500,000 or more to one recipient is set aside, which catches a few family foundations devoted to one cause. The concentration result holds with or without them.\nOne foreign filer was removed. A German foundation that files a 990-PF from a Utah address reported large grants to a placeholder recipient; they aren’t Utah giving."
   },
   {
-    "objectID": "posts/2026-10-20-outputs-vs-outcomes/index.html#method",
-    "href": "posts/2026-10-20-outputs-vs-outcomes/index.html#method",
-    "title": "Utah charities count what they do, not what changes",
+    "objectID": "posts/2026-11-10-who-funds-utah/index.html#method",
+    "href": "posts/2026-11-10-who-funds-utah/index.html#method",
+    "title": "Twenty funders give half of Utah’s grant dollars",
     "section": "Method",
-    "text": "Method\n\n\nData, classification and validation\n\n\nOrganizations: Utah 501(c)(3) public charities in the IRS Exempt Organizations Business Master File with a 990 or 990-EZ e-filed for tax years 2021–2024. I used each organization’s most recent return: 3,096 organizations, 1,900 full 990s and 1,196 990-EZs. 94% of the returns are for tax years 2023–2024.\nText: All program-service descriptions on the return (Part III lines 4a–4d on the 990; Part III on the 990-EZ), joined together. Placeholder text (“See Schedule O,” “N/A”) was excluded.\nClassification: Three levels, assigned to the highest that applies. Activities only means no quantities. Counts outputs means quantities of service delivered (people, sessions, meals, events, dollars granted); years, grade ranges, ages and section numbers don’t count. Reports an outcome means a specific, observed change for the people or conditions served: graduation, test results, housing or employment placement, measured improvement, a case resolved, an adoption. General claims (“youth gain confidence”) without evidence don’t count, and neither does completing a course.\nValidation: I hand-read a random sample of 200 descriptions. A rule-based classifier agreed with the hand labels on 192 (96%). Every description the rules flagged as an outcome (64) was then read and confirmed or rejected, and I read two further keyword sweeps (about 490 descriptions mentioning percentages, surveys, graduation, placement, housing and similar terms) to find outcomes the rules missed. That review found 49 outcome reporters.\nUncertainty: In the hand-read random sample, 6 of 150 charities (4%) reported an outcome. That sample is small (95% interval roughly 1.5%–8.5%), and the full review may have missed some outcomes phrased in unusual ways. The honest summary is between about 2% and 4%: fewer than 1 in 20.\nRevenue bands use total revenue on the same return.\n\n\n\n\nThe classification rules (Python)\n\n# Outcome patterns (excerpt) — every match was then read by hand\nR_PATS = [\n  r'\\d+%\\s*(OF\\s+)?(PARTICIPANTS|STUDENTS|CLIENTS|FAMILIES|GRADUATES|...)'\n  r'[^.]{0,120}(REPORT|INCREAS|IMPROV|REDUC|GRADUAT|EMPLOY|HOUS|MAINTAIN|...)',\n  r'(INCREAS|IMPROV|REDUC|DECREAS|GAIN)\\w*\\s+(OF|IN|BY)\\s+\\d',\n  r'(GRADUATION|PLACEMENT|RETENTION|PASS|SUCCESS|RECIDIVISM)\\s+RATES?',\n  r'(ASSESSMENT|EVALUATION|SURVEY|DATA)[^.]{0,80}(INDICAT|SHOW|FOUND)[^.]{0,80}(GAIN|IMPROV|...)',\n  r'(WERE ABLE TO|SUCCESSFULLY)\\s+(CLOSE|KEEP|OBTAIN|SECURE|FIND|GRADUATE|...)',\n]\n# Output = any quantity left after removing years, ages, grade ranges, IRC sections, addresses\ndef classify(text):\n    if any(p.search(text) for p in R_PATS): return 'outcome (review)'\n    return 'outputs' if NUM.search(NOISE.sub(' ', text)) else 'activities'"
+    "text": "Method\n\n\nData and definitions\n\n\nGrants: Form 990-PF grants paid and Form 990 Schedule I grants to organizations, from e-filed returns of Utah organizations in the IRS Exempt Organizations Business Master File, tax years 2021–2024. One return per grantmaker per year (the most recently filed, so amended returns replace originals). Cash and non-cash amounts are combined.\nUtah recipients: grant lines with a Utah recipient address. Grants to individuals are excluded.\nWithin-family transfers excluded: (1) grantmakers giving $500,000 or more to Utah recipients in the period with at least 80% going to one recipient (recipient spelling variants grouped), and (2) grants from a public charity to a recipient whose name contains the grantmaker’s own distinctive name or acronym.\nConcentration: grantmakers ranked by total dollars to Utah recipients over 2021–2024; cumulative share of the total.\n\n\n\n\nThe query (Cypher, against the Utah 990 graph)\n\n// Top grantmakers to Utah recipients, 2021-2024 (before the within-family exclusions)\nMATCH (f:Organization)-[g:GRANTED]-&gt;(r:Organization)\nWHERE g.tax_year IN [2021, 2022, 2023, 2024] AND r.state = 'UT'\nWITH f, sum(coalesce(g.cash_amount, 0) + coalesce(g.noncash_amount, 0)) AS dollars\nORDER BY dollars DESC\nWITH collect({funder: f.name, dollars: dollars}) AS ranked, sum(dollars) AS total\nUNWIND range(0, size(ranked) - 1) AS i\nWITH ranked[i] AS row, i + 1 AS rnk, total,\n     reduce(s = 0.0, x IN ranked[0..i + 1] | s + x.dollars) AS running\nRETURN rnk, row.funder, row.dollars, round(100.0 * running / total, 1) AS cumulative_pct\nLIMIT 50;"
   },
   {
-    "objectID": "posts/2026-10-20-outputs-vs-outcomes/index.html#where-does-your-organization-stand",
-    "href": "posts/2026-10-20-outputs-vs-outcomes/index.html#where-does-your-organization-stand",
-    "title": "Utah charities count what they do, not what changes",
+    "objectID": "posts/2026-11-10-who-funds-utah/index.html#where-does-your-organization-stand",
+    "href": "posts/2026-11-10-who-funds-utah/index.html#where-does-your-organization-stand",
+    "title": "Twenty funders give half of Utah’s grant dollars",
     "section": "Where does your organization stand?",
-    "text": "Where does your organization stand?\nMoving from counting to outcomes is the step most organizations find hardest, and it’s the one the assessment looks at most closely. Take the short analytics maturity assessment to see where your organization’s data practices are strong and where the next step is.\nNext week: Utah’s nonprofit boards are a small world. How many organizations share a board member with another, and what travels along those connections."
+    "text": "Where does your organization stand?\nWhether you fund or are funded, the data habits start with the questions you ask. Take the short analytics maturity assessment to see where your organization’s data practices are strong and where the next step is.\nNext week: one renewal from a crisis. How many Utah charities depend on a single grantmaker for half of what they raise."
   },
   {
-    "objectID": "insights.html#peer-reviewed-publications",
-    "href": "insights.html#peer-reviewed-publications",
-    "title": "Insights & Research",
-    "section": "Peer-reviewed publications",
-    "text": "Peer-reviewed publications\n\nCurrent and Projected Future Supply and Demand for Physical Therapists From 2022 to 2037\nPatrick Zarek, Clark Ruttinger, David Armstrong, Ritashree Chakrabarti, Douglas R. Hess, Tara Jo Manal, Timothy M. Dall. Physical Therapy, 2025.\nFocus: Workforce supply-and-demand projection modeling.\nView publication →\n\n\nUsing machine learning to identify factors associated with practice location of the healthcare workforce\nBounsanga et al. Rural and Remote Health, 2022.\nRole: Co-author\nFocus: Applied machine learning and workforce practice-location analysis.\nView publication →\n\n\nThe 2020 National Nursing Workforce Survey\nSmiley et al. Journal of Nursing Regulation, 2020.\nRelated product: I designed and built a public dashboard using respondent state-of-employment summaries after the report was released.\nView article → · Open dashboard →"
-  },
-  {
-    "objectID": "insights.html#selected-public-reports-and-decision-support-work",
-    "href": "insights.html#selected-public-reports-and-decision-support-work",
-    "title": "Insights & Research",
-    "section": "Selected public reports and decision-support work",
-    "text": "Selected public reports and decision-support work\n\nFlorida Center for Nursing — State of Nursing Education in Florida, 2026\nFlorida Healthcare Workforce Projections, 2022–2037\nHawaii Nursing Projections Report\nMaryland Nurse Workforce Projections\nArkansas Workforce Report\nTennessee Health Workforce Projections"
-  },
-  {
-    "objectID": "insights.html#earlier-utah-research",
-    "href": "insights.html#earlier-utah-research",
-    "title": "Insights & Research",
-    "section": "Earlier Utah research",
-    "text": "Earlier Utah research\nSelected earlier work includes Utah mental-health workforce, physician workforce, registered-nurse and licensed-practical-nurse supply, nursing demand, and advanced-practice registered-nurse workforce studies. These projects combined survey design, administrative data, workforce modeling, geographic analysis, public reporting, and policy communication."
-  },
-  {
-    "objectID": "insights.html#public-speaking-and-briefings",
-    "href": "insights.html#public-speaking-and-briefings",
-    "title": "Insights & Research",
-    "section": "Public speaking and briefings",
-    "text": "Public speaking and briefings\nOver my state-government career I regularly presented research findings to policy leaders, professional audiences, workforce organizations, and legislative committees. One example is the primary-care workforce modeling presentation to the Utah Legislature associated with the IBM Health Corps project.\nFor consulting-oriented examples, see Selected Work."
-  },
-  {
-    "objectID": "contact.html#clark-ruttinger",
-    "href": "contact.html#clark-ruttinger",
-    "title": "Contact",
-    "section": "Clark Ruttinger",
-    "text": "Clark Ruttinger\nIndependent Data & Analytics Consultant\nceruttinger@gmail.com\nLinkedIn · GitHub\nEmail me about a project"
-  },
-  {
-    "objectID": "contact.html#useful-things-to-include",
-    "href": "contact.html#useful-things-to-include",
-    "title": "Contact",
-    "section": "Useful things to include",
-    "text": "Useful things to include\nA short note is enough. If helpful, tell me:\n\nthe decision, problem, or opportunity you are working on;\nwho needs to use the result;\nwhat data or systems already exist;\nwhether there is a deadline or external requirement;\nwhat you have tried already; and\nwhat a successful outcome would look like.\n\nI can help determine the appropriate scope from there."
-  },
-  {
-    "objectID": "contact.html#common-starting-points",
-    "href": "contact.html#common-starting-points",
-    "title": "Contact",
-    "section": "Common starting points",
-    "text": "Common starting points\n\n\n“We have data, but we are not getting useful answers from it.”\nStart with analysis, measurement, research design, or analytics strategy.\n\n\n“Our reporting process is too manual.”\nStart with workflow assessment, automation, reproducible reporting, or data-pipeline design.\n\n\n“People need to explore the data themselves.”\nStart with dashboard, decision-support, or R/Shiny application design.\n\n\n“We know our analytics systems need to change.”\nStart with stakeholder needs assessment, architecture evaluation, and modernization planning."
-  },
-  {
-    "objectID": "blog.html",
-    "href": "blog.html",
-    "title": "Utah Nonprofits, by the Numbers",
+    "objectID": "posts/2026-10-27-small-world-boards/index.html",
+    "href": "posts/2026-10-27-small-world-boards/index.html",
+    "title": "Utah’s nonprofit boards are a small world",
     "section": "",
-    "text": "A weekly series built from public IRS data on Utah’s 13,072 tax-exempt organizations. Each post takes one finding (about boards, funding, finances, or how organizations describe their impact) and asks what it says about analytics maturity.\nWant to know where your own organization stands? Take the short analytics maturity assessment.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nThe public picture of a nonprofit is a year and a half old\n\n\nUtah Nonprofits, by the Numbers #4\n\n\n\nby-the-numbers\n\nform-990\n\ndata-timeliness\n\n\n\nUtah nonprofits file their 990 a median of 7 months after the fiscal year ends, and most file on extension. For the typical organization, the newest public return describes a year that ended 13 months ago.\n\n\n\n\n\nNov 3, 2026\n\n\nClark Ruttinger\n\n\n\n\n\n\n\n\n\n\n\n\nUtah’s nonprofit boards are a small world\n\n\nUtah Nonprofits, by the Numbers #3\n\n\n\nby-the-numbers\n\nform-990\n\ngovernance\n\n\n\nBetween 22% and 44% of Utah nonprofits share a board member or officer with another Utah nonprofit. The biggest organizations are the most connected. What travels along those connections, including how organizations use data.\n\n\n\n\n\nOct 27, 2026\n\n\nClark Ruttinger\n\n\n\n\n\n\n\n\n\n\n\n\nUtah charities count what they do, not what changes\n\n\nUtah Nonprofits, by the Numbers #2\n\n\n\nby-the-numbers\n\nform-990\n\noutcomes\n\n\n\nIn 3,096 Utah charities’ Form 990 program descriptions, two-thirds describe activities with no numbers, 31% count outputs, and about 2% report an outcome. What that gap says about analytics maturity.\n\n\n\n\n\nOct 20, 2026\n\n\nClark Ruttinger\n\n\n\n\n\n\n\n\n\n\n\n\nMost of Utah’s nonprofit sector is invisible in public data\n\n\nUtah Nonprofits, by the Numbers #1\n\n\n\nby-the-numbers\n\nform-990\n\ndata-foundation\n\n\n\nOnly 20% of Utah’s 13,072 exempt organizations have e-filed a full Form 990. Who is missing, why, and what it means for how small nonprofits use data.\n\n\n\n\n\nOct 13, 2026\n\n\nClark Ruttinger\n\n\n\n\n\nNo matching items"
+    "text": "Every Form 990 lists the organization’s officers, directors and trustees by name. Put those lists side by side and you can see something no single filing shows: the people who sit on more than one board, and the organizations they connect.\nI did that for every Utah organization that filed a 990, 990-EZ or 990-PF for tax year 2023. In the filings I could see, between a fifth and two-fifths of Utah nonprofits share at least one board member or officer with another Utah nonprofit."
   },
   {
-    "objectID": "about.html#background",
-    "href": "about.html#background",
-    "title": "About",
-    "section": "Background",
-    "text": "Background\nMost recently I served as Director of Health Workforce Consulting at GlobalData, leading complex analytics engagements for state agencies, hospital associations, professional societies, and federal clients. My work included workforce projection methods, reusable R/Shiny dashboard frameworks, validation and documentation systems, and a DuckDB + object-storage proof of concept for lower-friction analytic architecture.\nBefore that, I helped establish Utah’s legislatively created Health Workforce Information Center and spent more than a decade at the Utah Medical Education Council, where I led statewide research programs covering multiple health professions and built survey, modeling, reporting, data-integration, cloud-hosted analytics, and public R/Shiny capabilities.\nEarlier public-sector and nonprofit work gave me practical experience with programs, policy, operations, grants, administrative systems, and direct service. That experience still shapes how I approach analytics: the data system is never separate from the people, workflows, institutions, and decisions around it."
+    "objectID": "posts/2026-10-27-small-world-boards/index.html#the-number",
+    "href": "posts/2026-10-27-small-world-boards/index.html#the-number",
+    "title": "Utah’s nonprofit boards are a small world",
+    "section": "The number",
+    "text": "The number\n\n\n\n\n\n\n\n\n\n2023 filings\nStrict matching\nLoose matching\n\n\n\n\nOrganizations with a published board list\n4,341\n4,341\n\n\nAfter merging affiliated entities\n4,156\n4,126\n\n\nShare linked to another organization through a shared person\n22%\n44%\n\n\nPeople who connect two or more unrelated organizations\n906\n1,934\n\n\nLargest connected cluster\n315 organizations\n1,505 organizations\n\n\nAverage distance within that cluster, board to board\n4.3 steps\n5.5 steps\n\n\n\nWhy two columns? The IRS lists people by name only, and names are a messy way to match. Strict matching counts two seats as the same person only if the name matches and both organizations file from the same city. That misses real people who serve on boards in two cities, so it’s a floor. Loose matching uses the name alone. That joins different people who happen to share a common name, so it’s a ceiling. The truth is somewhere in between.\nI also merged affiliated entities: organizations whose boards are substantially the same people, like a charity and its supporting foundation, or a set of housing corporations run by one sponsor. Without that step, one family of organizations can look like a dense web of “connections” that are really one board wearing several hats. In 2023 that merged 294 organizations into 109 families."
   },
   {
-    "objectID": "about.html#how-i-think-about-consulting",
-    "href": "about.html#how-i-think-about-consulting",
-    "title": "About",
-    "section": "How I think about consulting",
-    "text": "How I think about consulting\n\n\nUnderstand the decision before designing the analysis\nA technically elegant answer to the wrong question is still the wrong answer.\n\n\nStakeholder input is part of system design\nUsability, trust, incentives, workflow, and implementation constraints should shape the solution from the beginning.\n\n\nPrefer maintainable over impressive\nThe right architecture is the one the organization can understand, afford, validate, and sustain.\n\n\nAnalysis is not finished when the model runs\nInterpretation, communication, implementation, documentation, and handoff are part of the analytic product."
+    "objectID": "posts/2026-10-27-small-world-boards/index.html#bigger-organizations-are-more-connected",
+    "href": "posts/2026-10-27-small-world-boards/index.html#bigger-organizations-are-more-connected",
+    "title": "Utah’s nonprofit boards are a small world",
+    "section": "Bigger organizations are more connected",
+    "text": "Bigger organizations are more connected\n\nEven with strict matching, 44% of organizations with $5 million or more in revenue share a board member with another Utah nonprofit, compared with 13% of those under $100,000. Full 990 filers are about twice as likely to be connected (32%) as 990-EZ filers or private foundations (15% each).\nBy mission area, housing organizations are the most connected (43%, though it’s a small group of 63), followed by community improvement (31%), environment (30%), health (27%) and arts (27%) organizations. International (11%), animal-related (15%) and sports and recreation (15%) organizations are the least."
   },
   {
-    "objectID": "about.html#education-and-perspective",
-    "href": "about.html#education-and-perspective",
-    "title": "About",
-    "section": "Education and perspective",
-    "text": "Education and perspective\nI hold four degrees from the University of Utah: an MBA with a Certificate in Information Systems, an MPA focused on Program Evaluation and Policy Analysis, a B.A. in Political Science with a Certificate in International Relations, and a B.A. in Spanish.\nMy professional work has crossed public policy, healthcare, labor and workforce analysis, program evaluation, data science, analytics engineering, and technical product delivery. I have also served as a peer reviewer, federal grant reviewer, nursing workforce center board president, and Salt Lake City planning commissioner and commission chair.\nOne project that strongly influenced how I think about analytics implementation was an IBM Health Corps collaboration focused on modeling primary-care workforce needs. The technical analysis mattered, but so did stakeholder participation, system design, usability, and the practical question of how a new analytic approach would be deployed and used.\nSee selected work"
+    "objectID": "posts/2026-10-27-small-world-boards/index.html#what-it-means",
+    "href": "posts/2026-10-27-small-world-boards/index.html#what-it-means",
+    "title": "Utah’s nonprofit boards are a small world",
+    "section": "What it means",
+    "text": "What it means\nFor organizations, your board is a network, whether you use it that way or not. A director who also sits on another board brings that organization’s habits with them: how it budgets, what it reports, which funders it trusts.\nFor funders, the connected core is where ideas travel fastest. A practice adopted by a few well-connected boards has a short path to many others.\nFor anyone recruiting board members, the pool is smaller than it looks. Between about 120 and 370 people (strict and loose matching) connect three or more unrelated organizations. That’s a strength (experience) and a risk (fatigue, and the same voices everywhere)."
   },
   {
-    "objectID": "cases.html",
-    "href": "cases.html",
-    "title": "Case Studies",
-    "section": "",
-    "text": "The consulting case studies are now part of Selected Work, where they are organized around the problems solved, approach, and capabilities demonstrated."
+    "objectID": "posts/2026-10-27-small-world-boards/index.html#what-this-says-about-analytics-maturity",
+    "href": "posts/2026-10-27-small-world-boards/index.html#what-this-says-about-analytics-maturity",
+    "title": "Utah’s nonprofit boards are a small world",
+    "section": "What this says about analytics maturity",
+    "text": "What this says about analytics maturity\nPractices spread through board seats. In my experience, the moment an organization starts to want better data is often when a board member says, “At my other board, we see this every month.” A finance committee chair who has seen a good dashboard asks for one. A director who has watched an evaluation change a program decision asks what yours would show.\nThat makes connected board members the sector’s informal channel for analytics maturity. In stage terms, this is about action and learning: the habit of using what you find, which spreads person to person more than it’s taught. If you serve on more than one board, you’re already part of that channel. A practical step: bring one report, metric or meeting habit from your best-run board to your next meeting at another."
   },
   {
-    "objectID": "cases.html#case-studies-have-moved.",
-    "href": "cases.html#case-studies-have-moved.",
-    "title": "Case Studies",
-    "section": "",
-    "text": "The consulting case studies are now part of Selected Work, where they are organized around the problems solved, approach, and capabilities demonstrated."
+    "objectID": "posts/2026-10-27-small-world-boards/index.html#what-the-data-cant-see",
+    "href": "posts/2026-10-27-small-world-boards/index.html#what-the-data-cant-see",
+    "title": "Utah’s nonprofit boards are a small world",
+    "section": "What the data can’t see",
+    "text": "What the data can’t see\n\nNames are imperfect. Strict matching undercounts real connections, and loose matching overcounts them. I report both rather than guess.\nOnly organizations that list their board appear. That leaves out 990-N filers and churches, which is most of Utah’s smallest organizations (see post #1).\nSome connections are by design. A school’s PTA and its foundation, or a hospital and its foundation, often share people on purpose. Merging affiliated entities removes the clearest cases but not all.\nA connection isn’t influence. Two organizations sharing a treasurer doesn’t mean they share practices, only that the path exists.\nNo individuals are named, here or in the chart."
   },
   {
-    "objectID": "index.html#analytics-should-help-someone-decide-what-to-do-next.",
-    "href": "index.html#analytics-should-help-someone-decide-what-to-do-next.",
-    "title": "Analytics consulting for complex decisions",
-    "section": "Analytics should help someone decide what to do next.",
-    "text": "Analytics should help someone decide what to do next.\nThe useful part of analytics is not the model, dashboard, database, or AI workflow by itself. It is the clearer decision, more reliable process, preserved organizational knowledge, or better-designed system that those tools make possible.\nI work with organizations that have important questions, fragmented data or knowledge, undocumented processes, recurring manual work, or analytic products that need to become more useful, repeatable, and maintainable.\n\n\n\n15+\n\n\nyears building analytics, models, research, and decision-support products\n\n\n\n\n3\n\n\nsettings: public sector, nonprofit, and private consulting\n\n\n\n\nEnd-to-end\n\n\nproblem framing, analysis, system design, delivery, documentation, and handoff"
+    "objectID": "posts/2026-10-27-small-world-boards/index.html#method",
+    "href": "posts/2026-10-27-small-world-boards/index.html#method",
+    "title": "Utah’s nonprofit boards are a small world",
+    "section": "Method",
+    "text": "Method\n\n\nData and matching\n\n\nSeats: Officers, directors and trustees listed on 2023 Form 990 (Part VII; key employees and former officers excluded), 990-EZ (Part IV) and 990-PF (Part VIII) e-filed returns of Utah organizations in the IRS Exempt Organizations Business Master File: 28,952 seats at 4,341 organizations. Institutional trustees (banks, trust companies) and non-person entries were removed.\nPeople: Names are normalized (uppercase, punctuation and suffixes such as JR, MD and CPA removed). Strict matching adds the filer’s city.\nAffiliated entities: Two organizations are merged if they share at least two people and those people make up at least half of the smaller board.\nNetwork: Organizations (or merged families) are linked when at least one person sits on both boards. Distances are shortest paths within the largest connected cluster.\nRevenue bands use total revenue on the 2023 return.\n\n\n\n\nThe query (Cypher, against the Utah 990 graph)\n\n// Organizations that share at least one person in the same tax year\nMATCH (o1:Organization)&lt;-[r1:HAS_ROLE]-(p:Person)-[r2:HAS_ROLE]-&gt;(o2:Organization)\nWHERE o1 &lt;&gt; o2 AND r1.tax_year = 2023 AND r2.tax_year = 2023\n  AND o1.in_bmf AND o2.in_bmf\n  AND (r1.is_director OR r1.is_officer OR r1.is_director IS NULL)\nRETURN count(DISTINCT o1) AS interlocked_orgs, count(DISTINCT p) AS bridge_people;\nThe published figures add the same-city rule and the affiliate merge, which I ran in Python on the same tables."
   },
   {
-    "objectID": "index.html#six-consulting-practices-combined-as-the-problem-requires",
-    "href": "index.html#six-consulting-practices-combined-as-the-problem-requires",
-    "title": "Analytics consulting for complex decisions",
-    "section": "Six consulting practices, combined as the problem requires",
-    "text": "Six consulting practices, combined as the problem requires\n\n\nAnalytics Strategy & Solution Design\nClarify the decision, stakeholders, data requirements, analytic approach, and implementation path before investing in the wrong solution.\nExplore this service →\n\n\nAnalysis, Research & Modeling\nAnswer consequential questions with statistical analysis, research design, evaluation, workforce and policy analytics, and transparent modeling.\nExplore this service →\n\n\nDashboards & Decision Support\nBuild tools people can actually use—from executive reporting and interactive visualization to custom R/Shiny applications.\nExplore this service →\n\n\nData Systems & Automation\nCreate cleaner pipelines, reproducible workflows, practical data architecture, and automated recurring analytics.\nExplore this service →\n\n\nInstitutional Knowledge & AI Systems\nCapture critical organizational knowledge, document workflows and SOPs, and build searchable AI-assisted systems that preserve institutional memory.\nExplore this service →\n\n\nAnalytics Modernization\nMove from brittle spreadsheets, disconnected scripts, and manual reporting toward maintainable systems and AI-assisted workflows.\nExplore this service →"
-  },
-  {
-    "objectID": "index.html#get-more-value-from-the-data-you-already-collect.",
-    "href": "index.html#get-more-value-from-the-data-you-already-collect.",
-    "title": "Analytics consulting for complex decisions",
-    "section": "Get more value from the data you already collect.",
-    "text": "Get more value from the data you already collect.\nSmall organizations often have meaningful program data but limited time, staff, or budget to turn it into useful reporting and insight. I offer a Nonprofit Analytics Quick Start designed to identify practical improvements without requiring a large consulting engagement.\nWe can review the spreadsheets, forms, reports, grant requirements, and recurring processes you already use; identify a small set of useful measures; find gaps or unnecessary manual work; and choose one or two improvements that can create immediate value.\nGood fits include: grant and board reporting, program metrics, outcome tracking, recurring spreadsheet workflows, surveys, data visualization, and simple reporting automation.\nLearn about the Nonprofit Analytics Quick Start →"
-  },
-  {
-    "objectID": "index.html#experience-across-public-analytics-consulting-and-data-products",
-    "href": "index.html#experience-across-public-analytics-consulting-and-data-products",
-    "title": "Analytics consulting for complex decisions",
-    "section": "Experience across public analytics, consulting, and data products",
-    "text": "Experience across public analytics, consulting, and data products\n\n\n\nDATA PRODUCT DESIGN\n\n\nReusable client dashboard framework\nLed development of reusable R/Shiny components, standardized data preparation, validation workflows, and deployment patterns for recurring client analytics.\nView the case study →\n\n\n\n\nMODELING & RESEARCH\n\n\nWorkforce projection systems\nLed and supported multi-source supply-and-demand modeling used by state agencies, associations, and healthcare organizations for planning and policy.\nView the case study →\n\n\n\n\nARCHITECTURE & MODERNIZATION\n\n\nPractical analytics architecture\nEvaluated lightweight approaches using R, SQL, DuckDB, object storage, documentation, and validation to make recurring analytics easier to maintain.\nView the case study →"
-  },
-  {
-    "objectID": "index.html#the-tool-comes-after-the-problem.",
-    "href": "index.html#the-tool-comes-after-the-problem.",
-    "title": "Analytics consulting for complex decisions",
-    "section": "The tool comes after the problem.",
-    "text": "The tool comes after the problem.\n\n\n01 · Start with the decision\nDefine what someone needs to know, decide, or change before deciding what to build.\n\n\n02 · Design with stakeholders\nUnderstand how people work, what they trust, and what will make a solution usable in practice.\n\n\n03 · Build for repeatability\nPrefer transparent, documented workflows that can be validated, updated, and handed off.\n\n\n04 · Make implementation part of the work\nA technically correct solution that never gets adopted is not a successful analytics project."
-  },
-  {
-    "objectID": "index.html#have-a-data-workflow-or-institutional-knowledge-problem-that-does-not-fit-neatly-into-a-job-description",
-    "href": "index.html#have-a-data-workflow-or-institutional-knowledge-problem-that-does-not-fit-neatly-into-a-job-description",
-    "title": "Analytics consulting for complex decisions",
-    "section": "Have a data, workflow, or institutional knowledge problem that does not fit neatly into a job description?",
-    "text": "Have a data, workflow, or institutional knowledge problem that does not fit neatly into a job description?\nThat is often the right kind of consulting problem. We can start with the decision, process, or knowledge at risk and work backward to the analysis, documentation, product, or system you actually need.\nStart a conversation"
+    "objectID": "posts/2026-10-27-small-world-boards/index.html#where-does-your-organization-stand",
+    "href": "posts/2026-10-27-small-world-boards/index.html#where-does-your-organization-stand",
+    "title": "Utah’s nonprofit boards are a small world",
+    "section": "Where does your organization stand?",
+    "text": "Where does your organization stand?\nYour board’s experience elsewhere is a resource. Take the short analytics maturity assessment and bring the results to your next board meeting. It’s a good way to start the “how do they do it at your other board?” conversation.\nNext week: how old is the public picture of a nonprofit? The lag between the end of a fiscal year and the day its 990 becomes public."
   },
   {
     "objectID": "posts/2026-10-13-invisible-majority/index.html",
@@ -343,116 +273,193 @@
     "text": "Where does your organization stand?\nIf public data can’t tell your story, your own data has to. Take the short analytics maturity assessment to see where your organization’s data practices are strong and where the next step is.\nNext week: how Utah nonprofits describe their impact, and how many describe outcomes rather than just counting people served."
   },
   {
-    "objectID": "posts/2026-10-27-small-world-boards/index.html",
-    "href": "posts/2026-10-27-small-world-boards/index.html",
-    "title": "Utah’s nonprofit boards are a small world",
-    "section": "",
-    "text": "Every Form 990 lists the organization’s officers, directors and trustees by name. Put those lists side by side and you can see something no single filing shows: the people who sit on more than one board, and the organizations they connect.\nI did that for every Utah organization that filed a 990, 990-EZ or 990-PF for tax year 2023. In the filings I could see, between a fifth and two-fifths of Utah nonprofits share at least one board member or officer with another Utah nonprofit."
+    "objectID": "index.html#analytics-should-help-someone-decide-what-to-do-next.",
+    "href": "index.html#analytics-should-help-someone-decide-what-to-do-next.",
+    "title": "Analytics consulting for complex decisions",
+    "section": "Analytics should help someone decide what to do next.",
+    "text": "Analytics should help someone decide what to do next.\nThe useful part of analytics is not the model, dashboard, database, or AI workflow by itself. It is the clearer decision, more reliable process, preserved organizational knowledge, or better-designed system that those tools make possible.\nI work with organizations that have important questions, fragmented data or knowledge, undocumented processes, recurring manual work, or analytic products that need to become more useful, repeatable, and maintainable.\n\n\n\n15+\n\n\nyears building analytics, models, research, and decision-support products\n\n\n\n\n3\n\n\nsettings: public sector, nonprofit, and private consulting\n\n\n\n\nEnd-to-end\n\n\nproblem framing, analysis, system design, delivery, documentation, and handoff"
   },
   {
-    "objectID": "posts/2026-10-27-small-world-boards/index.html#the-number",
-    "href": "posts/2026-10-27-small-world-boards/index.html#the-number",
-    "title": "Utah’s nonprofit boards are a small world",
+    "objectID": "index.html#six-consulting-practices-combined-as-the-problem-requires",
+    "href": "index.html#six-consulting-practices-combined-as-the-problem-requires",
+    "title": "Analytics consulting for complex decisions",
+    "section": "Six consulting practices, combined as the problem requires",
+    "text": "Six consulting practices, combined as the problem requires\n\n\nAnalytics Strategy & Solution Design\nClarify the decision, stakeholders, data requirements, analytic approach, and implementation path before investing in the wrong solution.\nExplore this service →\n\n\nAnalysis, Research & Modeling\nAnswer consequential questions with statistical analysis, research design, evaluation, workforce and policy analytics, and transparent modeling.\nExplore this service →\n\n\nDashboards & Decision Support\nBuild tools people can actually use—from executive reporting and interactive visualization to custom R/Shiny applications.\nExplore this service →\n\n\nData Systems & Automation\nCreate cleaner pipelines, reproducible workflows, practical data architecture, and automated recurring analytics.\nExplore this service →\n\n\nInstitutional Knowledge & AI Systems\nCapture critical organizational knowledge, document workflows and SOPs, and build searchable AI-assisted systems that preserve institutional memory.\nExplore this service →\n\n\nAnalytics Modernization\nMove from brittle spreadsheets, disconnected scripts, and manual reporting toward maintainable systems and AI-assisted workflows.\nExplore this service →"
+  },
+  {
+    "objectID": "index.html#get-more-value-from-the-data-you-already-collect.",
+    "href": "index.html#get-more-value-from-the-data-you-already-collect.",
+    "title": "Analytics consulting for complex decisions",
+    "section": "Get more value from the data you already collect.",
+    "text": "Get more value from the data you already collect.\nSmall organizations often have meaningful program data but limited time, staff, or budget to turn it into useful reporting and insight. I offer a Nonprofit Analytics Quick Start designed to identify practical improvements without requiring a large consulting engagement.\nWe can review the spreadsheets, forms, reports, grant requirements, and recurring processes you already use; identify a small set of useful measures; find gaps or unnecessary manual work; and choose one or two improvements that can create immediate value.\nGood fits include: grant and board reporting, program metrics, outcome tracking, recurring spreadsheet workflows, surveys, data visualization, and simple reporting automation.\nLearn about the Nonprofit Analytics Quick Start →"
+  },
+  {
+    "objectID": "index.html#experience-across-public-analytics-consulting-and-data-products",
+    "href": "index.html#experience-across-public-analytics-consulting-and-data-products",
+    "title": "Analytics consulting for complex decisions",
+    "section": "Experience across public analytics, consulting, and data products",
+    "text": "Experience across public analytics, consulting, and data products\n\n\n\nDATA PRODUCT DESIGN\n\n\nReusable client dashboard framework\nLed development of reusable R/Shiny components, standardized data preparation, validation workflows, and deployment patterns for recurring client analytics.\nView the case study →\n\n\n\n\nMODELING & RESEARCH\n\n\nWorkforce projection systems\nLed and supported multi-source supply-and-demand modeling used by state agencies, associations, and healthcare organizations for planning and policy.\nView the case study →\n\n\n\n\nARCHITECTURE & MODERNIZATION\n\n\nPractical analytics architecture\nEvaluated lightweight approaches using R, SQL, DuckDB, object storage, documentation, and validation to make recurring analytics easier to maintain.\nView the case study →"
+  },
+  {
+    "objectID": "index.html#the-tool-comes-after-the-problem.",
+    "href": "index.html#the-tool-comes-after-the-problem.",
+    "title": "Analytics consulting for complex decisions",
+    "section": "The tool comes after the problem.",
+    "text": "The tool comes after the problem.\n\n\n01 · Start with the decision\nDefine what someone needs to know, decide, or change before deciding what to build.\n\n\n02 · Design with stakeholders\nUnderstand how people work, what they trust, and what will make a solution usable in practice.\n\n\n03 · Build for repeatability\nPrefer transparent, documented workflows that can be validated, updated, and handed off.\n\n\n04 · Make implementation part of the work\nA technically correct solution that never gets adopted is not a successful analytics project."
+  },
+  {
+    "objectID": "index.html#have-a-data-workflow-or-institutional-knowledge-problem-that-does-not-fit-neatly-into-a-job-description",
+    "href": "index.html#have-a-data-workflow-or-institutional-knowledge-problem-that-does-not-fit-neatly-into-a-job-description",
+    "title": "Analytics consulting for complex decisions",
+    "section": "Have a data, workflow, or institutional knowledge problem that does not fit neatly into a job description?",
+    "text": "Have a data, workflow, or institutional knowledge problem that does not fit neatly into a job description?\nThat is often the right kind of consulting problem. We can start with the decision, process, or knowledge at risk and work backward to the analysis, documentation, product, or system you actually need.\nStart a conversation"
+  },
+  {
+    "objectID": "cases.html",
+    "href": "cases.html",
+    "title": "Case Studies",
+    "section": "",
+    "text": "The consulting case studies are now part of Selected Work, where they are organized around the problems solved, approach, and capabilities demonstrated."
+  },
+  {
+    "objectID": "cases.html#case-studies-have-moved.",
+    "href": "cases.html#case-studies-have-moved.",
+    "title": "Case Studies",
+    "section": "",
+    "text": "The consulting case studies are now part of Selected Work, where they are organized around the problems solved, approach, and capabilities demonstrated."
+  },
+  {
+    "objectID": "about.html#background",
+    "href": "about.html#background",
+    "title": "About",
+    "section": "Background",
+    "text": "Background\nMost recently I served as Director of Health Workforce Consulting at GlobalData, leading complex analytics engagements for state agencies, hospital associations, professional societies, and federal clients. My work included workforce projection methods, reusable R/Shiny dashboard frameworks, validation and documentation systems, and a DuckDB + object-storage proof of concept for lower-friction analytic architecture.\nBefore that, I helped establish Utah’s legislatively created Health Workforce Information Center and spent more than a decade at the Utah Medical Education Council, where I led statewide research programs covering multiple health professions and built survey, modeling, reporting, data-integration, cloud-hosted analytics, and public R/Shiny capabilities.\nEarlier public-sector and nonprofit work gave me practical experience with programs, policy, operations, grants, administrative systems, and direct service. That experience still shapes how I approach analytics: the data system is never separate from the people, workflows, institutions, and decisions around it."
+  },
+  {
+    "objectID": "about.html#how-i-think-about-consulting",
+    "href": "about.html#how-i-think-about-consulting",
+    "title": "About",
+    "section": "How I think about consulting",
+    "text": "How I think about consulting\n\n\nUnderstand the decision before designing the analysis\nA technically elegant answer to the wrong question is still the wrong answer.\n\n\nStakeholder input is part of system design\nUsability, trust, incentives, workflow, and implementation constraints should shape the solution from the beginning.\n\n\nPrefer maintainable over impressive\nThe right architecture is the one the organization can understand, afford, validate, and sustain.\n\n\nAnalysis is not finished when the model runs\nInterpretation, communication, implementation, documentation, and handoff are part of the analytic product."
+  },
+  {
+    "objectID": "about.html#education-and-perspective",
+    "href": "about.html#education-and-perspective",
+    "title": "About",
+    "section": "Education and perspective",
+    "text": "Education and perspective\nI hold four degrees from the University of Utah: an MBA with a Certificate in Information Systems, an MPA focused on Program Evaluation and Policy Analysis, a B.A. in Political Science with a Certificate in International Relations, and a B.A. in Spanish.\nMy professional work has crossed public policy, healthcare, labor and workforce analysis, program evaluation, data science, analytics engineering, and technical product delivery. I have also served as a peer reviewer, federal grant reviewer, nursing workforce center board president, and Salt Lake City planning commissioner and commission chair.\nOne project that strongly influenced how I think about analytics implementation was an IBM Health Corps collaboration focused on modeling primary-care workforce needs. The technical analysis mattered, but so did stakeholder participation, system design, usability, and the practical question of how a new analytic approach would be deployed and used.\nSee selected work"
+  },
+  {
+    "objectID": "blog.html",
+    "href": "blog.html",
+    "title": "Utah Nonprofits, by the Numbers",
+    "section": "",
+    "text": "A weekly series built from public IRS data on Utah’s 13,072 tax-exempt organizations. Each post takes one finding (about boards, funding, finances, or how organizations describe their impact) and asks what it says about analytics maturity.\nWant to know where your own organization stands? Take the short analytics maturity assessment.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nTwenty funders give half of Utah’s grant dollars\n\n\nUtah Nonprofits, by the Numbers #5\n\n\n\nby-the-numbers\n\nform-990\n\nphilanthropy\n\n\n\nAcross four years of filings, about 1,000 Utah-based grantmakers gave $1 billion to Utah organizations, and 20 of them gave half of it. Why that concentration matters for what nonprofits measure.\n\n\n\n\n\nNov 10, 2026\n\n\nClark Ruttinger\n\n\n\n\n\n\n\n\n\n\n\n\nThe public picture of a nonprofit is a year and a half old\n\n\nUtah Nonprofits, by the Numbers #4\n\n\n\nby-the-numbers\n\nform-990\n\ndata-timeliness\n\n\n\nUtah nonprofits file their 990 a median of 7 months after the fiscal year ends, and most file on extension. For the typical organization, the newest public return describes a year that ended 13 months ago.\n\n\n\n\n\nNov 3, 2026\n\n\nClark Ruttinger\n\n\n\n\n\n\n\n\n\n\n\n\nUtah’s nonprofit boards are a small world\n\n\nUtah Nonprofits, by the Numbers #3\n\n\n\nby-the-numbers\n\nform-990\n\ngovernance\n\n\n\nBetween 22% and 44% of Utah nonprofits share a board member or officer with another Utah nonprofit. The biggest organizations are the most connected. What travels along those connections, including how organizations use data.\n\n\n\n\n\nOct 27, 2026\n\n\nClark Ruttinger\n\n\n\n\n\n\n\n\n\n\n\n\nUtah charities count what they do, not what changes\n\n\nUtah Nonprofits, by the Numbers #2\n\n\n\nby-the-numbers\n\nform-990\n\noutcomes\n\n\n\nIn 3,096 Utah charities’ Form 990 program descriptions, two-thirds describe activities with no numbers, 31% count outputs, and about 2% report an outcome. What that gap says about analytics maturity.\n\n\n\n\n\nOct 20, 2026\n\n\nClark Ruttinger\n\n\n\n\n\n\n\n\n\n\n\n\nMost of Utah’s nonprofit sector is invisible in public data\n\n\nUtah Nonprofits, by the Numbers #1\n\n\n\nby-the-numbers\n\nform-990\n\ndata-foundation\n\n\n\nOnly 20% of Utah’s 13,072 exempt organizations have e-filed a full Form 990. Who is missing, why, and what it means for how small nonprofits use data.\n\n\n\n\n\nOct 13, 2026\n\n\nClark Ruttinger\n\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "contact.html#clark-ruttinger",
+    "href": "contact.html#clark-ruttinger",
+    "title": "Contact",
+    "section": "Clark Ruttinger",
+    "text": "Clark Ruttinger\nIndependent Data & Analytics Consultant\nceruttinger@gmail.com\nLinkedIn · GitHub\nEmail me about a project"
+  },
+  {
+    "objectID": "contact.html#useful-things-to-include",
+    "href": "contact.html#useful-things-to-include",
+    "title": "Contact",
+    "section": "Useful things to include",
+    "text": "Useful things to include\nA short note is enough. If helpful, tell me:\n\nthe decision, problem, or opportunity you are working on;\nwho needs to use the result;\nwhat data or systems already exist;\nwhether there is a deadline or external requirement;\nwhat you have tried already; and\nwhat a successful outcome would look like.\n\nI can help determine the appropriate scope from there."
+  },
+  {
+    "objectID": "contact.html#common-starting-points",
+    "href": "contact.html#common-starting-points",
+    "title": "Contact",
+    "section": "Common starting points",
+    "text": "Common starting points\n\n\n“We have data, but we are not getting useful answers from it.”\nStart with analysis, measurement, research design, or analytics strategy.\n\n\n“Our reporting process is too manual.”\nStart with workflow assessment, automation, reproducible reporting, or data-pipeline design.\n\n\n“People need to explore the data themselves.”\nStart with dashboard, decision-support, or R/Shiny application design.\n\n\n“We know our analytics systems need to change.”\nStart with stakeholder needs assessment, architecture evaluation, and modernization planning."
+  },
+  {
+    "objectID": "insights.html#peer-reviewed-publications",
+    "href": "insights.html#peer-reviewed-publications",
+    "title": "Insights & Research",
+    "section": "Peer-reviewed publications",
+    "text": "Peer-reviewed publications\n\nCurrent and Projected Future Supply and Demand for Physical Therapists From 2022 to 2037\nPatrick Zarek, Clark Ruttinger, David Armstrong, Ritashree Chakrabarti, Douglas R. Hess, Tara Jo Manal, Timothy M. Dall. Physical Therapy, 2025.\nFocus: Workforce supply-and-demand projection modeling.\nView publication →\n\n\nUsing machine learning to identify factors associated with practice location of the healthcare workforce\nBounsanga et al. Rural and Remote Health, 2022.\nRole: Co-author\nFocus: Applied machine learning and workforce practice-location analysis.\nView publication →\n\n\nThe 2020 National Nursing Workforce Survey\nSmiley et al. Journal of Nursing Regulation, 2020.\nRelated product: I designed and built a public dashboard using respondent state-of-employment summaries after the report was released.\nView article → · Open dashboard →"
+  },
+  {
+    "objectID": "insights.html#selected-public-reports-and-decision-support-work",
+    "href": "insights.html#selected-public-reports-and-decision-support-work",
+    "title": "Insights & Research",
+    "section": "Selected public reports and decision-support work",
+    "text": "Selected public reports and decision-support work\n\nFlorida Center for Nursing — State of Nursing Education in Florida, 2026\nFlorida Healthcare Workforce Projections, 2022–2037\nHawaii Nursing Projections Report\nMaryland Nurse Workforce Projections\nArkansas Workforce Report\nTennessee Health Workforce Projections"
+  },
+  {
+    "objectID": "insights.html#earlier-utah-research",
+    "href": "insights.html#earlier-utah-research",
+    "title": "Insights & Research",
+    "section": "Earlier Utah research",
+    "text": "Earlier Utah research\nSelected earlier work includes Utah mental-health workforce, physician workforce, registered-nurse and licensed-practical-nurse supply, nursing demand, and advanced-practice registered-nurse workforce studies. These projects combined survey design, administrative data, workforce modeling, geographic analysis, public reporting, and policy communication."
+  },
+  {
+    "objectID": "insights.html#public-speaking-and-briefings",
+    "href": "insights.html#public-speaking-and-briefings",
+    "title": "Insights & Research",
+    "section": "Public speaking and briefings",
+    "text": "Public speaking and briefings\nOver my state-government career I regularly presented research findings to policy leaders, professional audiences, workforce organizations, and legislative committees. One example is the primary-care workforce modeling presentation to the Utah Legislature associated with the IBM Health Corps project.\nFor consulting-oriented examples, see Selected Work."
+  },
+  {
+    "objectID": "posts/2026-10-20-outputs-vs-outcomes/index.html",
+    "href": "posts/2026-10-20-outputs-vs-outcomes/index.html",
+    "title": "Utah charities count what they do, not what changes",
+    "section": "",
+    "text": "Every Form 990 has a section where the organization describes its programs in its own words. Part III asks for each major program’s “accomplishments,” and the 990-EZ asks for a “statement of program service accomplishments.” The question invites an organization to say what changed because of its work.\nI read what Utah’s charities wrote there. In the filings I could see, most organizations describe what they do. About a third count what they did. About 2 in 100 say what changed."
+  },
+  {
+    "objectID": "posts/2026-10-20-outputs-vs-outcomes/index.html#the-number",
+    "href": "posts/2026-10-20-outputs-vs-outcomes/index.html#the-number",
+    "title": "Utah charities count what they do, not what changes",
     "section": "The number",
-    "text": "The number\n\n\n\n\n\n\n\n\n\n2023 filings\nStrict matching\nLoose matching\n\n\n\n\nOrganizations with a published board list\n4,341\n4,341\n\n\nAfter merging affiliated entities\n4,156\n4,126\n\n\nShare linked to another organization through a shared person\n22%\n44%\n\n\nPeople who connect two or more unrelated organizations\n906\n1,934\n\n\nLargest connected cluster\n315 organizations\n1,505 organizations\n\n\nAverage distance within that cluster, board to board\n4.3 steps\n5.5 steps\n\n\n\nWhy two columns? The IRS lists people by name only, and names are a messy way to match. Strict matching counts two seats as the same person only if the name matches and both organizations file from the same city. That misses real people who serve on boards in two cities, so it’s a floor. Loose matching uses the name alone. That joins different people who happen to share a common name, so it’s a ceiling. The truth is somewhere in between.\nI also merged affiliated entities: organizations whose boards are substantially the same people, like a charity and its supporting foundation, or a set of housing corporations run by one sponsor. Without that step, one family of organizations can look like a dense web of “connections” that are really one board wearing several hats. In 2023 that merged 294 organizations into 109 families."
+    "text": "The number\n\n\n\n\n\n\n\n\n\nWhat the program description reports\nOrganizations\nShare\n\n\n\n\nDescribes activities only (no numbers)\n2,086\n67%\n\n\nCounts outputs (people served, meals, events, dollars)\n961\n31%\n\n\nReports an outcome (a change in people’s lives or conditions)\n49\n1.6%\n\n\nTotal 501(c)(3)s with a usable description\n3,096\n\n\n\n\nHere’s what each category looks like. These are paraphrased composites, not quotes from any one filing:\n\nActivities: “Provides after-school tutoring to youth in the community.”\nOutputs: “Served 412 students through 3,100 tutoring sessions.”\nOutcome: “Of the 412 students, 78% raised their reading score by at least one grade level.”\n\nThe outcomes that did appear were concrete: students who graduated or tested at grade level, families who moved into stable housing and stayed housed, participants who found jobs or raised their income, child-welfare cases that closed with children still at home, criminal records cleared, animals adopted. A few organizations reported survey results, such as the share of participants who said a program changed their knowledge or behavior."
   },
   {
-    "objectID": "posts/2026-10-27-small-world-boards/index.html#bigger-organizations-are-more-connected",
-    "href": "posts/2026-10-27-small-world-boards/index.html#bigger-organizations-are-more-connected",
-    "title": "Utah’s nonprofit boards are a small world",
-    "section": "Bigger organizations are more connected",
-    "text": "Bigger organizations are more connected\n\nEven with strict matching, 44% of organizations with $5 million or more in revenue share a board member with another Utah nonprofit, compared with 13% of those under $100,000. Full 990 filers are about twice as likely to be connected (32%) as 990-EZ filers or private foundations (15% each).\nBy mission area, housing organizations are the most connected (43%, though it’s a small group of 63), followed by community improvement (31%), environment (30%), health (27%) and arts (27%) organizations. International (11%), animal-related (15%) and sports and recreation (15%) organizations are the least."
+    "objectID": "posts/2026-10-20-outputs-vs-outcomes/index.html#size-helps-with-counting-not-with-outcomes",
+    "href": "posts/2026-10-20-outputs-vs-outcomes/index.html#size-helps-with-counting-not-with-outcomes",
+    "title": "Utah charities count what they do, not what changes",
+    "section": "Size helps with counting, not with outcomes",
+    "text": "Size helps with counting, not with outcomes\n\nLarger organizations are more likely to put numbers in their description. Output counting rises from 24% of charities under $100,000 to about 40% of those over $1 million. Outcome reporting barely moves. It’s 2% among charities with $5 million or more in revenue, about the same as at $100,000.\nThat’s the interesting part. Big organizations have finance staff, grant writers, and often an evaluation contract. They clearly can count. When it comes to the one question Part III invites, what changed, most of them answer the same way a volunteer-run league does."
   },
   {
-    "objectID": "posts/2026-10-27-small-world-boards/index.html#what-it-means",
-    "href": "posts/2026-10-27-small-world-boards/index.html#what-it-means",
-    "title": "Utah’s nonprofit boards are a small world",
+    "objectID": "posts/2026-10-20-outputs-vs-outcomes/index.html#what-it-means",
+    "href": "posts/2026-10-20-outputs-vs-outcomes/index.html#what-it-means",
+    "title": "Utah charities count what they do, not what changes",
     "section": "What it means",
-    "text": "What it means\nFor organizations, your board is a network, whether you use it that way or not. A director who also sits on another board brings that organization’s habits with them: how it budgets, what it reports, which funders it trusts.\nFor funders, the connected core is where ideas travel fastest. A practice adopted by a few well-connected boards has a short path to many others.\nFor anyone recruiting board members, the pool is smaller than it looks. Between about 120 and 370 people (strict and loose matching) connect three or more unrelated organizations. That’s a strength (experience) and a risk (fatigue, and the same voices everywhere)."
+    "text": "What it means\nFor organizations, the gap usually isn’t effort or honesty. Counting outputs is the natural first step, because outputs live in records you already keep: attendance sheets, intake forms, the food bank’s pounds log. Outcomes require something more: deciding in advance what change you’re after, and then checking whether it happened, often after the person has left your program.\nFor funders and boards, the 990 isn’t where outcomes live, and that’s fine. But if the organization’s own reports look like its 990, with plenty of activity and lots of counts but no result, that’s worth a conversation."
   },
   {
-    "objectID": "posts/2026-10-27-small-world-boards/index.html#what-this-says-about-analytics-maturity",
-    "href": "posts/2026-10-27-small-world-boards/index.html#what-this-says-about-analytics-maturity",
-    "title": "Utah’s nonprofit boards are a small world",
+    "objectID": "posts/2026-10-20-outputs-vs-outcomes/index.html#what-this-says-about-analytics-maturity",
+    "href": "posts/2026-10-20-outputs-vs-outcomes/index.html#what-this-says-about-analytics-maturity",
+    "title": "Utah charities count what they do, not what changes",
     "section": "What this says about analytics maturity",
-    "text": "What this says about analytics maturity\nPractices spread through board seats. In my experience, the moment an organization starts to want better data is often when a board member says, “At my other board, we see this every month.” A finance committee chair who has seen a good dashboard asks for one. A director who has watched an evaluation change a program decision asks what yours would show.\nThat makes connected board members the sector’s informal channel for analytics maturity. In stage terms, this is about action and learning: the habit of using what you find, which spreads person to person more than it’s taught. If you serve on more than one board, you’re already part of that channel. A practical step: bring one report, metric or meeting habit from your best-run board to your next meeting at another."
+    "text": "What this says about analytics maturity\nThis is the gap between purpose and questions, the first two stages of the maturity framework I use. Nearly every mission statement names a change: healthier kids, stable families, a cleaner river. Few organizations turn that change into a question they can answer with data: Of the families we housed last year, how many are still housed?\nUntil the question exists, there’s nothing to measure, and no dashboard will fix that. A practical first step: for your largest program, write down one change you expect in the people you serve, how you’d know it happened, and when you’d check. One outcome, tracked consistently, beats ten outputs."
   },
   {
-    "objectID": "posts/2026-10-27-small-world-boards/index.html#what-the-data-cant-see",
-    "href": "posts/2026-10-27-small-world-boards/index.html#what-the-data-cant-see",
-    "title": "Utah’s nonprofit boards are a small world",
+    "objectID": "posts/2026-10-20-outputs-vs-outcomes/index.html#what-the-data-cant-see",
+    "href": "posts/2026-10-20-outputs-vs-outcomes/index.html#what-the-data-cant-see",
+    "title": "Utah charities count what they do, not what changes",
     "section": "What the data can’t see",
-    "text": "What the data can’t see\n\nNames are imperfect. Strict matching undercounts real connections, and loose matching overcounts them. I report both rather than guess.\nOnly organizations that list their board appear. That leaves out 990-N filers and churches, which is most of Utah’s smallest organizations (see post #1).\nSome connections are by design. A school’s PTA and its foundation, or a hospital and its foundation, often share people on purpose. Merging affiliated entities removes the clearest cases but not all.\nA connection isn’t influence. Two organizations sharing a treasurer doesn’t mean they share practices, only that the path exists.\nNo individuals are named, here or in the chart."
+    "text": "What the data can’t see\n\nPart III is a narrative written for the IRS, not an evaluation report. Many organizations measure outcomes and publish them in annual reports or grant reports instead. This finding is about what organizations choose to put in the public record, not what they know.\nSome descriptions continue on Schedule O, which isn’t included here. I excluded descriptions that only said “See Schedule O.”\nThe 990-EZ leaves less room. Outcome reporting was 2.2% on the full 990 and 0.6% on the 990-EZ.\nThis covers only organizations that e-file a 990 or 990-EZ. As post #1 showed, most of Utah’s smallest organizations file the 990-N postcard, which has no program description at all.\nThe outcome count is close to a lower bound. See the method notes below."
   },
   {
-    "objectID": "posts/2026-10-27-small-world-boards/index.html#method",
-    "href": "posts/2026-10-27-small-world-boards/index.html#method",
-    "title": "Utah’s nonprofit boards are a small world",
+    "objectID": "posts/2026-10-20-outputs-vs-outcomes/index.html#method",
+    "href": "posts/2026-10-20-outputs-vs-outcomes/index.html#method",
+    "title": "Utah charities count what they do, not what changes",
     "section": "Method",
-    "text": "Method\n\n\nData and matching\n\n\nSeats: Officers, directors and trustees listed on 2023 Form 990 (Part VII; key employees and former officers excluded), 990-EZ (Part IV) and 990-PF (Part VIII) e-filed returns of Utah organizations in the IRS Exempt Organizations Business Master File: 28,952 seats at 4,341 organizations. Institutional trustees (banks, trust companies) and non-person entries were removed.\nPeople: Names are normalized (uppercase, punctuation and suffixes such as JR, MD and CPA removed). Strict matching adds the filer’s city.\nAffiliated entities: Two organizations are merged if they share at least two people and those people make up at least half of the smaller board.\nNetwork: Organizations (or merged families) are linked when at least one person sits on both boards. Distances are shortest paths within the largest connected cluster.\nRevenue bands use total revenue on the 2023 return.\n\n\n\n\nThe query (Cypher, against the Utah 990 graph)\n\n// Organizations that share at least one person in the same tax year\nMATCH (o1:Organization)&lt;-[r1:HAS_ROLE]-(p:Person)-[r2:HAS_ROLE]-&gt;(o2:Organization)\nWHERE o1 &lt;&gt; o2 AND r1.tax_year = 2023 AND r2.tax_year = 2023\n  AND o1.in_bmf AND o2.in_bmf\n  AND (r1.is_director OR r1.is_officer OR r1.is_director IS NULL)\nRETURN count(DISTINCT o1) AS interlocked_orgs, count(DISTINCT p) AS bridge_people;\nThe published figures add the same-city rule and the affiliate merge, which I ran in Python on the same tables."
+    "text": "Method\n\n\nData, classification and validation\n\n\nOrganizations: Utah 501(c)(3) public charities in the IRS Exempt Organizations Business Master File with a 990 or 990-EZ e-filed for tax years 2021–2024. I used each organization’s most recent return: 3,096 organizations, 1,900 full 990s and 1,196 990-EZs. 94% of the returns are for tax years 2023–2024.\nText: All program-service descriptions on the return (Part III lines 4a–4d on the 990; Part III on the 990-EZ), joined together. Placeholder text (“See Schedule O,” “N/A”) was excluded.\nClassification: Three levels, assigned to the highest that applies. Activities only means no quantities. Counts outputs means quantities of service delivered (people, sessions, meals, events, dollars granted); years, grade ranges, ages and section numbers don’t count. Reports an outcome means a specific, observed change for the people or conditions served: graduation, test results, housing or employment placement, measured improvement, a case resolved, an adoption. General claims (“youth gain confidence”) without evidence don’t count, and neither does completing a course.\nValidation: I hand-read a random sample of 200 descriptions. A rule-based classifier agreed with the hand labels on 192 (96%). Every description the rules flagged as an outcome (64) was then read and confirmed or rejected, and I read two further keyword sweeps (about 490 descriptions mentioning percentages, surveys, graduation, placement, housing and similar terms) to find outcomes the rules missed. That review found 49 outcome reporters.\nUncertainty: In the hand-read random sample, 6 of 150 charities (4%) reported an outcome. That sample is small (95% interval roughly 1.5%–8.5%), and the full review may have missed some outcomes phrased in unusual ways. The honest summary is between about 2% and 4%: fewer than 1 in 20.\nRevenue bands use total revenue on the same return.\n\n\n\n\nThe classification rules (Python)\n\n# Outcome patterns (excerpt) — every match was then read by hand\nR_PATS = [\n  r'\\d+%\\s*(OF\\s+)?(PARTICIPANTS|STUDENTS|CLIENTS|FAMILIES|GRADUATES|...)'\n  r'[^.]{0,120}(REPORT|INCREAS|IMPROV|REDUC|GRADUAT|EMPLOY|HOUS|MAINTAIN|...)',\n  r'(INCREAS|IMPROV|REDUC|DECREAS|GAIN)\\w*\\s+(OF|IN|BY)\\s+\\d',\n  r'(GRADUATION|PLACEMENT|RETENTION|PASS|SUCCESS|RECIDIVISM)\\s+RATES?',\n  r'(ASSESSMENT|EVALUATION|SURVEY|DATA)[^.]{0,80}(INDICAT|SHOW|FOUND)[^.]{0,80}(GAIN|IMPROV|...)',\n  r'(WERE ABLE TO|SUCCESSFULLY)\\s+(CLOSE|KEEP|OBTAIN|SECURE|FIND|GRADUATE|...)',\n]\n# Output = any quantity left after removing years, ages, grade ranges, IRC sections, addresses\ndef classify(text):\n    if any(p.search(text) for p in R_PATS): return 'outcome (review)'\n    return 'outputs' if NUM.search(NOISE.sub(' ', text)) else 'activities'"
   },
   {
-    "objectID": "posts/2026-10-27-small-world-boards/index.html#where-does-your-organization-stand",
-    "href": "posts/2026-10-27-small-world-boards/index.html#where-does-your-organization-stand",
-    "title": "Utah’s nonprofit boards are a small world",
+    "objectID": "posts/2026-10-20-outputs-vs-outcomes/index.html#where-does-your-organization-stand",
+    "href": "posts/2026-10-20-outputs-vs-outcomes/index.html#where-does-your-organization-stand",
+    "title": "Utah charities count what they do, not what changes",
     "section": "Where does your organization stand?",
-    "text": "Where does your organization stand?\nYour board’s experience elsewhere is a resource. Take the short analytics maturity assessment and bring the results to your next board meeting. It’s a good way to start the “how do they do it at your other board?” conversation.\nNext week: how old is the public picture of a nonprofit? The lag between the end of a fiscal year and the day its 990 becomes public."
-  },
-  {
-    "objectID": "presentations.html",
-    "href": "presentations.html",
-    "title": "Presentations",
-    "section": "",
-    "text": "Selected public briefings and research outputs are now collected under Insights & Research."
-  },
-  {
-    "objectID": "presentations.html#presentation-material-has-moved.",
-    "href": "presentations.html#presentation-material-has-moved.",
-    "title": "Presentations",
-    "section": "",
-    "text": "Selected public briefings and research outputs are now collected under Insights & Research."
-  },
-  {
-    "objectID": "publications.html",
-    "href": "publications.html",
-    "title": "Publications",
-    "section": "",
-    "text": "Peer-reviewed publications, public reports, and research are now collected under Insights & Research."
-  },
-  {
-    "objectID": "publications.html#publications-have-moved.",
-    "href": "publications.html#publications-have-moved.",
-    "title": "Publications",
-    "section": "",
-    "text": "Peer-reviewed publications, public reports, and research are now collected under Insights & Research."
-  },
-  {
-    "objectID": "services.html#keep-critical-organizational-knowledge-from-walking-out-the-door.",
-    "href": "services.html#keep-critical-organizational-knowledge-from-walking-out-the-door.",
-    "title": "Services",
-    "section": "Keep critical organizational knowledge from walking out the door.",
-    "text": "Keep critical organizational knowledge from walking out the door.\nOrganizations accumulate enormous amounts of knowledge about how work actually gets done: procedures, exceptions, workarounds, relationships, decision rules, historical context, reporting requirements, data definitions, and lessons learned. Much of that knowledge is never formally documented.\nIt lives in the heads of experienced employees, scattered files, email threads, spreadsheets, shared drives, old procedure manuals, and systems that only a few people fully understand. When experienced staff leave, retire, change roles, or become unavailable, organizations can lose years of institutional knowledge.\nI help organizations capture that knowledge, turn it into structured and maintainable documentation, and build AI-assisted knowledge systems that make it easier for staff to find and use what the organization already knows.\n\n\nFrom undocumented work to institutional memory\nThis work combines process analysis, knowledge management, documentation, data architecture, and practical AI. The goal is not simply to install an AI chatbot. The goal is to create an organizational memory system that people can trust.\nDepending on the organization, that can include:\n\nInterviewing subject-matter experts and experienced staff\nDocumenting workflows and business processes\nCreating and standardizing standard operating procedures (SOPs)\nIdentifying undocumented decision rules, exceptions, and workarounds\nInventorying manuals, policies, reports, spreadsheets, shared files, and reference materials\nDefining terminology, data definitions, roles, responsibilities, and dependencies\nMapping relationships between processes, systems, people, policies, data, and information\nIdentifying knowledge concentrated in one person or team\nEstablishing processes for keeping documentation current\nBuilding AI-assisted interfaces that let employees search and interact with organizational knowledge\n\n\n\nCapabilities\n\nInstitutional knowledge assessment\nWorkflow discovery and process mapping\nSOP development and standardization\nKnowledge-risk and continuity assessment\nKnowledge architecture and metadata design\nSearchable internal knowledge bases\nAI knowledge assistants and semantic search\nSource-linked retrieval systems\nDocumentation governance and handoff\nRetirement, succession, and transition knowledge capture\n\n\n\n\nA practical engagement model\n1. Knowledge discovery\nWe begin by understanding where important organizational knowledge currently lives. This can involve staff interviews, review of existing documentation, observation of recurring processes, analysis of shared drives or knowledge repositories, and identification of systems and data sources involved in the work.\nThe objective is to distinguish between what is already documented, what is outdated, what exists only informally, and what represents a significant continuity risk.\n2. Workflow mapping\nImportant recurring processes are mapped from beginning to end. The objective is to document how the work actually happens—not merely the ideal workflow shown in a policy manual.\nTrigger → Inputs → People → Decisions → Systems → Outputs → Exceptions → Handoff\nThis often exposes duplicated work, undocumented dependencies, manual steps, bottlenecks, and places where only one person knows what to do.\n3. SOP and documentation development\nCritical workflows are converted into clear, maintainable documentation. Depending on the process, this may include standard operating procedures, process maps, checklists, decision trees, roles and responsibilities, data definitions, system instructions, exception handling, reporting procedures, business rules, source documentation, and historical context explaining why important practices exist.\nDocumentation is designed for actual use rather than simply satisfying a documentation requirement.\n4. Knowledge architecture\nThe resulting information is organized so that people—and AI systems—can retrieve it reliably. Rather than accumulating another folder full of documents, we establish a structure connecting related information.\nProcess ↔︎ SOP ↔︎ Role ↔︎ System ↔︎ Data ↔︎ Policy ↔︎ Decision ↔︎ Source\nFor some organizations, a conventional document repository with strong metadata may be sufficient. More complex environments may benefit from structured databases, knowledge graphs, semantic search, or retrieval systems that preserve relationships between different kinds of organizational knowledge. The technology should fit the problem rather than the other way around.\n5. AI-assisted organizational knowledge\nOnce the underlying knowledge is documented and structured, AI can provide a much more useful interface to it. Employees might ask:\n\nHow do I prepare the quarterly report?\nWho is responsible for approving this?\nWhat happens if the normal process fails?\nWhere does this number come from?\nWhy do we calculate this measure this way?\nWhich SOP applies to this situation?\nWhat systems are affected if this process changes?\n\nThe system can retrieve relevant organizational knowledge and point employees back to the underlying documentation and authoritative sources. This is fundamentally different from giving employees a general-purpose AI tool and hoping it understands the organization.\n\n\nInstitutional knowledge at risk\nOne particularly valuable application is succession and continuity planning. An experienced employee who has performed a function for ten or twenty years may know hundreds of things that were never written down: which exceptions occur regularly, why a spreadsheet is structured a certain way, which data sources can be trusted, what needs to happen before an annual process begins, who needs to be consulted, which shortcuts create problems later, why a policy was interpreted a particular way, and what previous attempts did not work.\nA structured knowledge-transfer engagement can capture that information before a retirement, departure, reorganization, or leadership transition. Instead of asking an employee to “write down everything you know,” I use interviews, workflow analysis, document review, and structured knowledge capture to uncover what another person would actually need to perform the work.\n\n\nPossible deliverables\n\nKnowledge inventory: a map of where critical organizational knowledge currently resides\nKnowledge-risk assessment: identification of functions that depend heavily on undocumented individual knowledge\nWorkflow maps: visual representations of how important organizational processes actually operate\nStandard operating procedures: consistent, usable documentation for recurring work\nKnowledge architecture: a structure connecting procedures, policies, systems, data, roles, decisions, and supporting documentation\nSearchable knowledge base: a centralized repository designed around how employees actually look for information\nAI knowledge assistant: a secure conversational interface for finding and understanding internal organizational knowledge\nSource-linked answers: AI responses that point employees back to authoritative internal documentation\nDocumentation governance: ownership, review, change tracking, and maintenance processes\nTransition knowledge capture: focused documentation and interviews for retiring, departing, or transitioning employees\n\n\n\nWhere this creates value\nThis work is particularly useful when a long-tenured employee is preparing to retire, an organization has experienced turnover, important processes depend on one or two people, new employees take too long to learn how things work, staff repeatedly ask the same operational questions, SOPs are missing or outdated, documentation is scattered across systems, processes have evolved informally, leadership is preparing for succession or restructuring, or an organization wants to use AI internally but does not yet have its knowledge organized well enough to do so reliably.\n\n\nAI comes last, not first.\nA chatbot sitting on top of poorly organized information does not solve an institutional knowledge problem. The underlying work is understanding the organization: its people, processes, information, decisions, systems, and history.\nOnce that foundation exists, AI can make institutional knowledge dramatically easier to access.\nCapture the knowledge. Structure it. Document it. Connect it. Then use AI to make it useful.\nTalk about an institutional knowledge project"
-  },
-  {
-    "objectID": "services.html#institutional-knowledge-risk-assessment",
-    "href": "services.html#institutional-knowledge-risk-assessment",
-    "title": "Services",
-    "section": "Institutional Knowledge Risk Assessment",
-    "text": "Institutional Knowledge Risk Assessment\nFor organizations that want a smaller starting point, I offer a focused assessment designed to identify where important knowledge is vulnerable before committing to a larger documentation or technology project.\nA typical assessment can include interviews with 4–8 key staff, an inventory of critical workflows and existing documentation, identification of single points of knowledge failure, a risk assessment of processes that depend on undocumented expertise, and a prioritized roadmap for documentation, knowledge transfer, and potential AI-enabled access.\nThe assessment provides a practical path from knowledge risk → workflow documentation → SOP development → knowledge architecture → AI knowledge system.\nDiscuss a knowledge risk assessment"
-  },
-  {
-    "objectID": "services.html#the-sixteen-services-i-offer",
-    "href": "services.html#the-sixteen-services-i-offer",
-    "title": "Services",
-    "section": "The sixteen services I offer",
-    "text": "The sixteen services I offer\n\n\nData & Analytics Strategy\nData Analysis & Statistical Modeling\nDashboard & Decision-Support Development\nR / Shiny Application Development\nData Visualization & Reporting\nResearch Design & Applied Research\nWorkforce, Policy & Program Analytics\nData Pipeline & Workflow Automation\nAI-Assisted Research & Analytics\nData Architecture / Analytics System Design\nProcess Improvement & Analytics Modernization\nStakeholder Needs Assessment & Solution Design\nInstitutional Knowledge & Continuity Assessment\nWorkflow Documentation & SOP Development\nKnowledge Architecture & Internal Knowledge Bases\nAI Knowledge Assistants & Retrieval Systems"
-  },
-  {
-    "objectID": "services.html#ways-to-engage",
-    "href": "services.html#ways-to-engage",
-    "title": "Services",
-    "section": "Ways to engage",
-    "text": "Ways to engage\n\n\nNonprofit Analytics Quick Start\nA small, accessible first engagement to review current reporting and data workflows, identify useful measures, and define one or two practical improvements.\n\n\nInstitutional Knowledge Risk Assessment\nA focused assessment of critical workflows, documentation, key-person dependencies, and knowledge-loss risk, followed by a prioritized roadmap.\n\n\nDiagnostic / strategy sprint\nA focused assessment to define the problem, stakeholders, data landscape, risks, and recommended next steps before a larger investment.\n\n\nAnalysis or research project\nA defined question carried from research design and data preparation through analysis, interpretation, and decision-ready communication.\n\n\nDashboard or application build\nDesign and development of an interactive analytic product, including underlying data workflow and deployment planning.\n\n\nModernization or knowledge systems engagement\nAssessment and redesign of recurring analytics, reporting, workflows, documentation, knowledge architecture, data pipelines, or AI-assisted systems.\n\n\nFractional analytics leadership\nSenior-level help scoping priorities, reviewing methods, mentoring analysts, evaluating tools, and connecting technical work to organizational decisions.\n\n\nDiscuss an engagement"
+    "text": "Where does your organization stand?\nMoving from counting to outcomes is the step most organizations find hardest, and it’s the one the assessment looks at most closely. Take the short analytics maturity assessment to see where your organization’s data practices are strong and where the next step is.\nNext week: Utah’s nonprofit boards are a small world. How many organizations share a board member with another, and what travels along those connections."
   },
   {
     "objectID": "posts/2026-11-03-two-year-lag/index.html",
@@ -509,5 +516,61 @@
     "title": "The public picture of a nonprofit is a year and a half old",
     "section": "Where does your organization stand?",
     "text": "Where does your organization stand?\nHow current are the numbers your board decides with? Take the short analytics maturity assessment. It asks about reporting rhythm and data timeliness, and shows where your organization’s next step is.\nNext week: who funds Utah. How concentrated grant dollars are among the state’s largest grantmakers, and why that matters for what nonprofits measure."
+  },
+  {
+    "objectID": "presentations.html",
+    "href": "presentations.html",
+    "title": "Presentations",
+    "section": "",
+    "text": "Selected public briefings and research outputs are now collected under Insights & Research."
+  },
+  {
+    "objectID": "presentations.html#presentation-material-has-moved.",
+    "href": "presentations.html#presentation-material-has-moved.",
+    "title": "Presentations",
+    "section": "",
+    "text": "Selected public briefings and research outputs are now collected under Insights & Research."
+  },
+  {
+    "objectID": "publications.html",
+    "href": "publications.html",
+    "title": "Publications",
+    "section": "",
+    "text": "Peer-reviewed publications, public reports, and research are now collected under Insights & Research."
+  },
+  {
+    "objectID": "publications.html#publications-have-moved.",
+    "href": "publications.html#publications-have-moved.",
+    "title": "Publications",
+    "section": "",
+    "text": "Peer-reviewed publications, public reports, and research are now collected under Insights & Research."
+  },
+  {
+    "objectID": "services.html#keep-critical-organizational-knowledge-from-walking-out-the-door.",
+    "href": "services.html#keep-critical-organizational-knowledge-from-walking-out-the-door.",
+    "title": "Services",
+    "section": "Keep critical organizational knowledge from walking out the door.",
+    "text": "Keep critical organizational knowledge from walking out the door.\nOrganizations accumulate enormous amounts of knowledge about how work actually gets done: procedures, exceptions, workarounds, relationships, decision rules, historical context, reporting requirements, data definitions, and lessons learned. Much of that knowledge is never formally documented.\nIt lives in the heads of experienced employees, scattered files, email threads, spreadsheets, shared drives, old procedure manuals, and systems that only a few people fully understand. When experienced staff leave, retire, change roles, or become unavailable, organizations can lose years of institutional knowledge.\nI help organizations capture that knowledge, turn it into structured and maintainable documentation, and build AI-assisted knowledge systems that make it easier for staff to find and use what the organization already knows.\n\n\nFrom undocumented work to institutional memory\nThis work combines process analysis, knowledge management, documentation, data architecture, and practical AI. The goal is not simply to install an AI chatbot. The goal is to create an organizational memory system that people can trust.\nDepending on the organization, that can include:\n\nInterviewing subject-matter experts and experienced staff\nDocumenting workflows and business processes\nCreating and standardizing standard operating procedures (SOPs)\nIdentifying undocumented decision rules, exceptions, and workarounds\nInventorying manuals, policies, reports, spreadsheets, shared files, and reference materials\nDefining terminology, data definitions, roles, responsibilities, and dependencies\nMapping relationships between processes, systems, people, policies, data, and information\nIdentifying knowledge concentrated in one person or team\nEstablishing processes for keeping documentation current\nBuilding AI-assisted interfaces that let employees search and interact with organizational knowledge\n\n\n\nCapabilities\n\nInstitutional knowledge assessment\nWorkflow discovery and process mapping\nSOP development and standardization\nKnowledge-risk and continuity assessment\nKnowledge architecture and metadata design\nSearchable internal knowledge bases\nAI knowledge assistants and semantic search\nSource-linked retrieval systems\nDocumentation governance and handoff\nRetirement, succession, and transition knowledge capture\n\n\n\n\nA practical engagement model\n1. Knowledge discovery\nWe begin by understanding where important organizational knowledge currently lives. This can involve staff interviews, review of existing documentation, observation of recurring processes, analysis of shared drives or knowledge repositories, and identification of systems and data sources involved in the work.\nThe objective is to distinguish between what is already documented, what is outdated, what exists only informally, and what represents a significant continuity risk.\n2. Workflow mapping\nImportant recurring processes are mapped from beginning to end. The objective is to document how the work actually happens—not merely the ideal workflow shown in a policy manual.\nTrigger → Inputs → People → Decisions → Systems → Outputs → Exceptions → Handoff\nThis often exposes duplicated work, undocumented dependencies, manual steps, bottlenecks, and places where only one person knows what to do.\n3. SOP and documentation development\nCritical workflows are converted into clear, maintainable documentation. Depending on the process, this may include standard operating procedures, process maps, checklists, decision trees, roles and responsibilities, data definitions, system instructions, exception handling, reporting procedures, business rules, source documentation, and historical context explaining why important practices exist.\nDocumentation is designed for actual use rather than simply satisfying a documentation requirement.\n4. Knowledge architecture\nThe resulting information is organized so that people—and AI systems—can retrieve it reliably. Rather than accumulating another folder full of documents, we establish a structure connecting related information.\nProcess ↔︎ SOP ↔︎ Role ↔︎ System ↔︎ Data ↔︎ Policy ↔︎ Decision ↔︎ Source\nFor some organizations, a conventional document repository with strong metadata may be sufficient. More complex environments may benefit from structured databases, knowledge graphs, semantic search, or retrieval systems that preserve relationships between different kinds of organizational knowledge. The technology should fit the problem rather than the other way around.\n5. AI-assisted organizational knowledge\nOnce the underlying knowledge is documented and structured, AI can provide a much more useful interface to it. Employees might ask:\n\nHow do I prepare the quarterly report?\nWho is responsible for approving this?\nWhat happens if the normal process fails?\nWhere does this number come from?\nWhy do we calculate this measure this way?\nWhich SOP applies to this situation?\nWhat systems are affected if this process changes?\n\nThe system can retrieve relevant organizational knowledge and point employees back to the underlying documentation and authoritative sources. This is fundamentally different from giving employees a general-purpose AI tool and hoping it understands the organization.\n\n\nInstitutional knowledge at risk\nOne particularly valuable application is succession and continuity planning. An experienced employee who has performed a function for ten or twenty years may know hundreds of things that were never written down: which exceptions occur regularly, why a spreadsheet is structured a certain way, which data sources can be trusted, what needs to happen before an annual process begins, who needs to be consulted, which shortcuts create problems later, why a policy was interpreted a particular way, and what previous attempts did not work.\nA structured knowledge-transfer engagement can capture that information before a retirement, departure, reorganization, or leadership transition. Instead of asking an employee to “write down everything you know,” I use interviews, workflow analysis, document review, and structured knowledge capture to uncover what another person would actually need to perform the work.\n\n\nPossible deliverables\n\nKnowledge inventory: a map of where critical organizational knowledge currently resides\nKnowledge-risk assessment: identification of functions that depend heavily on undocumented individual knowledge\nWorkflow maps: visual representations of how important organizational processes actually operate\nStandard operating procedures: consistent, usable documentation for recurring work\nKnowledge architecture: a structure connecting procedures, policies, systems, data, roles, decisions, and supporting documentation\nSearchable knowledge base: a centralized repository designed around how employees actually look for information\nAI knowledge assistant: a secure conversational interface for finding and understanding internal organizational knowledge\nSource-linked answers: AI responses that point employees back to authoritative internal documentation\nDocumentation governance: ownership, review, change tracking, and maintenance processes\nTransition knowledge capture: focused documentation and interviews for retiring, departing, or transitioning employees\n\n\n\nWhere this creates value\nThis work is particularly useful when a long-tenured employee is preparing to retire, an organization has experienced turnover, important processes depend on one or two people, new employees take too long to learn how things work, staff repeatedly ask the same operational questions, SOPs are missing or outdated, documentation is scattered across systems, processes have evolved informally, leadership is preparing for succession or restructuring, or an organization wants to use AI internally but does not yet have its knowledge organized well enough to do so reliably.\n\n\nAI comes last, not first.\nA chatbot sitting on top of poorly organized information does not solve an institutional knowledge problem. The underlying work is understanding the organization: its people, processes, information, decisions, systems, and history.\nOnce that foundation exists, AI can make institutional knowledge dramatically easier to access.\nCapture the knowledge. Structure it. Document it. Connect it. Then use AI to make it useful.\nTalk about an institutional knowledge project"
+  },
+  {
+    "objectID": "services.html#institutional-knowledge-risk-assessment",
+    "href": "services.html#institutional-knowledge-risk-assessment",
+    "title": "Services",
+    "section": "Institutional Knowledge Risk Assessment",
+    "text": "Institutional Knowledge Risk Assessment\nFor organizations that want a smaller starting point, I offer a focused assessment designed to identify where important knowledge is vulnerable before committing to a larger documentation or technology project.\nA typical assessment can include interviews with 4–8 key staff, an inventory of critical workflows and existing documentation, identification of single points of knowledge failure, a risk assessment of processes that depend on undocumented expertise, and a prioritized roadmap for documentation, knowledge transfer, and potential AI-enabled access.\nThe assessment provides a practical path from knowledge risk → workflow documentation → SOP development → knowledge architecture → AI knowledge system.\nDiscuss a knowledge risk assessment"
+  },
+  {
+    "objectID": "services.html#the-sixteen-services-i-offer",
+    "href": "services.html#the-sixteen-services-i-offer",
+    "title": "Services",
+    "section": "The sixteen services I offer",
+    "text": "The sixteen services I offer\n\n\nData & Analytics Strategy\nData Analysis & Statistical Modeling\nDashboard & Decision-Support Development\nR / Shiny Application Development\nData Visualization & Reporting\nResearch Design & Applied Research\nWorkforce, Policy & Program Analytics\nData Pipeline & Workflow Automation\nAI-Assisted Research & Analytics\nData Architecture / Analytics System Design\nProcess Improvement & Analytics Modernization\nStakeholder Needs Assessment & Solution Design\nInstitutional Knowledge & Continuity Assessment\nWorkflow Documentation & SOP Development\nKnowledge Architecture & Internal Knowledge Bases\nAI Knowledge Assistants & Retrieval Systems"
+  },
+  {
+    "objectID": "services.html#ways-to-engage",
+    "href": "services.html#ways-to-engage",
+    "title": "Services",
+    "section": "Ways to engage",
+    "text": "Ways to engage\n\n\nNonprofit Analytics Quick Start\nA small, accessible first engagement to review current reporting and data workflows, identify useful measures, and define one or two practical improvements.\n\n\nInstitutional Knowledge Risk Assessment\nA focused assessment of critical workflows, documentation, key-person dependencies, and knowledge-loss risk, followed by a prioritized roadmap.\n\n\nDiagnostic / strategy sprint\nA focused assessment to define the problem, stakeholders, data landscape, risks, and recommended next steps before a larger investment.\n\n\nAnalysis or research project\nA defined question carried from research design and data preparation through analysis, interpretation, and decision-ready communication.\n\n\nDashboard or application build\nDesign and development of an interactive analytic product, including underlying data workflow and deployment planning.\n\n\nModernization or knowledge systems engagement\nAssessment and redesign of recurring analytics, reporting, workflows, documentation, knowledge architecture, data pipelines, or AI-assisted systems.\n\n\nFractional analytics leadership\nSenior-level help scoping priorities, reviewing methods, mentoring analysts, evaluating tools, and connecting technical work to organizational decisions.\n\n\nDiscuss an engagement"
   }
 ]
